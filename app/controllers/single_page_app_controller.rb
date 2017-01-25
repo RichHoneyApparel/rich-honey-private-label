@@ -1,6 +1,6 @@
 # Singe app Controller
 class SinglePageAppController < ApplicationController
   def angular
-    render 'layouts/application'
+    render 'single_page_app_controller/application'
   end
 end

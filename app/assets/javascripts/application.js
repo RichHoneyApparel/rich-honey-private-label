@@ -14,6 +14,9 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require angular
+//= require angular-animate
+//= require angular-ui-router
+//= require angular-aria
 //= require angular-rails-templates
-//= require turbolinks
-//= require_tree .
+//= require angular-material/angular-material
+//= require_tree ./application

@@ -1,3 +1,13 @@
 // Place all the styles related to the SinglePageAppController controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'bootstrap-sprockets';
+@import 'variables';
+@import 'bootstrap';
+
+// Font Awesome and other custom fonts.
+@import 'font-awesome';
+
+// Other css from libraries
+@import 'angular-material/angular-material.scss';

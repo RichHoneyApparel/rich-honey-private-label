@@ -1,0 +1,47 @@
+html,
+body {
+  font-family: 'Lato', sans-serif, arial, helvetica !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 !important;
+}
+
+.nav {
+  background-color: $black;
+  text-transform: none;
+
+  md-nav-ink-bar {
+    background-color: $white;
+  }
+
+  .md-nav-bar {
+    background-color: $black;
+    text-transform: none;
+    width: 100%;
+
+    .md-nav-item {
+      text-align: center;
+      text-transform: none;
+
+      a, button {
+        color: $white;
+        text-transform: none;
+      }
+    }
+
+    .home-page-link {
+      a, button {
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: none;
+      }
+    }
+  }
+}
