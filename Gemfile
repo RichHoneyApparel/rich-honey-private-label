@@ -42,4 +42,8 @@ group :development do
   gem 'rack-livereload', group: :development
 end
 
+group :production do
+  gem 'pg'                                   # Postgres gem
+end
+
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby] # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
