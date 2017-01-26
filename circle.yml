@@ -4,7 +4,7 @@ deployment:
     commands:
       - heroku run rake deploy:start --app rh-private-label-alpha
       - git fetch origin --unshallow
-      - git push git@heroku.com:rh-private-label-staging.git 
+      - git push git@heroku.com:rh-private-label-staging.git $CIRCLE_SHA1:refs/heads/master
       - heroku run rake deploy:finished --app rh-private-label-staging
 
   production:
@@ -13,6 +13,6 @@ deployment:
       - heroku run rake deploy:start --app rh-private-label-staging
       - heroku maintenance:on --app rh-private-label-staging
       - git fetch origin --unshallow
-      - git push git@heroku.com:rh-private-label-staging.git
+      - git push git@heroku.com:rh-private-label-staging.git $CIRCLE_SHA1:refs/heads/master
       - heroku maintenance:off --app rh-private-label-staging
       - heroku run rake deploy:finished --app rh-private-label-staging
