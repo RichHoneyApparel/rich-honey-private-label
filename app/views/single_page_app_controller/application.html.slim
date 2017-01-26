@@ -4,19 +4,12 @@ head
   base[href=root_url]
   title Rich Honey Private Label
   = stylesheet_link_tag    'application', media: 'all'
-  = stylesheet_link_tag    'application', 'https://fonts.googleapis.com/css?family=Source+Code+Pro|Lato:100,300,300i,400,700'
+  = stylesheet_link_tag    'application', 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i'
   = javascript_include_tag 'application'
   meta[name='viewport' content='width=device-width, initial-scale=1']
 
 body[ng-app='richHoneyPrivateLabel' ng-cloak ng-controller='MainController']
-  md-nav-bar.nav[aria-label='mainPageNav' layout='row' layout-align="space-around center"]
-    md-nav-item[md-nav-sref='categories' name='categories' flex='60' ui-sref-active="active"] Categories
-    md-nav-item[md-nav-sref='resources' name='resources' flex='60' ui-sref-active="active"] Resources
-    md-nav-item[md-nav-sref='detailsofaTee' name='detailsofaTee' flex='60' ui-sref-active="active"] Details of a Tee
-    md-nav-item.home-page-link[md-nav-sref='home' name='home' flex='60' ui-sref-active="active"] RICH HONEY
-    md-nav-item[md-nav-sref='services' name='services' flex='60' ui-sref-active="active"] Services
-    md-nav-item[md-nav-sref='howitworks' name='howitworks' flex='60' ui-sref-active="active"] How It Works
-    md-nav-item[md-nav-sref='aboutus' name='aboutus' flex='60' ui-sref-active="active"] Our Story
-
+  header[ng-include src="'application/views/public/nav-bar.html'" ng-controller="NavController"]
   .main-wrapper[flex layout='column']
     .main-content[role='main' flex layout='column' ui-view='']
+  footer[ng-include src="'application/views/public/footer.html'"]

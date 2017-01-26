@@ -1,0 +1,30 @@
+.home-page-container {
+  .home-page-header {
+    background-image: url('homepage-header.png');
+    color: $white;
+    height: 56vh;
+    padding-top: 5%;
+
+    .md-headline {
+      text-align: center;
+    }
+  }
+
+  .fine-leather,
+  .sports-wear,
+  .made-in-la,
+  .product-feature {
+    padding: 30px;
+    text-align: center;
+
+    .md-display-1 {
+      font-weight: bold;
+    }
+  }
+
+  .home-page-body {
+    md-divider {
+      border-right: 2px solid $light-grey;
+    }
+  }
+}

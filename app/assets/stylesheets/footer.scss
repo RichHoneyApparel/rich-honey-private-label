@@ -1,0 +1,49 @@
+.footer-container {
+  background-color: $rich-honey-black;
+  color: $white;
+  padding: 20px;
+  width: 100%;
+
+  .made-in-us-text {
+    font-weight: bold;
+  }
+
+  .company-link {
+    color: $white;
+    cursor: pointer;
+    display: block;
+    text-align: left;
+  }
+
+  .md-headline,
+  .md-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .social-media-links {
+    margin-bottom: 10px;
+  }
+
+  .md-button {
+    background-color: $white;
+    border-radius: 0;
+    color: $black;
+    font-weight: bold;
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 1280px){
+  .first-section,
+  .second-section {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 960px){
+  .first-section,
+  .second-section {
+    margin-bottom: 20px;
+  }
+}
