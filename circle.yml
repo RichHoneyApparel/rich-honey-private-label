@@ -1,10 +1,10 @@
 deployment:
   staging:
-    branch: develop
+    branch: master
     heroku:
-      appname: rh-private-label-alpha
+      appname: rh-private-label
 
   live:
     branch: master
     heroku:
-      appname: rh-private-label
+      appname: rh-private-label-alpha
