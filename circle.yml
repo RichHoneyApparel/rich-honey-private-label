@@ -5,6 +5,6 @@ deployment:
       appname: rh-private-label
 
   live:
-    branch: master
+    branch: develop
     heroku:
       appname: rh-private-label-alpha
