@@ -21,4 +21,12 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/categories/accessories'
         templateUrl: 'application/views/categories/accessories.html'
         controller: 'AccessoriesCtrl'
+
+      # Services
+
+      .state 'services_main',
+        url: '/services'
+        templateUrl: 'application/views/services/services.html',
+        controller: 'ServicesController'
+
   ]
