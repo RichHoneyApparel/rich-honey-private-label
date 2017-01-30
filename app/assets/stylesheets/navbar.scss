@@ -54,3 +54,23 @@
 .categories-nav-bar {
   text-align: center;
 }
+
+.services-nav-bar {
+  text-align: center;
+
+  .link-name {
+    font-size: 8px; font-weight: bold;
+  }
+
+  .md-nav-bar {
+    height: 130px;
+  }
+
+  .logo-container {
+    img {
+      max-width: 77px;
+      min-width: 35px;
+      width: 100%;
+    }
+  }
+}
