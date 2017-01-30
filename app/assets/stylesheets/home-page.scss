@@ -1,6 +1,7 @@
 .home-page-container {
   .home-page-header {
     background-image: url('homepage-header.png');
+    background-size: cover;
     color: $white;
     height: 56vh;
     padding-top: 5%;
@@ -23,6 +24,8 @@
   }
 
   .home-page-body {
+    padding-top: 2%;
+    
     md-divider {
       border-right: 2px solid $light-grey;
     }

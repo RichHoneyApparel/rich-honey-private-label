@@ -1,6 +1,12 @@
 html,
-body {
+body,
+.main-content {
   font-family: 'Lato', sans-serif, arial, helvetica !important;
+  height: 100%;
+}
+
+.main-wrapper {
+  height: 79%;
 }
 
 h1,

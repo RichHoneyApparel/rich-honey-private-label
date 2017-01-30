@@ -1,8 +1,8 @@
 angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
 'templates'])
-  .config ['$mdThemingProvider', '$stateProvider', '$urlRouterProvider',
+  .config ['$mdThemingProvider',
   '$locationProvider',
-  ($mdThemingProvider, $stateProvider, $urlRouterProvider,
+  ($mdThemingProvider,
   $locationProvider) ->
     $mdThemingProvider.theme('default')
       .primaryPalette('grey')

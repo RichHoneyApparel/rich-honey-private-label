@@ -9,6 +9,17 @@
     outline: none;
   }
 
+  md-menu {
+    text-align: center;
+
+    button {
+      color: $white;
+      font-size: 20px;
+      margin: 6px 0 10px 10px;
+      text-transform: none;
+    }
+  }
+
   md-nav-ink-bar {
     background-color: $white;
   }
@@ -37,5 +48,11 @@
         text-transform: none;
       }
     }
+  }
+}
+
+.categories-nav-bar {
+  .md-nav-bar {
+    height: 90px;
   }
 }

@@ -1,10 +1,12 @@
 angular.module('richHoneyPrivateLabel').controller 'NavController', [
-  '$scope', '$mdSidenav', '$location', ($scope, $mdSidenav, $location) ->
+  '$scope', '$mdSidenav', '$state',
+  ($scope, $mdSidenav, $state) ->
 
     $scope.openLeftMenu = ->
       $mdSidenav('left').toggle()
 
-    # $scope.goTo(path) ->
-    #   if path == 'home'
-    #     $location.path('/')
+    $scope.goToCategories = (location) ->
+      switch location
+        when 'accessories' then $state.go('categories_accessories')
+
   ]

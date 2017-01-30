@@ -9,4 +9,9 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/'
         templateUrl: 'application/views/home.html'
         controller: 'HomeController'
+
+      .state 'categories_accessories',
+        url: '/categories/accessories'
+        templateUrl: 'application/views/categories/accessories.html'
+        controller: 'AccessoriesCtrl'
   ]
