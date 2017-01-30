@@ -3,13 +3,13 @@
   background-size: cover;
   color: $white;
   font-size: 2.5vw;
-  padding: 10%;
+  padding: 200px 0;
   text-align: center;
 }
 
 .about-body {
   .about-text {
-    padding: 2% 22%;
+    padding: 20px 22%;
 
     .first-section,
     .second-section,
@@ -20,6 +20,7 @@
       text-align: center;
     }
   }
+
   .fabrics,
   .garment-dye,
   .washes {
@@ -34,15 +35,16 @@
 }
 
 .about-footer {
+  padding: 45px 0 40px;
   text-align: center;
-  padding: 10% 0 30px;
 }
 
 @media screen and (max-width: 960px) {
   .about-header {
     font-size: 3vw;
-    padding: 15%;
+    padding: 150px;
   }
+
   .about-body {
     .about-text {
       padding: 5% 0;
@@ -58,6 +60,6 @@
 @media screen and (max-width: 600px){
   .about-header {
     font-size: 5vw;
-    padding: 20%;
+    padding: 100px;
   }
 }
