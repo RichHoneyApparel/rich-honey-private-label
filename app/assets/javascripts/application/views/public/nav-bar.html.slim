@@ -1,12 +1,13 @@
 md-nav-bar.nav[aria-label='main page nav' layout='row' layout-align='space-around center']
-  a[ng-click='openLeftMenu()' href='' aria-label='button side nave trigger' hide-gt-sm show-sm show-xs flex-sm='5']
+  a[ng-click='openLeftMenu()' href='' aria-label='button side nav trigger' hide-gt-sm show-sm show-xs flex-sm='5']
     i.fa.fa-lg.fa-bars
 
   /md-nav-item[md-nav-click="" name='Categories' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Categories
   md-menu[flex='60' hide-sm hide-xs show-gt-sm md-offset='0 50']
     md-button[aria-label="open categories menu" ng-click="$mdOpenMenu($event)"]
-      | Categories
-      i.fa.fa-lg.fa-caret-down
+      p[layout='row' layout-align='space-around center']
+        span[flex='95'] Categories
+        i.fa.fa-lg.fa-caret-down[flex='5']
     md-menu-content[width="3"]
       /md-menu-item
         /md-button[ui-sref='/categories/mens'] Mens
