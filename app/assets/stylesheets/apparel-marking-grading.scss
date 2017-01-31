@@ -1,5 +1,5 @@
 .apparel-marking-grading-header {
-  background-image: url('services-header.png');
+  background-image: url('marking-grading-header.png');
   background-size: cover;
   margin: 0 50px;
   padding-top: 350px;
@@ -8,6 +8,7 @@
   .md-display-1 {
     background-color: $white;
     color: $black;
+    font-weight: bold;
     padding: 10px 40px;
   }
 }
