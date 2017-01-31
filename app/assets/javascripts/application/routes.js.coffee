@@ -29,4 +29,8 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/services/apparel/cutting'
         templateUrl: 'application/views/services/apparel/apparel-cutting.html'
 
+      .state 'services_apparel-marking-grading',
+        url: '/services/apparel/marking-grading'
+        templateUrl: 'application/views/services/apparel/apparel-marking-grading.html'
+
   ]

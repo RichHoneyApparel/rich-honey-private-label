@@ -1,4 +1,9 @@
 .apparel-cutting-header {
+  background-image: url('services-header.png');
+  background-size: cover;
+  margin: 0 50px;
+  padding-top: 350px;
+
   .md-display-1 {
     background-color: $white;
     color: $black;
@@ -47,6 +52,20 @@
       border: 1px solid $black;
       width: 30%;
     }
+  }
+}
+
+.contact-us,
+.start-a-project {
+  padding: 40px;
+
+  button {
+    background-color: $black !important;
+    border-radius: 0;
+    color: $white !important;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 40px;
   }
 }
 

@@ -1,6 +1,6 @@
-header[ng-include src="'application/views/services/shared/services-nav.html'"]
+header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']]
 .apparel-cutting-container[layout='column']
-  .apparel-cutting-header[flex='90' layout='row' layout-align='center bottom' style='background-image: url("assets/services-header.png"); padding-top: 350px; background-size: cover; margin: 0 50px;']
+  .apparel-cutting-header[flex='90' layout='row' layout-align='center bottom']
     .md-display-1 CUTTING
   .apparel-cutting-body
     .cutting-text[layout='row' layout-align='center center']
@@ -67,5 +67,5 @@ header[ng-include src="'application/views/services/shared/services-nav.html'"]
         tr
           td Sweaters
           td &nbsp;
-    .contact-us[layout='row' layout-align='center center' style='padding: 40px;']
-      md-button.md-raised[style='font-size: 25px; padding: 10px 40px; color: white; background-color: black; font-weight: bold; border-radius: 0;'] CONTACT US
+    .contact-us[layout='row' layout-align='center center']
+      md-button.md-raised[aria-label='contact us'] CONTACT US

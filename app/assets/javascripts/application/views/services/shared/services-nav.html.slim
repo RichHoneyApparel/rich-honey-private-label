@@ -1,22 +1,22 @@
 md-nav-bar.services-nav-bar[layout='row' layout-align='center space-around' aria-label='services nav' hide-xs show-gt-xs]
-  md-nav-item[name='cutting' md-nav-click='goto()' layout-wrap flex='20' layout-fill]
-    .logo-container[layout='column']
+  md-nav-item[name='cutting' md-nav-sref='services_apparel-cutting' ui-sref-active='active' layout-wrap flex='20' layout-fill]
+    .logo-container[layout='column' ng-if='isApparel']
       img[ng-src='assets/services-cutting.png']
       p.link-name Cutting
-  md-nav-item[name='marking and grading' md-nav-click='goto()' layout-wrap flex='20' layout-fill]
-    .logo-container[layout='column']
+  md-nav-item[name='marking and grading' md-nav-sref='services_apparel-marking-grading' ui-sref-active='active' layout-wrap flex='20' layout-fill]
+    .logo-container[layout='column' ng-if='isApparel']
       img[ng-src='assets/services-marking-grading.png']
       p.link-name Marking & Grading
-  md-nav-item[name='patterning' md-nav-click='goto()' layout-wrap flex='20' layout-fill]
-    .logo-container[layout='column']
+  md-nav-item[name='patterning' md-nav-sref='home' ui-sref-active='active' layout-wrap flex='20' layout-fill]
+    .logo-container[layout='column' ng-if='isApparel']
       img[ng-src='assets/services-pattern.png']
       p.link-name Patterning
-  md-nav-item[name='production' md-nav-click='goto()' layout-wrap flex='20' layout-fill]
-    .logo-container[layout='column']
+  md-nav-item[name='production' md-nav-sref='home' ui-sref-active='active' layout-wrap flex='20' layout-fill]
+    .logo-container[layout='column' ng-if='isApparel']
       img[ng-src='assets/services-production.png']
       p.link-name Production
-  md-nav-item[name='honey studio' md-nav-click='goto()' layout-wrap flex='20' layout-fill]
-    .logo-container[layout='column']
+  md-nav-item[name='honey studio' md-nav-sref='home' ui-sref-active='active' layout-wrap flex='20' layout-fill]
+    .logo-container[layout='column' ng-if='isApparel']
       img[ng-src='assets/services-honey-studio.png']
       p.link-name Honey Studio
 
@@ -24,27 +24,27 @@ md-menu[show-xs hide-gt-xs md-offset='0 50']
   md-button[ng-click="$mdOpenMenu($event)"] Services
   md-menu-content[width='6']
     md-menu-item
-      md-button[ng-click='goto()']
-        .logo-container[layout='row']
+      md-button[ng-click='goto("services_apparel-cutting")' aria-label='services nav']
+        .logo-container[layout='row' ng-if='isApparel']
           img[ng-src='assets/services-cutting.png']
           p.link-name[flex] Cutting
     md-menu-item
-      md-button[ng-click='goto()']
-        .logo-container[layout='row']
+      md-button[ng-click='goto("services_apparel-marking-grading")' aria-label='services nav']
+        .logo-container[layout='row' ng-if='isApparel']
           img[ng-src='assets/services-marking-grading.png']
           p.link-name[flex] Marking & Grading
     md-menu-item
-      md-button[ng-click='goto()']
-        .logo-container[layout='row']
+      md-button[ng-click='goto()' aria-label='services nav']
+        .logo-container[layout='row' ng-if='isApparel']
           img[ng-src='assets/services-pattern.png']
           p.link-name[flex] Patterning
     md-menu-item
-      md-button[ng-click='goto()']
-        .logo-container[layout='row']
+      md-button[ng-click='goto()' aria-label='services nav']
+        .logo-container[layout='row' ng-if='isApparel']
           img[ng-src='assets/services-production.png']
           p.link-name[flex] Production
     md-menu-item
-      md-button[ng-click='goto()']
-        .logo-container[layout='row']
+      md-button[ng-click='goto()' aria-label='services nav']
+        .logo-container[layout='row' ng-if='isApparel']
           img[ng-src='assets/services-honey-studio.png']
           p.link-name[flex] Honey Studio

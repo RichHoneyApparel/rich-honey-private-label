@@ -1,0 +1,34 @@
+.apparel-marking-grading-header {
+  background-image: url('services-header.png');
+  background-size: cover;
+  margin: 0 50px;
+  padding-top: 350px;
+  text-align: center;
+
+  .md-display-1 {
+    background-color: $white;
+    color: $black;
+    padding: 10px 40px;
+  }
+}
+
+.apparel-marking-grading-body {
+  .text-container {
+    padding: 15px 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 723px) {
+  .apparel-marking-grading-header {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  .apparel-marking-grading-header {
+    .md-display-1 {
+      padding: 10px 0;
+    }
+  }
+}
