@@ -1,7 +1,8 @@
 .services-hub {
   background-image: url('services-header.png');
+  background-size: cover;
   color: $white;
-  padding: 150px 0 300px;
+  padding: 150px 0 350px;
   text-align: center;
 
   .md-headline {
@@ -13,9 +14,10 @@
   }
 
   .services-buttons {
-    button {
+    a, button {
       border: 1px solid $white;
       border-radius: 0;
+      color: $white;
     }
   }
 }

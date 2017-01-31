@@ -14,19 +14,19 @@ angular.module('richHoneyPrivateLabel').config [
       .state 'about',
         url: '/about'
         templateUrl: 'application/views/other/about.html'
-        controller: 'AboutController'
 
       # Categories
       .state 'categories_accessories',
         url: '/categories/accessories'
         templateUrl: 'application/views/categories/accessories.html'
-        controller: 'AccessoriesCtrl'
 
       # Services
-
       .state 'services_main',
         url: '/services'
-        templateUrl: 'application/views/services/services.html',
-        controller: 'ServicesController'
+        templateUrl: 'application/views/services/services.html'
+
+      .state 'services_apparel-cutting',
+        url: '/services/apparel/cutting'
+        templateUrl: 'application/views/services/apparel/apparel-cutting.html'
 
   ]
