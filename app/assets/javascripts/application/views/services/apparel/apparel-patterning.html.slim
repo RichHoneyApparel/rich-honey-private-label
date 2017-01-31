@@ -1,0 +1,17 @@
+header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
+.apparel-patterning-container[layout='column']
+  .apparel-patterning-header[flex='90' layout='row' layout-align='center bottom']
+    .md-display-1 PATTERNS
+  .apparel-patterning-body
+    .patterning-text[layout='column' layout-align='center space-between']
+      .text-container[layout='row' layout-align='center center' flex]
+        p[flex='40' flex-sm='70' flex-xs='90']
+          | We can create zero-zero patterns of your desired style using your
+            provided prototype. Based on the sample, we test a 20x20 marked
+            fabric to find the shrinkage formula. We use this formula to match
+            the original pattern after it goes through a full production process.
+            This pattern can then be graded to fit your size range.
+    .conversion-container[layout='row' layout-align='center center' style='background-color: #F6F6F6;']
+      img[ng-src='assets/services-pattern-conversion.png']
+    .start-a-project[layout='row' layout-align='center center']
+      md-button.md-raised[aria-label='start a project'] START A PROJECT
