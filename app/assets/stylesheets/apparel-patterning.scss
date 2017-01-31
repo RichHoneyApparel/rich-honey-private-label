@@ -1,8 +1,8 @@
-.apparel-marking-grading-header {
-  background-image: url('marking-grading-header.png');
+.apparel-patterning-header {
+  background-image: url('pattern-header.png');
   background-size: cover;
   margin: 0 50px;
-  padding-top: 350px;
+  padding-top: 600px;
   text-align: center;
 
   .md-display-1 {
@@ -13,7 +13,7 @@
   }
 }
 
-.apparel-marking-grading-body {
+.apparel-patterning-body {
   .text-container {
     padding: 15px 0;
     text-align: center;
@@ -32,17 +32,8 @@
   }
 }
 
-
-@media screen and (max-width: 723px) {
-  .apparel-marking-grading-header {
+@media screen and (max-width: 600px){
+  .apparel-patterning-header {
     margin: 0;
-  }
-}
-
-@media screen and (max-width: 623px) {
-  .apparel-marking-grading-header {
-    .md-display-1 {
-      padding: 10px 0;
-    }
   }
 }

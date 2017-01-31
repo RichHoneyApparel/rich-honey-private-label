@@ -21,3 +21,8 @@
     }
   }
 }
+
+// Import all the other services scss
+@import 'apparel-cutting';
+@import 'apparel-marking-grading';
+@import 'apparel-patterning';
