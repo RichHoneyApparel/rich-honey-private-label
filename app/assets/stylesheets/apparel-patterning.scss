@@ -2,7 +2,7 @@
   background-image: url('pattern-header.png');
   background-size: cover;
   margin: 0 50px;
-  padding-top: 350px;
+  padding-top: 600px;
   text-align: center;
 
   .md-display-1 {
@@ -17,6 +17,18 @@
   .text-container {
     padding: 15px 0;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 1279px){
+  .apparel-patterning-header {
+    padding-top: 500px;
+  }
+}
+
+@media screen and (max-wdith: 959px){
+  .apparel-patterning-header {
+    padding-top: 450px;
   }
 }
 
