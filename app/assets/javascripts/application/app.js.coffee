@@ -6,6 +6,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
   $locationProvider) ->
     $mdThemingProvider.theme('default')
       .primaryPalette('grey')
+      .accentPalette('grey')
 
     $locationProvider.html5Mode true
   ]
