@@ -71,13 +71,13 @@
 
 @media screen and (max-width: 1279px){
   .apparel-cutting-header {
-    padding-top: 500px;
+    padding-top: 500px !important;
   }
 }
 
 @media screen and (max-wdith: 959px){
   .apparel-cutting-header {
-    padding-top: 450px;
+    padding-top: 450px !important;
   }
 }
 
@@ -103,5 +103,9 @@
   .first-table,
   .second-table {
     width: 95% !important;
+  }
+
+  .apparel-cutting-header {
+    padding-top: 250px !important;
   }
 }

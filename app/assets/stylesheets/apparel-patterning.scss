@@ -22,18 +22,24 @@
 
 @media screen and (max-width: 1279px){
   .apparel-patterning-header {
-    padding-top: 500px;
+    padding-top: 500px !important;
   }
 }
 
 @media screen and (max-wdith: 959px){
   .apparel-patterning-header {
-    padding-top: 450px;
+    padding-top: 450px !important;
   }
 }
 
 @media screen and (max-width: 600px){
   .apparel-patterning-header {
     margin: 0;
+  }
+}
+
+@media screen and (max-wdith: 400px){
+  .apparel-patterning-header {
+    padding-top: 250px !important;
   }
 }
