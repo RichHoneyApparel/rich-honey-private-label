@@ -10,7 +10,7 @@ md-nav-bar.services-nav-bar[aria-label='servicesNav' layout='row' layout-align='
   md-nav-item[name='patterning' value='patterning' md-nav-click='goto("services_apparel-patterning")' layout-wrap flex='20' layout-fill]
     .logo-container[layout='column' ng-if='isApparel']
       img[ng-src='assets/services-pattern.png']
-      p.link-name Patterning
+      p.link-name Patterns
   md-nav-item[name='production' value='production' md-nav-click='goto("services_apparel-production")' layout-wrap flex='20' layout-fill]
     .logo-container[layout='column' ng-if='isApparel']
       img[ng-src='assets/services-production.png']
@@ -37,7 +37,7 @@ md-menu[show-xs hide-gt-xs md-offset='0 50']
       md-button[ng-click='goto("services_apparel-patterning")' aria-label='services nav']
         .logo-container[layout='row' ng-if='isApparel']
           img[ng-src='assets/services-pattern.png']
-          p.link-name[flex] Patterning
+          p.link-name[flex] Patterns
     md-menu-item
       md-button[ng-click='goto("services_apparel-production")' aria-label='services nav']
         .logo-container[layout='row' ng-if='isApparel']
