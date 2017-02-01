@@ -41,6 +41,9 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/services/apparel/production'
         templateUrl: 'application/views/services/apparel/apparel-production.html'
 
+      .state 'services_apparel-studio',
+        url: '/services/apparel/honey-studio'
+        templateUrl: 'application/views/services/apparel/apparel-honey-studio.html'
 
 
   ]

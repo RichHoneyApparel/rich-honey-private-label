@@ -15,13 +15,13 @@ md-nav-bar.services-nav-bar[aria-label='servicesNav' layout='row' layout-align='
     .logo-container[layout='column' ng-if='isApparel']
       img[ng-src='assets/services-production.png']
       p.link-name Production
-  md-nav-item[name='honeyStudio' value='honeyStudio' md-nav-click='goto("home")' layout-wrap flex='20' layout-fill]
+  md-nav-item[name='honeyStudio' value='honeyStudio' md-nav-click='goto("services_apparel-studio")' layout-wrap flex='20' layout-fill]
     .logo-container[layout='column' ng-if='isApparel']
       img[ng-src='assets/services-honey-studio.png']
       p.link-name Honey Studio
 
 md-menu[show-xs hide-gt-xs md-offset='0 50']
-  md-button[ng-click="$mdOpenMenu($event)" aria-label='menu trigger' style='background-color: black; color: white;'] SERVICES
+  md-button[ng-click="$mdOpenMenu($event)" aria-label='menu trigger' style='background-color: black; color: white;'] APPAREL SERVICES
   md-menu-content[width='6']
     md-menu-item
       md-button[ng-click='goto("services_apparel-cutting")' aria-label='services nav']
@@ -44,7 +44,7 @@ md-menu[show-xs hide-gt-xs md-offset='0 50']
           img[ng-src='assets/services-production.png']
           p.link-name[flex] Production
     md-menu-item
-      md-button[ng-click='goto()' aria-label='services nav']
+      md-button[ng-click='goto("services_apparel-studio")' aria-label='services nav']
         .logo-container[layout='row' ng-if='isApparel']
           img[ng-src='assets/services-honey-studio.png']
           p.link-name[flex] Honey Studio

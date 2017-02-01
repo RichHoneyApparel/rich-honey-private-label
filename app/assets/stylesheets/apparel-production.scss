@@ -16,10 +16,16 @@
   }
 }
 
+
+
 .apparel-production-body {
   padding: 50px 25px;
 
   .apparel-production-text {
+    p {
+      font-size: 16px;
+    }
+
     img {
       margin-top: 25px;
     }
@@ -30,7 +36,7 @@
   table {
     tr {
       td {
-        font-size: 20px;
+        font-size: 16px;
         padding-left: 20px;
       }
     }
@@ -44,7 +50,7 @@
 
       th {
         color: $white;
-        font-size: 25px;
+        font-size: 20px;
         padding-left: 20px;
       }
     }
@@ -59,6 +65,11 @@
   .second-table {
     margin-top: 30px;
   }
+}
+
+
+.apparel-production-table {
+  width: 100%;
 }
 
 .production-contact-us {
