@@ -1,0 +1,48 @@
+.categories-accessories-header {
+  background-image: url('accessories-header.png');
+  background-size: cover;
+  padding: 250px 0 350px;
+
+  .header-text {
+    background-color: $white;
+    padding: 10px 30px;
+
+    .md-display-1 {
+      margin-bottom: 15px !important;
+
+      span {
+        text-decoration: underline
+      }
+
+    }
+  }
+}
+
+.categories-accessories-body {
+  padding: 30px;
+
+  .accessories-items {
+    .items {
+      margin: 20px;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .categories-accessories-header {
+    padding: 200px 0 300px;
+  }
+}
+
+@media screen and (max-width: 960px){
+  .categories-accessories-header {
+    padding: 150px 0 250px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .categories-accessories-header {
+    padding: 100px 0 200px;
+  }
+}
