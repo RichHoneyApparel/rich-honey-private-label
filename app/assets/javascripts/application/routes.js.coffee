@@ -20,6 +20,10 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/categories/accessories'
         templateUrl: 'application/views/categories/accessories.html'
 
+      .state 'categories_activewear',
+        url: '/categories/activewear'
+        templateUrl: 'application/views/categories/activewear.html'
+
       # Services
       .state 'services_main',
         url: '/services'

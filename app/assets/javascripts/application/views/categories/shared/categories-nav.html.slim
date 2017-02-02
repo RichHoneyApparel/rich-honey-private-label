@@ -12,7 +12,7 @@
       img[ng-src='assets/categories-accessories.png']
       span[style='font-size: 8px;'] Accessories
   .categories-button-container[flex='20' flex-xs='15']
-    md-button[ui-sref='categories_active_wear' name='active' ui-sref-active='active' layout='column' aria-label='active']
+    md-button[ui-sref='categories_activewear' name='active' ui-sref-active='active' layout='column' aria-label='active']
       img[ng-src='assets/categories-active.png']
       span[style='font-size: 8px;'] Activewear
   .categories-button-container[flex='20' flex-xs='15']
@@ -39,7 +39,7 @@ md-menu[show-xs hide-gt-xs md-offset='0 50']
           img[ng-src='assets/categories-accessories.png']
           p.link-name[flex] Accessories
     md-menu-item
-      md-button[ng-click='goto("home")' aria-label='services nav']
+      md-button[ng-click='goto("categories_activewear")' aria-label='services nav']
         .logo-container[layout='row']
           img[ng-src='assets/categories-active.png']
           p.link-name[flex] Activewear
