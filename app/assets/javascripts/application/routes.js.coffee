@@ -15,6 +15,11 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/about'
         templateUrl: 'application/views/other/about.html'
 
+      # About Page
+      .state 'how_it_works',
+        url: '/how-it-works'
+        templateUrl: 'application/views/other/how-it-works.html'
+
       # Categories
       .state 'categories_accessories',
         url: '/categories/accessories'
