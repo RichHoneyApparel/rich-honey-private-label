@@ -1,6 +1,9 @@
 html,
-body {
+body,
+.main-content {
+  background-color: $white;
   font-family: 'Lato', sans-serif, arial, helvetica !important;
+  height: 100%;
 }
 
 h1,

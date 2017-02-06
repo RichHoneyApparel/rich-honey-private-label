@@ -1,9 +1,13 @@
 .home-page-container {
   .home-page-header {
     background-image: url('homepage-header.png');
+    background-size: cover;
     color: $white;
-    height: 56vh;
-    padding-top: 5%;
+    height: 71vh;
+
+    .md-display-1 {
+      margin-top: 5%;
+    }
 
     .md-headline {
       text-align: center;
@@ -14,7 +18,7 @@
   .sports-wear,
   .made-in-la,
   .product-feature {
-    padding: 30px;
+    margin: 0 30px 30px;
     text-align: center;
 
     .md-display-1 {
@@ -23,6 +27,8 @@
   }
 
   .home-page-body {
+    margin: 2% 0;
+
     md-divider {
       border-right: 2px solid $light-grey;
     }

@@ -1,5 +1,5 @@
 doctype html
-html[lang=I18n.locale]
+html[lang=I18n.locale ng-app='richHoneyPrivateLabel']
 head
   base[href=root_url]
   title Rich Honey Private Label
@@ -8,7 +8,7 @@ head
   = javascript_include_tag 'application'
   meta[name='viewport' content='width=device-width, initial-scale=1']
 
-body[ng-app='richHoneyPrivateLabel' ng-cloak ng-controller='MainController']
+body[ng-cloak]
   header[ng-include src="'application/views/public/nav-bar.html'" ng-controller="NavController"]
   .main-wrapper[flex layout='column']
     .main-content[role='main' flex layout='column' ui-view='']

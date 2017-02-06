@@ -1,0 +1,153 @@
+.apparel-production-container {
+  margin: 0 50px;
+}
+
+.apparel-production-header {
+  background-image: url('production-header.png');
+  background-size: cover;
+  padding-top: 600px;
+  text-align: center;
+
+  .md-display-1 {
+    background-color: $white;
+    color: $black;
+    font-weight: bold;
+    padding: 10px 40px;
+  }
+}
+
+
+
+.apparel-production-body {
+  padding: 50px 25px;
+
+  .apparel-production-text {
+    p {
+      font-size: 16px;
+    }
+
+    img {
+      margin-top: 25px;
+    }
+  }
+}
+
+.production-details {
+  table {
+    tr {
+      td {
+        font-size: 16px;
+        padding-left: 20px;
+      }
+    }
+
+    tr:nth-child(odd) {
+      background-color: $rich-honey-grey-1;
+    }
+
+    tr:first-child {
+      background-color: $black;
+
+      th {
+        color: $white;
+        font-size: 20px;
+        padding-left: 20px;
+      }
+    }
+  }
+
+  .first-table,
+  .second-table {
+    border: 1px solid $black;
+    width: 100%;
+  }
+
+  .second-table {
+    margin-top: 30px;
+  }
+}
+
+
+.apparel-production-table {
+  width: 100%;
+}
+
+.production-contact-us {
+  padding-top: 35px;
+  width: 100%;
+
+  button {
+    background-color: $black !important;
+    border-radius: 0;
+    color: $white !important;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 40px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1279px){
+  .apparel-production-header {
+    padding-top: 500px !important;
+  }
+}
+
+@media screen and (max-width: 960px){
+  .apparel-production-header {
+    padding-top: 450px !important;
+  }
+
+  .apparel-production-text {
+    img {
+      margin-bottom: 25px;
+    }
+  }
+
+  .production-contact-us {
+    text-align: center;
+
+    button {
+      width: auto;
+    }
+  }
+
+  .production-details {
+    .first-table {
+      width: 60%;
+    }
+
+    .second-table {
+      margin: 0 0 0 8px;
+      width: 39% !important;
+    }
+  }
+}
+
+@media screen and (max-width: 700px){
+  .apparel-production-container {
+    margin: 0;
+  }
+
+  .apparel-production-body {
+    padding: 25px 0;
+  }
+
+  .production-details {
+    .first-table {
+      width: 45% !important;
+    }
+
+    .second-table {
+      margin: 0 0 0 10%;
+      width: 45% !important;
+    }
+  }
+}
+
+@media screen and (max-width: 400px){
+  .apparel-production-header {
+    padding-top: 250px !important;
+  }
+}

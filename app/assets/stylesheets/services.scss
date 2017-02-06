@@ -1,0 +1,38 @@
+.services-hub {
+  background-image: url('services-header.png');
+  background-size: cover;
+  color: $white;
+  padding: 150px 0 350px;
+  text-align: center;
+
+  .md-headline {
+    font-size: 2.5vw;
+  }
+
+  .md-subhead {
+    padding: 50px 0;
+  }
+
+  .services-buttons {
+    a, button {
+      border: 1px solid $white;
+      border-radius: 0;
+      color: $white;
+    }
+  }
+}
+
+.apparel-production-container,
+.apparel-patterning-container,
+.apparel-marking-grading-container,
+.apparel-honey-studio-container,
+.apparel-cutting-container {
+  font-size: 16px;
+}
+
+// Import all the other services scss
+@import 'apparel-cutting';
+@import 'apparel-marking-grading';
+@import 'apparel-patterning';
+@import 'apparel-production';
+@import 'apparel-honey-studio';

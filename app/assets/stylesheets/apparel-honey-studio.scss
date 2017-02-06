@@ -1,0 +1,128 @@
+.apparel-honey-studio-container {
+  margin: 0 50px;
+}
+
+.apparel-honey-studio-header {
+  background-image: url('honey-studio-header.png');
+  background-size: cover;
+  padding-top: 600px;
+  text-align: center;
+
+  .md-display-1 {
+    background-color: $white;
+    color: $black;
+    font-weight: bold;
+    padding: 10px 40px;
+  }
+}
+
+.apparel-honey-studio-body {
+  padding: 50px 25px;
+
+  .apparel-honey-studio-text {
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .apparel-honey-studio-table {
+    width: 100%;
+  }
+}
+
+.honey-studio-table {
+  border: 1px solid $black;
+  width: 100%;
+
+  tr {
+    td {
+      font-size: 16px;
+      padding-left: 20px;
+    }
+  }
+
+  tr:nth-child(odd) {
+    background-color: $rich-honey-grey-1;
+  }
+
+  tr:first-child {
+    background-color: $black;
+
+    th {
+      color: $white;
+      font-size: 20px;
+      padding-left: 20px;
+    }
+  }
+}
+
+.studio-features {
+  margin: 20px 0;
+}
+
+.location {
+  margin: 0 0 20px;
+}
+
+.honey-studio-book-studio {
+  text-align: center;
+  width: 100%;
+
+  button {
+    background-color: $black;
+    border-radius: 0;
+    color: $white;
+    font-size: 25px;
+    margin: 0 !important;
+    padding: 10px 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1279px){
+  .apparel-honey-studio-header {
+    padding-top: 500px !important;
+  }
+}
+
+
+@media screen and (max-width: 960px){
+  .apparel-honey-studio-header {
+    padding-top: 450px !important;
+  }
+
+  .apparel-honey-studio-body {
+    padding: 50px 10px !important;
+  }
+
+  .honey-studio-book-studio {
+    button {
+      font-size: 20px;
+      padding: 10px 20px;
+      width: auto !important;
+    }
+  }
+}
+
+@media screen and (max-width: 600px){
+  .apparel-honey-studio-container {
+    margin: 0 !important;
+  }
+
+  .apparel-honey-studio-header {
+    padding-top: 250px !important;
+  }
+
+  .honey-studio-book-studio {
+    button {
+      font-size: 18px;
+      padding: 10px 30px;
+      width: auto !important;
+    }
+  }
+
+
+  .location {
+    margin: 20px 0 !important;
+  }
+}

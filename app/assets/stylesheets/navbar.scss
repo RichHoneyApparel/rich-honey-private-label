@@ -1,12 +1,44 @@
+.account-nav {
+  background-color: $rich-honey-black;
+  padding: 10px 0;
+
+  .left,
+  .right {
+    color: $white;
+
+    a {
+      color: $white;
+      padding: 0 10px;
+    }
+  }
+
+  .right {
+    a {
+      text-align: center;
+    }
+  }
+}
+
 .nav {
   background-color: $black;
   text-transform: none;
 
   a {
     color: $white;
-    font-size: 20px;
+    font-size: 14px;
     margin: 10px 0 10px 10px;
     outline: none;
+  }
+
+  md-menu {
+    text-align: center;
+
+    button {
+      color: $white;
+      font-size: 14px;
+      margin: 6px 0 10px 10px;
+      text-transform: none;
+    }
   }
 
   md-nav-ink-bar {
@@ -36,6 +68,41 @@
         font-weight: bold;
         text-transform: none;
       }
+    }
+  }
+}
+
+.categories-nav-bar {
+  text-align: center;
+}
+
+.services-nav-bar {
+  text-align: center;
+
+  .link-name {
+    font-size: 8px;
+    font-weight: bold;
+  }
+
+  .md-nav-bar {
+    height: 130px;
+  }
+
+  .logo-container {
+    img {
+      max-width: 77px;
+      min-width: 35px;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 600px){
+  .logo-container {
+    text-align: center;
+
+    img {
+      height: 50px;
     }
   }
 }

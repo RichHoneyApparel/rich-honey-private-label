@@ -1,0 +1,50 @@
+.categories-nav-bar[aria-label='categories navbar' layout='row' layout-align='space-around center' hide-xs show-gt-xs]
+  .categories-button-container[flex='20' flex-xs='15']
+    md-button[ui-sref='home' name='mens' ui-sref-active='active' layout='column' aria-label='mens']
+      img[ng-src='assets/categories-mens.png']
+      span[style='font-size: 8px;'] Mens
+  .categories-button-container[flex='20' flex-xs='15']
+    md-button[ui-sref='home' name='womens' ui-sref-active='active' layout='column' aria-label='womens']
+      img[ng-src='assets/categories-womens.png']
+      span[style='font-size: 8px;'] Womens
+  .categories-button-container[flex='20' flex-xs='15']
+    md-button[ui-sref='categories_accessories' name='accessories' ui-sref-active='active' layout='column' aria-label='accessories']
+      img[ng-src='assets/categories-accessories.png']
+      span[style='font-size: 8px;'] Accessories
+  .categories-button-container[flex='20' flex-xs='15']
+    md-button[ui-sref='categories_activewear' name='active' ui-sref-active='active' layout='column' aria-label='active']
+      img[ng-src='assets/categories-active.png']
+      span[style='font-size: 8px;'] Activewear
+  .categories-button-container[flex='20' flex-xs='15']
+    md-button[ui-sref='home' name='custom' ui-sref-active='active' layout='column' aria-label='custom']
+      img[ng-src='assets/categories-custom.png']
+      span[style='font-size: 8px;'] Custom
+
+md-menu[show-xs hide-gt-xs md-offset='0 50']
+  md-button[ng-click="$mdOpenMenu($event)" aria-label='menu trigger' style='background-color: black; color: white;'] CATEGORIES
+  md-menu-content[width='6']
+    md-menu-item
+      md-button[ng-click='goto("home")' aria-label='services nav']
+        .logo-container[layout='row']
+          img[ng-src='assets/categories-mens.png']
+          p.link-name[flex] Mens
+    md-menu-item
+      md-button[ng-click='goto("home")' aria-label='services nav']
+        .logo-container[layout='row']
+          img[ng-src='assets/categories-womens.png']
+          p.link-name[flex] Womens
+    md-menu-item
+      md-button[ng-click='goto("categories_accessories")' aria-label='services nav']
+        .logo-container[layout='row']
+          img[ng-src='assets/categories-accessories.png']
+          p.link-name[flex] Accessories
+    md-menu-item
+      md-button[ng-click='goto("categories_activewear")' aria-label='services nav']
+        .logo-container[layout='row']
+          img[ng-src='assets/categories-active.png']
+          p.link-name[flex] Activewear
+    md-menu-item
+      md-button[ng-click='goto("home")' aria-label='services nav']
+        .logo-container[layout='row']
+          img[ng-src='assets/categories-custom.png']
+          p.link-name[flex] Custom

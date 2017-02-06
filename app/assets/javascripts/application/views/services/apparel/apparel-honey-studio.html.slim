@@ -1,0 +1,50 @@
+header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
+.apparel-honey-studio-container[layout='column']
+  .apparel-honey-studio-header[layout='row' layout-align='center bottom']
+    .md-display-1 HONEY STUDIO
+  .apparel-honey-studio-body[layout='row' layout-xs='column' layout-align-xs='center center' layout-align='space-between start']
+    .apparel-honey-studio-text[flex='70' layout='column' layout-align='space-around start' flex-sm='60' flex-xs='100']
+      p
+        | Rich Honey has an in-house photo studio available for rent at our
+          headquarters in Los Angeles. This studio is great for shooting brand
+          linesheets, product shots, portfolio, or other small projects.
+
+      table.honey-studio-table.studio-features
+        tr.table-header
+          th[colspan='1'] Studio Features:
+        tr
+          td Room: 23x16
+        tr
+          td White walls, cyclorama floor
+
+      table.honey-studio-table
+        tr.table-header
+          th[colspan='1'] Available Equipment:
+        tr
+          td Canon EOS 60D - 30 mil lens
+        tr
+          td Manfrotto Tripod 190X
+        tr
+          td Pro Photoflash - 320 WS B800 Alien Bees
+        tr
+          td Photo umbrella - 44"
+
+    .apparel-honey-studio-table[flex='25' flex-sm='35' flex-xs='100']
+      .honey-studio-details[layout='column' layout-align='center center']
+        table.honey-studio-table.location
+          tr.table-header
+            th[colspan='1'] Location:
+          tr
+            td 919 E Slauson Ave.
+          tr
+            td Los Angeles, CA 90011
+
+      .honey-studio-book-studio
+        md-button[aria-label='CONTACT US'] BOOK STUDIO
+.apparel-honey-studio-footer[layout='row']
+  .img-container[flex='33']
+    img[ng-src='assets/services-honey-studio-thumb.PNG' width='100%']
+  .img-container[flex='33']
+    img[ng-src='assets/services-honey-studio-thumb-2.PNG' width='100%']
+  .img-container[flex='33']
+    img[ng-src='assets/services-honey-studio-thumb-3.PNG' width='100%']
