@@ -1,0 +1,21 @@
+.moat-nav-bar {
+  background-color: $white;
+  text-align: center;
+
+  .logo-container {
+    .link-name {
+      font-size: 8px;
+    }
+
+    .inactive {
+      background-color: $rich-honey-grey-2 !important;
+      color: $black !important;
+    }
+  }
+}
+
+.video-title {
+  background-color: $rich-honey-color;
+  color: $white;
+  padding: 120px 50px;
+}
