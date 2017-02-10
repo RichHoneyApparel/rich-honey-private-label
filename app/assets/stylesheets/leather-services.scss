@@ -1,4 +1,4 @@
-.apparel-marking-grading-header {
+.services-header {
   background-image: url('marking-grading-header.png');
   background-size: cover;
   margin: 0 50px;
@@ -13,7 +13,7 @@
   }
 }
 
-.apparel-marking-grading-body {
+.services-body {
   .text-container {
     padding: 15px 0;
     text-align: center;
@@ -21,26 +21,26 @@
 }
 
 @media screen and (max-width: 1279px){
-  .apparel-marking-grading-header {
+  .services-header {
     padding-top: 500px !important;
   }
 }
 
 @media screen and (max-wdith: 959px){
-  .apparel-marking-grading-header {
+  .services-header {
     padding-top: 450px !important;
   }
 }
 
 
 @media screen and (max-width: 723px) {
-  .apparel-marking-grading-header {
+  .services-header {
     margin: 0;
   }
 }
 
 @media screen and (max-width: 623px) {
-  .apparel-marking-grading-header {
+  .services-header {
     .md-display-1 {
       padding: 10px 0;
     }
@@ -48,7 +48,7 @@
 }
 
 @media screen and (max-wdith: 400px){
-  .apparel-marking-grading-header {
+  .services-header {
     padding-top: 250px !important;
   }
 }

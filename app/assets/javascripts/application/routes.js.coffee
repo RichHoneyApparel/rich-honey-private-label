@@ -58,6 +58,30 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/services/leather/design-development'
         templateUrl: 'application/views/services/leather/leather-design-development.html'
 
+      .state 'services_leather-die-cutting',
+        url: '/services/leather/die-cutting'
+        templateUrl: 'application/views/services/leather/leather-die-cutting.html'
+
+      .state 'services_leather-samples',
+        url: '/services/leather/samples'
+        templateUrl: 'application/views/services/leather/leather-samples.html'
+
+      .state 'services_leather-debossing',
+        url: '/services/leather/debossing'
+        templateUrl: 'application/views/services/leather/leather-debossing.html'
+
+      .state 'services_leather-production',
+        url: '/services/leather/production'
+        templateUrl: 'application/views/services/leather/leather-production.html'
+
+      .state 'services_leather-skiving',
+        url: '/services/leather/skiving'
+        templateUrl: 'application/views/services/leather/leather-skiving.html'
+
+      .state 'services_leather-packaging',
+        url: '/services/leather/packaging'
+        templateUrl: 'application/views/services/leather/leather-packaging.html'
+
       # Terms of Use
       .state 'terms_of_use',
         url: '/terms-of-use'
