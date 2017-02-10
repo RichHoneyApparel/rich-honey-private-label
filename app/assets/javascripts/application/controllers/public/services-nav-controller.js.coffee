@@ -2,12 +2,12 @@ angular.module('richHoneyPrivateLabel').controller 'ServicesNavController', [
   '$scope', '$mdSidenav', '$state', '$location',
   ($scope, $mdSidenav, $state, $location) ->
 
-    path = $location.path()
+    $scope.path = $location.path()
 
-    if path.includes('/services/apparel')
+    if $scope.path.includes('/services/apparel')
       $scope.isApparel = true
-    else
-      $scope.isApparel = false
+    else if $scope.path.includes('/services/leather')
+      $scope.isLeather = true
 
     $scope.goto = (path) ->
       $state.go(path)

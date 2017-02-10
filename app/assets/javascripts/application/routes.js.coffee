@@ -54,6 +54,10 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/services/apparel/honey-studio'
         templateUrl: 'application/views/services/apparel/apparel-honey-studio.html'
 
+      .state 'services_leather-design',
+        url: '/services/leather/design-development'
+        templateUrl: 'application/views/services/leather/leather-design-development.html'
+
       # Terms of Use
       .state 'terms_of_use',
         url: '/terms-of-use'

@@ -1,50 +1,133 @@
 md-nav-bar.services-nav-bar[aria-label='servicesNav' layout='row' layout-align='center space-around' hide-xs show-gt-xs]
-  md-nav-item[name='cutting' value='cutting' md-nav-click='goto("services_apparel-cutting")' layout-wrap flex='20' layout-fill]
-    .logo-container[layout='column' ng-if='isApparel']
+  md-nav-item[name='cutting' value='cutting' md-nav-click='goto("services_apparel-cutting")' layout-wrap flex='20' layout-fill ng-if='isApparel']
+    .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/services-cutting.png']
       p.link-name Cutting
-  md-nav-item[name='markingAndGrading' value='markingAndGrading' md-nav-click='goto("services_apparel-marking-grading")' layout-wrap flex='20' layout-fill]
-    .logo-container[layout='column' ng-if='isApparel']
+  md-nav-item[name='markingAndGrading' value='markingAndGrading' md-nav-click='goto("services_apparel-marking-grading")' layout-wrap flex='20' layout-fill ng-if='isApparel']
+    .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/services-marking-grading.png']
       p.link-name Marking & Grading
-  md-nav-item[name='patterning' value='patterning' md-nav-click='goto("services_apparel-patterning")' layout-wrap flex='20' layout-fill]
-    .logo-container[layout='column' ng-if='isApparel']
+  md-nav-item[name='patterning' value='patterning' md-nav-click='goto("services_apparel-patterning")' layout-wrap flex='20' layout-fill ng-if='isApparel']
+    .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/services-pattern.png']
       p.link-name Patterns
-  md-nav-item[name='production' value='production' md-nav-click='goto("services_apparel-production")' layout-wrap flex='20' layout-fill]
-    .logo-container[layout='column' ng-if='isApparel']
+  md-nav-item[name='production' value='production' md-nav-click='goto("services_apparel-production")' layout-wrap flex='20' layout-fill ng-if='isApparel']
+    .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/services-production.png']
       p.link-name Production
-  md-nav-item[name='honeyStudio' value='honeyStudio' md-nav-click='goto("services_apparel-studio")' layout-wrap flex='20' layout-fill]
-    .logo-container[layout='column' ng-if='isApparel']
+  md-nav-item[name='honeyStudio' value='honeyStudio' md-nav-click='goto("services_apparel-studio")' layout-wrap flex='20' layout-fill ng-if='isApparel']
+    .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/services-honey-studio.png']
       p.link-name Honey Studio
 
-md-menu[show-xs hide-gt-xs md-offset='0 50']
+  md-nav-item[name='designDevelopment' value='designDevelopment' md-nav-click='goto("services_leather-design")' layout-wrap flex='20' layout-fill ng-if='isLeather']
+    .logo-container[layout='column' layout-align='center center']
+      img[ng-src='assets/design-development-active.png' ng-show="path.includes('design-development')"]
+      img[ng-src='assets/design-development.png' ng-show="!path.includes('design-development')"]
+      p.link-name Design & Development
+  md-nav-item[name='production' value='production' md-nav-click='goto("services_leather-design")' layout-wrap flex='20' layout-fill ng-if='isLeather']
+    .logo-container[layout='column' layout-align='center center']
+      img[ng-src='assets/production-active.png' ng-show="path.includes('production')"]
+      img[ng-src='assets/production.png' ng-show="!path.includes('production')"]
+      p.link-name Production
+  md-nav-item[name='diecutting' value='diecutting' md-nav-click='goto("services_leather-design")' layout-wrap flex='20' layout-fill ng-if='isLeather']
+    .logo-container[layout='column' layout-align='center center']
+      img[ng-src='assets/diecutting-active.png' ng-show="path.includes('diecutting')"]
+      img[ng-src='assets/diecutting.png' ng-show="!path.includes('diecutting')"]
+      p.link-name Die-cutting
+  md-nav-item[name='debossing' value='debossing' md-nav-click='goto("services_leather-design")' layout-wrap flex='20' layout-fill ng-if='isLeather']
+    .logo-container[layout='column' layout-align='center center']
+      img[ng-src='assets/debossing-active.png' ng-show="path.includes('debossing')"]
+      img[ng-src='assets/debossing.png' ng-show="!path.includes('debossing')"]
+      p.link-name Debossing
+  md-nav-item[name='skiving' value='skiving' md-nav-click='goto("services_leather-design")' layout-wrap flex='20' layout-fill ng-if='isLeather']
+    .logo-container[layout='column' layout-align='center center']
+      img[ng-src='assets/skiving-active.png' ng-show="path.includes('skiving')"]
+      img[ng-src='assets/skiving.png' ng-show="!path.includes('skiving')"]
+      p.link-name Skiving
+  md-nav-item[name='packaging' value='packaging' md-nav-click='goto("services_leather-design")' layout-wrap flex='20' layout-fill ng-if='isLeather']
+    .logo-container[layout='column' layout-align='center center']
+      img[ng-src='assets/packaging-active.png' ng-show="path.includes('packaging')"]
+      img[ng-src='assets/packaging.png' ng-show="!path.includes('packaging')"]
+      p.link-name Packaging
+  md-nav-item[name='samples' value='samples' md-nav-click='goto("services_leather-design")' layout-wrap flex='20' layout-fill ng-if='isLeather']
+    .logo-container[layout='column' layout-align='center center']
+      img[ng-src='assets/sample-active.png' ng-show="path.includes('sample')"]
+      img[ng-src='assets/sample.png' ng-show="!path.includes('sample')"]
+      p.link-name Samples
+
+
+md-menu[show-xs hide-gt-xs md-offset='0 50' ng-if='isApparel']
   md-button[ng-click="$mdOpenMenu($event)" aria-label='menu trigger' style='background-color: black; color: white;'] APPAREL SERVICES
   md-menu-content[width='6']
     md-menu-item
       md-button[ng-click='goto("services_apparel-cutting")' aria-label='services nav']
-        .logo-container[layout='row' ng-if='isApparel']
+        .logo-container[layout='row']
           img[ng-src='assets/services-cutting.png']
           p.link-name[flex] Cutting
     md-menu-item
       md-button[ng-click='goto("services_apparel-marking-grading")' aria-label='services nav']
-        .logo-container[layout='row' ng-if='isApparel']
+        .logo-container[layout='row']
           img[ng-src='assets/services-marking-grading.png']
           p.link-name[flex] Marking & Grading
     md-menu-item
       md-button[ng-click='goto("services_apparel-patterning")' aria-label='services nav']
-        .logo-container[layout='row' ng-if='isApparel']
+        .logo-container[layout='row']
           img[ng-src='assets/services-pattern.png']
           p.link-name[flex] Patterns
     md-menu-item
       md-button[ng-click='goto("services_apparel-production")' aria-label='services nav']
-        .logo-container[layout='row' ng-if='isApparel']
+        .logo-container[layout='row']
           img[ng-src='assets/services-production.png']
           p.link-name[flex] Production
     md-menu-item
       md-button[ng-click='goto("services_apparel-studio")' aria-label='services nav']
-        .logo-container[layout='row' ng-if='isApparel']
+        .logo-container[layout='row']
           img[ng-src='assets/services-honey-studio.png']
           p.link-name[flex] Honey Studio
+
+md-menu[show-xs hide-gt-xs md-offset='0 50' ng-if='isLeather']
+  md-button[ng-click="$mdOpenMenu($event)" aria-label='menu trigger' style='background-color: black; color: white;'] LEATHER SERVICES
+  md-menu-content[width='6']
+    md-menu-item
+      md-button[ng-click='goto("services_leather-design")' aria-label='services nav']
+        .logo-container[layout='row']
+          img[ng-src='assets/design-development-active.png' ng-show="path.includes('design-development')"]
+          img[ng-src='assets/design-development.png' ng-show="!path.includes('design-development')"]
+          p.link-name Design & Development
+    md-menu-item
+      md-button[ng-click='goto("services_leather-design")' aria-label='services nav']
+        .logo-container[layout='row']
+          img[ng-src='assets/production-active.png' ng-show="path.includes('production')"]
+          img[ng-src='assets/production.png' ng-show="!path.includes('production')"]
+          p.link-name Production
+    md-menu-item
+      md-button[ng-click='goto("services_leather-design")' aria-label='services nav']
+        .logo-container[layout='row']
+          img[ng-src='assets/diecutting-active.png' ng-show="path.includes('diecutting')"]
+          img[ng-src='assets/diecutting.png' ng-show="!path.includes('diecutting')"]
+          p.link-name Die-cutting
+    md-menu-item
+      md-button[ng-click='goto("services_leather-design")' aria-label='services nav']
+        .logo-container[layout='row']
+          img[ng-src='assets/debossing-active.png' ng-show="path.includes('debossing')"]
+          img[ng-src='assets/debossing.png' ng-show="!path.includes('debossing')"]
+          p.link-name Debossing
+    md-menu-item
+      md-button[ng-click='goto("services_leather-design")' aria-label='services nav']
+        .logo-container[layout='row']
+          img[ng-src='assets/skiving-active.png' ng-show="path.includes('skiving')"]
+          img[ng-src='assets/skiving.png' ng-show="!path.includes('skiving')"]
+          p.link-name Skiving
+    md-menu-item
+      md-button[ng-click='goto("services_leather-design")' aria-label='services nav']
+        .logo-container[layout='row']
+          img[ng-src='assets/packaging-active.png' ng-show="path.includes('packaging')"]
+          img[ng-src='assets/packaging.png' ng-show="!path.includes('packaging')"]
+          p.link-name Packaging
+    md-menu-item
+      md-button[ng-click='goto("services_leather-design")' aria-label='services nav']
+        .logo-container[layout='row']
+          img[ng-src='assets/sample-active.png' ng-show="path.includes('sample')"]
+          img[ng-src='assets/sample.png' ng-show="!path.includes('sample')"]
+          p.link-name Samples
