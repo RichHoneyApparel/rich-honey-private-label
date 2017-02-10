@@ -10,8 +10,14 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
       iframe[src="https://player.vimeo.com/video/194123858" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style='margin-bottom: -5px;']
 
   .image-container[layout='column' layout-align='center center']
-    img[ng-src='assets/moat-7-hems-1.png' flex='100']
-    img[ng-src='assets/moat-7-hems-2.png' flex='100']
+    div[style='position: relative;']
+      img[ng-src='assets/moat-7-hems-1.png' flex='100' style='position: relative;']
+      p.sleeve-hem-text
+        | SEWING THE HEM ON SLEEVES
+    div[style='position: relative;']
+      img[ng-src='assets/moat-7-hems-2.png' flex='100' style='position: relative;']
+      p.bottom-hem-text
+        | SEWING OF THE BOTTOM HEM
 
   .footer[layout='row']
     md-button[flex='100' layout-align='center center' style='margin: 0; padding: 30px;' ng-click="goto('moat-1-side-seams')" aria-label='nextStep']
