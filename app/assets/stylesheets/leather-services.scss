@@ -1,0 +1,85 @@
+.services-header {
+  background-image: url('marking-grading-header.png');
+  background-size: cover;
+  margin: 0 50px;
+  padding-top: 600px;
+  text-align: center;
+
+  .md-display-1 {
+    background-color: $white;
+    color: $black;
+    font-weight: bold;
+    padding: 10px 40px;
+  }
+}
+
+.services-body {
+  .text-container {
+    padding: 15px 0;
+    text-align: center;
+  }
+}
+
+.debossing-header {
+  @extend .services-header;
+  background-image: url('debossing-header.jpg');
+}
+
+.design-development-header {
+  @extend .services-header;
+  background-image: url('design-development-header.jpg');
+}
+
+.die-cutting-header {
+  @extend .services-header;
+  background-image: url('die-cutting-header.jpg');
+}
+
+.production-header {
+  @extend .services-header;
+  background-image: url('production-header.jpg');
+}
+
+.samples-header {
+  @extend .services-header;
+  background-image: url('samples-header.jpg');
+}
+
+.skiving-header {
+  @extend .services-header;
+  background-image: url('skiving-header.jpg');
+}
+
+
+@media screen and (max-width: 1279px){
+  .services-header {
+    padding-top: 500px !important;
+  }
+}
+
+@media screen and (max-wdith: 959px){
+  .services-header {
+    padding-top: 450px !important;
+  }
+}
+
+
+@media screen and (max-width: 723px) {
+  .services-header {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  .services-header {
+    .md-display-1 {
+      padding: 10px 0;
+    }
+  }
+}
+
+@media screen and (max-wdith: 400px){
+  .services-header {
+    padding-top: 250px !important;
+  }
+}

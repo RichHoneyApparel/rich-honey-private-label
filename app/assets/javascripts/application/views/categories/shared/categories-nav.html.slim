@@ -1,22 +1,22 @@
-.categories-nav-bar[aria-label='categories navbar' layout='row' layout-align='space-around center' hide-xs show-gt-xs]
-  .categories-button-container[flex='20' flex-xs='15']
-    md-button[ui-sref='home' name='mens' ui-sref-active='active' layout='column' aria-label='mens']
+md-nav-bar.services-nav-bar[aria-label='servicesNav' layout='row' layout-align='center space-around' hide-xs show-gt-xs]
+  md-nav-item[name='cutting' value='cutting' md-nav-click='goto("home")' layout-wrap flex='20' layout-fill]
+    .logo-container[layout='column']
       img[ng-src='assets/categories-mens.png']
       span[style='font-size: 8px;'] Mens
-  .categories-button-container[flex='20' flex-xs='15']
-    md-button[ui-sref='home' name='womens' ui-sref-active='active' layout='column' aria-label='womens']
+  md-nav-item[name='markingAndGrading' value='markingAndGrading' md-nav-click='goto("home")' layout-wrap flex='20' layout-fill]
+    .logo-container[layout='column']
       img[ng-src='assets/categories-womens.png']
       span[style='font-size: 8px;'] Womens
-  .categories-button-container[flex='20' flex-xs='15']
-    md-button[ui-sref='categories_accessories' name='accessories' ui-sref-active='active' layout='column' aria-label='accessories']
+  md-nav-item[name='patterning' value='patterning' md-nav-click='goto("categories_accessories")' layout-wrap flex='20' layout-fill]
+    .logo-container[layout='column']
       img[ng-src='assets/categories-accessories.png']
       span[style='font-size: 8px;'] Accessories
-  .categories-button-container[flex='20' flex-xs='15']
-    md-button[ui-sref='categories_activewear' name='active' ui-sref-active='active' layout='column' aria-label='active']
+  md-nav-item[name='production' value='production' md-nav-click='goto("categories_activewear")' layout-wrap flex='20' layout-fill]
+    .logo-container[layout='column']
       img[ng-src='assets/categories-active.png']
       span[style='font-size: 8px;'] Activewear
-  .categories-button-container[flex='20' flex-xs='15']
-    md-button[ui-sref='home' name='custom' ui-sref-active='active' layout='column' aria-label='custom']
+  md-nav-item[name='honeyStudio' value='honeyStudio' md-nav-click='goto("home")' layout-wrap flex='20' layout-fill]
+    .logo-container[layout='column']
       img[ng-src='assets/categories-custom.png']
       span[style='font-size: 8px;'] Custom
 

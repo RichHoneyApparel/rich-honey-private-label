@@ -54,6 +54,58 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/services/apparel/honey-studio'
         templateUrl: 'application/views/services/apparel/apparel-honey-studio.html'
 
+      .state 'services_leather-design',
+        url: '/services/leather/design-development'
+        templateUrl: 'application/views/services/leather/leather-design-development.html'
+
+      .state 'services_leather-die-cutting',
+        url: '/services/leather/die-cutting'
+        templateUrl: 'application/views/services/leather/leather-die-cutting.html'
+
+      .state 'services_leather-samples',
+        url: '/services/leather/samples'
+        templateUrl: 'application/views/services/leather/leather-samples.html'
+
+      .state 'services_leather-debossing',
+        url: '/services/leather/debossing'
+        templateUrl: 'application/views/services/leather/leather-debossing.html'
+
+      .state 'services_leather-production',
+        url: '/services/leather/production'
+        templateUrl: 'application/views/services/leather/leather-production.html'
+
+      .state 'services_leather-skiving',
+        url: '/services/leather/skiving'
+        templateUrl: 'application/views/services/leather/leather-skiving.html'
+
+      .state 'services_leather-packaging',
+        url: '/services/leather/packaging'
+        templateUrl: 'application/views/services/leather/leather-packaging.html'
+
+      # Making of a tee
+      .state 'moat-1-side-seams',
+        url: '/making-of-a-tee/side-seams'
+        templateUrl: 'application/views/making-of-a-tee/moat-1-side-seams.html'
+
+      .state 'moat-2-shoulders',
+        url: '/making-of-a-tee/shoulders',
+        templateUrl: 'application/views/making-of-a-tee/moat-2-shoulders.html'
+      .state 'moat-3-rib-neck',
+        url: '/making-of-a-tee/rib-neck',
+        templateUrl: 'application/views/making-of-a-tee/moat-3-rib-neck.html'
+      .state 'moat-4-one-sixteen',
+        url: '/making-of-a-tee/one-sixteen',
+        templateUrl: 'application/views/making-of-a-tee/moat-4-one-sixteen.html'
+      .state 'moat-5-taping',
+        url: '/making-of-a-tee/taping',
+        templateUrl: 'application/views/making-of-a-tee/moat-5-taping.html'
+      .state 'moat-6-sleeves',
+        url: '/making-of-a-tee/sleeves',
+        templateUrl: 'application/views/making-of-a-tee/moat-6-sleeves.html'
+      .state 'moat-7-hems',
+        url: '/making-of-a-tee/hems',
+        templateUrl: 'application/views/making-of-a-tee/moat-7-hems.html'
+
       # Terms of Use
       .state 'terms_of_use',
         url: '/terms-of-use'
