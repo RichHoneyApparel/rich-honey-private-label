@@ -1,10 +1,29 @@
 deployment:
   staging:
-    branch: master
-    heroku:
-      appname: rh-private-label
-
-  live:
     branch: develop
-    heroku:
-      appname: rh-private-label-alpha
+    commands:
+      - heroku run bundle install
+      - heroku run rake deploy:start --app alpha-rh-private-label-api
+      - heroku maintenance:on --app alpha-rh-private-label-api
+      - heroku scale worker=0 --app alpha-rh-private-label-api
+      - "[[ ! -s \"$(git rev-parse --git-dir)/shallow\" ]] || git fetch --unshallow"
+      - git push git@heroku.com:alpha-rh-private-label-api.git $CIRCLE_SHA1:refs/heads/master
+      - heroku run rake db:migrate --app alpha-rh-private-label-api
+      - heroku scale worker=1 --app alpha-rh-private-label-api
+      - heroku maintenance:off --app alpha-rh-private-label-api
+      - heroku run rake deploy:finished --app alpha-rh-private-label-api
+
+  production:
+    branch: master
+    commands:
+      - heroku run bundle install
+      - heroku run rake deploy:start --app rh-private-label-api
+      - heroku maintenance:on --app rh-private-label-api
+      - heroku scale worker=0 --app rh-private-label-api
+      - "[[ ! -s \"$(git rev-parse --git-dir)/shallow\" ]] || git fetch --unshallow"
+      - git push git@heroku.com:rh-private-label-api.git $CIRCLE_SHA1:refs/heads/master
+      - heroku run rake db:migrate --app rh-private-label-api
+      - heroku run rake searchkick:reindex:all --app rh-private-label-api
+      - heroku scale worker=1 --app rh-private-label-api
+      - heroku maintenance:off --app rh-private-label-api
+      - heroku run rake deploy:finished --app rh-private-label-api
