@@ -1,17 +1,17 @@
 header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'" ng-controller='MakingOfATeeNavController']
 .side-seams-container[layout='column' ng-controller='ServicesLeatherController']
   .video-container[layout='row']
-    .video-title[flex='30']
+    .video-title[flex='40']
       p.md-headline
         | MAKING OF A TEE:
       p.md-subhead
         | RIB NECK
-    .video[flex='70']
+    .video[flex='60']
       iframe[src="https://player.vimeo.com/video/191742209" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style='margin-bottom: -5px;']
 
   .image-container[layout='row' layout-align='center center']
-    div[style='position: relative;']
-      img[ng-src='assets/moat-3-rib-neck.png' flex='100' style='position: relative;']
+    div[style='position: relative;' flex='100']
+      img[ng-src='assets/moat-3-rib-neck.png' flex='100' style='position: relative; width: 100%;']
       p.rib-neck-text
         | SEWING THE RIB NECK
 
