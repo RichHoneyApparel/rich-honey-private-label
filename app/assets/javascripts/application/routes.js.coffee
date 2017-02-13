@@ -10,12 +10,12 @@ angular.module('richHoneyPrivateLabel').config [
         templateUrl: 'application/views/home.html'
         controller: 'HomeController'
 
-      # About Page
-      .state 'about',
-        url: '/about'
-        templateUrl: 'application/views/other/about.html'
+      # Our story Page
+      .state 'our_story',
+        url: '/our-story'
+        templateUrl: 'application/views/other/our-story.html'
 
-      # About Page
+      # How it works Page
       .state 'how_it_works',
         url: '/how-it-works'
         templateUrl: 'application/views/other/how-it-works.html'
@@ -90,18 +90,23 @@ angular.module('richHoneyPrivateLabel').config [
       .state 'moat-2-shoulders',
         url: '/making-of-a-tee/shoulders',
         templateUrl: 'application/views/making-of-a-tee/moat-2-shoulders.html'
+
       .state 'moat-3-rib-neck',
         url: '/making-of-a-tee/rib-neck',
         templateUrl: 'application/views/making-of-a-tee/moat-3-rib-neck.html'
+
       .state 'moat-4-one-sixteen',
         url: '/making-of-a-tee/one-sixteen',
         templateUrl: 'application/views/making-of-a-tee/moat-4-one-sixteen.html'
+
       .state 'moat-5-taping',
         url: '/making-of-a-tee/taping',
         templateUrl: 'application/views/making-of-a-tee/moat-5-taping.html'
+
       .state 'moat-6-sleeves',
         url: '/making-of-a-tee/sleeves',
         templateUrl: 'application/views/making-of-a-tee/moat-6-sleeves.html'
+
       .state 'moat-7-hems',
         url: '/making-of-a-tee/hems',
         templateUrl: 'application/views/making-of-a-tee/moat-7-hems.html'
