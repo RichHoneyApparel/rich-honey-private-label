@@ -13,8 +13,16 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
     div[style='position: relative;' flex='100']
       img[ng-src='assets/moat-3-rib-neck.png' flex='100' style='position: relative; width: 100%;']
       p.rib-neck-text
-        | SEWING THE RIB NECK
+        | RIB NECK
+      p.rib-neck-description
+        | The rib neck is the signature part of our crewneck tees. The use of a
+          special neck machine with #9 ballpoint needles helps us to achieve the
+          perfect height of the rib.
 
-  .footer[layout='row']
-    md-button[flex='100' layout-align='center center' style='margin: 0; padding: 30px;' ng-click="goto('moat-4-one-sixteen')" aria-label='nextStep']
-      p.md-display-2[style='font-weight: bold;'] NEXT >
+  .footer[layout='row' layout-align='center center']
+    md-button[flex='33' style='margin: 0; padding: 30px;' ng-click="goto('moat-2-shoulders')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] < PREVIOUS STEP
+    md-button[flex='33' style='margin: 0; padding: 30px; background-color: black; color: white;' ng-click="goto('home')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] START PROJECT
+    md-button[flex='33' style='margin: 0; padding: 30px;' ng-click="goto('moat-4-one-sixteen')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] NEXT STEP >

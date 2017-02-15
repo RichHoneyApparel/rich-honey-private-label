@@ -14,11 +14,20 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
       img[ng-src='assets/moat-7-hems-1.png' flex='100' style='position: relative; width: 100%;']
       p.sleeve-hem-text
         | SEWING THE HEM ON SLEEVES
+      p.sleeve-hem-description
+        | The hem of the sleeve is finished first while the fabric is flat.
+          It is done using a coverstitch tacking machine.
     div[style='position: relative; width: 100%;']
       img[ng-src='assets/moat-7-hems-2.png' flex='100' style='position: relative; width: 100%;']
       p.bottom-hem-text
         | SEWING OF THE BOTTOM HEM
+      p.bottom-hem-description
+        | The bottom hem is sewn up with a special coverstitch machine. The #9
+          ballpoint needles in this process work best to eliminate
+          the formation of holes.
 
-  .footer[layout='row']
-    md-button[flex='100' layout-align='center center' style='margin: 0; padding: 30px;' ng-click="goto('moat-1-side-seams')" aria-label='nextStep']
-      p.md-display-2[style='font-weight: bold;'] START OVER >
+  .footer[layout='row' layout-align='start center']
+    md-button[flex='33' style='margin: 0; padding: 30px;' ng-click="goto('moat-6-sleeves')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] < PREVIOUS STEP
+    md-button[flex='33' style='margin: 0; padding: 30px; background-color: black; color: white;' ng-click="goto('home')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] START PROJECT

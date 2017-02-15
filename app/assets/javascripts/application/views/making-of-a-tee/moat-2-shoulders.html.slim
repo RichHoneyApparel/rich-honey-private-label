@@ -13,8 +13,14 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
     div[style='position: relative;' flex='100']
       img[ng-src='assets/moat-2-shoulders.png' flex='100' style='position: relative; width: 100%;']
       p.shoulders-text
-        | SEWING THE SHOULDERS
-
-  .footer[layout='row']
-    md-button[flex='100' layout-align='center center' style='margin: 0; padding: 30px;' ng-click="goto('moat-3-rib-neck')" aria-label='nextStep']
-      p.md-display-2[style='font-weight: bold;'] NEXT STEP >
+        | SHOULDERS
+      p.shoulders-description
+        | The front and back of the highest point of the shoulder (HPS)
+          are attached using #9 ball point needles on the overlock machine.
+  .footer[layout='row' layout-align='center center']
+    md-button[flex='33' style='margin: 0; padding: 30px;' ng-click="goto('moat-1-side-seams')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] < PREVIOUS STEP
+    md-button[flex='33' style='margin: 0; padding: 30px; background-color: black; color: white;' ng-click="goto('home')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] START PROJECT
+    md-button[flex='33' style='margin: 0; padding: 30px;' ng-click="goto('moat-3-rib-neck')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] NEXT STEP >

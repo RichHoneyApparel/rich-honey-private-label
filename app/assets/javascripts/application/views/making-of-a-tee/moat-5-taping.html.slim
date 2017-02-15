@@ -14,7 +14,14 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
       img[ng-src='assets/moat-5-taping.png' flex='100' style='position: relative; width: 100%;']
       p.taping-text
         | TAPING
-
-  .footer[layout='row']
-    md-button[flex='100' layout-align='center center' style='margin: 0; padding: 30px;' ng-click="goto('moat-6-sleeves')" aria-label='nextStep']
-      p.md-display-2[style='font-weight: bold;'] NEXT STEP >
+      p.taping-description
+        | Taping gives the support needed for a high quality tee.
+          It is added the back to add structure and show a nice
+          finish to the shirt.
+  .footer[layout='row' layout-align='center center']
+    md-button[flex='33' style='margin: 0; padding: 30px;' ng-click="goto('moat-4-one-sixteen')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] < PREVIOUS STEP
+    md-button[flex='33' style='margin: 0; padding: 30px; background-color: black; color: white;' ng-click="goto('home')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] START PROJECT
+    md-button[flex='33' style='margin: 0; padding: 30px;' ng-click="goto('moat-6-sleeves')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] NEXT STEP >

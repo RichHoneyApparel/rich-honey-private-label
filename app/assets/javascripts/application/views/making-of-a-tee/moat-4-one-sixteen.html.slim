@@ -13,7 +13,15 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
     div[style='position: relative;' flex='100']
       img[ng-src='assets/moat-4-one-sixteen.png' flex='100' style='position: relative; width: 100%;']
       p.one-sixteen-text
-        | THE 1-16th
-  .footer[layout='row']
-    md-button[flex='100' layout-align='center center' style='margin: 0; padding: 30px;' ng-click="goto('moat-5-taping')" aria-label='nextStep']
-      p.md-display-2[style='font-weight: bold;'] NEXT STEP >
+        | 1-16th
+      p.one-sixteen-description
+        | A 1/16th stitching is added to flatten out the rib neck when it is
+          attached. This is accomplished with a reversed process on
+          the coverstitch machine.
+  .footer[layout='row' layout-align='center center']
+    md-button[flex='33' style='margin: 0; padding: 30px;' ng-click="goto('moat-3-rib-neck')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] < PREVIOUS STEP
+    md-button[flex='33' style='margin: 0; padding: 30px; background-color: black; color: white;' ng-click="goto('home')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] START PROJECT
+    md-button[flex='33' style='margin: 0; padding: 30px;' ng-click="goto('moat-5-taping')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] NEXT STEP >
