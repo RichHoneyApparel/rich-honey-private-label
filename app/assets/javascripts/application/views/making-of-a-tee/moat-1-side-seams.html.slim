@@ -13,12 +13,18 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
     div[style='position: relative;' flex='100']
       img[ng-src='assets/moat-1-side-seams.png' width='100%' style='position: relative; width: 100%;']
       p.side-seam-text
-        | SEWING THE SIDE SEAMS
+        | SIDE SEAMS
+      p.side-seam-description
+        | The side seam begins from under the arms and continues all the way to the bottom of the tee.
+          This is sewn with an overlock machine that uses #9 ballpoint needles.
 
       p.inside-care-label-text
         | INSIDE CARE LABEL
+      p.inside-care-label-description
+        | Care labels are carefully sewn on the inside along with the side seam.
 
-
-  .footer[layout='row']
-    md-button[flex='100' layout-align='center center' style='margin: 0; padding: 30px;' ng-click="goto('moat-2-shoulders')" aria-label='nextStep']
-      p.md-display-2[style='font-weight: bold;'] NEXT STEP >
+  .footer[layout='row' layout-align='end center']
+    md-button[flex='33' flex-offset='33' style='margin: 0; padding: 30px; background-color: black; color: white;' ng-click="goto('home')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] START PROJECT
+    md-button[flex='33' layout-align='center center' style='margin: 0; padding: 30px;' ng-click="goto('moat-2-shoulders')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] NEXT STEP >

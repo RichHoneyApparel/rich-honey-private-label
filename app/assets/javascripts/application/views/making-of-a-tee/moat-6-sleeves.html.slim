@@ -13,8 +13,16 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
     div[style='position: relative; width: 100%;']
       img[ng-src='assets/moat-6-sleeves.png' flex='100' style='width: 100%;']
       p.sleeves-text
-        | MAKING OF THE SLEEVES
+        | SLEEVES
+      p.sleeves-description
+        | The sleeve is sewn together with an overlock tacking machine.
+          Each sleeve is then attached to the body of the tee using
+          the overlock machine
 
-  .footer[layout='row']
-    md-button[flex='100' layout-align='center center' style='margin: 0; padding: 30px;' ng-click="goto('moat-7-hems')" aria-label='nextStep']
-      p.md-display-2[style='font-weight: bold;'] NEXT >
+  .footer[layout='row' layout-align='center center']
+    md-button[flex='33' style='margin: 0; padding: 30px;' ng-click="goto('moat-5-taping')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] < PREVIOUS STEP
+    md-button[flex='33' style='margin: 0; padding: 30px; background-color: black; color: white;' ng-click="goto('home')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] START PROJECT
+    md-button[flex='33' style='margin: 0; padding: 30px;' ng-click="goto('moat-7-hems')" aria-label='nextStep']
+      p.md-title[style='font-weight: bold;'] NEXT STEP >
