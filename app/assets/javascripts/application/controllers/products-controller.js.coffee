@@ -1,11 +1,13 @@
 angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
-  '$scope', 'fakeProducts', '$stateParams', '$mdDialog',
-  ($scope, fakeProducts, $stateParams, $mdDialog) ->
+  '$scope', 'fakeProducts', '$stateParams', '$mdDialog', '$location',
+  ($scope, fakeProducts, $stateParams, $mdDialog, $location) ->
     $scope.product = 'bruh'
     $scope.fabrics = ['100% Cotton', '100% Slub Cotton',
       'Triblend: 50% polyester, 37.5% cotton, 12.5% rayon']
     $scope.washes = ['Softener & Enzyme', 'Silicone', 'Hot Wash']
     $scope.dyes = ['Reactive', 'Pigment', 'Oil']
+
+    $scope.url = encodeURIComponent $location.absUrl()
 
     $scope.openDialog = ->
       $mdDialog.show({
