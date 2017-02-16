@@ -3,42 +3,19 @@
   .categories-activewear-header[layout='row' layout-align='start center']
     .header-text[flex='33' flex-md='45' flex-sm='50' flex-xs='65']
       h1.md-display-1
-        span ACTIV
-        | EWEAR
-      p Durable fabric with a soft feel. Rich Honey Activewear redefines
+        span ACTIVE
+      p Durable fabric with a soft feel. Rich Honey Active redefines
         endurance and comfort for your brand's athletic wear.
   .categories-activewear-body[layout='column']
     .mens-section[layout='column' style='padding: 20px;']
       p.md-headline[flex='33' style='margin: 10px 0 !important; font-weight: bold;'] MEN'S
-      .item-container[layout='row' layout-align='space-around center']
-        .first-row[flex='50' layout='row' layout-xs='column' layout-sm='column']
-          .item[flex='50' flex-xs='100' flex-sm='100' style='text-align: center;']
-            img[ng-src='assets/backpack-sample.PNG' flex='100']
-            span.md-headline Crew - Rolled
-          .item[flex='50' flex-xs='100' flex-sm='100' style='text-align: center;']
-            img[ng-src='assets/backpack-sample.PNG' flex='100']
-            span.md-headline Scoop Tee
-        .second-row[flex='50' layout='row' layout-xs='column' layout-sm='column']
-          .item[flex='50' flex-xs='100' flex-sm='100' style='text-align: center;']
-            img[ng-src='assets/backpack-sample.PNG' flex='100']
-            span.md-headline Muscle Tank
-          .item[flex='50' flex-xs='100' flex-sm='100' style='text-align: center;']
-            img[ng-src='assets/backpack-sample.PNG' flex='100']
-            span.md-headline Stringer
+      .item-container[layout='row' layout-wrap]
+        .product-container[ng-repeat='m in activeMen' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(m.id)']
+          img[ng-src='{{ m.product_img.url }}' width='100%']
+          span {{ m.name }}
     .womens-section[layout='column' style='padding: 20px;']
       p.md-headline[flex='33' style='margin: 10px 0 !important; font-weight: bold;'] WOMEN'S
-      .item-container[layout='row' layout-align='space-around center']
-        .first-row[flex='50' layout='row' layout-xs='column' layout-sm='column']
-          .item[flex='50' flex-xs='100' flex-sm='100' style='text-align: center;']
-            img[ng-src='assets/backpack-sample.PNG' flex='100']
-            span.md-headline Crew - Rolled
-          .item[flex='50' flex-xs='100' flex-sm='100' style='text-align: center;']
-            img[ng-src='assets/backpack-sample.PNG' flex='100']
-            span.md-headline Scoop Tee
-        .second-row[flex='50' layout='row' layout-xs='column' layout-sm='column']
-          .item[flex='50' flex-xs='100' flex-sm='100' style='text-align: center;']
-            img[ng-src='assets/backpack-sample.PNG' flex='100']
-            span.md-headline Muscle Tank
-          .item[flex='50' flex-xs='100' flex-sm='100' style='text-align: center;']
-            img[ng-src='assets/backpack-sample.PNG' flex='100']
-            span.md-headline Stringer
+      .item-container[layout='row' layout-wrap]
+        .product-container[ng-repeat='w in activeWomen' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(w.id)']
+          img[ng-src='{{ w.product_img.url }}' width='100%']
+          span {{ w.name }}

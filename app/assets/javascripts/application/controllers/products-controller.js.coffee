@@ -34,11 +34,9 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
             $scope.product.product_properties.wash + " (shown)"
 
     getProduct = ->
-      fakeProducts.mens.concat(fakeProducts.womens,
-          fakeProducts.activewear, fakeProducts.accessories)
-            .forEach (product) ->
-              if product.id == Number($stateParams.id)
-                $scope.product = product
+      fakeProducts.forEach (product) ->
+          if product.id == Number($stateParams.id)
+            $scope.product = product
 
       formatProperties()
     getProduct()

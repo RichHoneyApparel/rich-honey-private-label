@@ -1,21 +1,21 @@
 md-nav-bar.services-nav-bar[aria-label='servicesNav' layout='row' layout-align='center space-around' hide-xs show-gt-xs]
-  md-nav-item[name='cutting' value='cutting' md-nav-click='goto("categories_men")' layout-wrap flex='20' layout-fill]
+  md-nav-item[name='cutting' value='cutting' md-nav-click='goto("categories_men")' layout-wrap flex='25' layout-fill]
     .logo-container[layout='column']
       img[ng-src='assets/categories-mens.png']
       span[style='font-size: 8px;'] Men's
-  md-nav-item[name='markingAndGrading' value='markingAndGrading' md-nav-click='goto("categories_women")' layout-wrap flex='20' layout-fill]
+  md-nav-item[name='markingAndGrading' value='markingAndGrading' md-nav-click='goto("categories_women")' layout-wrap flex='25' layout-fill]
     .logo-container[layout='column']
       img[ng-src='assets/categories-womens.png']
       span[style='font-size: 8px;'] Women's
-  md-nav-item[name='patterning' value='patterning' md-nav-click='goto("categories_accessories")' layout-wrap flex='20' layout-fill]
+  md-nav-item[name='patterning' value='patterning' md-nav-click='goto("categories_accessories")' layout-wrap flex='25' layout-fill]
     .logo-container[layout='column']
       img[ng-src='assets/categories-accessories.png']
       span[style='font-size: 8px;'] Accessories
-  md-nav-item[name='production' value='production' md-nav-click='goto("categories_activewear")' layout-wrap flex='20' layout-fill]
+  md-nav-item[name='production' value='production' md-nav-click='goto("categories_activewear")' layout-wrap flex='25' layout-fill]
     .logo-container[layout='column']
       img[ng-src='assets/categories-active.png']
       span[style='font-size: 8px;'] Activewear
-  md-nav-item[name='honeyStudio' value='honeyStudio' md-nav-click='goto("home")' layout-wrap flex='20' layout-fill]
+  /md-nav-item[name='honeyStudio' value='honeyStudio' md-nav-click='goto("home")' layout-wrap flex='20' layout-fill]
     .logo-container[layout='column']
       img[ng-src='assets/categories-custom.png']
       span[style='font-size: 8px;'] Custom
@@ -43,8 +43,3 @@ md-menu[show-xs hide-gt-xs md-offset='0 50']
         .logo-container[layout='row']
           img[ng-src='assets/categories-active.png']
           p.link-name[flex] Activewear
-    md-menu-item
-      md-button[ng-click='goto("home")' aria-label='services nav']
-        .logo-container[layout='row']
-          img[ng-src='assets/categories-custom.png']
-          p.link-name[flex] Custom

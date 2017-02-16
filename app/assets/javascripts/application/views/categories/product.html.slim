@@ -1,5 +1,5 @@
 .product-container[layout='row' layout-wrap layout-sm='column' layout-xs='column']
-  .product-image[flex='35' flex-sm='100' flex-xs='100' flex-offset='15' style='padding: 30px;']
+  .product-image[flex='35' flex-sm='100' layout-align-sm='center center' flex-xs='100' flex-offset='15' style='padding: 30px;']
     img[ng-src="{{ product.product_img.url }}" flex='100' ng-click='openDialog()']
   .product-info[flex='45' flex-offset='5' flex-sm='100' flex-xs='100' style='padding: 30px;']
     .md-headline[style='background-color: black; color: white; text-align: center;'] {{ product.name | uppercase }}
