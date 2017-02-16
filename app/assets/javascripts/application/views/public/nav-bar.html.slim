@@ -19,10 +19,10 @@ md-nav-bar.nav[aria-label='main page nav' layout='row' layout-align='space-aroun
         span[flex='95'] Categories
         i.fa.fa-lg.fa-caret-down[flex='5']
     md-menu-content[width="3"]
-      /md-menu-item
-        /md-button[ui-sref='/categories/mens'] Men's
-      /md-menu-item
-        /md-button[ui-sref='/categories/womens'] Women's
+      md-menu-item
+        md-button[ui-sref='categories_men'] Men
+      md-menu-item
+        md-button[ui-sref='categories_women'] Women
       md-menu-item
         md-button[ng-click='goToCategories("accessories")'] Accessories
       md-menu-item
