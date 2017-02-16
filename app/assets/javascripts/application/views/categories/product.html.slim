@@ -1,0 +1,29 @@
+.product-container[layout='row' layout-wrap]
+  .product-image[flex='25' flex-offset='15' style='padding: 30px;']
+    img[ng-src="{{ product.product_img.url }}" flex='100' ng-click='openDialog()']
+  .product-info[flex='45' flex-offset='5' style='padding: 30px;']
+    .md-headline[style='background-color: black; color: white; text-align: center;'] {{ product.name | uppercase }}
+    .md-title[style='padding: 30px 0;'] STYLE #: {{ product.style_num }}
+    .md-subhead Choose any Pantone TPX color
+    .md-subhead[style='padding-bottom: 15px;'] 96 Unit Minimum Quantity (S-16, M-32, L-32, XL-16)
+    .fabric-container[style='padding-bottom: 15px;']
+      .md-subhead AVAILABLE FABRICS
+      ul
+        li[ng-repeat='f in fabrics'] {{ f }}
+    .other-properties[layout='row' style='padding-bottom: 15px;']
+      .dye-container[flex='50']
+        .md-subhead AVAILABLE DYES
+        ul
+          li[ng-repeat='d in dyes'] {{ d }}
+
+      .wash-container[flex='50']
+        .md-subhead AVAILABLE WASHES
+        ul
+          li[ng-repeat='w in washes'] {{ w }}
+
+    .details[style='padding-bottom: 40px;']
+      | DETAILS
+      p {{ product.product_properties.details.model }}
+      p {{ product.product_properties.details.shirt }}
+      p {{ product.product_properties.details.made_in_la }}
+    .share[style='border-top: 1px solid black;']

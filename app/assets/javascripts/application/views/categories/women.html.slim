@@ -1,0 +1,14 @@
+.header[ng-include src="'application/views/categories/shared/categories-nav.html'" ng-controller='CategoriesNavController']
+.categories-activewear-container
+  .categories-activewear-header[layout='row' layout-align='start center']
+    .header-text[flex='33' flex-md='45' flex-sm='50' flex-xs='65']
+      h1.md-display-1
+        span WOMEN'S
+        |  APPAREL
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  .categories-activewear-body[layout='column']
+    .mens-section[layout='column' style='padding: 20px;']
+      .item-container[layout='row' layout-wrap]
+        .product-container[ng-repeat='m in product' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(m.id)']
+          img[ng-src='{{ m.product_img.url }}' width='100%']
+          span {{ m.name }}
