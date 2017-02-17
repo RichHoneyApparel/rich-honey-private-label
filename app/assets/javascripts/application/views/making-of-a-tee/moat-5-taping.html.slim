@@ -1,12 +1,12 @@
 header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'" ng-controller='MakingOfATeeNavController']
 .side-seams-container[layout='column' ng-controller='ServicesLeatherController']
   .video-container[layout='row']
-    .video-title[flex='40']
+    .video-title[flex='40' flex-xs='50']
       p.md-headline
         | MAKING OF A TEE:
       p.md-subhead
         | TAPING
-    .video[flex='60']
+    .video[flex='60' flex-xs='50']
       iframe[src="https://player.vimeo.com/video/194124370" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style='margin-bottom: -5px;']
 
   .image-container[layout='row' layout-align='center center']
@@ -18,10 +18,10 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
         | Taping gives the support needed for a high quality tee.
           It is added the back to add structure and show a nice
           finish to the shirt.
-  .footer[layout='row' layout-align='center center']
-    md-button[flex='33' style='margin: 0; padding: 30px;' ng-click="goto('moat-4-one-sixteen')" aria-label='nextStep']
-      p.md-title[style='font-weight: bold;'] < PREVIOUS STEP
-    md-button[flex='33' style='margin: 0; padding: 30px; background-color: black; color: white;' ng-click="goto('home')" aria-label='nextStep']
-      p.md-title[style='font-weight: bold;'] START PROJECT
-    md-button[flex='33' style='margin: 0; padding: 30px;' ng-click="goto('moat-6-sleeves')" aria-label='nextStep']
-      p.md-title[style='font-weight: bold;'] NEXT STEP >
+  .moat-footer[layout='row' layout-align='center center']
+    md-button.step[flex='33' ng-click="goto('moat-4-one-sixteen')" aria-label='nextStep']
+      p.md-title < PREVIOUS STEP
+    md-button.start-project[flex='33' ng-click="goto('home')" aria-label='nextStep']
+      p.md-title START PROJECT
+    md-button.step[flex='33' ng-click="goto('moat-6-sleeves')" aria-label='nextStep']
+      p.md-title NEXT STEP >

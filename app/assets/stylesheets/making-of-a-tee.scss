@@ -14,6 +14,28 @@
   }
 }
 
+.moat-footer {
+  .start-project {
+    background-color: $black;
+    color: $white;
+    margin: 0;
+    padding: 30px;
+
+    .md-title {
+      font-weight: bold;
+    }
+  }
+
+  .step {
+    margin: 0;
+    padding: 30px;
+
+    .md-title {
+      font-weight: bold;
+    }
+  }
+}
+
 %moat-image-text-right {
   border-bottom: 2px dashed $white;
   color: $white;
@@ -331,6 +353,16 @@
 }
 
 @media screen and (max-width: 802px){
+  .video-title {
+    .md-headline {
+      font-size: 2.5vw;
+    }
+
+    .md-subhead {
+      font-size: 2vw;
+    }
+  }
+
   .sleeve-hem-text  {
     padding-left: 26%;
     top: 46%;
@@ -427,6 +459,15 @@
   .shoulders-description {
     padding: 0 0 0 35%;
     top: 44%;
+  }
+
+  .moat-footer {
+    .start-project,
+    .step {
+      .md-title {
+        font-size: 2.5vw;
+      }
+    }
   }
 }
 
