@@ -1,9 +1,9 @@
 header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
 .apparel-honey-studio-container[layout='column']
-  .apparel-honey-studio-header[layout='row' layout-align='center bottom']
+  .apparel-honey-studio-header[layout='row' layout-align='center end']
     .md-display-1 HONEY STUDIO
-  .apparel-honey-studio-body[layout='row' layout-xs='column' layout-align-xs='center center' layout-align='space-between start']
-    .apparel-honey-studio-text[flex='70' layout='column' layout-align='space-around start' flex-sm='60' flex-xs='100']
+  .apparel-honey-studio-body[layout='row' layout-xs='column' layout-sm='column' layout-align='space-between start']
+    .apparel-honey-studio-text[flex='70' flex-xs='100' flex-sm='100']
       p
         | Rich Honey has an in-house photo studio available for rent at our
           headquarters in Los Angeles. This studio is great for shooting brand
@@ -29,8 +29,8 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
         tr
           td Photo umbrella - 44"
 
-    .apparel-honey-studio-table[flex='25' flex-sm='35' flex-xs='100']
-      .honey-studio-details[layout='column' layout-align='center center']
+    .apparel-honey-studio-table[flex='25' flex-xs='100' flex-sm='100']
+      .honey-studio-details
         table.honey-studio-table.location
           tr.table-header
             th[colspan='1'] Location:
