@@ -28,7 +28,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/mens-1.jpg"
+        url: "assets/RichHoney-Mens-Basic-Crew-Cotton-Reactive.jpg"
         alt: "Men's Basic Crew."
         featured: true
       }
@@ -50,7 +50,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/mens-2.jpg"
+        url: "assets/RichHoney-Mens-Basic-Crew-Cotton-Pigment.jpg"
         alt: "Men's Basic Crew."
         featured: true
       }
@@ -72,7 +72,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/mens-3.jpg"
+        url: "assets/RichHoney-Mens-Basic-Crew-Cotton-Oil.jpg"
         alt: "Men's Basic Crew."
         featured: true
       }
@@ -94,7 +94,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/mens-4.jpg"
+        url: "assets/RichHoney-Mens-Basic-Crew-Slub-Cotton-Reactive.jpg"
         alt: "Men's Basic Crew."
         featured: true
       }
@@ -116,7 +116,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/mens-5.jpg"
+        url: "assets/RichHoney-Mens-Basic-Crew-Slub-Cotton-Pigment.jpg"
         alt: "Men's Basic Crew."
         featured: true
       }
@@ -138,7 +138,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/mens-6.jpg"
+        url: "assets/RichHoney-Mens-Basic-Crew-Slub-Cotton-Oil.jpg"
         alt: "Men's Basic Crew."
         featured: true
       }
@@ -160,7 +160,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/mens-7.jpg"
+        url: "assets/RichHoney-Mens-Pocket-Crew-Cotton-Reactive.jpg"
         alt: "Men's Pocket Crew."
         featured: true
       }
@@ -182,29 +182,29 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/mens-8.jpg"
+        url: "assets/RichHoney-Mens-Pocket-Crew-Cotton-Pigment.jpg"
         alt: "Men's Pocket Crew."
         featured: true
       }
     }
     {
       id: 9
-      name: "Men's Pocket Crew - Slub Cotton"
-      style_num: "M01-1100"
+      name: "Men's Pocket Crew - Cotton"
+      style_num: "M01-1102"
       product_properties: {
-        fabric: "100% Slub Cotton"
-        dye: "Reactive"
+        fabric: "100% Cotton"
+        dye: "Oil"
         wash: ""
         details: {
           model: "Model is 6'1 and wearing size M"
-          shirt: "Shirt worn is Navy in a Reactive Dye"
+          shirt: "Shirt worn is Navy in a Oil Dye"
           made_in_la: "Made In Los Angeles, USA"
         }
         gender: "men"
         category: "apparel"
       }
       product_img: {
-        url: "assets/mens-9.jpg"
+        url: "assets/RichHoney-Mens-Pocket-Crew-Cotton-Oil.jpg"
         alt: "Men's Pocket Crew."
         featured: true
       }
@@ -226,7 +226,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/mens-10.jpg"
+        url: "assets/RichHoney-Mens-Pocket-Crew-Slub-Cotton-Reactive.jpg"
         alt: "Men's Pocket Crew."
         featured: true
       }
@@ -248,7 +248,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/mens-11.jpg"
+        url: "assets/RichHoney-Mens-Pocket-Crew-Slub-Cotton-Pigment.jpg"
         alt: "Men's Pocket Crew."
         featured: true
       }
@@ -270,7 +270,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/mens-12.jpg"
+        url: "assets/RichHoney-Mens-Pocket-Crew-Slub-Cotton-Oil.jpg"
         alt: "Men's Pocket Crew."
         featured: true
       }
@@ -292,7 +292,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-13.jpg"
+        url: "assets/RichHoney-Womens-Basic-Crew-Cotton-Reactive.jpg"
         alt: "Women's basic crew"
         featured: true
       }
@@ -314,7 +314,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-14.jpg"
+        url: "assets/RichHoney-Womens-Basic-Crew-Cotton-Pigment.jpg"
         alt: "Women's basic crew"
         featured: true
       }
@@ -336,7 +336,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-15.jpg"
+        url: "assets/RichHoney-Womens-Basic-Crew-Cotton-Oil.jpg"
         alt: "Women's basic crew"
         featured: true
       }
@@ -358,7 +358,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-16.jpg"
+        url: "assets/RichHoney-Womens-Basic-Crew-Slub-Cotton-Reactive.jpg"
         alt: "Women's basic crew"
         featured: true
       }
@@ -380,7 +380,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-17.jpg"
+        url: "assets/RichHoney-Womens-Basic-Crew-Slub-Cotton-Pigment.jpg"
         alt: "Women's basic crew"
         featured: true
       }
@@ -402,7 +402,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-18.jpg"
+        url: "assets/RichHoney-Womens-Basic-Crew-Slub-Cotton-Oil.jpg"
         alt: "Women's basic crew"
         featured: true
       }
@@ -424,7 +424,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-19.jpg"
+        url: "assets/RichHoney-Womens-Basic-Crew-Triblend.jpg"
         alt: "Women's basic crew"
         featured: true
       }
@@ -446,7 +446,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-20.jpg"
+        url: "assets/RichHoney-Womens-Pocket-Crew-Cotton-Reactive.jpg"
         alt: "Women's Pocket crew"
         featured: true
       }
@@ -468,8 +468,8 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-21.jpg"
-        alt: "Women's Pockte crew"
+        url: "assets/RichHoney-Womens-Pocket-Crew-Cotton-Pigment.jpg"
+        alt: "Women's Pocket crew"
         featured: true
       }
     }
@@ -490,7 +490,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-22.jpg"
+        url: "assets/RichHoney-Womens-Pocket-Crew-Cotton-Oil.jpg"
         alt: "Women's Pocket crew"
         featured: true
       }
@@ -512,7 +512,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-23.jpg"
+        url: "assets/RichHoney-Womens-Pocket-Crew-Slub-Cotton-Reactive.jpg"
         alt: "Women's Pocket crew"
         featured: true
       }
@@ -534,7 +534,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-24.jpg"
+        url: "assets/RichHoney-Womens-Pocket-Crew-Slub-Cotton-Pigment.jpg"
         alt: "Women's Pocket crew"
         featured: true
       }
@@ -556,7 +556,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-25.jpg"
+        url: "assets/RichHoney-Womens-Pocket-Crew-Slub-Cotton-Oil.jpg"
         alt: "Women's Pocket crew"
         featured: true
       }
@@ -578,7 +578,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-26.jpg"
+        url: "assets/RichHoney-Womens-Pocket-Crew-Triblend.jpg"
         alt: "Women's Pocket crew"
         featured: true
       }
@@ -593,14 +593,14 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         wash: ""
         details: {
           model: "Model is 5'7 and wearing size S"
-          shirt: "Shirt worn is Navy in a Ractive Dye"
+          shirt: "Shirt worn is Navy in a Reactive Dye"
           made_in_la: "Made In Los Angeles, USA"
         }
         gender: "women"
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-27.jpg"
+        url: "assets/RichHoney-Womens-Split-Tank-Cotton-Reactive.jpg"
         alt: "Women's Split Tank crew"
         featured: true
       }
@@ -622,7 +622,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-28.jpg"
+        url: "assets/RichHoney-Womens-Split-Tank-Cotton-Pigment.jpg"
         alt: "Women's Split Tank crew"
         featured: true
       }
@@ -644,7 +644,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-29.jpg"
+        url: "assets/RichHoney-Womens-Split-Tank-Cotton-Oil.jpg"
         alt: "Women's Split Tank crew"
         featured: true
       }
@@ -666,7 +666,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-30.jpg"
+        url: "assets/RichHoney-Womens-Split-Tank-Slub-Cotton-Reactive.jpg"
         alt: "Women's Split Tank crew"
         featured: true
       }
@@ -688,7 +688,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-31.jpg"
+        url: "assets/RichHoney-Womens-Split-Tank-Slub-Cotton-Pigment.jpg"
         alt: "Women's Split Tank crew"
         featured: true
       }
@@ -710,7 +710,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-32.jpg"
+        url: "assets/RichHoney-Womens-Split-Tank-Slub-Cotton-Oil.jpg"
         alt: "Women's Split Tank crew"
         featured: true
       }
@@ -732,7 +732,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-33.jpg"
+        url: "assets/RichHoney-Womens-Split-Tank-Triblend.jpg"
         alt: "Women's Split Tank crew"
         featured: true
       }
@@ -754,7 +754,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-34.jpg"
+        url: "assets/RichHoney-Womens-Muscle-Top-Cotton-Reactive.jpg"
         alt: "Women's Muscle Top"
         featured: true
       }
@@ -776,7 +776,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-35.jpg"
+        url: "assets/RichHoney-Womens-Muscle-Top-Cotton-Pigment.jpg"
         alt: "Women's Muscle Top"
         featured: true
       }
@@ -798,7 +798,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-36.jpg"
+        url: "assets/RichHoney-Womens-Muscle-Top-Cotton-Oil.jpg"
         alt: "Women's Muscle Top"
         featured: true
       }
@@ -820,7 +820,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-37.jpg"
+        url: "assets/RichHoney-Womens-Muscle-Top-Slub-Cotton-Reactive.jpg"
         alt: "Women's Muscle Top"
         featured: true
       }
@@ -842,7 +842,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-38.jpg"
+        url: "assets/RichHoney-Womens-Muscle-Top-Slub-Cotton-Pigment.jpg"
         alt: "Women's Muscle Top"
         featured: true
       }
@@ -864,7 +864,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-39.jpg"
+        url: "assets/RichHoney-Womens-Muscle-Top-Slub-Cotton-Oil.jpg"
         alt: "Women's Muscle Top"
         featured: true
       }
@@ -886,7 +886,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-40.jpg"
+        url: "assets/RichHoney-Womens-Muscle-Top-Triblend.jpg"
         alt: "Women's Muscle Top"
         featured: true
       }
@@ -908,7 +908,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-41.jpg"
+        url: "assets/RichHoney-Womens-Crop-Muscle-Cotton-Reactive.jpg"
         alt: "Women's Crop Muscle"
         featured: true
       }
@@ -930,7 +930,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-42.jpg"
+        url: "assets/RichHoney-Womens-Crop-Muscle-Cotton-Pigment.jpg"
         alt: "Women's Crop Muscle"
         featured: true
       }
@@ -952,7 +952,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-43.jpg"
+        url: "assets/RichHoney-Womens-Crop-Muscle-Cotton-Oil.jpg"
         alt: "Women's Crop Muscle"
         featured: true
       }
@@ -974,7 +974,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-44.jpg"
+        url: "assets/RichHoney-Womens-Crop-Muscle-Slub-Cotton-Reactive.jpg"
         alt: "Women's Crop Muscle"
         featured: true
       }
@@ -996,7 +996,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-45.jpg"
+        url: "assets/RichHoney-Womens-Crop-Muscle-Slub-Cotton-Pigment.jpg"
         alt: "Women's Crop Muscle"
         featured: true
       }
@@ -1018,7 +1018,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-46.jpg"
+        url: "assets/RichHoney-Womens-Crop-Muscle-Slub-Cotton-Oil.jpg"
         alt: "Women's Crop Muscle"
         featured: true
       }
@@ -1040,7 +1040,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
         category: "apparel"
       }
       product_img: {
-        url: "assets/womens-47.jpg"
+        url: "assets/RichHoney-Womens-Crop-Muscle-Triblend.jpg"
         alt: "Women's Crop Muscle"
         featured: true
       }
