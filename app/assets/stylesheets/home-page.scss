@@ -36,3 +36,53 @@
     }
   }
 }
+
+@media screen and (max-width: 1124px){
+  .home-page-container {
+    .home-page-header {
+      .md-display-1 {
+        padding: 0 25% 2%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 899px){
+  .home-page-container {
+    .home-page-header {
+      .md-display-1 {
+        padding: 0 20% 2%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 748px){
+  .home-page-container {
+    .home-page-header {
+      .md-display-1 {
+        padding: 0 15% 2%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 642px){
+  .home-page-container {
+    .home-page-header {
+      .md-display-1 {
+        padding: 0 10% 2%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 563px){
+  .home-page-container {
+    .home-page-header {
+      .md-display-1 {
+        padding: 0;
+      }
+    }
+  }
+}
