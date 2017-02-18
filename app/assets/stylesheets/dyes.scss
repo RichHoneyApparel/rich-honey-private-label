@@ -1,0 +1,19 @@
+.dye-body {
+  padding: 40px;
+}
+
+.reactive-dye-content,
+.reactive-dye-content,
+.pigment-dye-content,
+.oil-dye-content {
+  padding: 20px;
+
+  .md-title {
+    padding-bottom: 15px;
+
+    span {
+      font-weight: bold;
+      padding-bottom: 15px;
+    }
+  }
+}
