@@ -20,6 +20,15 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/how-it-works'
         templateUrl: 'application/views/other/how-it-works.html'
 
+      # Resources
+      .state 'resource_fabrics',
+        url: '/resource/fabrics'
+        templateUrl: 'application/views/resources/fabrics.html'
+
+      .state 'resource_dyes',
+        url: '/resource/dyes'
+        templateUrl: 'application/views/resources/dyes.html'
+
       # Categories
       .state 'categories_accessories',
         url: '/categories/accessories'

@@ -1,0 +1,16 @@
+.services-nav-bar[aria-label='servicesNav' layout='row' layout-wrap layout-align='center space-around' style='padding-top: 50px;']
+  md-button[name='cutting' value='cutting' ng-click='goto("resource_fabrics")' flex='20' flex-xs='33' layout-fill]
+    .logo-container[layout='column' layout-align='center center']
+      img[ng-src='assets/fabric.PNG' ng-if="!path.includes('fabrics')"]
+      img[ng-src='assets/fabric-active.PNG' ng-if="path.includes('fabrics')"]
+      p.link-name Fabrics
+  md-button[name='markingAndGrading' value='markingAndGrading' ng-click='goto("resource_dyes")' flex='20' flex-xs='33' layout-fill]
+    .logo-container[layout='column' layout-align='center center']
+      img[ng-src='assets/drop.PNG' ng-if="!path.includes('dyes')"]
+      img[ng-src='assets/drop-active.PNG' ng-if="path.includes('dyes')"]
+      p.link-name Dyes
+  md-button[name='patterning' value='patterning' ng-click='goto("resource_washes")' flex='20' flex-xs='33' layout-fill]
+    .logo-container[layout='column' layout-align='center center']
+      img[ng-src='assets/washing-machine.PNG' ng-if="!path.includes('washes')"]
+      img[ng-src='assets/washing-machine-active.PNG' ng-if="path.includes('washes')"]
+      p.link-name Washes
