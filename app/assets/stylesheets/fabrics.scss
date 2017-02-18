@@ -1,3 +1,17 @@
+.content {
+  padding: 20px 0;
+}
+
+.text-description {
+  .md-headline {
+    padding-bottom: 15px;
+
+    span {
+      font-weight: bold;
+    }
+  }
+}
+
 .img-title {
   background-color: $black;
   color: $white;

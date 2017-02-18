@@ -1,0 +1,21 @@
+.wash-body {
+  padding: 40px;
+}
+
+.softener-enzyme-content,
+.silicone-content,
+.hot-wash-content,
+.power-wash-content {
+  padding: 20px;
+
+  .softener-enzyme-text {
+    .md-title {
+      padding-bottom: 15px;
+
+      p {
+        font-weight: bold;
+        padding-bottom: 15px;
+      }
+    }
+  }
+}

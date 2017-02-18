@@ -2,7 +2,19 @@
   background-color: $black;
   color: $white;
   font-weight: bold;
-  padding-left: 20px;
+  padding: 0 20px;
+}
+
+.left-text {
+  font-style: italic;
+  text-align: right;
+
+  .title {
+    color: $white;
+    text-decoration: underline;
+  }
 }
 
 @import 'fabrics';
+@import 'washes';
+@import 'dyes';
