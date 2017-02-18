@@ -29,6 +29,10 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/resource/dyes'
         templateUrl: 'application/views/resources/dyes.html'
 
+      .state 'resource_washes',
+        url: '/resource/washes'
+        templateUrl: 'application/views/resources/washes.html'
+
       # Categories
       .state 'categories_accessories',
         url: '/categories/accessories'
