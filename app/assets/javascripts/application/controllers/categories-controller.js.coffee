@@ -6,24 +6,26 @@ angular.module('richHoneyPrivateLabel').controller 'CategoriesController', [
 
     getWomens = ->
       fakeProducts.filter (product) ->
-        if product.product_properties.gender == 'women' &&
-          product.product_properties.category == 'apparel' ||
-          product.product_properties.category == 'active'
+        if (product.product_properties.gender is 'women' and
+          product.product_properties.category == 'apparel') or
+          (product.product_properties.gender is 'women' and
+          product.product_properties.category == 'activewear')
             $scope.product.push(product)
 
     getMens = ->
       fakeProducts.forEach (product) ->
-        if product.product_properties.gender == 'men' &&
-          product.product_properties.category == 'apparel' ||
-          product.product_properties.category == 'active'
+        if (product.product_properties.gender is 'men' and
+          product.product_properties.category == 'apparel') or
+          (product.product_properties.gender is 'men' and
+          product.product_properties.category == 'activewear')
             $scope.product.push(product)
 
     getActive = ->
       fakeProducts.forEach (product) ->
-        if product.product_properties.category == 'active' &&
+        if product.product_properties.category == 'activewear' and
             product.product_properties.gender == 'men'
               $scope.activeMen.push(product)
-        else if product.product_properties.category == 'active' &&
+        else if product.product_properties.category == 'activewear' and
             product.product_properties.gender == 'women'
               $scope.activeWomen.push(product)
 

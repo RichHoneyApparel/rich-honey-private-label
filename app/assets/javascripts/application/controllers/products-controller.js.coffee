@@ -2,6 +2,7 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
   '$scope', 'fakeProducts', '$stateParams', '$mdDialog', '$location',
   ($scope, fakeProducts, $stateParams, $mdDialog, $location) ->
     $scope.product = 'bruh'
+    $scope.currentProductImg = ''
     $scope.fabrics = ['100% Cotton', '100% Slub Cotton',
       'Triblend: 50% polyester, 37.5% cotton, 12.5% rayon']
     $scope.washes = ['Softener & Enzyme', 'Silicone', 'Hot Wash']
@@ -11,10 +12,10 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
 
     $scope.openDialog = ->
       $mdDialog.show({
-        locals: {product: $scope.product}
+        locals: {productImg: $scope.currentProductImg}
         clickOutsideToClose: true
         templateUrl: 'application/views/categories/shared/_product.html'
-        controller: ($scope, product) -> $scope.product = product
+        controller: ($scope, productImg) -> $scope.productImg = productImg
         })
 
     formatProperties = ->
@@ -37,8 +38,12 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
       fakeProducts.forEach (product) ->
           if product.id == Number($stateParams.id)
             $scope.product = product
+            $scope.currentProductImg = $scope.product.product_img[0].url
 
       formatProperties()
     getProduct()
+
+    $scope.updateProductImg = (url) ->
+      $scope.currentProductImg = url
 
 ]
