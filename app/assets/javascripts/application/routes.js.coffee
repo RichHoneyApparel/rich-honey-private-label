@@ -35,6 +35,10 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/careers'
         templateUrl: 'application/views/other/careers.html'
 
+      .state 'careers_sales-executive',
+        url: '/careers/sales-executive'
+        templateUrl: 'application/views/other/careers/sales-executive.html'
+
       # Privacy Policy
       .state 'privacy_policy',
         url: '/privacy-policy'
