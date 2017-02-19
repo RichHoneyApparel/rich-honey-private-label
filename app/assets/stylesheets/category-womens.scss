@@ -11,7 +11,8 @@
       margin-bottom: 15px !important;
 
       span {
-        text-decoration: underline
+        border-bottom: 3px solid $black;
+        padding-bottom: 5px;
       }
 
     }
