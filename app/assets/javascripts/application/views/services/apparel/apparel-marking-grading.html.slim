@@ -1,5 +1,5 @@
 header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
-.apparel-marking-grading-container[layout='column']
+.apparel-marking-grading-container[layout='column' ng-controller='ServicesController']
   .apparel-marking-grading-header[layout='row' layout-align='center end']
     .md-display-1 MARKING, GRADING & DIGITIZNG
   .apparel-marking-grading-body
@@ -17,4 +17,4 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
             based on your desired specs.
 
     .start-a-project[layout='row' layout-align='center center']
-      md-button.md-raised[aria-label='start a project'] START A PROJECT
+      md-button.md-raised[aria-label='start a project' ng-click='openDialog()'] START A PROJECT

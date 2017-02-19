@@ -1,5 +1,5 @@
 header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
-.apparel-production-container[layout='column']
+.apparel-production-container[layout='column' ng-controller='ServicesController']
   .apparel-production-header[layout='row' layout-align='center end']
     .md-display-1 PRODUCTION
   .apparel-production-body[layout='row' layout-xs='column' layout-sm='column' layout-align='space-between center']
@@ -50,4 +50,4 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
             td &nbsp;
 
       .production-contact-us
-        md-button[aria-label='CONTACT US'] CONTACT US
+        md-button[aria-label='CONTACT US' ng-click='openDialog()'] CONTACT US

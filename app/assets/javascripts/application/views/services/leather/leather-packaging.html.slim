@@ -1,5 +1,5 @@
 header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
-.services-layout-contianer[layout='column']
+.services-layout-contianer[layout='column' ng-controller='ServicesController']
   .services-header[layout='row' layout-align='center end']
     .md-display-1 PACKAGING
   .services-body
@@ -11,4 +11,4 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
             bags or poly bags so your products are maintained and undamaged.
 
     .start-a-project[layout='row' layout-align='center center']
-      md-button.md-raised[aria-label='start a project'] START A PROJECT
+      md-button.md-raised[aria-label='start a project' ng-click='openDialog()'] START A PROJECT

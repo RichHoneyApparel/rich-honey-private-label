@@ -1,5 +1,5 @@
 header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']]
-.apparel-cutting-container[layout='column']
+.apparel-cutting-container[layout='column' ng-controller='ServicesController']
   .apparel-cutting-header[layout='row' layout-align='center end']
     .md-display-1 CUTTING
   .apparel-cutting-body
@@ -69,4 +69,4 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
           td Sweaters
           td &nbsp;
     .contact-us[layout='row' layout-align='center center']
-      md-button.md-raised[aria-label='contact us'] CONTACT US
+      md-button.md-raised[aria-label='contact us' ng-click='openDialog()'] CONTACT US

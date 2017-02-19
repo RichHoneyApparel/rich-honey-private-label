@@ -1,5 +1,5 @@
 header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
-.services-layout-contianer[layout='column']
+.services-layout-contianer[layout='column' ng-controller='ServicesController']
   .services-header.design-development-header[layout='row' layout-align='center end']
     .md-display-1 DESIGN & DEVELOPMENT
   .services-body
@@ -12,4 +12,4 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
             your vision to life.
 
     .start-a-project[layout='row' layout-align='center center']
-      md-button.md-raised[aria-label='start a project'] START A PROJECT
+      md-button.md-raised[aria-label='start a project' ng-click='openDialog()'] START A PROJECT
