@@ -1,13 +1,14 @@
 header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'" ng-controller='MakingOfATeeNavController']
-.side-seams-container[layout='column' ng-controller='ServicesLeatherController']
+.side-seams-container[layout='column' ng-controller='MakingOfATeeController']
   .video-container[layout='row']
-    .video-title[flex='40' flex-xs='50']
+    .video-title[flex='40' flex-xs='50' layout='column' style='padding: 10% 10%']
       p.md-headline
         | MAKING OF A TEE:
       p.md-subhead
         | TAPING
     .video[flex='60' flex-xs='50']
-      iframe[src="https://player.vimeo.com/video/194124370" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style='margin-bottom: -5px;']
+      video[flex='100' controls]
+        source[src='https://player.vimeo.com/external/194124370.hd.mp4?s=a68503e967778bf341783a4d8c606197583b850f&profile_id=119' type='video/mp4']
 
   .image-container[layout='row' layout-align='center center']
     div[style='position: relative; width: 100%;']
@@ -18,10 +19,10 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
         | Taping gives the support needed for a high quality tee.
           It is added the back to add structure and show a nice
           finish to the shirt.
-  .moat-footer[layout='row' layout-align='center center']
-    md-button.step[flex='33' ng-click="goto('moat-4-one-sixteen')" aria-label='nextStep']
+  .moat-footer[layout='row' layout-align='center center' style='padding: 10px;']
+    md-button.step[flex='10' ng-click="goto('moat-4-one-sixteen')" aria-label='nextStep']
       p.md-title < PREVIOUS STEP
-    md-button.start-project[flex='33' ng-click="goto('home')" aria-label='nextStep']
+    md-button.start-project[flex='10' aria-label='startProject' ng-click='openDialog()']
       p.md-title START PROJECT
-    md-button.step[flex='33' ng-click="goto('moat-6-sleeves')" aria-label='nextStep']
+    md-button.step[flex='10' ng-click="goto('moat-6-sleeves')" aria-label='nextStep']
       p.md-title NEXT STEP >
