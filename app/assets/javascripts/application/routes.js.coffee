@@ -20,6 +20,11 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/how-it-works'
         templateUrl: 'application/views/other/how-it-works.html'
 
+      # FAQ
+      .state 'faq',
+        url: '/faq'
+        templateUrl: 'application/views/other/faq.html'
+
       # Contact us
 
       .state 'contact_us',
