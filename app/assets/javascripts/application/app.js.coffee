@@ -144,6 +144,72 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
       }
     }
     {
+      id: 48
+      name: "Men's Basic Crew With Binding - Cotton"
+      style_num: "M01-1101"
+      product_properties: {
+        fabric: "100% Cotton"
+        dye: "Reactive"
+        wash: ""
+        details: {
+          model: "Model is 6'1 and wearing size M"
+          shirt: "Shirt worn is Navy in a Ractive Dye"
+          made_in_la: "Made In Los Angeles, USA"
+        }
+        gender: "men"
+        category: "apparel"
+      }
+      product_img: {
+        url: "assets/RichHoney-Mens-Basic-Crew-Binding-Cotton-Tee-Reactive.png"
+        alt: "Men's Basic Crew."
+        featured: true
+      }
+    }
+    {
+      id: 49
+      name: "Men's Basic Crew With Binding - Cotton"
+      style_num: "M01-1101"
+      product_properties: {
+        fabric: "100% Cotton"
+        dye: "Pigment"
+        wash: ""
+        details: {
+          model: "Model is 6'1 and wearing size M"
+          shirt: "Shirt worn is Navy in a Pigment Dye"
+          made_in_la: "Made In Los Angeles, USA"
+        }
+        gender: "men"
+        category: "apparel"
+      }
+      product_img: {
+        url: "assets/RichHoney-Mens-Basic-Crew-Binding-Cotton-Tee-Pigment.png"
+        alt: "Men's Basic Crew."
+        featured: true
+      }
+    }
+    {
+      id: 50
+      name: "Men's Basic Crew - Slub Cotton"
+      style_num: "M05-1100"
+      product_properties: {
+        fabric: "100% Slub Cotton"
+        dye: "Oil"
+        wash: ""
+        details: {
+          model: "Model is 6'1 and wearing size M"
+          shirt: "Shirt worn is Navy in a Oil Dye"
+          made_in_la: "Made In Los Angeles, USA"
+        }
+        gender: "men"
+        category: "apparel"
+      }
+      product_img: {
+        url: "assets/RichHoney-Mens-Basic-Crew-Binding-Slub-Cotton-Tee-Pigment.png"
+        alt: "Men's Basic Crew."
+        featured: true
+      }
+    }
+    {
       id: 7
       name: "Men's Pocket Crew - Cotton"
       style_num: "M01-1102"
