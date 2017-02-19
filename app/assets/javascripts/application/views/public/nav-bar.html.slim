@@ -27,7 +27,16 @@ md-nav-bar.nav[aria-label='main page nav' layout='row' layout-align='space-aroun
   md-nav-item[md-nav-sref='resource_fabrics' name='Resources' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Resources
   md-nav-item[md-nav-sref='moat-1-side-seams' name='MakingOfATee' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Making of a Tee
   md-nav-item.home-page-link[md-nav-sref='home' name='rich honey' flex='60' flex-xs='90' flex-sm='85' ui-sref-active='active'] RICH HONEY
-  md-nav-item[md-nav-sref='services_main' name='services' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Services
+  md-menu[flex='60' hide-sm hide-xs show-gt-sm md-offset='0 50']
+    md-button[aria-label="open categories menu" ng-click="$mdOpenMenu($event)"]
+      p[layout='row' layout-align='space-around center']
+        span[flex='95'] Services
+        i.fa.fa-lg.fa-caret-down[flex='5']
+    md-menu-content[width="3"]
+      md-menu-item
+        md-button[ui-sref='services_apparel-cutting'] Apparel
+      md-menu-item
+        md-button[ui-sref='services_leather-design'] Leather
   md-nav-item[md-nav-sref='how_it_works' name='howitworks' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] How It Works
   md-nav-item[md-nav-sref='our_story' name='ourStory' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Our Story
 
