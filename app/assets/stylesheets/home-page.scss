@@ -1,12 +1,13 @@
 .home-page-container {
   .home-page-header {
-    background-image: url('homepage-header.png');
+    background-image: url('RHA-Homepage.png');
     background-size: cover;
     color: $white;
-    height: 71vh;
+    padding: 450px 0 150px;
 
     .md-display-1 {
-      margin-top: 5%;
+      padding: 0 30% 2%;
+      text-align: center;
     }
 
     .md-headline {
@@ -31,6 +32,56 @@
 
     md-divider {
       border-right: 2px solid $light-grey;
+    }
+  }
+}
+
+@media screen and (max-width: 1124px){
+  .home-page-container {
+    .home-page-header {
+      .md-display-1 {
+        padding: 0 25% 2%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 899px){
+  .home-page-container {
+    .home-page-header {
+      .md-display-1 {
+        padding: 0 20% 2%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 748px){
+  .home-page-container {
+    .home-page-header {
+      .md-display-1 {
+        padding: 0 15% 2%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 642px){
+  .home-page-container {
+    .home-page-header {
+      .md-display-1 {
+        padding: 0 10% 2%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 563px){
+  .home-page-container {
+    .home-page-header {
+      .md-display-1 {
+        padding: 0;
+      }
     }
   }
 }

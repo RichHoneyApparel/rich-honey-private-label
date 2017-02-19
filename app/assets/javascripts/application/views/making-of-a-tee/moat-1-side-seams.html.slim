@@ -1,24 +1,31 @@
 header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'" ng-controller='MakingOfATeeNavController']
-.side-seams-container[layout='column' ng-controller='ServicesLeatherController']
+.side-seams-container[layout='column' ng-controller='MakingOfATeeController']
   .video-container[layout='row']
-    .video-title[flex='30']
+    .video-title[flex='40' flex-xs='50' layout='column' style='padding: 10% 10%']
       p.md-headline
         | MAKING OF A TEE:
       p.md-subhead
         | SIDE SEAMS
-    .video[flex='70']
-      iframe[src="https://player.vimeo.com/video/194122086" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style='margin-bottom: -5px;']
+    .video[flex='60' flex-xs='50']
+      video[flex='100' controls]
+        source[src='https://player.vimeo.com/external/194122086.hd.mp4?s=c956e8cd1eac7750c9f0f18d99eb8c473614ded8&profile_id=119' type='video/mp4']
 
   .image-container
-    div[style='position: relative;']
-      img[ng-src='assets/moat-1-side-seams.png' width='100%' style='position: relative;']
+    div[style='position: relative;' flex='100']
+      img[ng-src='assets/moat-1-side-seams.png' width='100%' style='position: relative; width: 100%;']
       p.side-seam-text
-        | SEWING THE SIDE SEAMS
+        | SIDE SEAMS
+      p.side-seam-description
+        | The side seam begins from under the arms and continues all the way to the bottom of the tee.
+          This is sewn with an overlock machine that uses #9 ballpoint needles.
 
       p.inside-care-label-text
         | INSIDE CARE LABEL
+      p.inside-care-label-description
+        | Care labels are carefully sewn on the inside along with the side seam.
 
-
-  .footer[layout='row']
-    md-button[flex='100' layout-align='center center' style='margin: 0; padding: 30px;' ng-click="goto('moat-2-shoulders')" aria-label='nextStep']
-      p.md-display-2[style='font-weight: bold;'] NEXT STEP >
+  .moat-footer[layout='row' layout-align='center center' style='padding: 10px;']
+    md-button.start-project[flex='10' aria-label='startProject' ng-click='openDialog()']
+      p.md-title START PROJECT
+    md-button[flex='10' layout-align='center center' ng-click="goto('moat-2-shoulders')" aria-label='nextStep']
+      p.md-title.step NEXT STEP >

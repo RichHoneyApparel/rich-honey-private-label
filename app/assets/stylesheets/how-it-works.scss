@@ -12,7 +12,7 @@
 }
 
 .how-it-works-body {
-  padding: 0 0 30px;
+  padding: 0 15% 30px;
 
   .how-it-works-content {
     .dotted-thing-short {
@@ -32,6 +32,10 @@
 
       .text-container {
         margin-left: 50px;
+
+        .md-title {
+          font-size: 16px;
+        }
       }
     }
   }
@@ -59,21 +63,21 @@
 
 @media screen and (max-width: 1200px){
   .how-it-works-header {
-    padding: 250px 0;
+    padding: 125px 0 300px;
   }
 }
 
 @media screen and (max-width: 960px){
   .how-it-works-header {
     background-position: 0 -450px;
-    padding: 200px 0;
+    padding: 100px 0 250px;
   }
 }
 
 @media screen and (max-width: 700px){
   .how-it-works-header {
     background-position: 0 -200px;
-    padding: 150px 0;
+    padding: 100px 0 200px;
   }
 
   .text-row {
@@ -81,9 +85,10 @@
 
     .text-container {
       margin-left: 25px !important;
+      padding-right: 10px;
 
       .md-title {
-        font-size: 4vw !important;
+        font-size: 3vw !important;
       }
     }
   }
@@ -104,6 +109,6 @@
 @media screen and (max-width: 450px){
   .how-it-works-header {
     background-position: 0 -100px;
-    padding: 150px 0;
+    padding: 75px 0 150px;
   }
 }

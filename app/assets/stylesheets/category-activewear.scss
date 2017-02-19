@@ -1,4 +1,3 @@
-// Trying to rerun github
 .categories-activewear-header {
   background-image: url('active-wear-header.PNG');
   background-size: cover;
@@ -12,7 +11,8 @@
       margin-bottom: 15px !important;
 
       span {
-        text-decoration: underline
+        border-bottom: 3px solid $black;
+        padding-bottom: 5px;
       }
 
     }
@@ -20,19 +20,19 @@
 }
 
 @media screen and (max-width: 1200px){
-  .categories-accessories-header {
+  .categories-activewear-header {
     padding: 200px 0 300px;
   }
 }
 
 @media screen and (max-width: 960px){
-  .categories-accessories-header {
+  .categories-activewear-header {
     padding: 150px 0 250px;
   }
 }
 
 @media screen and (max-width: 600px){
-  .categories-accessories-header {
+  .categories-activewear-header {
     padding: 100px 0 200px;
   }
 }

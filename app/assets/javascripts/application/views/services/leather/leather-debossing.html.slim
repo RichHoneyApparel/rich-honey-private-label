@@ -1,6 +1,6 @@
 header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
-.services-layout-contianer[layout='column']
-  .services-header.debossing-header[flex='90' layout='row' layout-align='center bottom']
+.services-layout-contianer[layout='column' ng-controller='ServicesController']
+  .services-header.debossing-header[layout='row' layout-align='center end']
     .md-display-1 DEBOSSING
   .services-body
     .services-body-text[layout='column' layout-align='center space-between']
@@ -10,4 +10,4 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
             that your brand name is recognized on your products. Options include
             blind debossing or foil debossing in gold, silver, and other colors.
     .start-a-project[layout='row' layout-align='center center']
-      md-button.md-raised[aria-label='start a project'] START A PROJECT
+      md-button.md-raised[aria-label='start a project' ng-click='openDialog()'] START A PROJECT

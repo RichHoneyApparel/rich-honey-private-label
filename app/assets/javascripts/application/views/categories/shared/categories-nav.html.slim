@@ -1,50 +1,25 @@
-md-nav-bar.services-nav-bar[aria-label='servicesNav' layout='row' layout-align='center space-around' hide-xs show-gt-xs]
-  md-nav-item[name='cutting' value='cutting' md-nav-click='goto("home")' layout-wrap flex='20' layout-fill]
+.categories-nav-bar[layout='row' layout-align='center center' layout-align-xs='start center' layout-wrap]
+  md-button[aria-label='categories-button' name='men' value='men' ng-click='goto("categories_men")' flex-xs='20' style='margin: 0;']
     .logo-container[layout='column']
-      img[ng-src='assets/categories-mens.png']
-      span[style='font-size: 8px;'] Mens
-  md-nav-item[name='markingAndGrading' value='markingAndGrading' md-nav-click='goto("home")' layout-wrap flex='20' layout-fill]
+      img[ng-src='assets/categories-mens.png' ng-if="!path.includes('/men')"]
+      img[ng-src='assets/categories-mens-active.png' ng-if="path.includes('/men')"]
+      span[style='font-size: 8px;'] Men's
+  md-button[aria-label='categories-button' name='women' value='women' ng-click='goto("categories_women")' flex-xs='20' style='margin: 0;']
     .logo-container[layout='column']
-      img[ng-src='assets/categories-womens.png']
-      span[style='font-size: 8px;'] Womens
-  md-nav-item[name='patterning' value='patterning' md-nav-click='goto("categories_accessories")' layout-wrap flex='20' layout-fill]
+      img[ng-src='assets/categories-womens.png' ng-if="!path.includes('/women')"]
+      img[ng-src='assets/categories-womens-active.png' ng-if="path.includes('/women')"]
+      span[style='font-size: 8px;'] Women's
+  md-button[aria-label='categories-button' name='accessories' value='accessories' ng-click='goto("categories_accessories")' flex-xs='20' style='margin: 0;']
     .logo-container[layout='column']
-      img[ng-src='assets/categories-accessories.png']
+      img[ng-src='assets/categories-accessories.png' ng-if="!path.includes('accessories')"]
+      img[ng-src='assets/categories-accessories-active.png' ng-if="path.includes('accessories')"]
       span[style='font-size: 8px;'] Accessories
-  md-nav-item[name='production' value='production' md-nav-click='goto("categories_activewear")' layout-wrap flex='20' layout-fill]
+  md-button[aria-label='categories-button' name='activewear' value='activewear' ng-click='goto("categories_activewear")' flex-xs='20' style='margin: 0;']
     .logo-container[layout='column']
-      img[ng-src='assets/categories-active.png']
+      img[ng-src='assets/categories-activewear.png' ng-if="!path.includes('activewear')"]
+      img[ng-src='assets/categories-activewear-active.png' ng-if="path.includes('activewear')"]
       span[style='font-size: 8px;'] Activewear
-  md-nav-item[name='honeyStudio' value='honeyStudio' md-nav-click='goto("home")' layout-wrap flex='20' layout-fill]
+  /md-button[aria-label='categories-button' name='honeyStudio' value='honeyStudio' md-nav-click='goto("home")' flex='20' layout-fill]
     .logo-container[layout='column']
       img[ng-src='assets/categories-custom.png']
       span[style='font-size: 8px;'] Custom
-
-md-menu[show-xs hide-gt-xs md-offset='0 50']
-  md-button[ng-click="$mdOpenMenu($event)" aria-label='menu trigger' style='background-color: black; color: white;'] CATEGORIES
-  md-menu-content[width='6']
-    md-menu-item
-      md-button[ng-click='goto("home")' aria-label='services nav']
-        .logo-container[layout='row']
-          img[ng-src='assets/categories-mens.png']
-          p.link-name[flex] Mens
-    md-menu-item
-      md-button[ng-click='goto("home")' aria-label='services nav']
-        .logo-container[layout='row']
-          img[ng-src='assets/categories-womens.png']
-          p.link-name[flex] Womens
-    md-menu-item
-      md-button[ng-click='goto("categories_accessories")' aria-label='services nav']
-        .logo-container[layout='row']
-          img[ng-src='assets/categories-accessories.png']
-          p.link-name[flex] Accessories
-    md-menu-item
-      md-button[ng-click='goto("categories_activewear")' aria-label='services nav']
-        .logo-container[layout='row']
-          img[ng-src='assets/categories-active.png']
-          p.link-name[flex] Activewear
-    md-menu-item
-      md-button[ng-click='goto("home")' aria-label='services nav']
-        .logo-container[layout='row']
-          img[ng-src='assets/categories-custom.png']
-          p.link-name[flex] Custom

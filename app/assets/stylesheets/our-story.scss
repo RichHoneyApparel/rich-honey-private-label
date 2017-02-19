@@ -1,5 +1,5 @@
-.about-header {
-  background-image: url('about-header');
+.our-story-header {
+  background-image: url('our-story-header');
   background-size: cover;
   color: $white;
   font-size: 2.5vw;
@@ -7,17 +7,17 @@
   text-align: center;
 }
 
-.about-body {
-  .about-text {
+.our-story-body {
+  .our-story-text {
     padding: 20px 22%;
 
-    .first-section,
-    .second-section,
-    .third-section,
-    .fourth-section {
+    .our-story-first-section,
+    .our-story-second-section,
+    .our-story-third-section,
+    .our-story-fourth-section {
       display: block;
       font-size: 16px;
-      padding: 5px 0;
+      padding: 10px;
       text-align: center;
     }
   }
@@ -36,20 +36,29 @@
   }
 }
 
-.about-footer {
+.our-story-footer {
   font-size: 16px;
   padding: 45px 0 40px;
   text-align: center;
 }
 
+@media screen and (max-width: 1280px){
+  .our-story-first-section,
+  .our-story-second-section,
+  .our-story-third-section,
+  .our-story-fourth-section {
+    margin-bottom: 30px;
+  }
+}
+
 @media screen and (max-width: 960px) {
-  .about-header {
+  .our-story-header {
     font-size: 3vw;
     padding: 150px;
   }
 
-  .about-body {
-    .about-text {
+  .our-story-body {
+    .our-story-text {
       padding: 5% 0;
     }
     .fabrics,
@@ -61,7 +70,7 @@
 }
 
 @media screen and (max-width: 600px){
-  .about-header {
+  .our-story-header {
     font-size: 5vw;
     padding: 100px;
   }

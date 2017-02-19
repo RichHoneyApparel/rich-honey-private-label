@@ -1,6 +1,6 @@
 angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
 'templates'])
-  .config ['$mdThemingProvider',
+  .config(['$mdThemingProvider',
   '$locationProvider',
   ($mdThemingProvider,
   $locationProvider) ->
@@ -9,4 +9,4 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
       .accentPalette('grey')
 
     $locationProvider.html5Mode true
-  ]
+  ])

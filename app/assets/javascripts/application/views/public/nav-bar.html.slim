@@ -1,48 +1,51 @@
-.account-nav[layout='row' layout-xs='column' layout-align='space-between']
-  .left[layout='row' layout-align='space-between start' flex='10' flex-md='15' flex-sm='20' flex-xs='100']
-    a[ui-sref='home' flex='35' flex-xs='15'] login
-    span |
-    a[ui-sref='home' flex='60' flex-xs='85'] sign up
-  .right[layout='row' layout-align='end center' flex='90' flex-md='85' flex-sm='80' flex-xs='100']
-    a[ui-sref='home' flex='10' flex-md='15' flex-sm='25'  flex-xs='35'] 213-905-3205
-    span |
-    a[ui-sref='home' flex='10' flex-sm='20'  flex-xs='30'] contact us
-    span |
-    a[ui-sref='home' flex='5' flex-md='10' flex-sm='15'  flex-xs='20'] cart(0)
-    span |
-    a[ui-sref='home' flex='5' flex-sm='10'  flex-xs='10']
+.account-nav[layout='row' layout-align='space-between']
+    a[ui-sref='create_an_account' flex='85' flex-md='80' flex-sm='65' flex-xs='45'] Create an account
+    a[href='tel:(213) 905-3205' style='text-align: center'] 213-905-3205
+    span[style='text-align: center'] |
+    a[ui-sref='contact_us' style='text-align: center'] contact us
+    span[style='text-align: center'] |
+    a[ui-sref='home' style='text-align: center']
       i.fa.fa-lg.fa-search
 md-nav-bar.nav[aria-label='main page nav' layout='row' layout-align='space-around center']
   a[ng-click='openLeftMenu()' href='' aria-label='button side nav trigger' hide-gt-sm show-sm show-xs flex-sm='5']
     i.fa.fa-lg.fa-bars
 
-  /md-nav-item[md-nav-click="" name='Categories' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Categories
   md-menu[flex='60' hide-sm hide-xs show-gt-sm md-offset='0 50']
     md-button[aria-label="open categories menu" ng-click="$mdOpenMenu($event)"]
       p[layout='row' layout-align='space-around center']
         span[flex='95'] Categories
         i.fa.fa-lg.fa-caret-down[flex='5']
     md-menu-content[width="3"]
-      /md-menu-item
-        /md-button[ui-sref='/categories/mens'] Mens
-      /md-menu-item
-        /md-button[ui-sref='/categories/womens'] Womens
+      md-menu-item
+        md-button[ui-sref='categories_men'] Men
+      md-menu-item
+        md-button[ui-sref='categories_women'] Women
       md-menu-item
         md-button[ng-click='goToCategories("accessories")'] Accessories
       md-menu-item
-        md-button[ui-sref='categories_activewear'] Activewear
-  md-nav-item[md-nav-sref='home' name='Resources' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Resources
+        md-button[ng-click='goToCategories("activewear")'] Active
+  md-nav-item[md-nav-sref='resource_fabrics' name='Resources' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Resources
   md-nav-item[md-nav-sref='moat-1-side-seams' name='MakingOfATee' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Making of a Tee
   md-nav-item.home-page-link[md-nav-sref='home' name='rich honey' flex='60' flex-xs='90' flex-sm='85' ui-sref-active='active'] RICH HONEY
-  md-nav-item[md-nav-sref='services_main' name='services' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Services
+  md-menu[flex='60' hide-sm hide-xs show-gt-sm md-offset='0 50']
+    md-button[aria-label="open categories menu" ng-click="$mdOpenMenu($event)"]
+      p[layout='row' layout-align='space-around center']
+        span[flex='95'] Services
+        i.fa.fa-lg.fa-caret-down[flex='5']
+    md-menu-content[width="3"]
+      md-menu-item
+        md-button[ui-sref='services_apparel-cutting'] Apparel
+      md-menu-item
+        md-button[ui-sref='services_leather-design'] Leather
   md-nav-item[md-nav-sref='how_it_works' name='howitworks' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] How It Works
-  md-nav-item[md-nav-sref='about' name='aboutus' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Our Story
+  md-nav-item[md-nav-sref='our_story' name='ourStory' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Our Story
 
 md-sidenav[md-component-id='left' class='md-sidenav-left']
   md-list
-    md-list-item[ui-sref='home' name='rich honey' ui-sref-active='active' style="font-size: 40px;"] RICH HONEY
-    md-list-item[ui-sref='home' name='Resources' ui-sref-active='active'] Resources
-    md-list-item[ui-sref='home' name='DetailsofaTee' ui-sref-active='active'] Details of a Tee
-    md-list-item[ui-sref='services_main' name='services' ui-sref-active='active'] Services
-    md-list-item[ui-sref='how_it_works' name='howitworks' ui-sref-active='active'] How It Works
-    md-list-item[ui-sref='about' name='aboutus' ui-sref-active='active'] Our Story
+    md-list-item[ui-sref='home' name='rich honey' ui-sref-active='active' style="font-size: 40px;" ng-click='closeSide()'] RICH HONEY
+    md-list-item[ui-sref='categories_men' name='Resources' ui-sref-active='active' ng-click='closeSide()'] Categories
+    md-list-item[ui-sref='resource_fabrics' name='Resources' ui-sref-active='active' ng-click='closeSide()'] Resources
+    md-list-item[ui-sref='moat-1-side-seams' name='DetailsofaTee' ui-sref-active='active' ng-click='closeSide()'] Making of a Tee
+    md-list-item[ui-sref='services_main' name='services' ui-sref-active='active' ng-click='closeSide()'] Services
+    md-list-item[ui-sref='how_it_works' name='howitworks' ui-sref-active='active' ng-click='closeSide()'] How It Works
+    md-list-item[ui-sref='our_story' name='ourStory' ui-sref-active='active' ng-click='closeSide()'] Our Story

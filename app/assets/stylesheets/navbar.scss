@@ -1,21 +1,10 @@
 .account-nav {
   background-color: $rich-honey-black;
-  padding: 10px 0;
+  padding: 10px 30px;
 
-  .left,
-  .right {
+  a,
+  span {
     color: $white;
-
-    a {
-      color: $white;
-      padding: 0 10px;
-    }
-  }
-
-  .right {
-    a {
-      text-align: center;
-    }
   }
 }
 

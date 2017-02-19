@@ -14,10 +14,19 @@
   }
 
   .services-buttons {
-    a, button {
+    a,
+    button {
       border: 1px solid $white;
       border-radius: 0;
       color: $white;
+    }
+  }
+}
+
+@media screen and (max-width: 600px){
+  .services-hub {
+    .md-subhead {
+      padding: 25px 10px;
     }
   }
 }

@@ -1,0 +1,39 @@
+// Trying to rerun github
+.categories-mens-header {
+  background-image: url('RHA-Mens-Header.png');
+  background-size: cover;
+  padding: 250px 0 350px;
+
+  .header-text {
+    background-color: $white;
+    padding: 10px 30px;
+
+    .md-display-1 {
+      margin-bottom: 15px !important;
+
+      span {
+        border-bottom: 3px solid $black;
+        padding-bottom: 5px;
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .categories-mens-header {
+    padding: 200px 0 300px;
+  }
+}
+
+@media screen and (max-width: 960px){
+  .categories-mens-header {
+    padding: 150px 0 250px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .categories-mens-header {
+    padding: 100px 0 200px;
+  }
+}

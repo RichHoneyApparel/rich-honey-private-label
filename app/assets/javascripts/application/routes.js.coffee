@@ -10,24 +10,87 @@ angular.module('richHoneyPrivateLabel').config [
         templateUrl: 'application/views/home.html'
         controller: 'HomeController'
 
-      # About Page
-      .state 'about',
-        url: '/about'
-        templateUrl: 'application/views/other/about.html'
+      # Our story Page
+      .state 'our_story',
+        url: '/our-story'
+        templateUrl: 'application/views/other/our-story.html'
 
-      # About Page
+      # How it works Page
       .state 'how_it_works',
         url: '/how-it-works'
         templateUrl: 'application/views/other/how-it-works.html'
+
+      # FAQ
+      .state 'faq',
+        url: '/faq'
+        templateUrl: 'application/views/other/faq.html'
+
+      # Contact us
+      .state 'contact_us',
+        url: '/contact-us'
+        templateUrl: 'application/views/other/contact-us.html'
+
+      # Careers
+      .state 'careers',
+        url: '/careers'
+        templateUrl: 'application/views/other/careers.html'
+
+      .state 'careers_sales-executive',
+        url: '/careers/sales-executive'
+        templateUrl: 'application/views/other/careers/sales-executive.html'
+
+      # Create an Account
+      .state 'create_an_account',
+        url: '/create-an-account'
+        templateUrl: 'application/views/other/create-an-account.html'
+      # Privacy Policy
+      .state 'privacy_policy',
+        url: '/privacy-policy'
+        templateUrl: 'application/views/other/privacy-policy.html'
+
+      # Terms and Conditions
+      .state 'terms_and_conditions',
+        url: '/terms-and-conditions'
+        templateUrl: 'application/views/other/terms-and-conditions.html'
+
+      # Resources
+      .state 'resource_fabrics',
+        url: '/resource/fabrics'
+        templateUrl: 'application/views/resources/fabrics.html'
+
+      .state 'resource_dyes',
+        url: '/resource/dyes'
+        templateUrl: 'application/views/resources/dyes.html'
+
+      .state 'resource_washes',
+        url: '/resource/washes'
+        templateUrl: 'application/views/resources/washes.html'
 
       # Categories
       .state 'categories_accessories',
         url: '/categories/accessories'
         templateUrl: 'application/views/categories/accessories.html'
+        controller: 'CategoriesController'
 
       .state 'categories_activewear',
         url: '/categories/activewear'
         templateUrl: 'application/views/categories/activewear.html'
+        controller: 'CategoriesController'
+
+      .state 'categories_men',
+        url: '/categories/men'
+        templateUrl: 'application/views/categories/men.html'
+        controller: 'CategoriesController'
+
+      .state 'categories_women',
+        url: '/categories/women'
+        templateUrl: 'application/views/categories/women.html'
+        controller: 'CategoriesController'
+
+      .state 'product_show',
+        url: '/product/:id'
+        templateUrl: 'application/views/categories/product.html'
+        controller: 'ProductsController'
 
       # Services
       .state 'services_main',
@@ -90,18 +153,23 @@ angular.module('richHoneyPrivateLabel').config [
       .state 'moat-2-shoulders',
         url: '/making-of-a-tee/shoulders',
         templateUrl: 'application/views/making-of-a-tee/moat-2-shoulders.html'
+
       .state 'moat-3-rib-neck',
         url: '/making-of-a-tee/rib-neck',
         templateUrl: 'application/views/making-of-a-tee/moat-3-rib-neck.html'
+
       .state 'moat-4-one-sixteen',
         url: '/making-of-a-tee/one-sixteen',
         templateUrl: 'application/views/making-of-a-tee/moat-4-one-sixteen.html'
+
       .state 'moat-5-taping',
         url: '/making-of-a-tee/taping',
         templateUrl: 'application/views/making-of-a-tee/moat-5-taping.html'
+
       .state 'moat-6-sleeves',
         url: '/making-of-a-tee/sleeves',
         templateUrl: 'application/views/making-of-a-tee/moat-6-sleeves.html'
+
       .state 'moat-7-hems',
         url: '/making-of-a-tee/hems',
         templateUrl: 'application/views/making-of-a-tee/moat-7-hems.html'
