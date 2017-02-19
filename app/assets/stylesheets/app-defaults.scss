@@ -15,3 +15,18 @@ h6,
 p {
   margin: 0 !important;
 }
+
+.contact-us-container {
+  padding: 40px 60px;
+}
+
+.careers-container {
+  padding: 40px 20% 60px;
+}
+
+@media screen and (max-width: 600px) {
+  .careers-container {
+    padding: 20px 5%;
+  }
+
+}
