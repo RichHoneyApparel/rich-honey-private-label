@@ -26,10 +26,14 @@ angular.module('richHoneyPrivateLabel').config [
         templateUrl: 'application/views/other/faq.html'
 
       # Contact us
-
       .state 'contact_us',
         url: '/contact-us'
         templateUrl: 'application/views/other/contact-us.html'
+
+      # Careers
+      .state 'careers',
+        url: '/careers'
+        templateUrl: 'application/views/other/careers.html'
 
       # Resources
       .state 'resource_fabrics',
