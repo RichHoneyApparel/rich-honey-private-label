@@ -1,12 +1,19 @@
 .wash-body {
-  padding: 40px;
+  padding: 2%;
+}
+
+.wash-header {
+  background-image: url('washes-header.PNG');
+  // background-position: 0 -550px;
+  background-size: cover;
+  height: 650px;
 }
 
 .softener-enzyme-content,
 .silicone-content,
 .hot-wash-content,
 .power-wash-content {
-  padding: 20px;
+  padding: 20px 10px;
 
   .softener-enzyme-text {
     .md-title {
