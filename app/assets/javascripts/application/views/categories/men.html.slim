@@ -1,14 +1,15 @@
 .header[ng-include src="'application/views/categories/shared/categories-nav.html'" ng-controller='CategoriesNavController']
 .categories-mens-container
   .categories-mens-header[layout='row' layout-align='start center']
-    .header-text[flex='33' flex-md='45' flex-sm='50' flex-xs='65']
+    .header-text[flex='25' flex-md='45' flex-sm='50' flex-xs='65']
       h1.md-display-1
-        span MEN'S
+        span[style='padding-right: 10px;'] MEN'S
         |  APPAREL
-      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      p Premium garment dyed blank basics for your men's collection.
+        These classic styles are versatile for any season.
   .categories-mens-body[layout='column']
     .mens-section[layout='column' style='padding: 20px;']
       .item-container[layout='row' layout-wrap]
         .product-container[ng-repeat='m in product' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(m.id)']
-          img[ng-src='{{ m.product_img.url }}' width='100%']
+          img[ng-src='{{ m.product_img.url }}' width='100%' style='padding-bottom: 10px;']
           span {{ m.name }}
