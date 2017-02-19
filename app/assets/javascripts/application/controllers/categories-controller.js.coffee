@@ -39,7 +39,6 @@ angular.module('richHoneyPrivateLabel').controller 'CategoriesController', [
       getWomens()
     else if $location.path().includes('men')
       getMens()
-      console.log($scope.product)
     else if $location.path().includes('activewear')
       getActive()
     else
