@@ -50,6 +50,10 @@
   background-image: url('skiving-header.jpg');
 }
 
+.packaging-header {
+  @extend .services-header;
+  background-image: url('Rich-Honey-Apparel-Services-Packaging.png');
+}
 
 @media screen and (max-width: 1279px){
   .services-header {
