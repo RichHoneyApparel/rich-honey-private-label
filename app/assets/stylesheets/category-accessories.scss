@@ -1,5 +1,6 @@
 .categories-accessories-header {
-  background-image: url('accessories-header.png');
+  background-image: url('RichHoney-Apparel-Accessories.png');
+  background-position: -390px 0;
   background-size: cover;
   padding: 250px 0 350px;
 
@@ -57,5 +58,6 @@
 @media screen and (max-width: 400px){
   .categories-accessories-header {
     padding: 75px 0;
+    background-position: 0;
   }
 }

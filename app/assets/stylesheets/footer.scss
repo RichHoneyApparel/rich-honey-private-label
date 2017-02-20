@@ -39,6 +39,7 @@
   .footer-container {
     .md-headline {
       font-size: 3vw;
+      margin-top: -5px;
     }
 
     .made-in-the-us {
@@ -47,6 +48,14 @@
         margin-top: -5px;
         width: 25px;
       }
+    }
+
+    .md-button {
+      background-color: $white;
+      border-radius: 0;
+      color: $black;
+      font-weight: bold;
+      width: 80px;
     }
 
     p,

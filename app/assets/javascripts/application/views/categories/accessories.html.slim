@@ -11,5 +11,5 @@
     .mens-section[layout='column' style='padding: 20px;']
       .item-container[layout='row' layout-wrap]
         .product-container[ng-repeat='m in product' flex-md='25' flex-sm='33' flex-xs='50' flex='25' layout='column' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(m.id)']
-          img[ng-src='{{ m.product_img[0].url }}' style='padding-bottom: 10px;' height='200px']
+          img[ng-src='{{ m.product_img[0].url }}' style='padding-bottom: 10px;' height='200px' width='200px']
           span {{ m.name }}
