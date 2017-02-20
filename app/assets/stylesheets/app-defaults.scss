@@ -16,7 +16,8 @@ p {
   margin: 0 !important;
 }
 
-.contact-us-container {
+.contact-us-container,
+.create-account-container {
   padding: 40px 60px;
 }
 
@@ -24,9 +25,16 @@ p {
   padding: 40px 20% 60px;
 }
 
+
+
 @media screen and (max-width: 600px) {
   .careers-container {
     padding: 20px 5%;
+  }
+
+  .contact-us-container,
+  .create-account-container {
+    padding: 40px 10px;
   }
 
 }
