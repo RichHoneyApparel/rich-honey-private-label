@@ -1,9 +1,9 @@
 .home-page-container {
   .home-page-header {
     background-image: url('RHA-Homepage.png');
-    background-size: 100%;
+    background-size: cover;
     color: $white;
-    padding: 20% 0 10%;
+    padding: 450px 0 150px;
 
     .md-display-1 {
       padding: 0 30% 2%;
@@ -39,9 +39,19 @@
 @media screen and (max-width: 1124px){
   .home-page-container {
     .home-page-header {
+      padding: 350px 0 150px;
+
       .md-display-1 {
         padding: 0 25% 2%;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .home-page-container {
+    .home-page-header {
+      padding: 250px 0 100px;
     }
   }
 }
@@ -59,8 +69,14 @@
 @media screen and (max-width: 748px){
   .home-page-container {
     .home-page-header {
+      padding: 150px 0 100px;
+
       .md-display-1 {
-        padding: 0 15% 2%;
+        font-size: 3vw;
+      }
+
+      .md-headline {
+        font-size: 2vw;
       }
     }
   }
@@ -76,6 +92,14 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .home-page-container {
+    .home-page-header {
+      padding: 100px 0 75px;
+    }
+  }
+}
+
 @media screen and (max-width: 563px){
   .home-page-container {
     .home-page-header {
@@ -86,18 +110,18 @@
   }
 }
 
-@media screen and (max-width: 505px) {
+@media screen and (max-width: 400px) {
   .home-page-container {
     .home-page-header {
-      padding: 14% 0 10%;
+      padding: 75px 0 50px;
+    }
+  }
+}
 
-      .md-display-1 {
-        font-size: 3vw;
-      }
-
-      .md-headline {
-        font-size: 2vw;
-      }
+@media screen and (max-width: 320px) {
+  .home-page-container {
+    .home-page-header {
+      padding: 50px 0 25px;
     }
   }
 }
