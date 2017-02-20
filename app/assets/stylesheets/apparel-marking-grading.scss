@@ -26,9 +26,14 @@
   }
 }
 
-@media screen and (max-wdith: 959px){
-  .apparel-marking-grading-header {
-    padding-top: 450px !important;
+@media screen and (max-width: 959px){
+  .apparel-honey-studio-header {
+    padding-top: 150px !important;
+
+    .md-display-1 {
+      font-size: 6vw;
+      padding: 10px;
+    }
   }
 }
 
@@ -47,8 +52,13 @@
   }
 }
 
-@media screen and (max-wdith: 400px){
+@media screen and (max-width: 400px){
   .apparel-marking-grading-header {
-    padding-top: 250px !important;
+    padding-top: 150px !important;
+
+    .md-display-1 {
+      font-size: 6vw;
+      padding: 10px;
+    }
   }
 }

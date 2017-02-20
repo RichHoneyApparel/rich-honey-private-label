@@ -55,7 +55,7 @@
   }
 }
 
-.contact-us,
+.cutting-contact-us,
 .start-a-project {
   padding: 40px;
 
@@ -106,6 +106,17 @@
   }
 
   .apparel-cutting-header {
-    padding-top: 250px !important;
+    padding-top: 150px !important;
+
+    .md-display-1 {
+      font-size: 6vw;
+      padding: 10px;
+    }
+  }
+
+  .cutting-contact-us {
+    button {
+      font-size: 6vw;
+    }
   }
 }

@@ -1,7 +1,7 @@
 .categories-womens-header {
   background-image: url('RHA-Womens-Header.png');
   background-size: cover;
-  padding: 13% 0 19%;
+  padding: 250px 0 350px;
 
   .header-text {
     background-color: $white;
@@ -13,8 +13,28 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
   .categories-womens-header {
+    padding: 200px 0 300px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .categories-womens-header {
+    padding: 150px 0 250px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .categories-womens-header {
+    padding: 125px 0 200px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .categories-womens-header {
+    padding: 100px 0 150px;
+
     .header-text {
       .md-display-1 {
         font-size: 4vw;
@@ -25,5 +45,17 @@
         font-size: 2vw;
       }
     }
+  }
+}
+
+@media screen and (max-width: 500px){
+  .categories-womens-header {
+    padding: 75px 0 150px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .categories-womens-header {
+    padding: 75px 0;
   }
 }
