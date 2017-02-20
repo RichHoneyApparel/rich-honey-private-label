@@ -1,18 +1,23 @@
 .product-container[layout='row' layout-wrap layout-sm='column' layout-xs='column']
-  .product-image[flex='45' flex-sm='100' layout-align-sm='center center' flex-xs='100' flex-offset='5' style='padding: 30px;' layout='row']
-    img[ng-src="{{ currentProductImg }}" flex='95' ng-click='openDialog()']
-    .product-thumbnails[ng-if='product.product_img.length > 1' flex='5']
-      img[ng-src="{{ p.url }}" ng-repeat='p in product.product_img' width='150px' height='200px' style='padding: 10px;' ng-click='updateProductImg(p.url)']
+  .product-image[flex='45' flex-sm='100' layout-align='center center' flex-xs='100' flex-offset='5' style='padding: 30px;' layout='row']
+    img[ng-src="{{ currentProductImg }}" ng-click='openDialog()' width='80%']
+    .product-thumbnails[ng-if='product.product_img.length > 1' flex='20']
+      img[ng-src="{{ p.url }}" ng-repeat='p in product.product_img' width='100%' style='padding: 10px; outline: none;' ng-click='updateProductImg(p.url)']
   .product-info[flex='45' flex-offset='5' flex-sm='100' flex-xs='100' style='padding: 30px;']
     .md-headline[style='background-color: black; color: white; text-align: center;'] {{ product.name | uppercase }}
     .md-title[style='padding: 30px 0;'] STYLE #: {{ product.style_num }}
-    .md-subhead Choose any Pantone TPX color
-    .md-subhead[style='padding-bottom: 15px;'] 96 Unit Minimum Quantity (S-16, M-32, L-32, XL-16)
-    .fabric-container[style='padding-bottom: 15px;']
+    .md-subhead[ng-if='product.product_properties.category != "accessories"'] Choose any Pantone TPX color
+    .md-subhead[style='padding-bottom: 15px;' ng-if='product.product_properties.category != "accessories"'] 96 Unit Minimum Quantity (S-16, M-32, L-32, XL-16)
+    .md-subhead[ng-if='product.product_properties.category == "accessories"'] Inquire for custom colors.
+    .md-subhead[style='padding-bottom: 15px;' ng-if='product.product_properties.category == "accessories"'] Case, Dozen, and Piece pricing available. One case contains 96 units.
+    .materials-container[style='padding-bottom: 15px;' ng-if='product.product_properties.category == "accessories"']
+      p.md-subhead MATERIAL: {{ product.product_properties.fabric }}
+      p.md-subhead COLOR: {{ product.product_properties.color }}
+    .fabric-container[style='padding-bottom: 15px;' ng-if='product.product_properties.category != "accessories"']
       .md-subhead AVAILABLE FABRICS
       ul
         li[ng-repeat='f in fabrics'] {{ f }}
-    .other-properties[layout='row' style='padding-bottom: 15px;']
+    .other-properties[layout='row' style='padding-bottom: 15px;' ng-if='product.product_properties.category != "accessories"']
       .dye-container[flex='50']
         .md-subhead AVAILABLE DYES
         ul
@@ -23,7 +28,7 @@
         ul
           li[ng-repeat='w in washes'] {{ w }}
 
-    .details[style='padding-bottom: 40px;']
+    .details[style='padding-bottom: 40px;' ng-if='product.product_properties.category != "accessories"']
       | DETAILS
       p {{ product.product_properties.details.model }}
       p {{ product.product_properties.details.shirt }}

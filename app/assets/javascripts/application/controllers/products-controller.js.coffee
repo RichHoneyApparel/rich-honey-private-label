@@ -39,8 +39,8 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
           if product.id == Number($stateParams.id)
             $scope.product = product
             $scope.currentProductImg = $scope.product.product_img[0].url
-
-      formatProperties()
+      if $scope.product.product_properties.category != 'accessories'
+        formatProperties()
     getProduct()
 
     $scope.updateProductImg = (url) ->

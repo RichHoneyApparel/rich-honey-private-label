@@ -50,6 +50,10 @@
   background-image: url('skiving-header.jpg');
 }
 
+.packaging-header {
+  @extend .services-header;
+  background-image: url('Rich-Honey-Apparel-Services-Packaging.png');
+}
 
 @media screen and (max-width: 1279px){
   .services-header {
@@ -57,7 +61,7 @@
   }
 }
 
-@media screen and (max-wdith: 959px){
+@media screen and (max-width: 959px){
   .services-header {
     padding-top: 450px !important;
   }
@@ -78,8 +82,19 @@
   }
 }
 
-@media screen and (max-wdith: 400px){
+@media screen and (max-width: 400px){
   .services-header {
-    padding-top: 250px !important;
+    padding-top: 150px !important;
+
+    .md-display-1 {
+      font-size: 6vw;
+      padding: 10px;
+    }
+  }
+
+  .start-a-project {
+    button {
+      font-size: 6vw;
+    }
   }
 }

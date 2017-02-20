@@ -1,5 +1,6 @@
 .categories-accessories-header {
-  background-image: url('accessories-header.png');
+  background-image: url('RichHoney-Apparel-Accessories.png');
+  background-position: -390px 0;
   background-size: cover;
   padding: 250px 0 350px;
 
@@ -9,40 +10,54 @@
 
     .md-display-1 {
       margin-bottom: 15px !important;
-
-      span {
-        border-bottom: 3px solid $black;
-        padding-bottom: 5px;
-      }
     }
   }
 }
 
-.categories-accessories-body {
-  padding: 30px;
-
-  .accessories-items {
-    .items {
-      margin: 20px;
-      text-align: center;
-    }
-  }
-}
-
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
   .categories-accessories-header {
     padding: 200px 0 300px;
   }
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 960px) {
   .categories-accessories-header {
     padding: 150px 0 250px;
   }
 }
 
+@media screen and (max-width: 750px) {
+  .categories-accessories-header {
+    padding: 125px 0 200px;
+  }
+}
+
 @media screen and (max-width: 600px){
   .categories-accessories-header {
-    padding: 100px 0 200px;
+    padding: 100px 0 150px;
+
+    .header-text {
+      .md-display-1 {
+        font-size: 4vw;
+        margin-bottom: 0 !important;
+      }
+
+      p {
+        font-size: 2vw;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px){
+  .categories-accessories-header {
+    padding: 75px 0 150px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .categories-accessories-header {
+    padding: 75px 0;
+    background-position: 0;
   }
 }

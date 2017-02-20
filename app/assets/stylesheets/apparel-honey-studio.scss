@@ -104,7 +104,7 @@
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .apparel-honey-studio-container {
     margin: 0 !important;
   }
@@ -124,5 +124,22 @@
 
   .location {
     margin: 20px 0 !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .apparel-honey-studio-header {
+    padding-top: 150px !important;
+
+    .md-display-1 {
+      font-size: 6vw;
+      padding: 10px;
+    }
+  }
+
+  .honey-studio-book-studio {
+    button {
+      font-size: 6vw;
+    }
   }
 }

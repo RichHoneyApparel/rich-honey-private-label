@@ -4,6 +4,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Basic Crew - Cotton"
     style_num: "M01-1100"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Reactive"
       wash: ""
@@ -26,6 +27,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Basic Crew - Cotton"
     style_num: "M01-1100"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -48,6 +50,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Basic Crew - Cotton"
     style_num: "M01-1100"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
@@ -70,6 +73,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Basic Crew - Slub Cotton"
     style_num: "M05-1100"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Reactive"
       wash: ""
@@ -92,6 +96,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Basic Crew - Slub Cotton"
     style_num: "M05-1100"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Pigment"
       wash: ""
@@ -114,6 +119,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Basic Crew - Slub Cotton"
     style_num: "M05-1100"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Oil"
       wash: ""
@@ -136,6 +142,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Basic Crew With Binding - Cotton"
     style_num: "M01-1101"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Reactive"
       wash: ""
@@ -158,6 +165,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Basic Crew With Binding - Cotton"
     style_num: "M01-1101"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -180,6 +188,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Basic Crew - Slub Cotton"
     style_num: "M05-1100"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Oil"
       wash: ""
@@ -202,6 +211,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Pocket Crew - Cotton"
     style_num: "M01-1102"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Reactive"
       wash: ""
@@ -224,6 +234,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Pocket Crew - Cotton"
     style_num: "M01-1102"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -246,6 +257,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Pocket Crew - Cotton"
     style_num: "M01-1102"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
@@ -268,6 +280,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Pocket Crew - Slub Cotton"
     style_num: "M05-1102"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Reactive"
       wash: ""
@@ -290,6 +303,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Pocket Crew - Slub Cotton"
     style_num: "M05-1102"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Pigment"
       wash: ""
@@ -312,6 +326,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Pocket Crew - Slub Cotton"
     style_num: "M05-1102"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
@@ -334,6 +349,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Basic Crew - Cotton"
     style_num: "W01-2100"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Reactive"
       wash: ""
@@ -356,6 +372,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Basic Crew - Cotton"
     style_num: "W01-2100"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -378,6 +395,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Basic Crew - Cotton"
     style_num: "W01-2100"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
@@ -400,6 +418,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Basic Crew - Slub Cotton"
     style_num: "W05-2100"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Reactive"
       wash: ""
@@ -422,6 +441,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Basic Crew - Slub Cotton"
     style_num: "W05-2100"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Pigment"
       wash: ""
@@ -444,6 +464,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Basic Crew - Cotton"
     style_num: "W05-2100"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
@@ -466,6 +487,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Basic Crew - Triblend"
     style_num: "W01-2100"
     product_properties: {
+      color: ""
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
       dye: ""
       wash: "Hot Wash"
@@ -488,6 +510,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Pocket Crew - Cotton"
     style_num: "W01-2102"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Reactive"
       wash: ""
@@ -510,6 +533,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Pockte Crew - Cotton"
     style_num: "W01-2102"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -532,6 +556,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Pocket Crew - Cotton"
     style_num: "W01-2102"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
@@ -554,6 +579,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Pocket Crew - Slub Cotton"
     style_num: "W05-2102"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Reactive"
       wash: ""
@@ -576,6 +602,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Pocket Crew - Slub Cotton"
     style_num: "W05-2102"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Pigment"
       wash: ""
@@ -598,6 +625,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Pocket Crew - Slub Cotton"
     style_num: "W05-2102"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Oil"
       wash: ""
@@ -620,6 +648,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Pocket Crew - Triblend"
     style_num: "W04HG-2102"
     product_properties: {
+      color: ""
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
       dye: ""
       wash: "Hot Wash"
@@ -642,6 +671,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Split Tank Crew - Cotton"
     style_num: "W01-2110"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Ractive"
       wash: ""
@@ -664,6 +694,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Split Tank Crew - Cotton"
     style_num: "W01-2110"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -686,6 +717,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Split Tank Crew - Cotton"
     style_num: "W01-2110"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
@@ -708,6 +740,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Split Tank Crew - Slub Cotton"
     style_num: "W05-2110"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Reactive"
       wash: ""
@@ -730,6 +763,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Split Tank Crew - Slub Cotton"
     style_num: "W05-2110"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Pigment"
       wash: ""
@@ -752,6 +786,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Split Tank Crew - Slub Cotton"
     style_num: "W05-2110"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Oil"
       wash: ""
@@ -774,6 +809,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Split Tank Crew - Triblend"
     style_num: "W04HG-2110"
     product_properties: {
+      color: ""
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
       dye: ""
       wash: "Hot Wash"
@@ -796,6 +832,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Muscle Top - Cotton"
     style_num: "W01-2115"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Reactive"
       wash: ""
@@ -818,6 +855,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Muscle Top - Cotton"
     style_num: "W01-2115"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -840,6 +878,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Muscle Top - Cotton"
     style_num: "W01-2115"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
@@ -862,6 +901,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Muscle Top - Slub Cotton"
     style_num: "W05-2115"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Reactive"
       wash: ""
@@ -884,6 +924,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Muscle Top - Slub Cotton"
     style_num: "W05-2115"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Pigment"
       wash: ""
@@ -906,6 +947,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Muscle Top - Slub Cotton"
     style_num: "W05-2115"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Oil"
       wash: ""
@@ -928,6 +970,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Muscle Top - Triblend"
     style_num: "W04HG-2115"
     product_properties: {
+      color: ""
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon (Shown)"
       dye: ""
       wash: "Hot Wash"
@@ -950,6 +993,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Crop Muscle - Cotton"
     style_num: "W01-2116"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Reactive"
       wash: ""
@@ -972,6 +1016,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Crop Muscle - Cotton"
     style_num: "W01-2116"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -994,6 +1039,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Crop Muscle - Cotton"
     style_num: "W01-2116"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
@@ -1016,6 +1062,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Crop Muscle - Slub Cotton"
     style_num: "W05-2116"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Reactive"
       wash: ""
@@ -1038,6 +1085,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Crop Muscle - Slub Cotton"
     style_num: "W05-2116"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Pigment"
       wash: ""
@@ -1060,6 +1108,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Crop Muscle - Slub Cotton"
     style_num: "W05-2116"
     product_properties: {
+      color: ""
       fabric: "100% Slub Cotton"
       dye: "Oil"
       wash: ""
@@ -1082,6 +1131,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Women's Crop Muscle - Triblend"
     style_num: "W04HG-2116"
     product_properties: {
+      color: ""
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
       dye: ""
       wash: "Hot Wash"
@@ -1104,6 +1154,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Extended Muscle - Cotton"
     style_num: "M01-1112"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -1131,6 +1182,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Stringer Tank - Cotton"
     style_num: "M01-1142"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -1158,6 +1210,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Basic Tank - Cotton"
     style_num: "M01-1110"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -1185,6 +1238,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Rolled Crew - Cotton"
     style_num: "M01-1100"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -1212,6 +1266,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Basic Crew - Cotton"
     style_num: "M01-1112"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -1239,6 +1294,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Womens's Crop Muscle - Cotton"
     style_num: "W01-2105"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -1266,6 +1322,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Womens's Crop Muscle - Cotton"
     style_num: "W01-2116"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -1293,6 +1350,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Womens's Split Tank - Cotton"
     style_num: "W01-2116"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -1320,6 +1378,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Womens's Muscle Top - Cotton"
     style_num: "W01-2116"
     product_properties: {
+      color: ""
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
@@ -1339,6 +1398,117 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     {
       url: "assets/RichHoney-Womens-Muscle-Top-Cotton-Pigment-Side.png"
       alt: "Womens"
+      featured: true
+    }]
+  }
+  {
+    id: 60
+    name: "Clutch"
+    style_num: "A20-9101"
+    product_properties: {
+      color: "Natural"
+      fabric: "12 oz Canvas"
+      dye: ""
+      wash: ""
+      details: ""
+      gender: ""
+      category: "accessories"
+    }
+    product_img: [{
+      url: "assets/RichHoney-Clutch-Canvas.jpg"
+      alt: "Clutch"
+      featured: true
+    }
+    {
+      url: "assets/RichHoney-Clutch-Canvas-2.jpg"
+      alt: "Clutch"
+      featured: true
+    }
+    {
+      url: "assets/RichHoney-Clutch-Canvas-3.jpg"
+      alt: "Clutch"
+      featured: true
+    }
+    {
+      url: "assets/RichHoney-Clutch-Canvas-4.jpg"
+      alt: "Clutch"
+      featured: true
+    }]
+  }
+  {
+    id: 61
+    name: "Weekender"
+    style_num: "A20-9103"
+    product_properties: {
+      color: "Natural"
+      fabric: "12 oz Canvas; Nickel hardware"
+      dye: ""
+      wash: ""
+      details: ""
+      gender: ""
+      category: "accessories"
+    }
+    product_img: [{
+      url: "assets/RichHoney-Weekender-Bag-Canvas.jpg"
+      alt: "Weekender Bag"
+      featured: true
+    }
+    {
+      url: "assets/RichHoney-Weekender-Bag-Canvas-2.jpg"
+      alt: "Weekender Bag"
+      featured: true
+    }
+    {
+      url: "assets/RichHoney-Weekender-Bag-Canvas-3.jpg"
+      alt: "Weekender Bag"
+      featured: true
+    }]
+  }
+  {
+    id: 62
+    name: "Market Tote"
+    style_num: "A20-9104"
+    product_properties: {
+      color: "Natural"
+      fabric: "7 oz Canvas"
+      dye: ""
+      wash: ""
+      details: ""
+      gender: ""
+      category: "accessories"
+    }
+    product_img: [{
+      url: "assets/RichHoney-Market-Tote-Bag-Canvas.jpg"
+      alt: "Market Tote"
+      featured: true
+    }]
+  }
+  {
+    id: 63
+    name: "Resort Tote"
+    style_num: "A20-9105"
+    product_properties: {
+      color: "Natural"
+      fabric: "12 oz Canvas"
+      dye: ""
+      wash: ""
+      details: ""
+      gender: ""
+      category: "accessories"
+    }
+    product_img: [{
+      url: "assets/RichHoney-Resort-Tote-Bag-Canvas.jpg"
+      alt: "Resort Tote"
+      featured: true
+    }
+    {
+      url: "assets/RichHoney-Resort-Tote-Bag-Canvas-2.jpg"
+      alt: "Resort Tote"
+      featured: true
+    }
+    {
+      url: "assets/RichHoney-Resort-Tote-Bag-Canvas-3.jpg"
+      alt: "Resort Tote"
       featured: true
     }]
   }

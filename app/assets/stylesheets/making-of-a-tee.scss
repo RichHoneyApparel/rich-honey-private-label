@@ -160,15 +160,15 @@
 
 .taping-text {
   @extend %moat-image-text-right;
-  left: 45%;
+  left: 52%;
   padding-left: 25%;
   top: 35%;
 }
 
 .taping-description {
   color: $white;
-  left: 29%;
-  padding: 0 22%;
+  left: 40%;
+  padding: 0 19%;
   position: absolute;
   top: 43%;
 }
@@ -246,6 +246,14 @@
     top: 54%;
   }
 
+  .taping-text {
+    top: 33%;
+  }
+
+  .taping-description {
+    top: 42%;
+  }
+
   .bottom-hem-text {
     top: 46%;
   }
@@ -255,14 +263,14 @@
   .side-seam-description {
     top: 20%;
   }
-
-  .taping-description {
-    top: 45%;
-  }
 }
 
 
 @media screen and (max-width: 1100px) {
+  .taping-text {
+    top: 32%;
+  }
+
   .one-sixteen-text {
     top: 58%;
   }
@@ -290,13 +298,23 @@
 
 }
 
+@media screen and (max-width: 1000px) {
+  .taping-text {
+    top: 31%;
+  }
+
+  .taping-description {
+    top: 42%;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .one-sixteen-text {
     top: 56%;
   }
 
   .taping-description {
-    top: 48%;
+    top: 43%;
   }
 
   .rib-neck-description {
@@ -338,6 +356,14 @@
   .one-sixteen-description {
     padding: 0 10% 0 20%;
     top: 70%;
+  }
+
+  .taping-text {
+    top: 28%;
+  }
+
+  .taping-description {
+    top: 43%;
   }
 }
 
@@ -438,17 +464,19 @@
   }
 }
 
-@media screen and (max-width: 701px){
-  .taping-description {
-    padding: 0 15% 0 20%;
-    top: 50%;
-  }
-}
-
 @media screen and (max-width: 682px) {
   .side-seam-text,
   .inside-care-label-text {
     font-size: 2.5vw !important;
+  }
+
+  .taping-text {
+    top: 25%;
+  }
+
+  .taping-description {
+    padding: 0 0 0 20%;
+    top: 42%;
   }
 }
 
@@ -481,12 +509,6 @@
   .rib-neck-text {
     top: 52%;
   }
-
-  .taping-description {
-    font-size: 1.5vw;
-    padding: 0 0 0 20%;
-    top: 59%;
-  }
 }
 
 @media screen and (max-width: 551px){
@@ -495,10 +517,16 @@
     top: 27%;
   }
 
+  .taping-description {
+    top: 45%;
+  }
+
   .inside-care-label-description {
     font-size: 2vw;
     top: 78%;
   }
+
+
 }
 
 @media screen and (max-width: 500px){
@@ -513,7 +541,7 @@
     top: 50%;
   }
 
-  .taping-description {
-    top: 62%;
+  .taping-text {
+    top: 19%;
   }
 }

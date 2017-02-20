@@ -148,6 +148,17 @@
 
 @media screen and (max-width: 400px){
   .apparel-production-header {
-    padding-top: 250px !important;
+    padding-top: 150px !important;
+
+    .md-display-1 {
+      font-size: 6vw;
+      padding: 10px;
+    }
+  }
+
+  .production-contact-us {
+    button {
+      font-size: 6vw;
+    }
   }
 }
