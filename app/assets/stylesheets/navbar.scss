@@ -76,22 +76,10 @@
   .md-nav-bar {
     height: 130px;
   }
-
-  .logo-container {
-    img {
-      max-width: 77px;
-      min-width: 35px;
-      width: 100%;
-    }
-  }
 }
 
 @media screen and (max-width: 600px){
   .logo-container {
     text-align: center;
-
-    img {
-      height: 50px;
-    }
   }
 }
