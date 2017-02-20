@@ -1,11 +1,12 @@
 .account-nav[layout='row' layout-align='space-between']
-    a[ui-sref='create_an_account' flex='85' flex-md='80' flex-sm='65' flex-xs='45'] Create an account
-    a[href='tel:(213) 905-3205' style='text-align: center'] 213-905-3205
-    span[style='text-align: center'] |
-    a[ui-sref='contact_us' style='text-align: center'] contact us
-    span[style='text-align: center'] |
-    a[ui-sref='home' style='text-align: center']
-      i.fa.fa-lg.fa-search
+  .create-account-div[flex='85' flex-md='80' flex-sm='65' flex-xs='45']
+    a[ui-sref='create_an_account'] Create an account
+  a[href='tel:(213) 905-3205' style='text-align: center'] 213-905-3205
+  span[style='text-align: center'] |
+  a[ui-sref='contact_us' style='text-align: center'] contact us
+  span[style='text-align: center'] |
+  a[ui-sref='home' style='text-align: center']
+    i.fa.fa-lg.fa-search
 md-nav-bar.nav[aria-label='main page nav' layout='row' layout-align='space-around center']
   a[ng-click='openLeftMenu()' href='' aria-label='button side nav trigger' hide-gt-sm show-sm show-xs flex-sm='5']
     i.fa.fa-lg.fa-bars
