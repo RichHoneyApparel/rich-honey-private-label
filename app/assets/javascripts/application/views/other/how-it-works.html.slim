@@ -1,4 +1,4 @@
-.how-it-works-container
+.how-it-works-container[ng-controller='ServicesController']
   .how-it-works-header[layout='column']
     h1.md-display-1 HOW IT WORKS
     p.md-subhead Start building your production of premium apparel with the
@@ -16,7 +16,7 @@
           .md-title Select among various styles that we offer for men and women.
       .dotted-thing-tall
       .text-row[layout='row' layout-align='space-between start']
-        img[ng-src='assets/fabric-active.PNG' width='134px']
+        img[ng-src='assets/fabric-active.png' width='134px']
         .text-container[flex='90']
           .md-headline FABRIC
           .md-title Choose from our fabric options: 100% cotton, slub cotton, and
@@ -24,14 +24,14 @@
             are available upon inquiry.
       .dotted-thing-tall
       .text-row[layout='row' layout-align='space-between start']
-        img[ng-src='assets/drop-active.PNG' width='134px']
+        img[ng-src='assets/dye.png' width='134px']
         .text-container[flex='90']
           .md-headline DYE
           .md-title Pick any Pantone TPX color and we can provide lab dips for
             your approval before moving forward with the dyeing process.
       .dotted-thing-tall
       .text-row[layout='row' layout-align='space-between start']
-        img[ng-src='assets/washing-machine-active.PNG' width='134px']
+        img[ng-src='assets/washing-machine-active.png' width='134px']
         .text-container[flex='90']
           .md-headline WASH
           .md-title Choose from our available washes which include: softener &
@@ -55,7 +55,7 @@
     .md-headline Email your purchase order form to sales@richhoney.us or contact
       us for further assistance.
 
-    md-button.md-raised Start Project
+    md-button.md-raised[ng-click='openDialog()'] Start Project
 
     .md-headline Please include your Business Name and Wholesale Account Number
     em.md-subhead

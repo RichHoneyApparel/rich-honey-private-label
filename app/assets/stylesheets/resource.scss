@@ -5,15 +5,6 @@
   padding: 0 20px;
 }
 
-.resources-nav-bar {
-  .logo-container {
-    img {
-      height: 61px;
-      width: 61px;
-    }
-  }
-}
-
 .left-text {
   font-style: italic;
   text-align: right;
@@ -24,10 +15,6 @@
   }
 }
 
-
-@media screen and (max-width: 600px){
-
-}
 
 @import 'fabrics';
 @import 'washes';
