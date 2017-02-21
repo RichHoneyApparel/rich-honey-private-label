@@ -12,7 +12,7 @@ angular.module('richHoneyPrivateLabel').controller 'NavController', [
         when 'men' then $state.go('categories_men')
         when 'women' then $state.go('categories_women')
         when 'apparel' then $state.go('services_apparel-cutting')
-        when 'women' then $state.go('services_leather-design')
+        when 'leather' then $state.go('services_leather-design')
 
     $scope.closeSide = ->
       $mdSidenav('left').close()

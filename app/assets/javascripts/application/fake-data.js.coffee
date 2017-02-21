@@ -125,7 +125,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: ""
       details: {
         model: "Model is 6'1 and wearing size M"
-        shirt: "Shirt worn is Navy in a Oil Dye"
+        shirt: "Shirt worn is Navy in an Oil Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "men"
@@ -194,7 +194,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: ""
       details: {
         model: "Model is 6'1 and wearing size M"
-        shirt: "Shirt worn is Navy in a Oil Dye"
+        shirt: "Shirt worn is Navy in an Oil Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "men"
@@ -263,7 +263,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: ""
       details: {
         model: "Model is 6'1 and wearing size M"
-        shirt: "Shirt worn is Navy in a Oil Dye"
+        shirt: "Shirt worn is Navy in an Oil Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "men"
@@ -332,7 +332,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: ""
       details: {
         model: "Model is 6'1 and wearing size M"
-        shirt: "Shirt worn is Navy in a Oil Dye"
+        shirt: "Shirt worn is Navy in an Oil Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "men"
@@ -401,7 +401,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: ""
       details: {
         model: "Model is 5'7 and wearing size S"
-        shirt: "Shirt worn is Navy in a Oil Dye"
+        shirt: "Shirt worn is Navy in an Oil Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "women"
@@ -461,16 +461,16 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   }
   {
     id: 18
-    name: "Women's Basic Crew - Cotton"
+    name: "Women's Basic Crew - Slub Cotton"
     style_num: "W05-2100"
     product_properties: {
       color: ""
-      fabric: "100% Cotton"
+      fabric: "100% Slub Cotton"
       dye: "Oil"
       wash: ""
       details: {
         model: "Model is 5'7 and wearing size S"
-        shirt: "Shirt worn is Navy in a Oil Dye"
+        shirt: "Shirt worn is Navy in an Oil Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "women"
@@ -562,7 +562,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: ""
       details: {
         model: "Model is 5'7 and wearing size S"
-        shirt: "Shirt worn is Navy in a Oil Dye"
+        shirt: "Shirt worn is Navy in an Oil Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "women"
@@ -631,7 +631,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: ""
       details: {
         model: "Model is 5'7 and wearing size S"
-        shirt: "Shirt worn is Navy in a Oil Dye"
+        shirt: "Shirt worn is Navy in an Oil Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "women"
@@ -654,7 +654,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: "Hot Wash"
       details: {
         model: "Model is 5'7 and wearing size S"
-        shirt: "Shirt worn is Navy in a Pigment Dye"
+        shirt: "Shirt worn is Heather Grey in a Hot Wash"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "women"
@@ -723,7 +723,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: ""
       details: {
         model: "Model is 5'7 and wearing size S"
-        shirt: "Shirt worn is Navy in a Oil Dye"
+        shirt: "Shirt worn is Navy in an Oil Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "women"
@@ -792,7 +792,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: ""
       details: {
         model: "Model is 5'7 and wearing size S"
-        shirt: "Shirt worn is Navy in a Oil Dye"
+        shirt: "Shirt worn is Navy in an Oil Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "women"
@@ -884,7 +884,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: ""
       details: {
         model: "Model is 5'7 and wearing size S"
-        shirt: "Shirt worn is Navy in a Oil Dye"
+        shirt: "Shirt worn is Navy in an Oil Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "women"
@@ -953,7 +953,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: ""
       details: {
         model: "Model is 5'7 and wearing size S"
-        shirt: "Shirt worn is Navy in a Oil Dye"
+        shirt: "Shirt worn is Navy in an Oil Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "women"
@@ -971,12 +971,12 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     style_num: "W04HG-2115"
     product_properties: {
       color: ""
-      fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon (Shown)"
+      fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
       dye: ""
       wash: "Hot Wash"
       details: {
         model: "Model is 5'7 and wearing size S"
-        shirt: "Shirt worn is Heather Gray in a Hot Wash"
+        shirt: "Shirt worn is Heather Grey in a Hot Wash"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "women"
@@ -1045,7 +1045,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: ""
       details: {
         model: "Model is 5'7 and wearing size S"
-        shirt: "Shirt worn is Navy in a Oil Dye"
+        shirt: "Shirt worn is Navy in an Oil Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "women"
@@ -1114,7 +1114,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: ""
       details: {
         model: "Model is 5'7 and wearing size S"
-        shirt: "Shirt worn is Navy in a Oil Dye"
+        shirt: "Shirt worn is Navy in an Oil Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "women"
@@ -1137,7 +1137,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: "Hot Wash"
       details: {
         model: "Model is 5'7 and wearing size S"
-        shirt: "Shirt worn is Heather Gray in a Hot Wash"
+        shirt: "Shirt worn is Heather Grey in a Hot Wash"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "women"

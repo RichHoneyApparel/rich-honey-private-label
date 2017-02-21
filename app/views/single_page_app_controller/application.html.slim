@@ -8,7 +8,7 @@ head
   = javascript_include_tag 'application'
   meta[name='viewport' content='width=device-width, initial-scale=1']
 
-body[ng-cloak]
+body[ng-cloak ng-strict]
   header[ng-include src="'application/views/public/nav-bar.html'" ng-controller="NavController"]
   .main-wrapper[flex layout='column']
     .main-content[role='main' flex layout='column' ui-view='']
