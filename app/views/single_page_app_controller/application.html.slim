@@ -11,7 +11,7 @@ head
 body[ng-cloak ng-strict]
   header[ng-include src="'application/views/public/nav-bar.html'" ng-controller="NavController"]
   .main-wrapper[flex layout='column']
-    .main-content[role='main' flex layout='column' ui-view='']
+    .main-content[role='main' flex layout='column' ui-view='' autoscroll="true"]
   footer[ng-include src="'application/views/public/footer.html'"]
 
   javascript:
