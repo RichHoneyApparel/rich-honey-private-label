@@ -12,7 +12,7 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
 
     $scope.openDialog = ->
       $mdDialog.show({
-        locals: {productImg: $scope.currentProductImg}
+        locals: { productImg: $scope.currentProductImg }
         clickOutsideToClose: true
         templateUrl: 'application/views/categories/shared/_product.html'
         controller: ($scope, productImg) -> $scope.productImg = productImg
