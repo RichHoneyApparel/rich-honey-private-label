@@ -18,9 +18,9 @@ md-nav-bar.nav[aria-label='main page nav' layout='row' layout-align='space-aroun
         i.fa.fa-lg.fa-caret-down[flex='5']
     md-menu-content[width="3"]
       md-menu-item
-        md-button[ui-sref='categories_men'] Men
+        md-button[ng-click='goToCategories("men")'] Men
       md-menu-item
-        md-button[ui-sref='categories_women'] Women
+        md-button[ng-click='goToCategories("women")'] Women
       md-menu-item
         md-button[ng-click='goToCategories("accessories")'] Accessories
       md-menu-item
@@ -35,9 +35,9 @@ md-nav-bar.nav[aria-label='main page nav' layout='row' layout-align='space-aroun
         i.fa.fa-lg.fa-caret-down[flex='5']
     md-menu-content[width="3"]
       md-menu-item
-        md-button[ui-sref='services_apparel-cutting'] Apparel
+        md-button[ng-click='goToCategories("apparel")'] Apparel
       md-menu-item
-        md-button[ui-sref='services_leather-design'] Leather
+        md-button[ng-click='goToCategories("leather")'] Leather
   md-nav-item[md-nav-sref='how_it_works' name='howitworks' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] How It Works
   md-nav-item[md-nav-sref='our_story' name='ourStory' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Our Story
 

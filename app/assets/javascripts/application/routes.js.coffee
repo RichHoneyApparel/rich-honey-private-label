@@ -1,6 +1,6 @@
 angular.module('richHoneyPrivateLabel').config [
   '$stateProvider',
-  ($stateProvider ) ->
+  ($stateProvider) ->
     # Routes. This should be separated from here when we have more routes
     $stateProvider
 
@@ -8,7 +8,6 @@ angular.module('richHoneyPrivateLabel').config [
       .state 'home',
         url: '/'
         templateUrl: 'application/views/home.html'
-        controller: 'HomeController'
 
       # Our story Page
       .state 'our_story',

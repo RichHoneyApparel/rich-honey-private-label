@@ -26,3 +26,16 @@
     }
   }
 }
+
+@media screen and (max-width: 959px){
+  .wash-header {
+    height: 450px !important;
+  }
+}
+
+
+@media screen and (max-width: 400px){
+  .wash-header {
+    height: 250px !important;
+  }
+}

@@ -24,3 +24,16 @@
     }
   }
 }
+
+@media screen and (max-width: 959px){
+  .dye-header {
+    height: 450px !important;
+  }
+}
+
+
+@media screen and (max-width: 400px){
+  .dye-header {
+    height: 250px !important;
+  }
+}
