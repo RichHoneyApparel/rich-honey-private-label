@@ -8,3 +8,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
 
     $locationProvider.html5Mode true
   ])
+  .run(['$rootScope', ($rootScope) ->
+    $rootScope.$on '$stateChangeSuccess', () ->
+      document.body.scrollTop = document.documentElement.scrollTop = 0
+  ])

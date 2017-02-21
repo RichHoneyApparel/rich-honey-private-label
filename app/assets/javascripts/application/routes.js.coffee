@@ -1,6 +1,6 @@
 angular.module('richHoneyPrivateLabel').config [
-  '$stateProvider',
-  ($stateProvider) ->
+  '$stateProvider', '$urlRouterProvider',
+  ($stateProvider, $urlRouterProvider) ->
     # Routes. This should be separated from here when we have more routes
     $stateProvider
 
@@ -177,5 +177,5 @@ angular.module('richHoneyPrivateLabel').config [
       .state 'terms_of_use',
         url: '/terms-of-use'
         templateUrl: 'application/views/other/terms-of-use.html'
-
+    $urlRouterProvider.otherwise('/')
   ]
