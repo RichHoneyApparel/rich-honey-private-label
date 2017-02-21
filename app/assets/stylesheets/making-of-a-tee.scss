@@ -445,6 +445,7 @@
 
   .rib-neck-description {
     font-size: 1.5vw;
+    padding: 0 20% 0 20%;
   }
 }
 
@@ -468,6 +469,15 @@
   .side-seam-text,
   .inside-care-label-text {
     font-size: 2.5vw !important;
+    padding-bottom: 5px;
+  }
+
+  .side-seam-text {
+    top: 16%;
+  }
+
+  .inside-care-label-text {
+    top: 66%;
   }
 
   .taping-text {
@@ -500,10 +510,13 @@
 @media screen and (max-width: 610px) {
   .shoulders-text {
     font-size: 2.5vw;
+    padding-bottom: 5px;
+    top: 30%;
   }
 
   .shoulders-description {
     font-size: 1.5vw;
+    padding: 0 25% 0 35%;
   }
 
   .rib-neck-text {
@@ -514,11 +527,13 @@
 @media screen and (max-width: 551px){
   .side-seam-description {
     font-size: 2vw;
+    padding: 0 20% 0 40%;
     top: 27%;
   }
 
   .taping-description {
-    top: 45%;
+    font-size: 2vw;
+    top: 51%;
   }
 
   .inside-care-label-description {
@@ -526,6 +541,10 @@
     top: 78%;
   }
 
+  .sleeves-text {
+    padding-bottom: 5px;
+    top: 35%;
+  }
 
 }
 
@@ -533,15 +552,47 @@
   .rib-neck-text {
     top: 50%;
   }
+
+  .sleeves-description {
+    padding: 0 50% 0 25%;
+  }
+
+  .one-sixteen-text {
+    padding-bottom: 5px;
+  }
+
+  .sleeve-hem-text,
+  .bottom-hem-text {
+    padding-bottom: 0;
+  }
+
+  .sleeve-hem-text {
+    top: 44%;
+  }
+
+  .bottom-hem-text {
+    top: 44%;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .rib-neck-text {
     padding-right: 10%;
-    top: 50%;
+    padding-bottom: 0px;
+    top: 56%;
+  }
+
+  .sleeve-hem-text {
+    top: 51%;
+  }
+
+  .bottom-hem-text {
+    top: 42%;
   }
 
   .taping-text {
-    top: 19%;
+    font-size: 4vw;
+    padding-bottom: 5px;
+    top: 30%;
   }
 }

@@ -87,12 +87,26 @@
       margin-left: 25px !important;
       padding-right: 10px;
 
+      .md-headline {
+        font-size: 6vw !important;
+      }
+
       .md-title {
         font-size: 3vw !important;
       }
     }
   }
 
+
+  .fabric-img {
+    height: 120px !important;
+    width: 300px !important;
+  }
+
+  .washing-img {
+    width: 270px !important;
+  }
+  
   .how-it-works-body {
     .how-it-works-content {
       .dotted-thing-short {
