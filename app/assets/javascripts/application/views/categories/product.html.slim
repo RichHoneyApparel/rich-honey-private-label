@@ -28,7 +28,7 @@
         ul
           li[ng-repeat='w in washes'] {{ w }}
 
-    .details[style='padding-bottom: 40px;' ng-if='product.product_properties.category != "accessories"']
+    .details[style='padding-bottom: 10px; font-size: 8px;' ng-if='product.product_properties.category != "accessories"']
       | DETAILS
       p {{ product.product_properties.details.model }}
       p {{ product.product_properties.details.shirt }}
