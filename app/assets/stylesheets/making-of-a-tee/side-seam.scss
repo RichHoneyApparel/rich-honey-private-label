@@ -10,9 +10,9 @@
 .side-seam-description {
   color: $white;
   left: 10%;
-  padding: 0 30%;
+  padding: 0 35% 0 40%;
   position: absolute;
-  top: 17%;
+  top: 15%;
 }
 
 .inside-care-label-text {
@@ -25,24 +25,59 @@
 .inside-care-label-description {
   color: $white;
   left: 27%;
-  padding: 0 20%;
+  padding: 0 27% 0 32%;
   position: absolute;
-  top: 68%;
+  top: 65%;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1625px){
   .side-seam-description {
-    top: 20%;
+    top: 16%;
+  }
+
+  .inside-care-label-description {
+    top: 66%;
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1400px){
+  .side-seam-description {
+    padding: 0 32% 0 40%;
+    top: 17%;
+  }
+
   .inside-care-label-description {
+    padding: 0 23% 0 34%;
+    top: 67%;
+  }
+}
+
+@media screen and (max-width: 1150px){
+  .side-seam-description {
+    padding: 0 30% 0 40%;
+    top: 18%;
+  }
+
+  .inside-care-label-description {
+    padding: 0 20% 0 34%;
+    top: 68%;
+  }
+}
+
+
+@media screen and (max-width: 960px) {
+  .side-seam-description {
+    padding: 0 25% 0 40%;
+    top: 20%;
+  }
+
+  .inside-care-label-description {
+    padding: 0 10% 0 35%;
     top: 70%;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 770px) {
   .side-seam-description {
     font-size: 1.5vw;
     top: 22%;
@@ -58,15 +93,23 @@
   .side-seam-text,
   .inside-care-label-text {
     font-size: 2.5vw !important;
-    padding-bottom: 5px;
+    padding-bottom: 0 !important;
   }
 
   .side-seam-text {
-    top: 16%;
+    top: 20%;
   }
 
   .inside-care-label-text {
-    top: 66%;
+    top: 70%;
+  }
+
+  .side-seam-description {
+    top: 28%;
+  }
+
+  .inside-care-label-description {
+    top: 78%;
   }
 }
 
