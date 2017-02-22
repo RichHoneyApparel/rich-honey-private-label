@@ -56,7 +56,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       wash: ""
       details: {
         model: "Model is 6'1 and wearing size M"
-        shirt: "Shirt worn is Navy in a Pigment Dye"
+        shirt: "Shirt worn is Navy in an Oil Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "men"
@@ -190,11 +190,11 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     product_properties: {
       color: ""
       fabric: "100% Slub Cotton"
-      dye: "Oil"
+      dye: "Pigment"
       wash: ""
       details: {
         model: "Model is 6'1 and wearing size M"
-        shirt: "Shirt worn is Navy in an Oil Dye"
+        shirt: "Shirt worn is Navy in a Pigment Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "men"
@@ -327,7 +327,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     style_num: "M05-1102"
     product_properties: {
       color: ""
-      fabric: "100% Cotton"
+      fabric: "100% Slub Cotton"
       dye: "Oil"
       wash: ""
       details: {
@@ -485,7 +485,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   {
     id: 19
     name: "Women's Basic Crew - Triblend"
-    style_num: "W01-2100"
+    style_num: "W04HG-2100"
     product_properties: {
       color: ""
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
@@ -530,7 +530,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   }
   {
     id: 21
-    name: "Women's Pockte Crew - Cotton"
+    name: "Women's Pocket Crew - Cotton"
     style_num: "W01-2102"
     product_properties: {
       color: ""
@@ -673,7 +673,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     product_properties: {
       color: ""
       fabric: "100% Cotton"
-      dye: "Ractive"
+      dye: "Reactive"
       wash: ""
       details: {
         model: "Model is 5'7 and wearing size S"
@@ -1292,7 +1292,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   {
     id: 56
     name: "Womens's Crop Muscle - Cotton"
-    style_num: "W01-2105"
+    style_num: "W01-2116"
     product_properties: {
       color: ""
       fabric: "100% Cotton"
@@ -1348,7 +1348,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   {
     id: 58
     name: "Womens's Split Tank - Cotton"
-    style_num: "W01-2116"
+    style_num: "W01-2110"
     product_properties: {
       color: ""
       fabric: "100% Cotton"
@@ -1376,7 +1376,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   {
     id: 59
     name: "Womens's Muscle Top - Cotton"
-    style_num: "W01-2116"
+    style_num: "W01-2115"
     product_properties: {
       color: ""
       fabric: "100% Cotton"
