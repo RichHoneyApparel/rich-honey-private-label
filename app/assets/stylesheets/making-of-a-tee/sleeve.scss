@@ -1,4 +1,5 @@
 @import 'making-of-a-tee-text-border';
+
 .sleeves-text {
   @extend %moat-image-text-left;
   padding-right: 20%;
@@ -8,46 +9,52 @@
 
 .sleeves-description {
   color: $white;
-  padding: 0 40% 0 33%;
+  padding: 0 50% 0 35%;
   position: absolute;
-  top: 36%;
+  top: 33%;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1700px) {
   .sleeves-description {
-    top: 39%;
+    top: 34%;
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1500px) {
   .sleeves-description {
-    padding: 0 40% 0 25%;
-    top: 42%;
+    padding: 0 50% 0 33%;
+    top: 35%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .sleeves-description {
+    padding: 0 50% 0 31%;
+    top: 38%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .sleeves-text {
+    padding-bottom: 0 !important;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .sleeves-description {
+    padding: 0 50% 0 25%;
+    top: 40%;
   }
 }
 
 @media screen and (max-width: 715px){
   .sleeves-text {
-    font-size: 2.5vw;
+    font-size: 2.5vw !important;
   }
 
   .sleeves-description {
     font-size: 1.5vw;
-    top: 54%;
-  }
-}
-
-@media screen and (max-width: 551px){
-  .sleeves-text {
-    padding-bottom: 5px;
-    top: 35%;
-  }
-}
-
-
-
-@media screen and (max-width: 500px){
-  .sleeves-description {
-    padding: 0 50% 0 25%;
+    top: 43% !important;
   }
 }
