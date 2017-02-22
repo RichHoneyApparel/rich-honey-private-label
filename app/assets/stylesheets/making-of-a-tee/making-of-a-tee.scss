@@ -1,0 +1,85 @@
+.moat-nav-bar {
+  background-color: $white;
+  text-align: center;
+
+  .logo-container {
+    .link-name {
+      font-size: 8px;
+    }
+
+    .inactive {
+      background-color: $rich-honey-grey-2 !important;
+      color: $black !important;
+    }
+  }
+}
+
+.moat-footer {
+  .start-project {
+    background-color: $black;
+    color: $white;
+    margin: 0;
+
+    .md-title {
+      font-weight: bold;
+    }
+  }
+
+  .step {
+    margin: 0;
+
+    .md-title {
+      font-weight: bold;
+    }
+  }
+}
+
+
+.video-title {
+  background-color: $rich-honey-color;
+  color: $white;
+}
+
+@media screen and (max-width: 802px){
+  .video-title {
+    .md-headline {
+      font-size: 2.5vw;
+    }
+
+    .md-subhead {
+      font-size: 2vw;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .moat-footer {
+    .start-project,
+    .step {
+      .md-title {
+        font-size: 2.5vw;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 610px) {
+  .moat-nav-bar {
+    .logo-container {
+      .md-fab {
+        height: 40px !important;
+        line-height: 40px !important;
+        width: 40px !important;
+      }
+    }
+  }
+}
+
+@import 'side-seam';
+@import 'shoulder';
+@import 'rib-neck';
+@import 'one-sixteen';
+@import 'taping';
+@import 'sleeve';
+@import 'hem';

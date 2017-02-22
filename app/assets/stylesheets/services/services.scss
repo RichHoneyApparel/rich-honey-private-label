@@ -1,0 +1,65 @@
+.services-hub {
+  background-image: url('services-header.png');
+  background-size: cover;
+  color: $white;
+  padding: 150px 0 350px;
+  text-align: center;
+
+  .md-headline {
+    font-size: 2.5vw;
+  }
+
+  .md-subhead {
+    padding: 50px 0;
+  }
+
+  .services-buttons {
+    a,
+    button {
+      border: 1px solid $white;
+      border-radius: 0;
+      color: $white;
+    }
+  }
+}
+
+.apparel-production-container,
+.apparel-patterning-container,
+.apparel-marking-grading-container,
+.apparel-honey-studio-container,
+.apparel-cutting-container {
+  font-size: 16px;
+}
+
+.start-project-dialog {
+  max-height: 90%;
+  height: 90%;
+  max-width: 60%;
+  width: 60%;
+}
+
+@media screen and (max-width: 600px){
+  .services-hub {
+    .md-subhead {
+      padding: 25px 10px;
+    }
+  }
+
+  .start-project-dialog {
+    height: 50%;
+    width: 90%;
+    overflow: scroll !important;
+    -webkit-overflow-scrolling: touch;
+  }
+
+}
+
+
+
+// Import all the other services scss
+@import 'apparel-cutting';
+@import 'apparel-marking-grading';
+@import 'apparel-patterning';
+@import 'apparel-production';
+@import 'apparel-honey-studio';
+@import 'leather-services';

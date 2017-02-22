@@ -1,0 +1,84 @@
+@import 'making-of-a-tee-text-border';
+
+.side-seam-text {
+  @extend %moat-image-text-right;
+  left: 38%;
+  padding-left: 20%;
+  top: 10%;
+}
+
+.side-seam-description {
+  color: $white;
+  left: 10%;
+  padding: 0 30%;
+  position: absolute;
+  top: 17%;
+}
+
+.inside-care-label-text {
+  @extend %moat-image-text-right;
+  left: 41%;
+  padding-left: 20%;
+  top: 60%;
+}
+
+.inside-care-label-description {
+  color: $white;
+  left: 27%;
+  padding: 0 20%;
+  position: absolute;
+  top: 68%;
+}
+
+@media screen and (max-width: 1200px){
+  .side-seam-description {
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .inside-care-label-description {
+    top: 70%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .side-seam-description {
+    font-size: 1.5vw;
+    top: 22%;
+  }
+
+  .inside-care-label-description {
+    font-size: 1.5vw;
+    top: 72%;
+  }
+}
+
+@media screen and (max-width: 682px) {
+  .side-seam-text,
+  .inside-care-label-text {
+    font-size: 2.5vw !important;
+    padding-bottom: 5px;
+  }
+
+  .side-seam-text {
+    top: 16%;
+  }
+
+  .inside-care-label-text {
+    top: 66%;
+  }
+}
+
+@media screen and (max-width: 551px){
+  .side-seam-description {
+    font-size: 2vw;
+    padding: 0 20% 0 40%;
+    top: 27%;
+  }
+
+  .inside-care-label-description {
+    font-size: 2vw;
+    top: 78%;
+  }
+}

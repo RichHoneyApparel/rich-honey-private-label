@@ -1,0 +1,50 @@
+.apparel-patterning-header {
+  background-image: url('pattern-header.png');
+  background-size: cover;
+  margin: 0 50px;
+  padding-top: 600px;
+  text-align: center;
+
+  .md-display-1 {
+    background-color: $white;
+    color: $black;
+    font-weight: bold;
+    padding: 10px 40px;
+  }
+}
+
+.apparel-patterning-body {
+  .text-container {
+    padding: 15px 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1279px){
+  .apparel-patterning-header {
+    padding-top: 500px !important;
+  }
+}
+
+@media screen and (max-width: 959px){
+  .apparel-patterning-header {
+    padding-top: 450px !important;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .apparel-patterning-header {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .apparel-patterning-header {
+    padding-top: 150px !important;
+
+    .md-display-1 {
+      font-size: 6vw;
+      padding: 10px;
+    }
+  }
+}

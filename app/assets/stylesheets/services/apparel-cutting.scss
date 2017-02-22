@@ -1,0 +1,122 @@
+.apparel-cutting-header {
+  background-image: url('cutting-header.png');
+  background-size: cover;
+  margin: 0 50px;
+  padding-top: 600px;
+
+  .md-display-1 {
+    background-color: $white;
+    color: $black;
+    font-weight: bold;
+    padding: 10px 60px;
+  }
+}
+
+.apparel-cutting-body {
+  .cutting-text {
+    padding: 30px 0 40px;
+    text-align: center;
+  }
+
+  .cutting-details {
+    table {
+      tr {
+        td {
+          font-size: 16px;
+          padding-left: 20px;
+        }
+      }
+
+      tr:nth-child(odd) {
+        background-color: $rich-honey-grey-1;
+      }
+
+      tr:first-child {
+        background-color: $black;
+
+        th {
+          color: $white;
+          font-size: 20px;
+          padding-left: 20px;
+        }
+      }
+    }
+
+    .first-table {
+      border: 1px solid $black;
+      margin-right: 5px;
+      width: 50%;
+    }
+
+    .second-table {
+      border: 1px solid $black;
+      width: 30%;
+    }
+  }
+}
+
+.cutting-contact-us,
+.start-a-project {
+  padding: 40px;
+
+  button {
+    background-color: $black !important;
+    border-radius: 0;
+    color: $white !important;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 40px;
+  }
+}
+
+@media screen and (max-width: 1279px){
+  .apparel-cutting-header {
+    padding-top: 500px !important;
+  }
+}
+
+@media screen and (max-width: 959px){
+  .apparel-cutting-header {
+    padding-top: 450px !important;
+  }
+}
+
+@media screen and (max-width: 959px){
+  .second-table {
+    margin-top: 20px;
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .apparel-cutting-header {
+    margin: 0;
+  }
+
+  .first-table,
+  .second-table {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .first-table,
+  .second-table {
+    width: 95% !important;
+  }
+
+  .apparel-cutting-header {
+    padding-top: 150px !important;
+
+    .md-display-1 {
+      font-size: 6vw;
+      padding: 10px;
+    }
+  }
+
+  .cutting-contact-us {
+    button {
+      font-size: 6vw;
+    }
+  }
+}

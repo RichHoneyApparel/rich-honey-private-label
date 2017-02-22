@@ -1,0 +1,46 @@
+%moat-image-text-right {
+  border-bottom: 2px dashed $white;
+  color: $white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding-bottom: 15px;
+  position: absolute;
+
+  &::before {
+    background: $white;
+    border-radius: 5px;
+    bottom: -6px;
+    content: '';
+    height: 10px;
+    left: 0;
+    position: absolute;
+    width: 10px;
+  }
+
+  &::after {
+    left: auto;
+    right: 0;
+  }
+}
+
+%moat-image-text-left {
+  border-bottom: 2px dashed $white;
+  color: $white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 15px;
+  position: absolute;
+
+  &::after {
+    background: $white;
+    border-radius: 5px;
+    bottom: -6px;
+    content: '';
+    height: 10px;
+    left: auto;
+    position: absolute;
+    right: 0;
+    width: 10px;
+  }
+}

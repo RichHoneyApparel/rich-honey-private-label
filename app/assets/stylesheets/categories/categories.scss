@@ -1,0 +1,17 @@
+@import 'category-accessories';
+@import 'category-activewear';
+@import 'category-mens';
+@import 'category-womens';
+
+@media screen and (max-width: 600px) {
+  .logo-container {
+    img {
+      height: 40px;
+    }
+
+    .fitness-icon {
+      height: 30px;
+      width: 60px;
+    }
+  }
+}

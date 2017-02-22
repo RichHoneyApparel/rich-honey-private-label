@@ -1,0 +1,64 @@
+.apparel-marking-grading-header {
+  background-image: url('marking-grading-header.png');
+  background-size: cover;
+  margin: 0 50px;
+  padding-top: 600px;
+  text-align: center;
+
+  .md-display-1 {
+    background-color: $white;
+    color: $black;
+    font-weight: bold;
+    padding: 10px 40px;
+  }
+}
+
+.apparel-marking-grading-body {
+  .text-container {
+    padding: 15px 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1279px){
+  .apparel-marking-grading-header {
+    padding-top: 500px !important;
+  }
+}
+
+@media screen and (max-width: 959px){
+  .apparel-honey-studio-header {
+    padding-top: 150px !important;
+
+    .md-display-1 {
+      font-size: 6vw;
+      padding: 10px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 723px) {
+  .apparel-marking-grading-header {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  .apparel-marking-grading-header {
+    .md-display-1 {
+      padding: 10px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 400px){
+  .apparel-marking-grading-header {
+    padding-top: 150px !important;
+
+    .md-display-1 {
+      font-size: 6vw;
+      padding: 10px;
+    }
+  }
+}

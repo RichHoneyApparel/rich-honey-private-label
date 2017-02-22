@@ -1,0 +1,121 @@
+@import 'making-of-a-tee-text-border';
+
+.bottom-hem-text {
+  @extend %moat-image-text-right;
+  left: 27%;
+  padding-left: 30%;
+  top: 49%;
+}
+
+.bottom-hem-description {
+  color: $white;
+  left: 5%;
+  padding-left: 30%;
+  position: absolute;
+  top: 66%;
+}
+
+.sleeve-hem-text {
+  @extend %moat-image-text-right;
+  left: 17%;
+  padding-left: 35%;
+  top: 56%;
+}
+
+.sleeve-hem-description {
+  color: $white;
+  left: 7%;
+  padding-left: 35%;
+  position: absolute;
+  top: 68%;
+}
+
+@media screen and (max-width: 1281px){
+  .sleeve-hem-text {
+    top: 54%;
+  }
+
+  .bottom-hem-text {
+    top: 46%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .sleeve-hem-text {
+    top: 51%;
+  }
+
+  .bottom-hem-text {
+    top: 43%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .bottom-hem-text {
+    top: 39%;
+  }
+}
+
+
+@media screen and (max-width: 851px) {
+  .bottom-hem-text {
+    top: 36%;
+  }
+}
+
+@media screen and (max-width: 802px){
+  .sleeve-hem-text {
+    padding-left: 26%;
+    top: 46%;
+  }
+
+  .bottom-hem-text {
+    padding-left: 20%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .bottom-hem-description,
+  .sleeve-hem-description {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .sleeve-hem-text {
+    font-size: 2.5vw;
+    top: 42%;
+  }
+
+  .bottom-hem-text {
+    font-size: 2.5vw;
+    top: 31%;
+  }
+}
+
+
+
+@media screen and (max-width: 500px){
+  .sleeve-hem-text,
+  .bottom-hem-text {
+    padding-bottom: 0;
+  }
+
+  .sleeve-hem-text {
+    top: 44%;
+  }
+
+  .bottom-hem-text {
+    top: 44%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .sleeve-hem-text {
+    top: 51%;
+  }
+
+  .bottom-hem-text {
+    top: 42%;
+  }
+}

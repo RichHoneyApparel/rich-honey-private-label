@@ -1,0 +1,84 @@
+@import 'making-of-a-tee-text-border';
+.taping-text {
+  @extend %moat-image-text-right;
+  left: 52%;
+  padding-left: 25%;
+  top: 35%;
+}
+
+.taping-description {
+  color: $white;
+  left: 40%;
+  padding: 0 19%;
+  position: absolute;
+  top: 43%;
+}
+
+@media screen and (max-width: 1281px){
+  .taping-text {
+    top: 33%;
+  }
+
+  .taping-description {
+    top: 42%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .taping-text {
+    top: 32%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .taping-text {
+    top: 31%;
+  }
+
+  .taping-description {
+    top: 42%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .taping-description {
+    top: 43%;
+  }
+}
+
+
+@media screen and (max-width: 851px) {
+  .taping-text {
+    top: 28%;
+  }
+
+  .taping-description {
+    top: 43%;
+  }
+}
+
+@media screen and (max-width: 682px) {
+  .taping-text {
+    top: 25%;
+  }
+
+  .taping-description {
+    padding: 0 0 0 20%;
+    top: 42%;
+  }
+}
+
+@media screen and (max-width: 551px){
+  .taping-description {
+    font-size: 2vw;
+    top: 51%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .taping-text {
+    font-size: 4vw;
+    padding-bottom: 5px;
+    top: 30%;
+  }
+}
