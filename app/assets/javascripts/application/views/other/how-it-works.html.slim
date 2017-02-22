@@ -4,7 +4,7 @@
     p.md-subhead Start building your production of premium apparel with the
       options that we offer below.
 
-    .md-subhead Don't have an account? <a href="/" style='color: white; text-decoration: underline;'> Apply here</a>.
+    .md-subhead Don't have an account? <a ui-sref="create_an_account" style='color: white; text-decoration: underline;'> Apply here</a>.
 
   .how-it-works-body[layout='column' layout-align='start start']
     .how-it-works-content[flex='90']
@@ -13,13 +13,17 @@
         img[ng-src='assets/shirt-jacket.PNG' width='134px']
         .text-container[flex='90']
           .md-headline[style='width: 100%;'] STYLES
-          .md-title Select among various styles that we offer for men and women.
+          .md-title Select among various styles that we offer for
+            <a ui-sref="categories_men"> Men</a>
+            and
+            <a ui-sref="categories_women"> Women</a>
       .dotted-thing-tall
       .text-row[layout='row' layout-align='space-between start']
         img.fabric-img[ng-src='assets/fabric-active.png' width='134px']
         .text-container[flex='90']
           .md-headline[style='width: 100%;'] FABRIC
-          .md-title Choose from our fabric options: 100% cotton, slub cotton, and
+          .md-title Choose from our
+            <a ui-sref="resource_fabrics"> fabric </a> options: 100% cotton, slub cotton, and
             Triblend (50% polyester, 37.5% cotton, 12.5% rayon). *Additional fabrics
             are available upon inquiry.
       .dotted-thing-tall
@@ -28,13 +32,15 @@
         .text-container[flex='90']
           .md-headline[style='width: 100%;'] DYE
           .md-title Pick any Pantone TPX color and we can provide lab dips for
-            your approval before moving forward with the dyeing process.
+            your approval before moving forward with the <a ui-sref="resource_dyes"> dyeing </a> process.
       .dotted-thing-tall
       .text-row[layout='row' layout-align='space-between start']
         img.washing-img[ng-src='assets/washing-machine-active.png' width='134px']
         .text-container[flex='90']
           .md-headline[style='width: 100%;'] WASH
-          .md-title Choose from our available washes which include: softener &
+          .md-title Choose from our available
+            <a ui-sref="resource_washes"> washes</a>
+            which include: softener &
             enzyme, silicone, and hot wash. *Additional specialty washes are
             available upon inquiry.
       .dotted-thing-tall
