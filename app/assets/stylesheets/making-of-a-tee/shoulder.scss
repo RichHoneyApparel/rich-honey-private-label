@@ -9,10 +9,25 @@
 .shoulders-description {
   color: $white;
   left: 10%;
-  padding: 0 21% 0 35%;
+  padding: 0 40% 0 35%;
   position: absolute;
-  top: 34%;
+  top: 32%;
 }
+
+@media screen and (max-width: 1500px) {
+  .shoulders-description {
+    padding: 0 40% 0 33%;
+    top: 33%
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .shoulders-description {
+    padding: 0 35%;
+    top: 34%
+  }
+}
+
 
 @media screen and (max-width: 1100px) {
   .shoulders-description {
@@ -21,9 +36,13 @@
 }
 
 @media screen and (max-width: 960px) {
+  .shoulders-text {
+    padding-bottom: 0;
+  }
+
   .shoulders-description {
-    padding: 0 19% 0 35%;
-    top: 38%;
+    padding: 0 30% 0 35%;
+    top: 33%;
   }
 }
 
@@ -33,10 +52,11 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 830px) {
   .shoulders-description {
-    padding: 0px 10% 0 34%;
-    top: 40%;
+    font-size: 1.5vw;
+    padding: 0px 25% 0 35%;
+    top: 37%;
   }
 }
 
@@ -48,20 +68,14 @@
 
 @media screen and (max-width: 650px) {
   .shoulders-description {
-    padding: 0 0 0 35%;
-    top: 44%;
+    top: 38%;
   }
 }
 
 @media screen and (max-width: 610px) {
   .shoulders-text {
-    font-size: 2.5vw;
-    padding-bottom: 5px;
-    top: 30%;
-  }
-
-  .shoulders-description {
-    font-size: 1.5vw;
-    padding: 0 25% 0 35%;
+    font-size: 2.5vw !important;
+    padding-bottom: 0px;
+    top: 29%;
   }
 }
