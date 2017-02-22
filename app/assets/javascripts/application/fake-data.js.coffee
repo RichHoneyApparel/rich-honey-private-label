@@ -1264,7 +1264,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   {
     id: 55
     name: "Men's Basic Crew - Cotton"
-    style_num: "M01-1112"
+    style_num: "M01-1100"
     product_properties: {
       color: ""
       fabric: "100% Cotton"
@@ -1319,8 +1319,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   }
   {
     id: 57
-    name: "Womens's Crop Muscle - Cotton"
-    style_num: "W01-2116"
+    name: "Womens's Scoop Neck - Cotton"
+    style_num: "W01-2105"
     product_properties: {
       color: ""
       fabric: "100% Cotton"
