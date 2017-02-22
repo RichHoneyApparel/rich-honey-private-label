@@ -1,0 +1,81 @@
+@import 'making-of-a-tee-text-border';
+.shoulders-text {
+  @extend %moat-image-text-right;
+  left: 31%;
+  padding-left: 20%;
+  top: 26%;
+}
+
+.shoulders-description {
+  color: $white;
+  left: 10%;
+  padding: 0 40% 0 35%;
+  position: absolute;
+  top: 32%;
+}
+
+@media screen and (max-width: 1500px) {
+  .shoulders-description {
+    padding: 0 40% 0 33%;
+    top: 33%
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .shoulders-description {
+    padding: 0 35%;
+    top: 34%
+  }
+}
+
+
+@media screen and (max-width: 1100px) {
+  .shoulders-description {
+    top: 36%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .shoulders-text {
+    padding-bottom: 0;
+  }
+
+  .shoulders-description {
+    padding: 0 30% 0 35%;
+    top: 33%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .shoulders-text {
+    left: 32%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .shoulders-description {
+    font-size: 1.5vw;
+    padding: 0px 25% 0 35%;
+    top: 37%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .shoulders-text {
+    left: 33%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .shoulders-description {
+    top: 38%;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .shoulders-text {
+    font-size: 2.5vw !important;
+    padding-bottom: 0px;
+    top: 29%;
+  }
+}

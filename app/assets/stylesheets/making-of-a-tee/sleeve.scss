@@ -1,0 +1,60 @@
+@import 'making-of-a-tee-text-border';
+
+.sleeves-text {
+  @extend %moat-image-text-left;
+  padding-right: 20%;
+  right: 40%;
+  top: 27%;
+}
+
+.sleeves-description {
+  color: $white;
+  padding: 0 50% 0 35%;
+  position: absolute;
+  top: 33%;
+}
+
+@media screen and (max-width: 1700px) {
+  .sleeves-description {
+    top: 34%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .sleeves-description {
+    padding: 0 50% 0 33%;
+    top: 35%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .sleeves-description {
+    padding: 0 50% 0 31%;
+    top: 38%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .sleeves-text {
+    padding-bottom: 0 !important;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .sleeves-description {
+    padding: 0 50% 0 25%;
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 715px){
+  .sleeves-text {
+    font-size: 2.5vw !important;
+  }
+
+  .sleeves-description {
+    font-size: 1.5vw;
+    top: 43% !important;
+  }
+}
