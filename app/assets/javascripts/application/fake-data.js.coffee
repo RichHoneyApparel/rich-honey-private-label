@@ -185,8 +185,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   }
   {
     id: 50
-    name: "Men's Basic Crew - Slub Cotton"
-    style_num: "M05-1100"
+    name: "Men's Basic Crew with Binding - Slub Cotton"
+    style_num: "M05-1101"
     product_properties: {
       color: ""
       fabric: "100% Slub Cotton"
