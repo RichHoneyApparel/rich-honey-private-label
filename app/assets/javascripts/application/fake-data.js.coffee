@@ -485,7 +485,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   {
     id: 19
     name: "Women's Basic Crew - Triblend"
-    style_num: "W04HG-2100"
+    style_num: "W04-2100"
     product_properties: {
       color: ""
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
@@ -646,7 +646,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   {
     id: 26
     name: "Women's Pocket Crew - Triblend"
-    style_num: "W04HG-2102"
+    style_num: "W04-2102"
     product_properties: {
       color: ""
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
@@ -807,7 +807,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   {
     id: 33
     name: "Women's Split Tank Crew - Triblend"
-    style_num: "W04HG-2110"
+    style_num: "W04-2110"
     product_properties: {
       color: ""
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
@@ -968,7 +968,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   {
     id: 40
     name: "Women's Muscle Top - Triblend"
-    style_num: "W04HG-2115"
+    style_num: "W04-2115"
     product_properties: {
       color: ""
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
@@ -1129,7 +1129,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   {
     id: 47
     name: "Women's Crop Muscle - Triblend"
-    style_num: "W04HG-2116"
+    style_num: "W04-2116"
     product_properties: {
       color: ""
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
