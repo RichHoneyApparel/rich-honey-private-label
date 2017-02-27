@@ -3,62 +3,62 @@
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/services-cutting.png' ng-if="!path.includes('cutting')"]
       img[ng-src='assets/services-cutting-active.png' ng-if="path.includes('cutting')"]
-      p.link-name[style='margin-top: -10px !important'] Cutting
+      p.link-name[style='margin-top: -10px !important' ng-class="{'active-text': path.includes('cutting'), 'inactive-text': !path.includes('cutting')}"] Cutting
   md-button[aria-label='markingAndGrading' name='markingAndGrading' value='markingAndGrading' ng-click='goto("services_apparel-marking-grading")' flex='5' flex-xs='30' layout-fill ng-if='isApparel' style='padding-top: 30px']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/services-marking-grading.png' ng-if="!path.includes('marking-grading')"]
       img[ng-src='assets/services-marking-grading-active.png' ng-if="path.includes('marking-grading')"]
-      p.link-name[style='margin: -10px 0 -25px !important'] Marking
-      p.link-name & Grading
+      p.link-name[style='margin: -10px 0 -25px !important'ng-class="{'active-text': path.includes('marking-grading'), 'inactive-text': !path.includes('marking-grading')}"] Marking
+      p.link-name[ng-class="{'active-text': path.includes('marking-grading'), 'inactive-text': !path.includes('marking-grading')}"] & Grading
   md-button[aria-label='patterning' name='patterning' value='patterning' ng-click='goto("services_apparel-patterning")' flex='5' flex-xs='30' layout-fill ng-if='isApparel' style='padding-top: 30px']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/services-pattern.png' ng-if="!path.includes('patterns')"]
       img[ng-src='assets/services-pattern-active.png' ng-if="path.includes('patterns')"]
-      p.link-name[style='margin-top: -10px !important'] Patterns
+      p.link-name[style='margin-top: -10px !important' ng-class="{'active-text': path.includes('patterns'), 'inactive-text': !path.includes('patterns')}"] Patterns
   md-button[aria-label='production' name='production' value='production' ng-click='goto("services_apparel-production")' flex='5' flex-xs='30' layout-fill ng-if='isApparel' style='padding-top: 30px']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/services-production.png' ng-if="!path.includes('production')"]
       img[ng-src='assets/services-production-active.png' ng-if="path.includes('production')"]
-      p.link-name[style='margin-top: -10px !important'] Production
+      p.link-name[style='margin-top: -10px !important' ng-class="{'active-text': path.includes('production'), 'inactive-text': !path.includes('production')}"] Production
   md-button[aria-label='honeyStudio' name='honeyStudio' value='honeyStudio' ng-click='goto("services_apparel-studio")' flex='5' flex-xs='30' layout-fill ng-if='isApparel' style='padding-top: 30px']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/services-honey-studio.png' ng-if="!path.includes('honey-studio')"]
       img[ng-src='assets/services-honey-studio-active.png' ng-if="path.includes('honey-studio')"]
-      p.link-name[style='margin-top: -10px !important'] Honey Studio
+      p.link-name[style='margin-top: -10px !important' ng-class="{'active-text': path.includes('honey-studio'), 'inactive-text': !path.includes('honey-studio')}"] Honey Studio
 
   md-button[aria-label='designDevelopment' name='designDevelopment' value='designDevelopment' ng-click='goto("services_leather-design")' flex='5' flex-xs='30' layout-fill ng-if='isLeather' style='padding-top: 30px']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/design-development-active.png' ng-show="path.includes('design-development')"]
       img[ng-src='assets/design-development.png' ng-show="!path.includes('design-development')"]
-      p.link-name[style='margin: -10px 0 -25px !important'] Design &
-      p.link-name Development
+      p.link-name[style='margin: -10px 0 -25px !important' ng-class="{'active-text': path.includes('design-development'), 'inactive-text': !path.includes('design-development')}"] Design &
+      p.link-name[ng-class="{'active-text': path.includes('design-development'), 'inactive-text': !path.includes('design-development')}"] Development
   md-button[aria-label='production' name='production' value='production' ng-click='goto("services_leather-production")' flex='5' flex-xs='30' layout-fill ng-if='isLeather' style='padding-top: 30px']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/production-active.png' ng-show="path.includes('/leather/production')"]
       img[ng-src='assets/production.png' ng-show="!path.includes('/leather/production')"]
-      p.link-name[style='margin-top: -10px !important'] Production
+      p.link-name[style='margin-top: -10px !important' ng-class="{'active-text': path.includes('/leather/production'), 'inactive-text': !path.includes('/leather/production')}"] Production
   md-button[aria-label='diecutting' name='diecutting' value='diecutting' ng-click='goto("services_leather-die-cutting")' flex='5' flex-xs='30' layout-fill ng-if='isLeather' style='padding-top: 30px']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/diecutting-active.png' ng-show="path.includes('die-cutting')"]
       img[ng-src='assets/diecutting.png' ng-show="!path.includes('die-cutting')"]
-      p.link-name[style='margin-top: -10px !important'] Die-cutting
+      p.link-name[style='margin-top: -10px !important' ng-class="{'active-text': path.includes('die-cutting'), 'inactive-text': !path.includes('die-cutting')}"] Die-cutting
   md-button[aria-label='debossing' name='debossing' value='debossing' ng-click='goto("services_leather-debossing")' flex='5' flex-xs='30' layout-fill ng-if='isLeather' style='padding-top: 30px']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/debossing-active.png' ng-show="path.includes('debossing')"]
       img[ng-src='assets/debossing.png' ng-show="!path.includes('debossing')"]
-      p.link-name[style='margin-top: -10px !important'] Debossing
+      p.link-name[style='margin-top: -10px !important' ng-class="{'active-text': path.includes('debossing'), 'inactive-text': !path.includes('debossing')}"] Debossing
   md-button[aria-label='skiving' name='skiving' value='skiving' ng-click='goto("services_leather-skiving")' flex='5' flex-xs='30' layout-fill ng-if='isLeather' style='padding-top: 30px']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/skiving-active.png' ng-show="path.includes('skiving')"]
       img[ng-src='assets/skiving.png' ng-show="!path.includes('skiving')"]
-      p.link-name[style='margin-top: -10px !important'] Skiving
+      p.link-name[style='margin-top: -10px !important' ng-class="{'active-text': path.includes('skiving'), 'inactive-text': !path.includes('skiving')}"] Skiving
   md-button[aria-label='packaging' name='packaging' value='packaging' ng-click='goto("services_leather-packaging")' flex='5' flex-xs='30' layout-fill ng-if='isLeather' style='padding-top: 30px']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/packaging-active.png' ng-show="path.includes('packaging')"]
       img[ng-src='assets/packaging.png' ng-show="!path.includes('packaging')"]
-      p.link-name[style='margin-top: -10px !important'] Packaging
+      p.link-name[style='margin-top: -10px !important' ng-class="{'active-text': path.includes('packaging'), 'inactive-text': !path.includes('packaging')}"] Packaging
   md-button[aria-label='samples' name='samples' value='samples' ng-click='goto("services_leather-samples")' flex='5' flex-xs='30' layout-fill ng-if='isLeather' style='padding-top: 30px']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/sample-active.png' ng-show="path.includes('samples')"]
       img[ng-src='assets/sample.png' ng-show="!path.includes('samples')"]
-      p.link-name[style='margin-top: -10px !important'] Samples
+      p.link-name[style='margin-top: -10px !important' ng-class="{'active-text': path.includes('samples'), 'inactive-text': !path.includes('samples')}"] Samples
