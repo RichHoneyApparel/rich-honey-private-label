@@ -5,10 +5,32 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
   .services-body
     .services-body-text[layout='column' layout-align='center space-between']
       .text-container[layout='row' layout-align='center center' flex]
-        p[flex='40' flex-sm='70' flex-xs='90']
-          | Rich Honey can handle small and large productions for your high
-            quality leather goods. You can choose from the various types of
-            leather that we offer or come in with your own.
+        p[flex='40' flex-sm='70' flex-xs='90'] Rich Honey can handle small and
+          large productions for your high quality leather goods at low minimums.
+          You can choose from the various types of leather that we offer or come
+          in with your own.
 
+    .services-table-container[layout='row' layout-sm='column' layout-align-sm='center center' layout-xs='column' layout-align-xs='center center' layout-align='center center']
+      table.first-table
+        tr.table-header
+          th[colspan='2'] Leather and fabrics we work with:
+        tr
+          td Raw Edge
+          td Turned Edge
+        tr
+          td Veg Tan
+          td Full Grain
+        tr
+          td Suede
+          td Corrected Grain
+        tr
+          td Nubuck
+          td Shearling
+        tr
+          td Heron
+          td Wool
+        tr
+          td Canvas
+          td Denim
     .start-a-project[layout='row' layout-align='center center']
       md-button.md-raised[aria-label='start a project' ng-click='openDialog()'] START A PROJECT
