@@ -5,6 +5,7 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
     $scope.currentProductImg = ''
     $scope.relatedProducts = []
     $scope.current
+    $scope.modifications = ['Custom color', 'Dyes', 'Washes']
     $scope.fabrics = ['100% Cotton', '100% Slub Cotton',
       'Triblend: 50% polyester, 37.5% cotton, 12.5% rayon']
     $scope.washes = ['Softener & Enzyme', 'Silicone', 'Hot Wash']
@@ -52,8 +53,9 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
           if product.id == Number($stateParams.id)
             $scope.product = product
             $scope.currentProductImg = $scope.product.product_img[0].url
-      if $scope.product.product_properties.category != 'accessories'
-        formatProperties()
+      if $scope.product.product_properties.category == 'accessories'
+        $scope.fabrics = ['7 oz. Canvas', '12 oz. Canvas']
+      formatProperties()
       getRelatedProducts()
 
       $scope.current = $scope.relatedProducts.findIndex((prod) ->
