@@ -13,11 +13,9 @@
     .md-subhead[ng-if='product.product_properties.category != "accessories"'] Choose any Pantone TPX color
     .md-subhead[style='padding-bottom: 15px;' ng-if='product.product_properties.category != "accessories"'] 96 Unit Minimum Quantity (S-16, M-32, L-32, XL-16)
     .md-subhead[ng-if='product.product_properties.category == "accessories"'] Inquire for custom colors.
-    .md-subhead[style='padding-bottom: 15px;' ng-if='product.product_properties.category == "accessories"'] Case, Dozen, and Piece pricing available. One case contains 96 units.
-    .materials-container[style='padding-bottom: 15px;' ng-if='product.product_properties.category == "accessories"']
-      p.md-subhead MATERIAL: {{ product.product_properties.fabric }}
-      p.md-subhead COLOR: {{ product.product_properties.color }}
-    .fabric-container[style='padding-bottom: 15px;' ng-if='product.product_properties.category != "accessories"']
+    .md-subhead[style='padding-bottom: 15px;' ng-if='product.product_properties.category == "accessories"'] Case, Dozen, and Piece pricing available.
+    .md-subhead[style='padding-bottom: 15px;' ng-if='product.product_properties.category == "accessories"'] One case contains 96 units.
+    .fabric-container[style='padding-bottom: 15px;']
       .md-subhead AVAILABLE FABRICS
       ul
         li[ng-repeat='f in fabrics'] {{ f }}
@@ -31,9 +29,22 @@
         .md-subhead AVAILABLE WASHES
         ul
           li[ng-repeat='w in washes'] {{ w }}
+
+    .other-properties[layout='row' style='padding-bottom: 15px;' ng-if='product.product_properties.category == "accessories"']
+      .modification-container[flex='50']
+        .md-subhead AVAILABLE MODIFICATION
+        ul
+          li[ng-repeat='m in modifications'] {{ m }}
+
     .other-info[layout-gt-xs='row']
-      .details[style='padding-bottom: 10px; font-size: 8px;' ng-if='product.product_properties.category != "accessories"' flex='50' flex-xs='100']
+      .details[style='padding-bottom: 10px; font-size: 8px;' flex='50' flex-xs='100']
         | DETAILS
+        p {{ product.product_properties.details.height }}
+        p {{ product.product_properties.details.width }}
+        p {{ product.product_properties.details.depth }}
+        p {{ product.product_properties.details.strap_drop }}
+        p {{ product.product_properties.details.strap_length }}
+        p {{ product.product_properties.details.width }}
         p {{ product.product_properties.details.model }}
         p {{ product.product_properties.details.shirt }}
         p {{ product.product_properties.details.made_in_la }}
@@ -50,9 +61,16 @@
       a[href="https://plus.google.com/share?url={{ url }}" target='_blank' style='color: black' flex='5' flex-xs='15']
         i.fa.fa-lg.fa-google-plus
 
-.related-products[layout='column' style='padding: 20px;']
+.related-products[layout='column' style='padding: 20px;' ng-if='product.product_properties.category != "accessories"']
   .md-headline[style='padding: 10px 0; border-top: 1px solid black; border-bottom: 1px solid black; text-align: center;'] Related Products
   .item-container[layout='row' layout-wrap]
     .product-container[ng-repeat='p in relatedProducts | limitTo: 4' flex-sm='33' flex-xs='50' flex='25' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(p.id)']
       img[ng-src='{{ p.product_img[0].url }}' width='100%' style='padding-bottom: 10px;']
+      span {{ p.name }}
+
+.related-products[layout='column' style='padding: 20px;' ng-if='product.product_properties.category == "accessories"']
+  .md-headline[style='padding: 10px 0; border-top: 1px solid black; border-bottom: 1px solid black; text-align: center;'] Related Products
+  .item-container[layout='row' layout-wrap]
+    .product-container[ng-repeat='p in relatedProducts | limitTo: 4' flex-md='25' flex-sm='33' flex-xs='50' flex='25' layout='column' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(p.id)']
+      img[ng-src='{{ p.product_img[0].url }}' style='padding-bottom: 10px;' max-height='200px' max-width='200px']
       span {{ p.name }}
