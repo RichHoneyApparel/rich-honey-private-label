@@ -5,11 +5,35 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
   .services-body
     .services-body-text[layout='column' layout-align='center space-between']
       .text-container[layout='row' layout-align='center center' flex]
-        p[flex='40' flex-sm='70' flex-xs='90']
-          | We know how important the design and development stage is in the
-            production process. Starting with creating sketches and patterns
-            for your design, we will work with you through every step to bring
-            your vision to life.
+        p[flex='40' flex-sm='70' flex-xs='90'] We know how important the design
+          and development stage is in the production process. Starting with
+          creating sketches and patterns for your design, we will work with you
+          through every step to bring your vision to life.
+
+    .services-table-container[layout='row' layout-sm='column' layout-align-sm='center center' layout-xs='column' layout-align-xs='center center' layout-align='center center']
+      table.first-table
+        tr.table-header
+          th[colspan='1'] Services:
+        tr
+          td First Patterns
+        tr
+          td Digitizing
+        tr
+          td Grading
+        tr
+          td Tech Packs
+
+      table.second-table
+        tr.table-header
+          th[colspan='1'] Items we develop:
+        tr
+          td Outerwear
+        tr
+          td Apparel
+        tr
+          td Bags
+        tr
+          td Accessories
 
     .start-a-project[layout='row' layout-align='center center']
       md-button.md-raised[aria-label='start a project' ng-click='openDialog()'] START A PROJECT

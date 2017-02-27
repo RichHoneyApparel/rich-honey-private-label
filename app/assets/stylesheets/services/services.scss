@@ -23,6 +23,38 @@
   }
 }
 
+.services-table-container {
+  table {
+    tr {
+      td {
+        font-size: 16px;
+        padding-left: 20px;
+      }
+    }
+
+    tr:nth-child(odd) {
+      background-color: $rich-honey-grey-1;
+    }
+
+    tr:first-child {
+      background-color: $black;
+
+      th {
+        color: $white;
+        font-size: 20px;
+        padding-left: 20px;
+      }
+    }
+  }
+
+  .first-table,
+  .second-table {
+    border: 1px solid $black;
+    margin-right: 5px;
+    width: 35%;
+  }
+}
+
 .apparel-production-container,
 .apparel-patterning-container,
 .apparel-marking-grading-container,
@@ -36,6 +68,15 @@
   height: 90%;
   max-width: 60%;
   width: 60%;
+}
+
+@media screen and (max-width: 959px) {
+  .services-table-container {
+    .first-table,
+    .second-table {
+      width: 50%;
+    }
+  }
 }
 
 @media screen and (max-width: 600px){
