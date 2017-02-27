@@ -31,12 +31,14 @@
         .md-subhead AVAILABLE WASHES
         ul
           li[ng-repeat='w in washes'] {{ w }}
-
-    .details[style='padding-bottom: 10px; font-size: 8px;' ng-if='product.product_properties.category != "accessories"']
-      | DETAILS
-      p {{ product.product_properties.details.model }}
-      p {{ product.product_properties.details.shirt }}
-      p {{ product.product_properties.details.made_in_la }}
+    .other-info[layout-gt-xs='row']
+      .details[style='padding-bottom: 10px; font-size: 8px;' ng-if='product.product_properties.category != "accessories"' flex='50' flex-xs='100']
+        | DETAILS
+        p {{ product.product_properties.details.model }}
+        p {{ product.product_properties.details.shirt }}
+        p {{ product.product_properties.details.made_in_la }}
+      .start-a-project[layout='row' layout-align='start start' flex='50' flex-xs='100' style='padding: 0;']
+        md-button.md-raised[aria-label='start a project' ui-sref='contact_us' style='color: white; background-color: black;'] START A PROJECT
     .share[style='border-top: 1px solid black;' layout='row']
       span[flex='10' flex-xs='20' flex-sm='10' flex-md='15'] SHARE:
       a[href="https://www.facebook.com/sharer/sharer.php?u={{ url }}" target='_blank' style='color: black' flex='5' flex-xs='15']
