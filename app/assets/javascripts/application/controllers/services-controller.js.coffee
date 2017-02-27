@@ -6,5 +6,4 @@ angular.module('richHoneyPrivateLabel').controller 'ServicesController', [
         clickOutsideToClose: true
         templateUrl: 'application/views/services/shared/_start-project.html'
         })
-
 ]

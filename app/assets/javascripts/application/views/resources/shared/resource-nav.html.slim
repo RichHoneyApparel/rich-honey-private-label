@@ -3,14 +3,14 @@
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/fabric.png' ng-if="!path.includes('fabrics')"]
       img[ng-src='assets/fabric-active.png' ng-if="path.includes('fabrics')"]
-      p.link-name[style='margin-top: -10px; font-size: 8px;'] Fabrics
+      p.link-name[style='margin-top: -10px; font-size: 8px;' ng-class="{'active-text': path.includes('fabrics'), 'inactive-text': !path.includes('fabrics')}"] Fabrics
   md-button[name='markingAndGrading' value='markingAndGrading' ng-click='goto("resource_dyes")' flex='5' style='padding-top: 30px;']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/drop.png' ng-if="!path.includes('dyes')"]
       img[ng-src='assets/drop-active.png' ng-if="path.includes('dyes')"]
-      p.link-name[style='margin-top: -10px; font-size: 8px;'] Dyes
+      p.link-name[style='margin-top: -10px; font-size: 8px;' ng-class="{'active-text': path.includes('dyes'), 'inactive-text': !path.includes('dyes')}"] Dyes
   md-button[name='patterning' value='patterning' ng-click='goto("resource_washes")' flex='5' style='padding-top: 30px;']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/washing-machine.png' ng-if="!path.includes('washes')"]
       img[ng-src='assets/washing-machine-active.png' ng-if="path.includes('washes')"]
-      p.link-name[style='margin-top: -10px; font-size: 8px;'] Washes
+      p.link-name[style='margin-top: -10px; font-size: 8px;' ng-class="{'active-text': path.includes('washes'), 'inactive-text': !path.includes('washes')}"] Washes

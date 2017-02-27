@@ -25,6 +25,15 @@ p {
   padding: 40px 20% 60px;
 }
 
+.inactive-text {
+  color: $inactive-text-color !important;
+}
+
+.active-text {
+  color: $black !important;
+  text-decoration: underline !important;
+}
+
 
 
 @media screen and (max-width: 600px) {
