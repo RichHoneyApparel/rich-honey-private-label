@@ -668,7 +668,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   }
   {
     id: 27
-    name: "Women's Split Tank Crew - Cotton"
+    name: "Women's Split Tank - Cotton"
     style_num: "W01-2110"
     product_properties: {
       color: ""
@@ -685,13 +685,13 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     }
     product_img: [{
       url: "assets/RichHoney-Womens-Split-Tank-Cotton-Reactive.jpg"
-      alt: "Women's Split Tank crew"
+      alt: "Women's Split Tank"
       featured: true
     }]
   }
   {
     id: 28
-    name: "Women's Split Tank Crew - Cotton"
+    name: "Women's Split Tank - Cotton"
     style_num: "W01-2110"
     product_properties: {
       color: ""
@@ -708,13 +708,13 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     }
     product_img: [{
       url: "assets/RichHoney-Womens-Split-Tank-Cotton-Pigment.jpg"
-      alt: "Women's Split Tank crew"
+      alt: "Women's Split Tank"
       featured: true
     }]
   }
   {
     id: 29
-    name: "Women's Split Tank Crew - Cotton"
+    name: "Women's Split Tank - Cotton"
     style_num: "W01-2110"
     product_properties: {
       color: ""
@@ -731,13 +731,13 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     }
     product_img: [{
       url: "assets/RichHoney-Womens-Split-Tank-Cotton-Oil.jpg"
-      alt: "Women's Split Tank crew"
+      alt: "Women's Split Tank"
       featured: true
     }]
   }
   {
     id: 30
-    name: "Women's Split Tank Crew - Slub Cotton"
+    name: "Women's Split Tank - Slub Cotton"
     style_num: "W05-2110"
     product_properties: {
       color: ""
@@ -754,13 +754,13 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     }
     product_img: [{
       url: "assets/RichHoney-Womens-Split-Tank-Slub-Cotton-Reactive.jpg"
-      alt: "Women's Split Tank crew"
+      alt: "Women's Split Tank"
       featured: true
     }]
   }
   {
     id: 31
-    name: "Women's Split Tank Crew - Slub Cotton"
+    name: "Women's Split Tank - Slub Cotton"
     style_num: "W05-2110"
     product_properties: {
       color: ""
@@ -777,13 +777,13 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     }
     product_img: [{
       url: "assets/RichHoney-Womens-Split-Tank-Slub-Cotton-Pigment.jpg"
-      alt: "Women's Split Tank crew"
+      alt: "Women's Split Tank"
       featured: true
     }]
   }
   {
     id: 32
-    name: "Women's Split Tank Crew - Slub Cotton"
+    name: "Women's Split Tank - Slub Cotton"
     style_num: "W05-2110"
     product_properties: {
       color: ""
@@ -800,13 +800,13 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     }
     product_img: [{
       url: "assets/RichHoney-Womens-Split-Tank-Slub-Cotton-Oil.jpg"
-      alt: "Women's Split Tank crew"
+      alt: "Women's Split Tank"
       featured: true
     }]
   }
   {
     id: 33
-    name: "Women's Split Tank Crew - Triblend"
+    name: "Women's Split Tank - Triblend"
     style_num: "W04-2110"
     product_properties: {
       color: ""
@@ -823,7 +823,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     }
     product_img: [{
       url: "assets/RichHoney-Womens-Split-Tank-Triblend.jpg"
-      alt: "Women's Split Tank crew"
+      alt: "Women's Split Tank"
       featured: true
     }]
   }
