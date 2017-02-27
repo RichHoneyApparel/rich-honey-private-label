@@ -5,10 +5,22 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
   .services-body
     .services-body-text[layout='column' layout-align='center space-between']
       .text-container[layout='row' layout-align='center center' flex]
-        p[flex='40' flex-sm='70' flex-xs='90']
-          | High quality products need high quality packaging. Rich Honey can
-            stuff, tag, and place your leather bags and accessories into dust
-            bags or poly bags so your products are maintained and undamaged.
-
+        p[flex='40' flex-sm='70' flex-xs='90'] High quality products need high
+          quality packaging. Rich Honey can stuff, tag, and place your leather
+          bags and accessories into dust bags or poly bags so your premium
+          products are maintained and undamaged.
+    .services-table-container[layout='row' layout-sm='column' layout-align-sm='center center' layout-xs='column' layout-align-xs='center center' layout-align='center center']
+      table.first-table
+        tr.table-header
+          th[colspan='1'] Packaging Materials:
+        tr
+          td Hang Tags
+        tr
+          td Skew Stickers
+        tr
+          td Dust Bags
+        tr
+          td Poly Bags
+        
     .start-a-project[layout='row' layout-align='center center']
       md-button.md-raised[aria-label='start a project' ng-click='openDialog()'] START A PROJECT
