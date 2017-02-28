@@ -1,8 +1,13 @@
-.home-page-container[layout='column']
-  a.home-page-header[layout='column' layout-align='start center' ui-sref='how_it_works' style='text-decoration: none;']
-    .md-display-1 PREMIUM APPAREL BLANKS
-    .md-display-1.lower CUSTOM LEATHER GOODS
-    .md-headline Designed, developed, and manufactured to meet your Private Label needs.
+.home-page-container[layout='column' ng-controller='HomeController']
+  slick[settings='slickConfig']
+    a.home-page-header-2[layout='column' layout-align='start center' style='text-decoration: none;' ui-sref='how_it_works']
+      .md-display-1 PREMIUM APPAREL BLANKS
+      .md-display-1.lower CUSTOM LEATHER GOODS
+      .md-headline Designed, developed, and manufactured to meet your Private Label needs.
+      a.home-page-header[layout='column' layout-align='start center' ui-sref='categories_activewear'  style='text-decoration: none;']
+        img[ng-src='']
+        .md-display-1 &nbsp;
+        .md-display-1.lower[style='font-weight: bold;'] fitness
   /.home-page-body[layout='row' layout-sm='column' layout-xs='column']
     .product-feature[flex='33' layout-align='center center' flex-sm='100' flex-xs='100']
       .md-headline Product Feature

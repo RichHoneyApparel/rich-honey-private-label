@@ -1,5 +1,5 @@
 angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
-'templates'])
+'templates', 'slickCarousel'])
   .config(['$mdThemingProvider', '$locationProvider',
   ($mdThemingProvider, $locationProvider) ->
     $mdThemingProvider.theme('default')
