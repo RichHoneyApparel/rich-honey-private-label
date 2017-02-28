@@ -4,7 +4,7 @@ angular.module('richHoneyPrivateLabel').controller 'HomeController', [
       enabled: true
       arrows: false
       autoplay: true
-      autoplaySpeed: 4000
+      autoplaySpeed: 5000
       draggable: false
     }
 ]
