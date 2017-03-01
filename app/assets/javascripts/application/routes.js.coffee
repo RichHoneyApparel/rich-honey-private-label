@@ -1,6 +1,17 @@
 angular.module('richHoneyPrivateLabel').config [
-  '$stateProvider', '$urlRouterProvider',
-  ($stateProvider, $urlRouterProvider) ->
+  '$stateProvider', '$urlRouterProvider', '$urlMatcherFactoryProvider',
+  ($stateProvider, $urlRouterProvider, $urlMatcherFactoryProvider) ->
+    productType = {
+      encode: (str) ->
+        str and str.replace(/ /g, '-')
+      decode: (str) ->
+        str and str.replace(/-/g, '_')
+      is: angular.isString
+      pattern: /[^/]+/
+    }
+
+    $urlMatcherFactoryProvider.type('product', productType)
+
     $stateProvider
 
       # Home page
@@ -86,7 +97,7 @@ angular.module('richHoneyPrivateLabel').config [
         controller: 'CategoriesController'
 
       .state 'product_show',
-        url: '/product/:name/:id'
+        url: '/product/{productName:product}/:id'
         templateUrl: 'application/views/categories/product.html'
         controller: 'ProductsController'
 

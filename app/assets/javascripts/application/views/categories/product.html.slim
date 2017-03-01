@@ -4,10 +4,10 @@
     .product-thumbnails[ng-if='product.product_img.length > 1' flex='20' layout-xs='row']
       img[ng-src="{{ p.url }}" ng-repeat='p in product.product_img' width='100%' style='padding: 10px; outline: none;' ng-click='updateProductImg(p.url)']
   .product-info[flex='45' flex-offset='5' flex-sm='100' flex-xs='100' style='padding: 30px;']
-    .product-navigation[layout='row' flex='100' layout-align='end center']
-      a[href='/product/{{ relatedProducts[current - 1].name }}/{{ relatedProducts[current - 1].id }}' ng-if='product != first'] < Previous
+    .product-navigation[layout='row' flex='100' show-gt-sm hide-sm hide-xs layout-align='end center']
+      a[ui-sref='product_show({productName: relatedProducts[current - 1].name, id: relatedProducts[current - 1].id})' ng-if='product != first'] < Previous
       span[style='padding: 0 5px;' ng-if='product != first && product != last'] |
-      a[href='/product/{{ relatedProducts[current + 1].name }}/{{ relatedProducts[current + 1].id }}' ng-if='product != last'] Next >
+      a[ui-sref='product_show({productName: relatedProducts[current + 1].name, id: relatedProducts[current + 1].id})' ng-if='product != last'] Next >
     .md-headline[style='background-color: black; color: white; text-align: center;'] {{ product.name | uppercase }}
     .md-title[style='padding: 30px 0;'] STYLE #: {{ product.style_num }}
     .md-subhead[ng-if='product.product_properties.category != "accessories"'] Choose any Pantone TPX color
@@ -51,25 +51,28 @@
         md-button.md-raised[aria-label='start a project' ui-sref='contact_us' style='color: white; background-color: black;'] Place Your Order
     .share[style='border-top: 1px solid black;' layout='row']
       span[flex='10' flex-xs='20' flex-sm='10' flex-md='15'] SHARE:
-      a[href="https://www.facebook.com/sharer/sharer.php?u={{ url }}" target='_blank' style='color: black' flex='5' flex-xs='15']
+      a[href="https://www.facebook.com/sharer/sharer.php?u={{ url }}" target='_blank' style='color: black' flex='5' flex-xs='10']
         i.fa.fa-lg.fa-facebook
-      a[href="https://twitter.com/home?status={{ url }}" target='_blank' style='color: black' flex='5' flex-xs='15']
+      a[href="https://twitter.com/home?status={{ url }}" target='_blank' style='color: black' flex='5' flex-xs='10']
         i.fa.fa-lg.fa-twitter
-      a[href="https://pinterest.com/pin/create/button/?url={{ url }}" target='_blank' style='color: black' flex='5' flex-xs='15']
+      a[href="https://pinterest.com/pin/create/button/?url={{ url }}" target='_blank' style='color: black' flex='5' flex-xs='10']
         i.fa.fa-lg.fa-pinterest
-      a[href="https://plus.google.com/share?url={{ url }}" target='_blank' style='color: black' flex='5' flex-xs='15']
+      a[href="https://plus.google.com/share?url={{ url }}" target='_blank' style='color: black' flex='5' flex-xs='10']
         i.fa.fa-lg.fa-google-plus
-
+      .product-navigation[layout='row' flex hide-gt-sm show-sm show-xs layout-align='end center']
+        a[ui-sref='product_show({productName: relatedProducts[current - 1].name, id: relatedProducts[current - 1].id})' ng-if='product != first'] < Previous
+        span[style='padding: 0 5px;' ng-if='product != first && product != last'] |
+        a[ui-sref='product_show({productName: relatedProducts[current + 1].name, id: relatedProducts[current + 1].id})' ng-if='product != last'] Next >
 .related-products[layout='column' style='padding: 20px;' ng-if='product.product_properties.category != "accessories"']
   .md-headline[style='padding: 10px 0; border-top: 1px solid black; border-bottom: 1px solid black; text-align: center;'] Related Products
   .item-container[layout='row' layout-wrap]
-    .product-container[ng-repeat='p in relatedProducts | limitTo: 4' flex-sm='33' flex-xs='50' flex='25' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(p.name, p.id)']
+    .product-container[ng-repeat='p in relatedProducts | limitTo: 4' flex-sm='33' flex-xs='50' flex='25' layout-align='center center' style='text-align: center; padding: 30px;' ui-sref='product_show({productName: p.name, id: p.id})']
       img[ng-src='{{ p.product_img[0].url }}' width='100%' style='padding-bottom: 10px;']
       span {{ p.name }}
 
 .related-products[layout='column' style='padding: 20px;' ng-if='product.product_properties.category == "accessories"']
   .md-headline[style='padding: 10px 0; border-top: 1px solid black; border-bottom: 1px solid black; text-align: center;'] Related Products
   .item-container[layout='row' layout-wrap]
-    .product-container[ng-repeat='p in relatedProducts | limitTo: 4' flex-md='25' flex-sm='33' flex-xs='50' flex='25' layout='column' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(p.name, p.id)']
+    .product-container[ng-repeat='p in relatedProducts | limitTo: 4' flex-md='25' flex-sm='33' flex-xs='50' flex='25' layout='column' layout-align='center center' style='text-align: center; padding: 30px;' ui-sref='product_show({productName: p.name, id: p.id})']
       img[ng-src='{{ p.product_img[0].url }}' style='padding-bottom: 10px;' max-height='200px' max-width='200px']
       span {{ p.name }}
