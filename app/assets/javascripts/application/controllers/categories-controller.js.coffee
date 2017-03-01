@@ -31,7 +31,8 @@ angular.module('richHoneyPrivateLabel').controller 'CategoriesController', [
           $scope.product.push(product)
 
     $scope.goToProduct = (name, id) ->
-      $location.path('/product/'+ name + '/' + id)
+      $location.path('/product/'+ name.replace(/\s+/g, '-').toLowerCase()
+        + '/' + id)
 
     if $location.path().includes('/women')
       getWomens()

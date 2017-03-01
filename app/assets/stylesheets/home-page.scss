@@ -18,6 +18,13 @@
     }
   }
 
+  slick {
+    margin-bottom: 0 !important;
+
+    .slick-dots {
+      bottom: 0;
+    }
+  }
 
   .fine-leather,
   .sports-wear,
