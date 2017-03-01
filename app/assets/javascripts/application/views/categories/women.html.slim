@@ -1,7 +1,7 @@
 .header[ng-include src="'application/views/categories/shared/categories-nav.html'" ng-controller='CategoriesNavController']
 .categories-womens-container
   .categories-womens-header[layout='row' layout-align='start center']
-    .header-text[flex='25' flex-md='45' flex-sm='50' flex-xs='65']
+    .header-text[flex='30' flex-md='45' flex-sm='50' flex-xs='65']
       h1.md-display-1
         span[style='padding-right: 10px;'] WOMEN'S
         |  APPAREL
@@ -10,6 +10,6 @@
   .categories-womens-body[layout='column']
     .mens-section[layout='column' style='padding: 20px;']
       .item-container[layout='row' layout-wrap]
-        .product-container[ng-repeat='m in product' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(m.id)']
+        .product-container[ng-repeat='m in product' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(m.name, m.id)']
           img[ng-src='{{ m.product_img[0].url }}' width='100%' style='padding-bottom: 10px;']
           span {{ m.name }}

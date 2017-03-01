@@ -3,6 +3,21 @@
     padding-bottom: 10px;
   }
 
+  .home-slider-1,
+  .home-slider-2,
+  .home-slider-3 {
+    position: relative;
+    text-decoration: none;
+
+    .text-over-image {
+      color: $white;
+      position: absolute;
+      text-align: center;
+      top: 65%;
+      width: 100%;
+    }
+  }
+
   .fine-leather,
   .sports-wear,
   .made-in-la,
@@ -24,14 +39,36 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  .home-page-container {
+    .home-slider-1,
+    .home-slider-2,
+    .home-slider-3 {
+      .text-over-image {
+        top: 55%;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 748px){
   .home-page-container {
+    .home-slider-1,
+    .home-slider-2,
+    .home-slider-3 {
+      .text-over-image {
+        top: 65%;
+      }
+    }
+
     .md-display-1 {
       font-size: 3vw;
+      line-height: 3vw;
     }
 
     .md-headline {
       font-size: 2vw;
+      line-height: 2vw;
     }
   }
 }

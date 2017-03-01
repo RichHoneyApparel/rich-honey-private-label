@@ -1,7 +1,6 @@
 angular.module('richHoneyPrivateLabel').config [
   '$stateProvider', '$urlRouterProvider',
   ($stateProvider, $urlRouterProvider) ->
-    # Routes. This should be separated from here when we have more routes
     $stateProvider
 
       # Home page
@@ -87,7 +86,7 @@ angular.module('richHoneyPrivateLabel').config [
         controller: 'CategoriesController'
 
       .state 'product_show',
-        url: '/product/:id'
+        url: '/product/:name/:id'
         templateUrl: 'application/views/categories/product.html'
         controller: 'ProductsController'
 

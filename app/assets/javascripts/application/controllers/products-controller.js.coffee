@@ -21,8 +21,8 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
         controller: ($scope, productImg) -> $scope.productImg = productImg
         })
 
-    $scope.goToProduct = (id) ->
-      $location.path('/product/'+id)
+    $scope.goToProduct = (name, id) ->
+      $location.path('/product/'+ name + '/' + id)
 
     formatProperties = ->
       $scope.dyes.forEach (dye, idx) ->
