@@ -10,6 +10,6 @@
   .categories-mens-body[layout='column']
     .mens-section[layout='column' style='padding: 20px;']
       .item-container[layout='row' layout-wrap]
-        .product-container[ng-repeat='m in product' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(m.name, m.id)']
+        .product-container[ng-repeat='m in product' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' style='text-align: center; padding: 30px;' ui-sref='product_show({productName: m.name, id: m.id})']
           img[ng-src='{{ m.product_img[0].url }}' width='100%' style='padding-bottom: 10px;']
           span {{ m.name }}
