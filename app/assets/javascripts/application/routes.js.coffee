@@ -67,27 +67,27 @@ angular.module('richHoneyPrivateLabel').config [
 
       # Categories
       .state 'categories_accessories',
-        url: '/products/accessories'
+        url: '/categories/accessories'
         templateUrl: 'application/views/categories/accessories.html'
         controller: 'CategoriesController'
 
       .state 'categories_activewear',
-        url: '/products/fitness'
+        url: '/categories/fitness'
         templateUrl: 'application/views/categories/activewear.html'
         controller: 'CategoriesController'
 
       .state 'categories_men',
-        url: '/products/men'
+        url: '/categories/men'
         templateUrl: 'application/views/categories/men.html'
         controller: 'CategoriesController'
 
       .state 'categories_women',
-        url: '/products/women'
+        url: '/categories/women'
         templateUrl: 'application/views/categories/women.html'
         controller: 'CategoriesController'
 
       .state 'product_show',
-        url: '/product/:id'
+        url: "/product/:name/:id"
         templateUrl: 'application/views/categories/product.html'
         controller: 'ProductsController'
 

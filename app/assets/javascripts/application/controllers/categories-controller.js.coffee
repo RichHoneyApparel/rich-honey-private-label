@@ -30,12 +30,12 @@ angular.module('richHoneyPrivateLabel').controller 'CategoriesController', [
         if product.product_properties.category == 'accessories'
           $scope.product.push(product)
 
-    $scope.goToProduct = (id) ->
-      $location.path('/product/'+id)
+    $scope.goToProduct = (name, id) ->
+      $location.path('/product/'+ name + '/' + id)
 
-    if $location.path().includes('women')
+    if $location.path().includes('/women')
       getWomens()
-    else if $location.path().includes('men')
+    else if $location.path().includes('/men')
       getMens()
     else if $location.path().includes('fitness')
       getActive()

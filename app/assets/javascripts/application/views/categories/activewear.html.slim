@@ -10,12 +10,12 @@
     .mens-section[layout='column' style='padding: 20px;']
       p.md-headline[flex='33' style='margin: 10px 0 !important; font-weight: bold;'] MEN'S
       .item-container[layout='row' layout-wrap]
-        .product-container[ng-repeat='m in activeMen' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(m.id)']
+        .product-container[ng-repeat='m in activeMen' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(m.name, m.id)']
           img[ng-src='{{ m.product_img[0].url }}' width='100%' style='padding-bottom: 10px;']
           span {{ m.name }}
     .womens-section[layout='column' style='padding: 20px;']
       p.md-headline[flex='33' style='margin: 10px 0 !important; font-weight: bold;'] WOMEN'S
       .item-container[layout='row' layout-wrap]
-        .product-container[ng-repeat='w in activeWomen' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(w.id)']
+        .product-container[ng-repeat='w in activeWomen' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(m.name, w.id)']
           img[ng-src='{{ w.product_img[0].url }}' width='100%' style='padding-bottom: 10px;']
           span {{ w.name }}

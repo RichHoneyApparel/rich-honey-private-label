@@ -7,10 +7,10 @@
         | SORIES
       p Rich Honey offers premium accessories for various lifestyle needs.
         Each bag is created by our team of craftsmen in Los Angeles.
-        
+
   .categories-accessories-body[layout='row' layout-wrap]
     .mens-section[layout='column' style='padding: 20px;']
       .item-container[layout='row' layout-wrap]
-        .product-container[ng-repeat='m in product' flex-md='25' flex-sm='33' flex-xs='50' flex='25' layout='column' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(m.id)']
+        .product-container[ng-repeat='m in product' flex-md='25' flex-sm='33' flex-xs='50' flex='25' layout='column' layout-align='center center' style='text-align: center; padding: 30px;' ng-click='goToProduct(m.name, m.id)']
           img[ng-src='{{ m.product_img[0].url }}' style='padding-bottom: 10px;' max-height='200px' max-width='200px']
           span {{ m.name }}
