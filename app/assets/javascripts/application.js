@@ -21,4 +21,5 @@
 //= require angular-material/angular-material
 //= require slick-carousel/slick/slick.js
 //= require angular-slick-carousel/dist/angular-slick
+//= require drift
 //= require_tree ./application
