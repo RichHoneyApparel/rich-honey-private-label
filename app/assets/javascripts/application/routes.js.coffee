@@ -154,6 +154,10 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/services/leather/packaging'
         templateUrl: 'application/views/services/leather/leather-packaging.html'
 
+      .state 'services_inquiry',
+        url: '/services/inquiry'
+        templateUrl: 'application/views/services/shared/inquiry.html'
+
       # Making of a tee
       .state 'moat-1-side-seams',
         url: '/making-of-a-tee/side-seams'
