@@ -56,10 +56,13 @@
 }
 
 .cutting-contact-us,
-.start-a-project {
+.start-a-project,
+.services-buttons,
+.production-contact-us {
   padding: 40px;
 
-  button {
+  button,
+  a {
     background-color: $black !important;
     border-radius: 0;
     color: $white !important;
@@ -114,8 +117,11 @@
     }
   }
 
-  .cutting-contact-us {
-    button {
+  .cutting-contact-us,
+  .start-a-project,
+  .services-buttons,
+  .production-contact-us {
+    button, a {
       font-size: 6vw;
     }
   }
