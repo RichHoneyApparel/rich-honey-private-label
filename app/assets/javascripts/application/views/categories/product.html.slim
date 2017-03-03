@@ -9,9 +9,9 @@
       img.product-thumbnail[ng-src="{{ p.url }}" ng-repeat='p in product.product_img' width='100%' style='padding: 10px; outline: none;' ng-click='updateProductImg(p.url)']
   .product-info[flex='45' flex-offset='5' flex-sm='100' flex-xs='100' style='padding: 30px;']
     .product-navigation[layout='row' flex='100' show-gt-sm hide-sm hide-xs layout-align='end center']
-      a[ui-sref='product_show({productName: relatedProducts[current - 1].name, id: relatedProducts[current - 1].id})' ng-if='product != first'] < Previous
+      a[ui-sref='product_show({productName: relatedProducts[current - 1].name, id: relatedProducts[current - 1].id})' ng-if='product != first' style='color: black;'] < Previous
       span[style='padding: 0 5px;' ng-if='product != first && product != last'] |
-      a[ui-sref='product_show({productName: relatedProducts[current + 1].name, id: relatedProducts[current + 1].id})' ng-if='product != last'] Next >
+      a[ui-sref='product_show({productName: relatedProducts[current + 1].name, id: relatedProducts[current + 1].id})' ng-if='product != last' style='color: black;'] Next >
     .md-headline[style='background-color: black; color: white; text-align: center;'] {{ product.name | uppercase }}
     .md-title[style='padding: 30px 0;'] STYLE #: {{ product.style_num }}
     .md-subhead[ng-if='product.product_properties.category != "accessories"'] Choose any Pantone TPX color
@@ -63,10 +63,10 @@
         i.fa.fa-lg.fa-pinterest
       a[href="https://plus.google.com/share?url={{ url }}" target='_blank' style='color: black' flex='5' flex-xs='10']
         i.fa.fa-lg.fa-google-plus
-      .product-navigation[layout='row' flex hide-gt-sm show-sm show-xs layout-align='end center']
-        a[ui-sref='product_show({productName: relatedProducts[current - 1].name, id: relatedProducts[current - 1].id})' ng-if='product != first'] < Previous
-        span[style='padding: 0 5px;' ng-if='product != first && product != last'] |
-        a[ui-sref='product_show({productName: relatedProducts[current + 1].name, id: relatedProducts[current + 1].id})' ng-if='product != last'] Next >
+    .product-navigation[layout='row' flex hide-gt-sm show-sm show-xs layout-align='center center']
+      a[ui-sref='product_show({productName: relatedProducts[current - 1].name, id: relatedProducts[current - 1].id})' ng-if='product != first' style='color: black;'] < Previous
+      span[style='padding: 0 5px;' ng-if='product != first && product != last'] |
+      a[ui-sref='product_show({productName: relatedProducts[current + 1].name, id: relatedProducts[current + 1].id})' ng-if='product != last' style='color: black;'] Next >
 .related-products[layout='column' style='padding: 20px;' ng-if='product.product_properties.category != "accessories"']
   .md-headline[style='padding: 10px 0; border-top: 1px solid black; border-bottom: 1px solid black; text-align: center;'] Related Products
   .item-container[layout='row' layout-wrap]
