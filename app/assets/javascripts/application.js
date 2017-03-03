@@ -22,4 +22,5 @@
 //= require slick-carousel/slick/slick.js
 //= require angular-slick-carousel/dist/angular-slick
 //= require drift
+//= require jquery.zoom.min.js
 //= require_tree ./application
