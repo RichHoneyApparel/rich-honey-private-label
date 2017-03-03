@@ -70,4 +70,26 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
     $scope.updateProductImg = (url) ->
       $scope.currentProductImg = url
 
+    # $('.featured-img').wrap('<span style="display:inline-block"></span>')
+    # .css('display', 'block').parent().zoom
+    #   on: 'click'
+    #   callback: ->
+    #     $scope.$apply()
+    #     return
+
+    $('.product-thumbnail').on 'click', ->
+      $('.featured-img').trigger 'zoom.destroy'
+      $('.featured-img').wrap('<span style="display:inline-block"></span>')
+      .css('display', 'block').parent().zoom
+        magnify: 2
+        callback: ->
+          $scope.$apply()
+
+    $('.featured-img').on 'click', ->
+      $(this).wrap('<span style="display:inline-block"></span>')
+      .css('display', 'block').parent().zoom
+        magnify: 2
+        callback: ->
+          $scope.$apply()
+
 ]
