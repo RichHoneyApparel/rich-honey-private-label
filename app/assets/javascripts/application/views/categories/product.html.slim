@@ -1,7 +1,11 @@
 .product-container[layout='row' layout-wrap layout-sm='column' layout-xs='column']
   .product-image[flex='45' flex-sm='100' layout-align='center start' flex-xs='100' flex-offset='5' style='padding: 30px;' layout-gt-xs='row']
-    img.featured-img[ng-src="{{ currentProductImg }}" width='80%']
+    img[ng-src="{{ currentProductImg }}" width='80%' ng-click='openDialog()']
     .product-thumbnails[ng-if='product.product_img.length > 1' flex='20' layout-xs='row']
+      img[ng-src="{{ p.url }}" ng-repeat='p in product.product_img' width='100%' style='padding: 10px; outline: none;' ng-click='updateProductImg(p.url)']
+    / Uncomment this and remove the same code up top when images are better.
+    /img.featured-img[ng-src="{{ currentProductImg }}" width='80%']
+    /.product-thumbnails[ng-if='product.product_img.length > 1' flex='20' layout-xs='row']
       img.product-thumbnail[ng-src="{{ p.url }}" ng-repeat='p in product.product_img' width='100%' style='padding: 10px; outline: none;' ng-click='updateProductImg(p.url)']
   .product-info[flex='45' flex-offset='5' flex-sm='100' flex-xs='100' style='padding: 30px;']
     .product-navigation[layout='row' flex='100' show-gt-sm hide-sm hide-xs layout-align='end center']
