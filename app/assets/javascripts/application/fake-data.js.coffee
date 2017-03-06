@@ -1566,7 +1566,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   }
   {
     id: 56
-    name: "Womens's Crop Muscle - Cotton"
+    name: "Women's Crop Muscle - Cotton"
     style_num: "W01-2116"
     product_properties: {
       color: ""
@@ -1588,18 +1588,18 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     }
     product_img: [{
       url: "assets/RichHoney-Womens-Crop-Muscle-Cotton-Pigment-Front.png"
-      alt: "Womens's Crop Muscle - Cotton"
+      alt: "Women's Crop Muscle - Cotton"
       featured: true
     }
     {
       url: "assets/RichHoney-Womens-Crop-Muscle-Cotton-Pigment-Side.png"
-      alt: "Womens's Crop Muscle - Cotton"
+      alt: "Women's Crop Muscle - Cotton"
       featured: true
     }]
   }
   {
     id: 57
-    name: "Womens's Scoop Neck - Cotton"
+    name: "Women's Scoop Neck - Cotton"
     style_num: "W01-2105"
     product_properties: {
       color: ""
@@ -1621,18 +1621,18 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     }
     product_img: [{
       url: "assets/RichHoney-Womens-Scoop-Neck-Cotton-Pigment-Front.png"
-      alt: "Womens's Crop Muscle - Cotton"
+      alt: "Women's Crop Muscle - Cotton"
       featured: true
     }
     {
       url: "assets/RichHoney-Womens-Scoop-Neck-Cotton-Pigment-Side.png"
-      alt: "Womens's Crop Muscle - Cotton"
+      alt: "Women's Crop Muscle - Cotton"
       featured: true
     }]
   }
   {
     id: 58
-    name: "Womens's Split Tank - Cotton"
+    name: "Women's Split Tank - Cotton"
     style_num: "W01-2110"
     product_properties: {
       color: ""
@@ -1665,7 +1665,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   }
   {
     id: 59
-    name: "Womens's Muscle Top - Cotton"
+    name: "Women's Muscle Top - Cotton"
     style_num: "W01-2115"
     product_properties: {
       color: ""
