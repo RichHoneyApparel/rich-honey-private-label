@@ -97,10 +97,10 @@ angular.module('richHoneyPrivateLabel').config [
         controller: 'CategoriesController'
 
       .state 'product_show',
-        url: '/product/{productName:product}/'
+        url: '/product/{productName:product}/:id'
         templateUrl: 'application/views/categories/product.html'
         controller: 'ProductsController'
-        params: {id: null}
+        # params: {id: null}
 
       # Services
       .state 'services_main',
