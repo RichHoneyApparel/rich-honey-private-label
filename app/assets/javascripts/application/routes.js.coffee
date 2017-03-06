@@ -3,7 +3,7 @@ angular.module('richHoneyPrivateLabel').config [
   ($stateProvider, $urlRouterProvider, $urlMatcherFactoryProvider) ->
     productType = {
       encode: (str) ->
-        str and str.replace(/\s-\s+/g, ' ').replace(/ /g, '-')
+        str and str.replace(/\s-\s+/g, ' ').replace(/ /g, '-').replace("'", '-')
       decode: (str) ->
         str and str.replace(/-/g, '_')
       is: angular.isString
