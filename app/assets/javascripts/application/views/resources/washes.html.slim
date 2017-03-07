@@ -1,82 +1,80 @@
 header[ng-include src="'application/views/resources/shared/resource-nav.html'" ng-controller='ResourcesNavController']
 .washes-container
   .wash-header
+    img[ng-src='assets/washes-header.PNG' width='100%']
   .wash-body
     .softener-enzyme
       .softener-enzyme-header.resource-header[layout='row' layout-align='space-between center']
-        .md-display-1 Softener & Enzyme
+        .md-display-1.resource-header[style='padding: 0;'] Softener & Enzyme
         .left-text
           a.title[ui-sref='categories_men'] see available styles
       .softener-enzyme-content[layout-gt-xs='row' layout-align='space-between start']
-        .softener-enzyme-text[flex='75' flex-md='65' flex-sm='50' flex-xs='100']
-          .md-title Softener and enzyme give the shirt a luxuriously soft and
+        .softener-enzyme-text[flex='70' flex-xs='100']
+          .md-title.wash-description Softener and enzyme give the shirt a luxuriously soft and
             worn-in feel by loosening and breaking down the
             fibers of the fabric.
-
-          .md-title
+          .md-title.wash-description
             p Extra Enzyme:
             | Extra enzyme breaks down the cotton fabric further.
               This is done by clients who want to give the shirts a
               distressed or vintage look and feel.
-
-        .softener-enzyme-table
-          table.honey-studio-table.studio-features[style='margin: 0; width: 250px;']
+        .softener-enzyme-table[flex='25' flex-offset='5' flex-offset-sm='0' flex-xs='75' flex-offset-xs='15']
+          table.honey-studio-table.studio-features[style='margin: 0; width: 100%;']
             tr.table-header
-              th[colspan='1'] Screen Printing Results:
+              th.resources-table-header[colspan='1'] Screen Printing Results:
             tr
-              td Highly compatible
+              td.resources-table-body Highly compatible
+
     .silicone
       .silicone-header.resource-header[layout='row' layout-align='space-between center']
-        .md-display-1 Silicone
+        .md-display-1.resource-header[style='padding: 0;'] Silicone
         .left-text
           a.title[ui-sref='categories_men'] see available styles
       .silicone-content[layout-gt-xs='row' layout-align='space-between start']
-        .silicone-text[flex='75' flex-md='65' flex-sm='50' flex-xs='100']
-          .md-title This wash adds a coating of silicone to the
+        .silicone-text[flex='70' flex-xs='100']
+          .md-title.wash-description This wash adds a coating of silicone to the
             fabric for a soft and smooth feel.
-
-          .md-title
+          .md-title.wash-description
             p Heavy Silicone:
             | This adds an extra coating of silicone, making the shirt
               smoother and giving it a heavier feel.
-
-        .silicone-table
-          table.honey-studio-table.studio-features[style='margin: 0; width: 250px;']
+        .silicone-table[flex='25' flex-offset='5' flex-offset-sm='0' flex-xs='75' flex-offset-xs='15']
+          table.honey-studio-table.studio-features[style='margin: 0; width: 100%;']
             tr.table-header
-              th[colspan='1'] Screen Printing Results:
+              th.resources-table-header[colspan='1'] Screen Printing Results:
             tr
-              td Compatible with light silicone;
+              td.resources-table-body Compatible with light silicone;
                 </br>
                 Not compatible with heavy silicone
+
     .hot-wash
       .hot-wash-header.resource-header[layout='row' layout-align='space-between center']
-        .md-display-1 Hot Wash
+        .md-display-1.resource-header[style='padding: 0;'] Hot Wash
         .left-text
           a.title[ui-sref='categories_men'] see available styles
       .hot-wash-content[layout-gt-xs='row' layout-align='space-between start']
-        .hot-wash-text[flex='75' flex-md='65' flex-sm='50' flex-xs='100']
-          .md-title This is the basic wash used for our triblend t-shirts.
+        .hot-wash-text[flex='70' flex-xs='100']
+          .md-title.wash-description This is the basic wash used for our triblend t-shirts.
             This type of wash maintains the heathered color of the fabric.
-
-        .hot-wash-table
-          table.honey-studio-table.studio-features[style='margin: 0; width: 250px;']
+        .hot-wash-table[flex='25' flex-offset='5' flex-offset-sm='0' flex-xs='75' flex-offset-xs='15']
+          table.honey-studio-table.studio-features[style='margin: 0; width: 100%;']
             tr.table-header
-              th[colspan='1'] Screen Printing Results:
+              th.resources-table-header[colspan='1'] Screen Printing Results:
             tr
-              td Highly Compatible
+              td.resources-table-body Highly Compatible
+
     .power-wash
       .power-wash-header.resource-header[layout='row' layout-align='space-between center']
-        .md-display-1 Power Wash
-        .left-text[flex='25' flex-xs='30' style='text-align: right; font-style: italic;']
-          a.title[ui-sref='categories_men' style='color: white; text-decoration: underline;'] see available styles
+        .md-display-1.resource-header[style='padding: 0;'] Power Wash
+        .left-text
+          a.title[ui-sref='categories_men'] see available styles
       .power-wash-content[layout-gt-xs='row' layout-align='space-between start']
-        .power-wash-text[flex='75' flex-md='65' flex-sm='50' flex-xs='100']
-          .md-title The power wash is the basic wash used for our cotton
+        .power-wash-text[flex='70' flex-xs='100']
+          .md-title.wash-description The power wash is the basic wash used for our cotton
             t-shirts. This also comes with softener and enzyme.
-
-        .power-wash-table
-          table.honey-studio-table.studio-features[style='margin: 0; width: 250px;']
+        .power-wash-table[flex='25' flex-offset='5' flex-offset-sm='0' flex-xs='75' flex-offset-xs='15']
+          table.honey-studio-table.studio-features[style='margin: 0; width: 100%;']
             tr.table-header
-              th[colspan='1'] Screen Printing Results:
+              th.resources-table-header[colspan='1'] Screen Printing Results:
             tr
-              td Highly Compatible
+              td.resources-table-body Highly Compatible

@@ -2,10 +2,6 @@
   padding: 20px 0;
 }
 
-.fabrics-container {
-  padding: 0 215px;
-}
-
 .text-description {
   .md-headline {
     padding-bottom: 15px;
@@ -24,20 +20,41 @@
   text-align: center;
 }
 
-.resources-table {
-  margin: 0 0 20px;
+
+@media screen and (max-width: 960px) {
+  .fabric-header {
+    margin: 0 90px;
+  }
 }
 
-.resources-table-header,
-.resources-table-body {
-  font-size: 14px !important;
-  padding-left: 10px !important;
+@media screen and (max-width: 800px) {
+  .fabric-header {
+    margin: 0 70px;
+  }
 }
 
-.fabric-description {
-  font-size: 16px !important;
-  line-height: 16px !important;
+@media screen and (max-width: 700px) {
+  .fabric-header {
+    margin: 0 50px;
+    padding: 0 15px;
+  }
 }
+
+
+@media screen and (max-width: 550px) {
+  .fabric-header {
+    margin: 0 30px;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .fabric-header {
+    margin: 0 10px;
+    padding: 0 5px;
+  }
+}
+
 
 .img-zoomed-20 {
   overflow: hidden;

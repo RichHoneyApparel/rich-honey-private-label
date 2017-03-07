@@ -1,19 +1,8 @@
-.dye-body {
-  padding: 2%;
-}
-
-.dye-header {
-  background-image: url('RichHoney-Apparel-Resources-Dye.png');
-  // background-position: 0 -550px;
-  background-size: cover;
-  height: 660px;
-}
-
 .reactive-dye-content,
 .reactive-dye-content,
 .pigment-dye-content,
 .oil-dye-content {
-  padding: 20px 10px;
+  padding: 20px 0;
 
   .md-title {
     padding-bottom: 15px;
@@ -22,18 +11,5 @@
       font-weight: bold;
       padding-bottom: 15px;
     }
-  }
-}
-
-@media screen and (max-width: 959px){
-  .dye-header {
-    height: 450px !important;
-  }
-}
-
-
-@media screen and (max-width: 400px){
-  .dye-header {
-    height: 250px !important;
   }
 }

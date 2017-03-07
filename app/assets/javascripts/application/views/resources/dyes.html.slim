@@ -1,65 +1,66 @@
 header[ng-include src="'application/views/resources/shared/resource-nav.html'" ng-controller='ResourcesNavController']
 .dyes-container
   .dye-header
+    img[ng-src='assets/RichHoney-Apparel-Resources-Dye.png' width='100%']
   .dye-body
     .reactive-dye
       .reactive-dye-header.resource-header[layout='row' layout-align='space-between center']
-        .md-display-1 Reactive Dye
+        .md-display-1.resource-header[style='padding: 0;'] Reactive Dye
         .left-text
           a.title[ui-sref='categories_men'] see available styles
       .reactive-dye-content[layout-gt-xs='row' layout-align='space-between start']
         .reactive-dye-text[flex='70' flex-sm='60' flex-xs='100']
-          .md-title This is the most common dye used for cotton. Its strong
+          .md-title.dye-description This is the most common dye used for cotton. Its strong
             fastness properties ensure that the color does not fade after washing.
             Reactive dye directly bonds with the fabric, making the color brighter
             and more defined
-          .md-title
+          .md-title.dye-description
             span Screen Printing Results:
             |  Highly compatible
-        .reactive-dye-table
-          table.honey-studio-table.studio-features[style='margin: 0; width: 210px;']
+        .reactive-dye-table[flex='25' flex-offset='5' flex-xs='100' flex-offset-xs='0']
+          table.honey-studio-table.studio-features.resources-table[style='margin: 0; width: 100%;']
             tr.table-header
-              th[colspan='1'] Care Instructions:
+              th.resources-table-header[colspan='1'] Care Instructions:
             tr
-              td Wash with like colors
+              td.resources-table-body Wash with like colors
     .pigment-dye
       .pigment-dye-header.resource-header[layout='row' layout-align='space-between center']
-        .md-display-1 Pigment Dye
+        .md-display-1.resource-header[style='padding: 0;'] Pigment Dye
         .left-text
           a.title[ui-sref='categories_men'] see available styles
       .pigment-dye-content[layout-gt-xs='row' layout-align='space-between start']
         .pigment-dye-text[flex='70' flex-sm='60' flex-xs='100']
-          .md-title Pigments of color stick to the
+          .md-title.dye-description Pigments of color stick to the
             fabric with the use of a binder - a glue-like material. It does not
             directly bond with the fabric. The color comes out lighter, giving it
             a more vintage look.
-          .md-title
+          .md-title.dye-description
             span Screen Printing Results:
             |  Consult with the screen printer before printing on a pigment-dyed shirt.
-        .pigment-dye-table
-          table.honey-studio-table.studio-features[style='margin: 0; width: 210px;']
+        .pigment-dye-table[flex='25' flex-offset='5' flex-xs='100' flex-offset-xs='0']
+          table.honey-studio-table.studio-features.resources-table[style='margin: 0; width: 100%;']
             tr.table-header
-              th[colspan='1'] Care Instructions:
+              th.resources-table-header[colspan='1'] Care Instructions:
             tr
-              td Consult with screen printer before printing on a pigment-dyed shirt.
+              td.resources-table-body Consult with screen printer before printing on a pigment-dyed shirt.
     .oil-dye
       .oil-dye-header.resource-header[layout='row' layout-align='space-between center']
-        .md-display-1 Oil Dye
+        .md-display-1.resource-header[style='padding: 0;'] Oil Dye
         .left-text
           a.title[ui-sref='categories_men'] see available styles
       .oil-dye-content[layout-gt-xs='row' layout-align='space-between start']
         .oil-dye-text[flex='70' flex-sm='60' flex-xs='100']
-          .md-title The oil wash technique causes the fabric
+          .md-title.dye-description The oil wash technique causes the fabric
             to catch light and dark shades of the dyed color as it is unevenly
             penetrated into the fabric. This gives the shirt a uniquely stained look.
-          .md-title
+          .md-title.dye-description
             span Screen Printing Results:
             |  Not recommended
-        .oil-dye-table
-          table.honey-studio-table.studio-features[style='margin: 0; width: 210px;']
+        .oil-dye-table[flex='25' flex-offset='5' flex-xs='100' flex-offset-xs='0']
+          table.honey-studio-table.studio-features.resources-table[style='margin: 0; width: 100%;']
             tr.table-header
-              th[colspan='1'] Care Instructions:
+              th.resources-table-header[colspan='1'] Care Instructions:
             tr
-              td Prone to color transfer;
+              td.resources-table-body Prone to color transfer;
               	Wash with like colors;
                 Avoid mixing with whites.
