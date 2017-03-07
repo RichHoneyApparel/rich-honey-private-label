@@ -1,3 +1,12 @@
+.wash-header {
+  height: 32.3vw;
+
+  img {
+    margin-top: -200px;
+  }
+}
+
+
 .softener-enzyme-content,
 .silicone-content,
 .hot-wash-content,
@@ -17,4 +26,24 @@
       }
     }
   }
+}
+
+@media screen and (max-width: 960px) {
+  .wash-header {
+    img {
+      margin-top: -150px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .wash-header {
+    height: 50vw;
+
+    img {
+      margin-top: 0;
+    }
+  }
+
 }
