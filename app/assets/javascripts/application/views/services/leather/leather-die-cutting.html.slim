@@ -1,11 +1,13 @@
 header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
-.services-layout-contianer[layout='column' ng-controller='ServicesController']
-  .services-header.die-cutting-header[layout='row' layout-align='center end']
+.leather-services-header[layout='row' layout-align='center end']
+  img[ng-src='assets/die-cutting-header.jpg' width='100%']
+  .text-header-container
     .md-display-1 DIE-CUTTING
+.services-layout-contianer[layout='column' ng-controller='ServicesController']
   .services-body
     .services-body-text[layout='column' layout-align='center space-between']
       .text-container[layout='row' layout-align='center center' flex]
-        p[flex='40' flex-sm='70' flex-xs='90'] Our die cutting machine can be
+        p.services-description[flex='40' flex-sm='70' flex-xs='90'] Our die cutting machine can be
           used to cut leather and other materials into unique shapes and
           patterns to make bags and other accessories.
     .start-a-project[layout='row' layout-align='center center']

@@ -1,11 +1,13 @@
 header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
-.services-layout-contianer[layout='column' ng-controller='ServicesController']
-  .services-header.production-header[layout='row' layout-align='center end']
+.leather-services-header
+  img[ng-src='assets/production-header.jpg' width='100%']
+  .text-header-container
     .md-display-1 PRODUCTION
+.services-layout-contianer[layout='column' ng-controller='ServicesController']
   .services-body
     .services-body-text[layout='column' layout-align='center space-between']
       .text-container[layout='row' layout-align='center center' flex]
-        p[flex='40' flex-sm='70' flex-xs='90'] Rich Honey can handle small and
+        p.services-description[flex='40' flex-sm='70' flex-xs='90'] Rich Honey can handle small and
           large productions for your high quality leather goods at low minimums.
           You can choose from the various types of leather that we offer or come
           in with your own.

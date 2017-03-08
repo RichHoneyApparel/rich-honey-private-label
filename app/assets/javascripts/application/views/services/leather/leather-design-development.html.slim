@@ -1,11 +1,13 @@
 header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
-.services-layout-contianer[layout='column' ng-controller='ServicesController']
-  .services-header.design-development-header[layout='row' layout-align='center end']
+.leather-services-header.design-development-header[layout='row' layout-align='center end']
+  img[ng-src='assets/design-development-header.jpg' width='100%']
+  .text-header-container
     .md-display-1 DESIGN & DEVELOPMENT
+.services-layout-contianer[layout='column' ng-controller='ServicesController']
   .services-body
     .services-body-text[layout='column' layout-align='center space-between']
       .text-container[layout='row' layout-align='center center' flex]
-        p[flex='40' flex-sm='70' flex-xs='90'] We know how important the design
+        p.services-description[flex='40' flex-sm='70' flex-xs='90'] We know how important the design
           and development stage is in the production process. Starting with
           creating sketches and patterns for your design, we will work with you
           through every step to bring your vision to life.
