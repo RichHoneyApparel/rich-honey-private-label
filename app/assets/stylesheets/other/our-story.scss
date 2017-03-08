@@ -19,6 +19,10 @@
       font-weight: bold;
       padding: 10px 60px;
     }
+
+    p {
+      color: $white;
+    }
   }
 
   img {
@@ -98,10 +102,10 @@
 
 @media screen and (max-width: 600px){
   .our-story-header {
-    height: 50vw;
+    height: auto;
 
     .text-header-container {
-      top: 20%;
+      top: 5%;
     }
 
     img {

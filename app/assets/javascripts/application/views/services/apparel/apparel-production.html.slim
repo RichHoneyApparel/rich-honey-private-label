@@ -14,9 +14,9 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
           now including Fitness collection, are versatile for every season.
       img[ng-src='assets/production-small-img.png' width='100%']
     .apparel-production-table[flex='30' flex-offset='5' flex-xs='90' flex-sm='100']
-      .production-details[layout='column' layout-xs='column' layout-sm='column' layout-align='center center']
-        table.first-table
-          tr.table-header[flex='100' flex-sm='50' flex-xs='80']
+      .production-details[layout='column' layout-xs='column' layout-sm='row' layout-align='center center']
+        table.first-table[flex='100' flex-sm='45' flex-xs='80']
+          tr.table-header
             th[colspan='1'] Fabrics:
           tr
             td Cotton
@@ -33,7 +33,7 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
           tr
             td PFD
 
-        table.second-table[flex='100' flex-sm='50' flex-xs='80']
+        table.second-table[flex='100' flex-sm='45' flex-offset-sm='10' flex-xs='80']
           tr.table-header
             th[colspan='1'] Styles:
           tr

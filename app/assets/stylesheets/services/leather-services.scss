@@ -33,7 +33,21 @@
   }
 }
 
+.design-development-body {
+  padding: 0 300px;
+}
+
+@media screen and (max-width: 1135px) {
+  .design-development-body {
+    padding: 0 200px;
+  }
+}
+
 @media screen and (max-width: 960px) {
+  .design-development-body {
+    padding: 0 100px;
+  }
+
   .leather-services-header {
     img {
       margin-top: -150px;
@@ -42,8 +56,14 @@
 
   .services-table-container {
     .second-table {
-      margin-top: 20px;
+      margin-top: 20px !important;
     }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .design-development-body {
+    padding: 0 25px;
   }
 }
 
