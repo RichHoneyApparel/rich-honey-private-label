@@ -1,4 +1,4 @@
-.apparel-marking-grading-header {
+.apparel-services-header {
   height: 32.3vw;
   margin-bottom: 20px;
   overflow: hidden;
@@ -26,19 +26,21 @@
   }
 }
 
-.apparel-marking-grading-body {
-  .text-container {
-    padding: 15px 0;
-    text-align: center;
+@media screen and (max-width: 960px) {
+  .apparel-services-header {
+    img {
+      margin-top: -150px;
+    }
   }
+
 }
 
 @media screen and (max-width: 601px) {
-  .apparel-marking-grading-header {
-    height: 60vw;
-    
-    .md-display-1 {
-      padding: 10px 0 !important;
+  .apparel-services-header {
+    height: 50vw;
+
+    img {
+      margin-top: 0;
     }
   }
 }

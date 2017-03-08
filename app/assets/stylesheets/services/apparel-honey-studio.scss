@@ -2,20 +2,6 @@
   margin: 0 50px;
 }
 
-.apparel-honey-studio-header {
-  background-image: url('honey-studio-header.png');
-  background-size: cover;
-  padding-top: 600px;
-  text-align: center;
-
-  .md-display-1 {
-    background-color: $white;
-    color: $black;
-    font-weight: bold;
-    padding: 10px 40px;
-  }
-}
-
 .apparel-honey-studio-body {
   padding: 50px 25px;
 
@@ -68,7 +54,8 @@
   text-align: center;
   width: 100%;
 
-  button {
+  button,
+  a {
     background-color: $black;
     border-radius: 0;
     color: $white;
@@ -79,16 +66,10 @@
   }
 }
 
-@media screen and (max-width: 1279px){
-  .apparel-honey-studio-header {
-    padding-top: 500px !important;
-  }
-}
-
 
 @media screen and (max-width: 960px){
-  .apparel-honey-studio-header {
-    padding-top: 450px !important;
+  .honey-studio-table {
+    margin: 5px 0 20px !important;
   }
 
   .apparel-honey-studio-body {
@@ -96,7 +77,8 @@
   }
 
   .honey-studio-book-studio {
-    button {
+    button,
+    a {
       font-size: 20px;
       padding: 10px 20px;
       width: auto !important;
@@ -107,10 +89,6 @@
 @media screen and (max-width: 600px) {
   .apparel-honey-studio-container {
     margin: 0 !important;
-  }
-
-  .apparel-honey-studio-header {
-    padding-top: 250px !important;
   }
 
   .honey-studio-book-studio {
@@ -128,15 +106,6 @@
 }
 
 @media screen and (max-width: 400px) {
-  .apparel-honey-studio-header {
-    padding-top: 150px !important;
-
-    .md-display-1 {
-      font-size: 6vw;
-      padding: 10px;
-    }
-  }
-
   .honey-studio-book-studio {
     button {
       font-size: 6vw;
