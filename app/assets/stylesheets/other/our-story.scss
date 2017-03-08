@@ -1,10 +1,36 @@
 .our-story-header {
-  background-image: url('our-story-header');
-  background-size: cover;
-  color: $white;
-  font-size: 2.5vw;
-  padding: 200px 0;
+  height: 32.3vw;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
   text-align: center;
+  width: 100%;
+
+  .text-header-container {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 35%;
+
+    .md-display-1 {
+      color: $white;
+      display: inline-block;
+      font-weight: bold;
+      padding: 10px 60px;
+    }
+  }
+
+  img {
+    margin-top: -150px;
+  }
+}
+
+.services-body {
+  .text-container {
+    padding: 15px 0;
+    text-align: center;
+  }
 }
 
 .our-story-body {
@@ -53,8 +79,9 @@
 
 @media screen and (max-width: 960px) {
   .our-story-header {
-    font-size: 3vw;
-    padding: 150px;
+    img {
+      margin-top: -100px;
+    }
   }
 
   .our-story-body {
@@ -71,7 +98,14 @@
 
 @media screen and (max-width: 600px){
   .our-story-header {
-    font-size: 5vw;
-    padding: 100px;
+    height: 50vw;
+
+    .text-header-container {
+      top: 20%;
+    }
+
+    img {
+      margin-top: 0;
+    }
   }
 }
