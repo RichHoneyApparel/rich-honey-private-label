@@ -1,6 +1,5 @@
 .how-it-works-header {
   height: 32.3vw;
-  margin-bottom: 20px;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -29,24 +28,32 @@
     margin-top: -150px;
   }
 }
+
 .how-it-works-body {
-  padding: 0 15% 30px;
+  padding: 0 300px 30px;
+  position: relative;
 
   .how-it-works-content {
-    .dotted-thing-short {
+    .dotted-thing {
       border-left: 2px dashed $light-grey;
-      height: 75px;
-      margin-left: 150px;
-    }
-
-    .dotted-thing-tall {
-      border-left: 2px dashed $light-grey;
-      height: 125px;
-      margin-left: 150px;
+      bottom: 0;
+      height: 89%;
+      left: 0;
+      margin-left: 450px;
+      position: absolute;
+      right: 0;
+      top: 0;
     }
 
     .text-row {
       margin-left: 82px;
+      position: relative;
+      padding: 50px 0;
+      z-index: 2;
+
+      img {
+        background-color: $white;
+      }
 
       .text-container {
         margin-left: 50px;
@@ -79,56 +86,84 @@
   }
 }
 
+
+@media screen and (max-width: 1100px) {
+  .how-it-works-body {
+    padding: 0 200px 30px;
+
+    .how-it-works-content {
+      .dotted-thing {
+        margin-left: 350px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 960px) {
   .how-it-works-header {
     img {
       margin-top: -100px;
     }
   }
-}
 
-@media screen and (max-width: 700px){
-  .text-row {
-    margin-left: 0 !important;
+  .how-it-works-body {
+    padding: 0 150px 30px;
 
-    .text-container {
-      margin-left: 25px !important;
-      padding-right: 10px;
-
-      .md-headline {
-        font-size: 6vw !important;
-      }
-
-      .md-title {
-        font-size: 3vw !important;
+    .how-it-works-content {
+      .dotted-thing {
+        margin-left: 300px;
       }
     }
   }
+}
 
-
-  .fabric-img {
-    height: 120px !important;
-    width: 300px !important;
-  }
-
-  .washing-img {
-    width: 270px !important;
-  }
-
+@media screen and (max-width: 800px) {
   .how-it-works-body {
-    .how-it-works-content {
-      .dotted-thing-short {
-        margin-left: 60px !important;
-      }
+    padding: 0 100px 30px;
 
-      .dotted-thing-tall {
-        margin-left: 60px !important;
+    .how-it-works-content {
+      .dotted-thing {
+        margin-left: 250px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px){
+  .how-it-works-body {
+    padding: 0 50px 30px;
+
+    .how-it-works-content {
+      .dotted-thing {
+        margin-left: 200px;
       }
     }
   }
 }
 
 @media screen and (max-width: 600px){
+  .how-it-works-body {
+    padding: 0 25px 30px;
+
+    .how-it-works-content {
+      .dotted-thing {
+        margin-left: 105px;
+      }
+    }
+  }
+
+  .dotted-thing-tall,
+  .dotted-thing-short {
+    margin-left: 80px !important;
+  }
+
+  .text-row {
+    margin-left: 30px !important;
+    img {
+      width: 100px !important;
+    }
+  }
+
   .how-it-works-header {
     height: 50vw;
 
