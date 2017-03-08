@@ -55,7 +55,7 @@
   .second-table {
     border: 1px solid $black;
     margin-right: 5px;
-    width: auto;
+    width: 100%;
   }
 }
 
@@ -68,8 +68,8 @@
 }
 
 .start-project-dialog {
-  max-height: 90%;
   height: 90%;
+  max-height: 90%;
   max-width: 60%;
   width: 60%;
 }
