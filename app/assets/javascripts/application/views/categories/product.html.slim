@@ -70,7 +70,7 @@
 .related-products[layout='column' style='padding: 20px;' ng-if='product.product_properties.category != "accessories"']
   .md-headline[style='padding: 10px 0; border-top: 1px solid black; border-bottom: 1px solid black; text-align: center;'] Related Products
   .item-container[layout='row' layout-wrap]
-    .product-container[ng-repeat='p in relatedProducts | limitTo: 4' flex-sm='33' flex-xs='50' flex='25' layout-align='center center' style='text-align: center; padding: 30px;' ui-sref='product_show({productName: p.name, id: p.id})']
+    a.product-container[ng-repeat='p in relatedProducts | limitTo: 4' flex-sm='33' flex-xs='50' flex='25' layout-align='center center' style='text-align: center; padding: 30px;' ui-sref='product_show({productName: p.name, id: p.id})']
       img[ng-src='{{ p.product_img[0].url }}' width='100%' style='padding-bottom: 10px;']
       span {{ p.name }}
 
