@@ -21,9 +21,12 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
           the overlock machine.
 
   .moat-footer[layout='row' layout-align='center center' style='padding: 10px;']
-    md-button.step[ng-click="goto('moat-5-taping')" aria-label='nextStep']
-      p.md-title < PREVIOUS STEP
-    md-button.start-project[aria-label='startProject' ng-click='openDialog()']
-      p.md-title START PROJECT
-    md-button.step[ng-click="goto('moat-7-hems')" aria-label='nextStep']
-      p.md-title NEXT STEP >
+    a[ui-sref='moat-5-taping']
+      md-button.step[aria-label='nextStep']
+        p.md-title < PREVIOUS STEP
+    a[ui-sref='services_inquiry']
+      md-button.start-project[aria-label='startProject']
+        p.md-title START PROJECT
+    a[ui-sref='moat-7-hems']
+      md-button.step[aria-label='nextStep']
+        p.md-title NEXT STEP >
