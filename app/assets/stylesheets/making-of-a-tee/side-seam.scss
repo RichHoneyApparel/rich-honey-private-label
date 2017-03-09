@@ -10,7 +10,7 @@
 .side-seam-description {
   color: $white;
   left: 10%;
-  padding: 0 35% 0 40%;
+  padding: 0 20vw 0 48vw;
   position: absolute;
   top: 15%;
 }
@@ -25,7 +25,7 @@
 .inside-care-label-description {
   color: $white;
   left: 27%;
-  padding: 0 27% 0 32%;
+  padding: 0 25vw 0 34vw;
   position: absolute;
   top: 65%;
 }
@@ -42,24 +42,22 @@
 
 @media screen and (max-width: 1400px){
   .side-seam-description {
-    padding: 0 32% 0 40%;
     top: 17%;
   }
 
   .inside-care-label-description {
-    padding: 0 23% 0 34%;
+    // padding: 0 23% 0 34%;
     top: 67%;
   }
 }
 
 @media screen and (max-width: 1150px){
   .side-seam-description {
-    padding: 0 30% 0 40%;
     top: 18%;
   }
 
   .inside-care-label-description {
-    padding: 0 20% 0 34%;
+    // padding: 0 20% 0 34%;
     top: 68%;
   }
 }
@@ -67,13 +65,18 @@
 
 @media screen and (max-width: 960px) {
   .side-seam-description {
-    padding: 0 25% 0 40%;
     top: 20%;
   }
 
   .inside-care-label-description {
-    padding: 0 10% 0 35%;
+    padding: 0 15vw 0 34vw;
     top: 70%;
+  }
+}
+
+@media screen and (max-width: 801px) {
+  .side-seam-description {
+    padding: 0 10vw 0 48vw;
   }
 }
 
@@ -116,7 +119,6 @@
 @media screen and (max-width: 551px){
   .side-seam-description {
     font-size: 2vw;
-    padding: 0 20% 0 40%;
     top: 27%;
   }
 

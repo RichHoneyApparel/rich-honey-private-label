@@ -13,6 +13,12 @@
   }
 }
 
+.item-container {
+  a {
+    color: $black;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .categories-mens-header {
     padding: 100px 0 200px;

@@ -1,25 +1,25 @@
 .categories-nav-bar[layout='row' layout-wrap layout-align='center end']
-  md-button[aria-label='categories-button' name='men' value='men' ng-click='goto("categories_men")' flex='5' flex-xs='50' style='padding-top: 10px; margin: 0;']
+  a[aria-label='categories-button' name='men' value='men' ui-sref="categories_men" flex='5' flex-xs='50' style='padding: 10px 0; margin: 0;']
     .logo-container[layout='column' layout-align='end center']
       img[class='men-logo' ng-src='assets/categories-mens.png' ng-if="!path.includes('/men')"]
       img[class='men-logo' ng-src='assets/categories-mens-active.png' ng-if="path.includes('/men')"]
-      span[style='font-size: 8px; margin-top: -10px;' ng-class="{'active-text': path.includes('/men'), 'inactive-text': !path.includes('/men')}"] Men's
-  md-button[aria-label='categories-button' name='women' value='women' ng-click='goto("categories_women")' flex='5' flex-xs='50' style='padding-top: 10px; margin: 0;']
+      span[style='padding: 5px 0; font-size: 8px;' ng-class="{'active-text': path.includes('/men'), 'inactive-text': !path.includes('/men')}"] Men's
+  a[aria-label='categories-button' name='women' value='women' ui-sref="categories_women" flex='5' flex-xs='50' style='padding: 10px 0; margin: 0;']
     .logo-container[layout='column' layout-align='end center']
       img[class='women-logo' ng-src='assets/categories-womens.png' ng-if="!path.includes('/women')"]
       img[class='women-logo' ng-src='assets/categories-womens-active.png' ng-if="path.includes('/women')"]
-      span[style='font-size: 8px; margin-top: -10px;' ng-class="{'active-text': path.includes('/women'), 'inactive-text': !path.includes('/women')}"] Women's
-  md-button[aria-label='categories-button' name='accessories' value='accessories' ng-click='goto("categories_accessories")' flex='5' flex-xs='50' style='padding-top: 10px; margin: 0;']
+      span[style='padding: 5px 0; font-size: 8px;' ng-class="{'active-text': path.includes('/women'), 'inactive-text': !path.includes('/women')}"] Women's
+  a[aria-label='categories-button' name='accessories' value='accessories' ui-sref="categories_accessories" flex='5' flex-xs='50' style='padding: 10px 0; margin: 0;']
     .logo-container[layout='column' layout-align='end center']
       img[class='accessory-logo' ng-src='assets/categories-accessories.png' ng-if="!path.includes('accessories')"]
       img[class='accessory-logo' ng-src='assets/categories-accessories-active.png' ng-if="path.includes('accessories')"]
-      span[style='font-size: 8px; margin-top: -10px;' ng-class="{'active-text': path.includes('accessories'), 'inactive-text': !path.includes('accessories')}"] Accessories
-  md-button[aria-label='categories-button' name='activewear' value='activewear' ng-click='goto("categories_activewear")' flex='5' flex-xs='50' style='padding-top: 10px; margin: 0;']
+      span[style='padding: 5px 0; font-size: 8px;' ng-class="{'active-text': path.includes('accessories'), 'inactive-text': !path.includes('accessories')}"] Accessories
+  a[aria-label='categories-button' name='activewear' value='activewear' ui-sref="categories_activewear" flex='5' flex-xs='50' style='padding: 10px 0; margin: 0;']
     .logo-container[layout='column' layout-align='space-between center']
       img[class='fitness-logo' ng-src='assets/categories-activewear.png' ng-if="!path.includes('fitness')"]
       img[class='fitness-logo' ng-src='assets/categories-activewear-active.png' ng-if="path.includes('fitness')"]
-      span[style='font-size: 8px; margin-top: -10px;' ng-class="{'active-text': path.includes('fitness'), 'inactive-text': !path.includes('fitness')}"] Fitness
-  /md-button[aria-label='categories-button' name='honeyStudio' value='honeyStudio' md-nav-click='goto("home")' flex='20' layout-fill]
+      span[style='padding: 5px 0; font-size: 8px;' ng-class="{'active-text': path.includes('fitness'), 'inactive-text': !path.includes('fitness')}"] Fitness
+  /a[aria-label='categories-button' name='honeyStudio' value='honeyStudio' md-nav-click='goto("home")' flex='20' layout-fill]
     .logo-container[layout='column' layout-align='end center']
       img[ng-src='assets/categories-custom.png']
       span[style='font-size: 8px; margin-top: -10px;'] Custom
