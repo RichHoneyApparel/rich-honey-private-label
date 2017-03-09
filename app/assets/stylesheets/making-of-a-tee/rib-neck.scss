@@ -9,7 +9,7 @@
 
 .rib-neck-description {
   color: $white;
-  padding: 0 37vw 0 15vw;
+  padding: 0 25vw 0 24vw;
   position: absolute;
   right: 30%;
   top: 66%;
@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 1600px) {
   .rib-neck-description {
-    padding: 0 37vw 0 15vw;
+    padding: 0 25vw 0 23.5vw;
     top: 67%;
   }
 }
@@ -40,13 +40,8 @@
   }
 
   .rib-neck-description {
+    padding: 0 25vw 0 20vw;
     top: 68%;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .rib-neck-description {
-    padding: 0 37vw 0 5vw;
   }
 }
 
@@ -58,6 +53,7 @@
 
   .rib-neck-description {
     font-size: 1.5vw;
+    padding: 0 25vw 0 18vw;
     top: 65%;
   }
 }
@@ -74,6 +70,7 @@
   }
 
   .rib-neck-description {
+    padding: 0 25vw 0 16vw;
     top: 65%;
   }
 }

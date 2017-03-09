@@ -9,11 +9,12 @@
 }
 
 .nav-links {
-  color: $black;
+  color: $black !important;
   outline: none;
   text-decoration: none;
 
   &:hover {
+    color: $black !important;
     outline: none !important;
     text-decoration: underline;
   }
