@@ -1,15 +1,15 @@
 .resources-nav-bar[aria-label='servicesNav' layout='row' layout-wrap layout-align='center center']
-  a[name='cutting' value='cutting' ui-sref="resource_fabrics" flex='5' style='padding: 10px 0;']
+  md-button[name='cutting' value='cutting' ui-sref="resource_fabrics" flex='5' style='padding: 10px 0;']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/fabric.png' ng-if="!path.includes('fabrics')"]
       img[ng-src='assets/fabric-active.png' ng-if="path.includes('fabrics')"]
       p.link-name[style='margin-top: -10px; font-size: 8px;' ng-class="{'active-text': path.includes('fabrics'), 'inactive-text': !path.includes('fabrics')}"] Fabrics
-  a[name='markingAndGrading' value='markingAndGrading' ui-sref="resource_dyes" flex='5' style='padding: 10px 0;']
+  md-button[name='markingAndGrading' value='markingAndGrading' ui-sref="resource_dyes" flex='5' style='padding: 10px 0;']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/drop.png' ng-if="!path.includes('dyes')"]
       img[ng-src='assets/drop-active.png' ng-if="path.includes('dyes')"]
       p.link-name[style='margin-top: -10px; font-size: 8px;' ng-class="{'active-text': path.includes('dyes'), 'inactive-text': !path.includes('dyes')}"] Dyes
-  a[name='patterning' value='patterning' ui-sref="resource_washes" flex='5' style='padding: 10px 0;']
+  md-button[name='patterning' value='patterning' ui-sref="resource_washes" flex='5' style='padding: 10px 0;']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/washing-machine.png' ng-if="!path.includes('washes')"]
       img[ng-src='assets/washing-machine-active.png' ng-if="path.includes('washes')"]

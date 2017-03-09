@@ -63,7 +63,7 @@
         i.fa.fa-lg.fa-pinterest
       a[href="https://plus.google.com/share?url={{ url }}" target='_blank' style='color: black' flex='5' flex-xs='10']
         i.fa.fa-lg.fa-google-plus
-    .product-navigation[layout='row' flex hide-gt-sm show-sm show-xs layout-align='center center']
+    .product-navigation-mobile[layout='row' flex hide-gt-sm show-sm show-xs layout-align='center center']
       a[ui-sref='product_show({productName: relatedProducts[current - 1].name, id: relatedProducts[current - 1].id})' ng-if='product != first' style='color: black;'] < Previous
       span[style='padding: 0 5px;' ng-if='product != first && product != last'] |
       a[ui-sref='product_show({productName: relatedProducts[current + 1].name, id: relatedProducts[current + 1].id})' ng-if='product != last' style='color: black;'] Next >
