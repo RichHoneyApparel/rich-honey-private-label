@@ -5,7 +5,7 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
     .md-display-1 PRODUCTION
 .apparel-production-container[layout='column' ng-controller='ServicesController']
   .apparel-production-body[layout='row' layout-xs='column' layout-sm='column' layout-align='space-between center']
-    .apparel-production-text[flex='65' flex-xs='90' flex-sm='100']
+    .apparel-production-text[flex='75' flex-xs='90' flex-sm='100']
       p.services-description
         | Rich Honey can produce premium apparel for your line using our collection
           of existing styles for men and women. You can control your production with
@@ -13,7 +13,7 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
           minimum order quantity of 96 pieces per case. Our high quality basics,
           now including Fitness collection, are versatile for every season.
       img[ng-src='assets/production-small-img.png' width='100%']
-    .apparel-production-table[flex='30' flex-offset='5' flex-xs='90' flex-sm='100']
+    .apparel-production-table[flex='20' flex-offset='5' flex-xs='90' flex-sm='100']
       .production-details[layout='column' layout-xs='column' layout-sm='row' layout-align='center center']
         table.first-table[flex='100' flex-sm='45' flex-xs='80']
           tr.table-header
@@ -51,5 +51,5 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
           tr[hide-gt-sm]
             td &nbsp;
 
-      .production-contact-us
+      .production-contact-us[layout='row' layout-align='center center']
         md-button[aria-label='CONTACT US' ui-sref='services_inquiry'] CONTACT US

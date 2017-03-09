@@ -55,10 +55,7 @@
     background-color: $black;
     border-radius: 0;
     color: $white;
-    font-size: 25px;
     margin: 0 !important;
-    padding: 10px 0;
-    width: 100%;
   }
 }
 
@@ -76,28 +73,11 @@
   .apparel-honey-studio-body {
     padding: 50px 150px;
   }
-
-  .honey-studio-book-studio {
-    button,
-    a {
-      font-size: 20px;
-      padding: 10px 20px;
-      width: auto !important;
-    }
-  }
 }
 
 @media screen and (max-width: 600px) {
   .apparel-honey-studio-container {
     margin: 0 !important;
-  }
-
-  .honey-studio-book-studio {
-    button {
-      font-size: 18px;
-      padding: 10px 30px;
-      width: auto !important;
-    }
   }
 
   .apparel-honey-studio-body {
@@ -114,13 +94,5 @@
 @media screen and (max-width: 500px) {
   .apparel-honey-studio-body {
     padding: 50px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .honey-studio-book-studio {
-    button {
-      font-size: 6vw;
-    }
   }
 }
