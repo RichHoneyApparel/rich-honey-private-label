@@ -23,6 +23,10 @@
   }
 }
 
+.services-description {
+  font-size: 16px !important;
+}
+
 .services-table-container {
   table {
     tr {
@@ -42,7 +46,7 @@
       th {
         color: $white;
         font-size: 20px;
-        padding-left: 20px;
+        padding: 0 20px;
       }
     }
   }
@@ -51,7 +55,7 @@
   .second-table {
     border: 1px solid $black;
     margin-right: 5px;
-    width: 35%;
+    width: 100%;
   }
 }
 
@@ -64,19 +68,10 @@
 }
 
 .start-project-dialog {
-  max-height: 90%;
   height: 90%;
+  max-height: 90%;
   max-width: 60%;
   width: 60%;
-}
-
-@media screen and (max-width: 959px) {
-  .services-table-container {
-    .first-table,
-    .second-table {
-      width: 50%;
-    }
-  }
 }
 
 @media screen and (max-width: 600px){
@@ -98,9 +93,5 @@
 
 
 // Import all the other services scss
-@import 'apparel-cutting';
-@import 'apparel-marking-grading';
-@import 'apparel-patterning';
-@import 'apparel-production';
-@import 'apparel-honey-studio';
+@import 'apparel-services';
 @import 'leather-services';

@@ -1,3 +1,9 @@
 .featured-img {
   cursor: zoom-in;
 }
+
+@media screen and (max-width: 601px) {
+  .product-navigation-mobile {
+    margin-top: 30px;
+  }
+}

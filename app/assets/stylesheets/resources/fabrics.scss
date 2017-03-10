@@ -15,9 +15,46 @@
 .img-title {
   background-color: $black;
   color: $white;
-  padding: 10px 20px;
+  font-size: 14px !important;
+  padding: 5px 20px;
   text-align: center;
 }
+
+
+@media screen and (max-width: 960px) {
+  .fabric-header {
+    margin: 0 90px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .fabric-header {
+    margin: 0 70px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .fabric-header {
+    margin: 0 50px;
+    padding: 0 15px;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .fabric-header {
+    margin: 0 30px;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .fabric-header {
+    margin: 0 10px;
+    padding: 0 5px;
+  }
+}
+
 
 .img-zoomed-20 {
   overflow: hidden;
@@ -362,8 +399,55 @@
   }
 }
 
+@media screen and (max-width: 1240px) {
+  .fabrics-container {
+    padding: 0 180px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .fabrics-container {
+    padding: 0 135px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .fabrics-container {
+    padding: 0 90px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .fabrics-container {
+    padding: 0 135px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .fabrics-container {
+    padding: 0 60px;
+  }
+
+  .text-description {
+    margin-top: 10px;
+  }
+
+  .resources-table {
+    margin-bottom: 0;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .img-title {
     font-size: 4vw;
+    padding: 5px 10px;
+  }
+
+  .fabrics-container {
+    padding: 0 30px;
+  }
+
+  .resources-table {
+    margin-bottom: 20px;
   }
 }

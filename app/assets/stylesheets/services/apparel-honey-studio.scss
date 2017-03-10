@@ -1,23 +1,5 @@
-.apparel-honey-studio-container {
-  margin: 0 50px;
-}
-
-.apparel-honey-studio-header {
-  background-image: url('honey-studio-header.png');
-  background-size: cover;
-  padding-top: 600px;
-  text-align: center;
-
-  .md-display-1 {
-    background-color: $white;
-    color: $black;
-    font-weight: bold;
-    padding: 10px 40px;
-  }
-}
-
 .apparel-honey-studio-body {
-  padding: 50px 25px;
+  padding: 50px 150px;
 
   .apparel-honey-studio-text {
     p {
@@ -64,43 +46,19 @@
   margin: 0 0 20px;
 }
 
-.honey-studio-book-studio {
-  text-align: center;
-  width: 100%;
-
-  button {
-    background-color: $black;
-    border-radius: 0;
-    color: $white;
-    font-size: 25px;
-    margin: 0 !important;
-    padding: 10px 0;
-    width: 100%;
+@media screen and (max-width: 1100px) {
+  .apparel-honey-studio-body {
+    padding: 50px 100px;
   }
 }
-
-@media screen and (max-width: 1279px){
-  .apparel-honey-studio-header {
-    padding-top: 500px !important;
-  }
-}
-
 
 @media screen and (max-width: 960px){
-  .apparel-honey-studio-header {
-    padding-top: 450px !important;
+  .honey-studio-table {
+    margin: 5px 0 20px !important;
   }
 
   .apparel-honey-studio-body {
-    padding: 50px 10px !important;
-  }
-
-  .honey-studio-book-studio {
-    button {
-      font-size: 20px;
-      padding: 10px 20px;
-      width: auto !important;
-    }
+    padding: 50px 150px;
   }
 }
 
@@ -109,16 +67,8 @@
     margin: 0 !important;
   }
 
-  .apparel-honey-studio-header {
-    padding-top: 250px !important;
-  }
-
-  .honey-studio-book-studio {
-    button {
-      font-size: 18px;
-      padding: 10px 30px;
-      width: auto !important;
-    }
+  .apparel-honey-studio-body {
+    padding: 50px 100px;
   }
 
 
@@ -127,19 +77,9 @@
   }
 }
 
-@media screen and (max-width: 400px) {
-  .apparel-honey-studio-header {
-    padding-top: 150px !important;
 
-    .md-display-1 {
-      font-size: 6vw;
-      padding: 10px;
-    }
-  }
-
-  .honey-studio-book-studio {
-    button {
-      font-size: 6vw;
-    }
+@media screen and (max-width: 500px) {
+  .apparel-honey-studio-body {
+    padding: 50px;
   }
 }

@@ -1,15 +1,17 @@
 header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
-.apparel-honey-studio-container[layout='column' ng-controller='ServicesController']
-  .apparel-honey-studio-header[layout='row' layout-align='center end']
+.apparel-services-header
+  img[ng-src='assets/honey-studio-header.png' width='100%']
+  .text-header-container
     .md-display-1 HONEY STUDIO
+.apparel-honey-studio-container[layout='column' ng-controller='ServicesController']
   .apparel-honey-studio-body[layout='row' layout-xs='column' layout-sm='column' layout-align='space-between start']
     .apparel-honey-studio-text[flex='70' flex-xs='90' flex-sm='100']
-      p
+      p.services-description
         | Rich Honey has an in-house photo studio available for rent at our
           headquarters in Los Angeles. This studio is great for shooting brand
           linesheets, product shots, portfolio, or other small projects.
 
-      table.honey-studio-table.studio-features
+      table.honey-studio-table.studio-features[flex='70' flex-sm='100' flex-xs='100']
         tr.table-header
           th[colspan='1'] Studio Features:
         tr
@@ -17,7 +19,7 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
         tr
           td White walls, cyclorama floor
 
-      table.honey-studio-table
+      table.honey-studio-table[flex='70' flex-sm='100' flex-xs='100']
         tr.table-header
           th[colspan='1'] Available Equipment:
         tr

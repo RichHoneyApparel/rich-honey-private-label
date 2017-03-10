@@ -1,22 +1,22 @@
-.wash-body {
-  padding: 2%;
+.wash-header {
+  height: 32.3vw;
+
+  img {
+    margin-top: -200px;
+  }
 }
 
-.wash-header {
-  background-image: url('washes-header.PNG');
-  // background-position: 0 -550px;
-  background-size: cover;
-  height: 660px;
-}
 
 .softener-enzyme-content,
 .silicone-content,
 .hot-wash-content,
 .power-wash-content {
-  padding: 20px 10px;
+  padding: 20px 5px;
 
   .softener-enzyme-text,
-  .silicone-text {
+  .silicone-text,
+  .hot-wash-text,
+  .power-wash-text {
     .md-title {
       padding-bottom: 15px;
 
@@ -28,15 +28,22 @@
   }
 }
 
-@media screen and (max-width: 959px){
+@media screen and (max-width: 960px) {
   .wash-header {
-    height: 450px !important;
+    img {
+      margin-top: -150px;
+    }
   }
+
 }
 
-
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px) {
   .wash-header {
-    height: 250px !important;
+    height: 50vw;
+
+    img {
+      margin-top: 0;
+    }
   }
+
 }

@@ -1,318 +1,312 @@
 header[ng-include src="'application/views/resources/shared/resource-nav.html'" ng-controller='ResourcesNavController']
-.fabrics-container[style='padding: 40px;']
+.fabrics-container
   .cotton-twenties
-    .md-display-1.resource-header 100% Cotton - 20's
+    .md-display-1.resource-header.fabric-header 100% Cotton - 20's
     .content[layout-gt-sm='row' layout-wrap]
-      .img-container[layout='row' flex='35' flex-sm='100' flex-xs='100']
-        .img[flex='45']
+      .img-container[layout='row' flex='35' flex-sm='100' flex-xs='100' layout-align-sm='center center']
+        .img[flex='40' flex-sm='25' flex-xs='35' flex-offset-xs='10']
           .img-slightly-zoomed-20
             img[ng-src='assets/cotton-20.JPG' width='75%']
           p.md-title.img-title Actual Size
-        .img[flex='45' flex-offset='5']
+        .img[flex='40' flex-offset='5' flex-sm='25' flex-offset-sm='5' flex-xs='35' flex-offset-xs='10']
           .img-zoomed-20
             img[ng-src='assets/cotton-20-zoom.JPG' width='75%']
           p.md-title.img-title Zoom
-      .text-description[flex='30' flex-offset='5' flex-sm='100' flex-xs='100']
-        p.md-headline
+      .text-description[flex='40' flex-sm='50' flex-offset-sm='25' flex-xs='80' flex-offset-xs='15']
+        p.md-headline.fabric-description
           | A tightly-knit, heavyweight fabric
             with a soft feel. It is commonly used for men's styles.
-        p.md-headline
+        p.md-headline.fabric-description
           | Our cotton is combed and
             ring-spun, with few impurities and a soft and smooth surface.
-        p.md-headline
+        p.md-headline.fabric-description
           span Weight:
           |  5.24 oz/yd&#178 | 177.5 g/m&#178
-      .table-details[flex='25' flex-offset='5' flex-sm='100' flex-xs='100']
-        table.honey-studio-table.studio-features
+      .table-details[flex='20' flex-offset='5' flex-sm='100' flex-xs='70' flex-offset-xs='15' flex-offset-sm='0' layout-sm='row' layout-align-sm='space-around center']
+        table.honey-studio-table.studio-features.resources-table[flex-sm='40' flex-xs='100']
           tr.table-header
-            th[colspan='1'] Material:
+            th.resources-table-header[colspan='1'] Material:
           tr
-            td 100% Cotton in 20 singles
+            td.resources-table-body 100% Cotton in 20 singles
           tr
-            td Combed
+            td.resources-table-body Combed
           tr
-            td Ring-spun
+            td.resources-table-body Ring-spun
 
-        table.honey-studio-table
+        table.honey-studio-table[flex-sm='40' flex-offset-sm='5' flex-xs='100']
           tr.table-header
-            th[colspan='1'] Care Instructions:
+            th.resources-table-header[colspan='1'] Care Instructions:
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/wash-in-cold-water.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] Machine Wash - Cold
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/wash-in-cold-water.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] Machine Wash - Cold
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/tumble-dry-low.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] Tumble Dry - Low
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/tumble-dry-low.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] Tumble Dry - Low
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/no-bleaching.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] No Bleach
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/no-bleaching.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] No Bleach
   .cotton-thirties
-    .md-display-1.resource-header 100% Cotton - 30's
+    .md-display-1.resource-header.fabric-header 100% Cotton - 30's
     .content[layout-gt-sm='row' layout-wrap]
-      .img-container[layout='row' flex='35' flex-sm='100' flex-xs='100']
-        .img[flex='45']
+      .img-container[layout='row' flex='35' flex-sm='100' flex-xs='100' layout-align-sm='center center']
+        .img[flex='40' flex-sm='25' flex-xs='35' flex-offset-xs='10']
           .img-slightly-zoomed-30
             img[ng-src='assets/cotton-30.JPG' width='75%']
           p.md-title.img-title Actual Size
-        .img[flex='45' flex-offset='5']
+        .img[flex='40' flex-offset='5' flex-sm='25' flex-offset-sm='5' flex-xs='35' flex-offset-xs='10']
           .img-zoomed-30
             img[ng-src='assets/cotton-30-zoom.JPG' width='75%']
           p.md-title.img-title Zoom
-      .text-description[flex='30' flex-offset='5' flex-sm='100' flex-xs='100']
-        p.md-headline
+      .text-description[flex='40' flex-sm='50' flex-offset-sm='25' flex-xs='80' flex-offset-xs='15']
+        p.md-headline.fabric-description
           | This is a loosely-knit, premium fabric with a fine,
             soft feel. It is commonly used for men's styles
-        p.md-headline
-          | Our cotton is combed and
-            ring-spun, with few impurities and a soft and smooth surface.
-        p.md-headline
+        p.md-headline.fabric-description
           span Weight:
           |  4 oz/yd&#178 | 135.5 g/m&#178
-      .table-details[flex='25' flex-offset='5' flex-sm='100' flex-xs='100']
-        table.honey-studio-table.studio-features
+      .table-details[flex='20' flex-offset='5' flex-sm='100' flex-xs='70' flex-offset-xs='15' flex-offset-sm='0' layout-sm='row' layout-align-sm='space-around center']
+        table.honey-studio-table.studio-features.resources-table[flex-sm='40' flex-xs='100']
           tr.table-header
-            th[colspan='1'] Material:
+            th.resources-table-header[colspan='1'] Material:
           tr
-            td 100% Cotton in 30 singles
+            td.resources-table-body 100% Cotton in 30 singles
           tr
-            td Combed
+            td.resources-table-body Combed
           tr
-            td Ring-spun
+            td.resources-table-body Ring-spun
 
-        table.honey-studio-table
+        table.honey-studio-table[flex-sm='40' flex-offset-sm='5' flex-xs='100']
           tr.table-header
-            th[colspan='1'] Care Instructions:
+            th.resources-table-header[colspan='1'] Care Instructions:
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/wash-in-cold-water.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] Machine Wash - Cold
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/wash-in-cold-water.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] Machine Wash - Cold
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/tumble-dry-low.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] Tumble Dry - Low
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/tumble-dry-low.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] Tumble Dry - Low
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/no-bleaching.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] No Bleach
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/no-bleaching.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] No Bleach
   .cotton-fourthies
-    .md-display-1.resource-header 100% Cotton - 40's
+    .md-display-1.resource-header.fabric-header 100% Cotton - 40's
     .content[layout-gt-sm='row' layout-wrap]
-      .img-container[layout='row' flex='35' flex-sm='100' flex-xs='100']
-        .img[flex='45']
+      .img-container[layout='row' flex='35' flex-sm='100' flex-xs='100' layout-align-sm='center center']
+        .img[flex='40' flex-sm='25' flex-xs='35' flex-offset-xs='10']
           .img-slightly-zoomed-40
             img[ng-src='assets/cotton-40.JPG' width='75%']
           p.md-title.img-title Actual Size
-        .img[flex='45' flex-offset='5']
+        .img[flex='40' flex-offset='5' flex-sm='25' flex-offset-sm='5' flex-xs='35' flex-offset-xs='10']
           .img-zoomed-40
             img[ng-src='assets/cotton-40-zoom.jpg' width='75%']
           p.md-title.img-title Zoom
-      .text-description[flex='30' flex-offset='5' flex-sm='100' flex-xs='100']
-        p.md-headline
-          | This is a lightweight fabric with a
-            finer, softer feel. It is commonly used for women's style
-        p.md-headline
-          | Our cotton is combed and
-            ring-spun, with few impurities and a soft and smooth surface.
-        p.md-headline
+      .text-description[flex='40' flex-sm='50' flex-offset-sm='25' flex-xs='80' flex-offset-xs='15']
+        p.md-headline.fabric-description
+          | This is a lightweight fabric with a finer, softer feel. It is
+            commonly used for women's styles
+        p.md-headline.fabric-description
           span Weight:
           |  3.61 oz/yd&#178 | 122.5 g/m&#178
-      .table-details[flex='25' flex-offset='5' flex-sm='100' flex-xs='100']
-        table.honey-studio-table.studio-features
+      .table-details[flex='20' flex-offset='5' flex-sm='100' flex-xs='70' flex-offset-xs='15' flex-offset-sm='0' layout-sm='row' layout-align-sm='space-around center']
+        table.honey-studio-table.studio-features.resources-table[flex-sm='40' flex-xs='100']
           tr.table-header
-            th[colspan='1'] Material:
+            th.resources-table-header[colspan='1'] Material:
           tr
-            td 100% Cotton in 40 singles
+            td.resources-table-body 100% Cotton in 40 singles
           tr
-            td Combed
+            td.resources-table-body Combed
           tr
-            td Ring-spun
+            td.resources-table-body Ring-spun
 
-        table.honey-studio-table
+        table.honey-studio-table[flex-sm='40' flex-offset-sm='5' flex-xs='100']
           tr.table-header
-            th[colspan='1'] Care Instructions:
+            th.resources-table-header[colspan='1'] Care Instructions:
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/wash-in-cold-water.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] Machine Wash - Cold
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/wash-in-cold-water.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] Machine Wash - Cold
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/tumble-dry-low.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] Tumble Dry - Low
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/tumble-dry-low.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] Tumble Dry - Low
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/no-bleaching.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] No Bleach
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/no-bleaching.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] No Bleach
   .cotton-slub
-    .md-display-1.resource-header 100% Cotton Slub
+    .md-display-1.resource-header.fabric-header 100% Cotton Slub
     .content[layout-gt-sm='row' layout-wrap]
-      .img-container[layout='row' flex='35' flex-sm='100' flex-xs='100']
-        .img[flex='45']
+      .img-container[layout='row' flex='35' flex-sm='100' flex-xs='100' layout-align-sm='center center']
+        .img[flex='40' flex-sm='25' flex-xs='35' flex-offset-xs='10']
           .img-slightly-zoomed-slub
             img[ng-src='assets/cotton-slub.JPG' width='75%']
           p.md-title.img-title Actual Size
-        .img[flex='45' flex-offset='5']
+        .img[flex='40' flex-offset='5' flex-sm='25' flex-offset-sm='5' flex-xs='35' flex-offset-xs='10']
           .img-zoomed-slub
             img[ng-src='assets/cotton-slub-zoom.JPG' width='75%']
           p.md-title.img-title Zoom
-      .text-description[flex='30' flex-offset='5' flex-sm='100' flex-xs='100']
-        p.md-headline
+      .text-description[flex='40' flex-sm='50' flex-offset-sm='25' flex-xs='80' flex-offset-xs='15']
+        p.md-headline.fabric-description
           | Cotton slub is a lightweight fabric that contains knots
             and twists, making it highly textured.
 
-        p.md-headline
+        p.md-headline.fabric-description
           span Weight:
           |  3.91 oz/yd&#178 | 132.5 g/m&#178
-      .table-details[flex='25' flex-offset='5' flex-sm='100' flex-xs='100']
-        table.honey-studio-table.studio-features
+      .table-details[flex='20' flex-offset='5' flex-sm='100' flex-xs='70' flex-offset-xs='15' flex-offset-sm='0' layout-sm='row' layout-align-sm='space-around center']
+        table.honey-studio-table.studio-features.resources-table[flex-sm='40' flex-xs='100']
           tr.table-header
-            th[colspan='1'] Material:
+            th.resources-table-header[colspan='1'] Material:
           tr
-            td 100% Slub Cotton
+            td.resources-table-body 100% Slub Cotton
 
-        table.honey-studio-table
+        table.honey-studio-table[flex-sm='40' flex-offset-sm='5' flex-xs='100']
           tr.table-header
-            th[colspan='1'] Care Instructions:
+            th.resources-table-header[colspan='1'] Care Instructions:
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/wash-in-cold-water.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] Machine Wash - Cold
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/wash-in-cold-water.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] Machine Wash - Cold
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/tumble-dry-low.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] Tumble Dry - Low
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/tumble-dry-low.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] Tumble Dry - Low
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/no-bleaching.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] No Bleach
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/no-bleaching.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] No Bleach
   .french-terry
-    .md-display-1.resource-header 100% French Terry
+    .md-display-1.resource-header.fabric-header 100% French Terry
     .content[layout-gt-sm='row' layout-wrap]
-      .img-container[layout='row' flex='35' flex-sm='100' flex-xs='100']
-        .img[flex='45']
+      .img-container[layout='row' flex='35' flex-sm='100' flex-xs='100' layout-align-sm='center center']
+        .img[flex='40' flex-sm='25' flex-xs='35' flex-offset-xs='10']
           .img-slightly-zoomed-french-terry
             img[ng-src='assets/french-terry.jpg' width='75%']
           p.md-title.img-title Normal View
-        .img[flex='45' flex-offset='5']
+        .img[flex='40' flex-offset='5' flex-sm='25' flex-offset-sm='5' flex-xs='35' flex-offset-xs='10']
           .img-zoomed-french-terry
             img[ng-src='assets/french-terry-inside.jpg' width='75%']
           p.md-title.img-title Back View
-      .text-description[flex='30' flex-offset='5' flex-sm='100' flex-xs='100']
-        p.md-headline
+      .text-description[flex='40' flex-sm='50' flex-offset-sm='25' flex-xs='80' flex-offset-xs='15']
+        p.md-headline.fabric-description
           | The 100% French Terry fabric uses a heavier weight of cotton and is
             woven in loops on the inside for an absorbent, warm, and soft feel.
             It is commonly used for sweaters and hoodies.
 
-        p.md-headline
+        p.md-headline.fabric-description
           span Weight:
           |  12 oz/yd&#178 | 406.87 g/m&#178
-      .table-details[flex='25' flex-offset='5' flex-sm='100' flex-xs='100']
-        table.honey-studio-table.studio-features
+      .table-details[flex='20' flex-offset='5' flex-sm='100' flex-xs='70' flex-offset-xs='15' flex-offset-sm='0' layout-sm='row' layout-align-sm='space-around center']
+        table.honey-studio-table.studio-features.resources-table[flex-sm='40' flex-xs='100']
           tr.table-header
-            th[colspan='1'] Material:
+            th.resources-table-header[colspan='1'] Material:
           tr
-            td 100% Cotton
+            td.resources-table-body 100% Cotton
 
-        table.honey-studio-table
+        table.honey-studio-table[flex-sm='40' flex-offset-sm='5' flex-xs='100']
           tr.table-header
-            th[colspan='1'] Care Instructions:
+            th.resources-table-header[colspan='1'] Care Instructions:
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/wash-in-cold-water.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] Machine Wash - Cold
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/wash-in-cold-water.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] Machine Wash - Cold
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/tumble-dry-low.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] Tumble Dry - Low
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/tumble-dry-low.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] Tumble Dry - Low
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/no-bleaching.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] No Bleach
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/no-bleaching.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] No Bleach
   .french-terry-slub
-    .md-display-1.resource-header 100% French Terry Slub
+    .md-display-1.resource-header.fabric-header 100% French Terry Slub
     .content[layout-gt-sm='row' layout-wrap]
-      .img-container[layout='row' flex='35' flex-sm='100' flex-xs='100']
-        .img[flex='45']
+      .img-container[layout='row' flex='35' flex-sm='100' flex-xs='100' layout-align-sm='center center']
+        .img[flex='40' flex-sm='25' flex-xs='35' flex-offset-xs='10']
           .img-slightly-zoomed-french-terry-slub
             img[ng-src='assets/french-terry-slub.JPG' width='75%']
           p.md-title.img-title Normal View
-        .img[flex='45' flex-offset='5']
+        .img[flex='40' flex-offset='5' flex-sm='25' flex-offset-sm='5' flex-xs='35' flex-offset-xs='10']
           .img-zoomed-french-terry-slub
             img[ng-src='assets/french-terry-slub-inside.JPG' width='75%']
           p.md-title.img-title Back View
-      .text-description[flex='30' flex-offset='5' flex-sm='100' flex-xs='100']
-        p.md-headline
+      .text-description[flex='40' flex-sm='50' flex-offset-sm='25' flex-xs='80' flex-offset-xs='15']
+        p.md-headline.fabric-description
           | The 100% French Terry slub fabric uses a heavier weight of cotton slub
             and is highly textured due to knots and twists woven in the fabric.
             It is commonly used for sweaters and hoodies.
 
-        p.md-headline
+        p.md-headline.fabric-description
           span Weight:
           |  12 oz/yd&#178 | 406.87 g/m&#178
-      .table-details[flex='25' flex-offset='5' flex-sm='100' flex-xs='100']
-        table.honey-studio-table.studio-features
+      .table-details[flex='20' flex-offset='5' flex-sm='100' flex-xs='70' flex-offset-xs='15' flex-offset-sm='0' layout-sm='row' layout-align-sm='space-around center']
+        table.honey-studio-table.studio-features.resources-table[flex-sm='40' flex-xs='100']
           tr.table-header
-            th[colspan='1'] Material:
+            th.resources-table-header[colspan='1'] Material:
           tr
-            td 100% Cotton
+            td.resources-table-body 100% Cotton
 
-        table.honey-studio-table
+        table.honey-studio-table[flex-sm='40' flex-offset-sm='5' flex-xs='100']
           tr.table-header
-            th[colspan='1'] Care Instructions:
+            th.resources-table-header[colspan='1'] Care Instructions:
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/wash-in-cold-water.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] Machine Wash - Cold
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/wash-in-cold-water.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] Machine Wash - Cold
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/tumble-dry-low.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] Tumble Dry - Low
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/tumble-dry-low.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] Tumble Dry - Low
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/no-bleaching.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] No Bleach
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/no-bleaching.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] No Bleach
   .triblend
-    .md-display-1.resource-header Triblend
+    .md-display-1.resource-header.fabric-header Triblend
     .content[layout-gt-sm='row' layout-wrap]
-      .img-container[layout='row' flex='35' flex-sm='100' flex-xs='100']
-        .img[flex='45']
+      .img-container[layout='row' flex='35' flex-sm='100' flex-xs='100' layout-align-sm='center center']
+        .img[flex='40' flex-sm='25' flex-xs='35' flex-offset-xs='10']
           .img-slightly-zoomed-triblend
             img[ng-src='assets/triblend.JPG' width='75%']
           p.md-title.img-title Actual Size
-        .img[flex='45' flex-offset='5']
+        .img[flex='40' flex-offset='5' flex-sm='25' flex-offset-sm='5' flex-xs='35' flex-offset-xs='10']
           .img-zoomed-triblend
             img[ng-src='assets/triblend-zoom.JPG' width='75%']
           p.md-title.img-title Zoom
-      .text-description[flex='30' flex-offset='5' flex-sm='100' flex-xs='100']
-        p.md-headline
+      .text-description[flex='40' flex-sm='50' flex-offset-sm='25' flex-xs='80' flex-offset-xs='15']
+        p.md-headline.fabric-description
           | Our Triblend is a blend of 50% polyester, 37.5% cotton, and 12.5%
             rayon blend. The different materials absorb dye differently, which
             gives it a heathered look. This fabric feels extremely soft and
             comfortable when worn.
 
-        p.md-headline
+        p.md-headline.fabric-description
           span Weight:
           |  3.83 oz/yd&#178 | 130 g/m&#178
-      .table-details[flex='25' flex-offset='5' flex-sm='100' flex-xs='100']
-        table.honey-studio-table.studio-features
+      .table-details[flex='20' flex-offset='5' flex-sm='100' flex-xs='70' flex-offset-xs='15' flex-offset-sm='0' layout-sm='row' layout-align-sm='space-around center']
+        table.honey-studio-table.studio-features.resources-table[flex-sm='40' flex-xs='100']
           tr.table-header
-            th[colspan='1'] Material:
+            th.resources-table-header[colspan='1'] Material:
           tr
-            td 50% Polyester, 37.5% Cotton, and 12.5% Rayon
+            td.resources-table-body 50% Polyester, 37.5% Cotton, and 12.5% Rayon
 
-        table.honey-studio-table
+        table.honey-studio-table[flex-sm='40' flex-offset-sm='5' flex-xs='100']
           tr.table-header
-            th[colspan='1'] Care Instructions:
+            th.resources-table-header[colspan='1'] Care Instructions:
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/wash-in-cold-water.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] Machine Wash - Cold
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/wash-in-cold-water.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] Machine Wash - Cold
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/tumble-dry-low.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] Tumble Dry - Low
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/tumble-dry-low.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] Tumble Dry - Low
           tr
-            td[layout='row' layout-align='space-around center']
-              img[ng-src='assets/no-bleaching.PNG' width='20px' height='20px' flex='5']
-              span[style='padding-left: 5px;' flex='95'] No Bleach
+            td.resources-table-body[layout='row' layout-align='space-around center']
+              img[ng-src='assets/no-bleaching.PNG' flex-sm='5' flex='10' flex-xs='5']
+              span[style='padding-left: 5px;' flex='90'] No Bleach

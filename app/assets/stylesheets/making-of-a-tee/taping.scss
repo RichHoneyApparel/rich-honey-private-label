@@ -9,7 +9,7 @@
 .taping-description {
   color: $white;
   left: 40%;
-  padding: 0 16% 0 30%;
+  padding: 0 5vw 0 37vw;
   position: absolute;
   top: 41%;
 }
@@ -22,7 +22,6 @@
 
 @media screen and (max-width: 1400px){
   .taping-description {
-    padding: 0 15% 0 30%;
     top: 43%;
   }
 }
@@ -34,7 +33,6 @@
   }
 
   .taping-description {
-    padding: 0 10% 0 30%;
   }
 }
 
@@ -51,6 +49,7 @@
   }
 
   .taping-description {
+    padding: 0 3vw 0 37vw;
     top: 42%;
   }
 }
@@ -64,7 +63,6 @@
 
 @media screen and (max-width: 851px) {
   .taping-description {
-    padding: 0 1% 0 30%;
     top: 44%;
   }
 }

@@ -1,17 +1,19 @@
 header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
-.services-layout-contianer[layout='column' ng-controller='ServicesController']
-  .services-header.design-development-header[layout='row' layout-align='center end']
+.leather-services-header.design-development-header[layout='row' layout-align='center end']
+  img[ng-src='assets/design-development-header.jpg' width='100%']
+  .text-header-container
     .md-display-1 DESIGN & DEVELOPMENT
-  .services-body
+.services-layout-contianer[layout='column' ng-controller='ServicesController']
+  .services-body.design-development-body
     .services-body-text[layout='column' layout-align='center space-between']
       .text-container[layout='row' layout-align='center center' flex]
-        p[flex='40' flex-sm='70' flex-xs='90'] We know how important the design
+        p.services-description[flex='90' flex-sm='70'] We know how important the design
           and development stage is in the production process. Starting with
           creating sketches and patterns for your design, we will work with you
           through every step to bring your vision to life.
 
     .services-table-container[layout='row' layout-sm='column' layout-align-sm='center center' layout-xs='column' layout-align-xs='center center' layout-align='center center']
-      table.first-table
+      table.first-table[flex='30' flex-md='35' flex-sm='45' flex-xs='50']
         tr.table-header
           th[colspan='1'] Services:
         tr
@@ -23,7 +25,7 @@ header[ng-include src="'application/views/services/shared/services-nav.html'" ng
         tr
           td Tech Packs
 
-      table.second-table
+      table.second-table[flex='30' flex-offset='5' flex-md='35' flex-offset-sm='0' flex-sm='45' flex-xs='50']
         tr.table-header
           th[colspan='1'] Items we develop:
         tr

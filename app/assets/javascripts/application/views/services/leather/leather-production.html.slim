@@ -1,17 +1,19 @@
 header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
-.services-layout-contianer[layout='column' ng-controller='ServicesController']
-  .services-header.production-header[layout='row' layout-align='center end']
+.leather-services-header
+  img[ng-src='assets/production-header.jpg' width='100%']
+  .text-header-container
     .md-display-1 PRODUCTION
-  .services-body
+.services-layout-contianer[layout='column' ng-controller='ServicesController']
+  .services-body.production-body
     .services-body-text[layout='column' layout-align='center space-between']
       .text-container[layout='row' layout-align='center center' flex]
-        p[flex='40' flex-sm='70' flex-xs='90'] Rich Honey can handle small and
+        p.services-description[flex='60' flex-sm='70' flex-xs='90'] Rich Honey can handle small and
           large productions for your high quality leather goods at low minimums.
           You can choose from the various types of leather that we offer or come
           in with your own.
 
-    .services-table-container[layout='row' layout-sm='column' layout-align-sm='center center' layout-xs='column' layout-align-xs='center center' layout-align='center center']
-      table.first-table
+    .services-table-container[layout='row' layout-sm='row' layout-align-sm='center center' layout-xs='row' layout-align-xs='center center' layout-align='center center']
+      table.first-table[flex='35' flex-sm='55' flex-xs='75']
         tr.table-header
           th[colspan='2'] Leather and fabrics we work with:
         tr

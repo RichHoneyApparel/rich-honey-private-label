@@ -24,6 +24,11 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/our-story'
         templateUrl: 'application/views/other/our-story.html'
 
+      # Order Form
+      .state 'order_form',
+        url: '/order-inquiry'
+        templateUrl: 'application/views/other/order.html'
+
       # How it works Page
       .state 'how_it_works',
         url: '/how-it-works'

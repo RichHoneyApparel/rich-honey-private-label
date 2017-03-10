@@ -9,7 +9,7 @@
 
 .sleeves-description {
   color: $white;
-  padding: 0 50% 0 35%;
+  padding: 0 45vw 0 33.5vw;
   position: absolute;
   top: 33%;
 }
@@ -22,14 +22,13 @@
 
 @media screen and (max-width: 1500px) {
   .sleeves-description {
-    padding: 0 50% 0 33%;
     top: 35%;
   }
 }
 
 @media screen and (max-width: 1300px) {
   .sleeves-description {
-    padding: 0 50% 0 31%;
+    padding: 0 45vw 0 32.5vw;
     top: 38%;
   }
 }
@@ -39,11 +38,21 @@
     padding-bottom: 0 !important;
     top: 30%;
   }
+
+  .sleeves-description {
+    padding: 0 45vw 0 31.5vw;
+  }
+}
+
+@media screen and (max-width: 961px) {
+  .sleeves-description {
+    padding: 0 40vw 0 30.5vw;
+  }
 }
 
 @media screen and (max-width: 850px) {
   .sleeves-description {
-    padding: 0 50% 0 25%;
+    padding: 0 40vw 0 28.5vw;
     top: 40%;
   }
 }

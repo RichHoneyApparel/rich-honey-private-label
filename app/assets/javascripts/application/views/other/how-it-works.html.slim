@@ -1,14 +1,16 @@
-.how-it-works-container[ng-controller='ServicesController']
+.how-it-works-container
   .how-it-works-header[layout='column']
-    h1.md-display-1 HOW IT WORKS
-    p.md-subhead Start building your production of premium apparel with the
-      options that we offer below.
+    img[ng-src='assets/how-it-works-header.PNG' width='100%']
+    .text-header-container
+      h1.md-display-1 HOW IT WORKS
+      p.md-subhead Start building your production of premium apparel with the
+        options that we offer below.
 
-    .md-subhead Don't have an account? <a ui-sref="create_an_account" style='color: white; text-decoration: underline;'> Apply here</a>.
+      .md-subhead Don't have an account? <a ui-sref="create_an_account" style='color: white; text-decoration: underline;'> Apply here</a>.
 
   .how-it-works-body[layout='column' layout-align='start start']
     .how-it-works-content[flex='90']
-      .dotted-thing-short
+      .dotted-thing
       .text-row[layout='row' layout-align='space-between start']
         img[ng-src='assets/shirt-jacket.PNG' width='134px']
         .text-container[flex='90']
@@ -17,7 +19,6 @@
             <a ui-sref="categories_men"> Men</a>
             and
             <a ui-sref="categories_women"> Women</a>.
-      .dotted-thing-tall
       .text-row[layout='row' layout-align='space-between start']
         img.fabric-img[ng-src='assets/RichHoney-Fabric.png' width='134px']
         .text-container[flex='90']
@@ -26,14 +27,12 @@
             <a ui-sref="resource_fabrics"> fabric </a> options: 100% cotton, slub cotton, and
             Triblend (50% polyester, 37.5% cotton, 12.5% rayon). *Additional fabrics
             are available upon inquiry.
-      .dotted-thing-tall
       .text-row[layout='row' layout-align='space-between start']
         img[ng-src='assets/dye.png' width='134px']
         .text-container[flex='90']
           .md-headline[style='width: 100%;'] DYE
           .md-title Pick any Pantone TPX color and we can provide lab dips for
             your approval before moving forward with the <a ui-sref="resource_dyes"> dyeing </a> process.
-      .dotted-thing-tall
       .text-row[layout='row' layout-align='space-between start']
         img.washing-img[ng-src='assets/RichHoney-Wash.png' width='134px']
         .text-container[flex='90']
@@ -43,14 +42,12 @@
             which include: softener &
             enzyme, silicone, and hot wash. *Additional specialty washes are
             available upon inquiry.
-      .dotted-thing-tall
       .text-row[layout='row' layout-align='space-between start']
         img[ng-src='assets/shirt-blanks.PNG' width='134px']
         .text-container[flex='90']
           .md-headline[style='width: 100%;'] SIZES
           .md-title Sizes available are S to XXL in men's styles and XS to XL
             in women's styles.
-      .dotted-thing-tall
       .text-row[layout='row' layout-align='space-between start']
         img[ng-src='assets/package.PNG' width='134px']
         .text-container[flex='90']
@@ -63,7 +60,7 @@
     .md-headline Email your purchase order form to sales@richhoney.us or contact
       us for further assistance.
 
-    md-button.md-raised[ng-click='openDialog()'] Start Project
+    md-button.md-raised[ui-sref='order_form'] Start Project
 
     .md-headline Please include your Business Name and Wholesale Account Number
     em.md-subhead

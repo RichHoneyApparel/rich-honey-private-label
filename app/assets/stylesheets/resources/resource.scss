@@ -1,8 +1,10 @@
 .resource-header {
   background-color: $black;
   color: $white;
+  font-size: 18px !important;
   font-weight: bold;
-  padding: 0 20px;
+  line-height: 30px;
+  padding: 0 10px;
 }
 
 .left-text {
@@ -11,7 +13,83 @@
 
   .title {
     color: $white;
+    font-size: 14px;
     text-decoration: underline;
+  }
+}
+
+.fabrics-container,
+.dyes-container,
+.washes-container {
+  padding: 0 215px 30px;
+}
+
+
+
+.dye-header,
+.wash-header {
+  height: 30vw;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.resources-table {
+  margin: 0 0 20px;
+}
+
+.resources-table-header,
+.resources-table-body {
+  font-size: 14px !important;
+  padding-left: 10px !important;
+}
+
+
+.fabric-description,
+.dye-description,
+.wash-description {
+  font-size: 16px !important;
+  line-height: 16px !important;
+}
+
+@media screen and (max-width: 1300px) {
+  .dyes-container,
+  .washes-container {
+    padding: 0 180px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .dyes-container,
+  .washes-container {
+    padding: 0 160px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .dyes-container,
+  .washes-container {
+    padding: 0 120px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .dyes-container,
+  .washes-container {
+    padding: 0 70px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .dyes-container,
+  .washes-container {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .dyes-container,
+  .washes-container {
+    padding: 0 25px;
   }
 }
 

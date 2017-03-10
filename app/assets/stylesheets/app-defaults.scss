@@ -34,11 +34,17 @@ p {
   text-decoration: underline !important;
 }
 
-
-
 @media screen and (max-width: 600px) {
   .careers-container {
     padding: 20px 5%;
+  }
+
+  .black-back {
+    background-color: $rich-honey-black !important;
+  }
+
+  .white-back {
+    background-color: $white !important;
   }
 
   .contact-us-container,

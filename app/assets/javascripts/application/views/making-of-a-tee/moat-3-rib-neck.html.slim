@@ -21,9 +21,12 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
           perfect height of the rib.
 
   .moat-footer[layout='row' layout-align='center center' style='padding: 10px;']
-    md-button.step[ng-click="goto('moat-2-shoulders')" aria-label='nextStep']
-      p.md-title < PREVIOUS STEP
-    md-button.start-project[aria-label='startProject' ng-click='openDialog()']
-      p.md-title START PROJECT
-    md-button.step[ng-click="goto('moat-4-one-sixteen')" aria-label='nextStep']
-      p.md-title NEXT STEP >
+    a[ui-sref='moat-2-shoulders']
+      md-button.step[aria-label='nextStep']
+        p.md-title < PREVIOUS STEP
+    a[ui-sref='services_inquiry']
+      md-button.start-project[aria-label='startProject']
+        p.md-title START PROJECT
+    a[ui-sref='moat-4-one-sixteen']
+      md-button.step[aria-label='nextStep']
+        p.md-title NEXT STEP >

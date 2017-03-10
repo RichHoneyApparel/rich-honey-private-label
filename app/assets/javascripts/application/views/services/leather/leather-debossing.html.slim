@@ -1,11 +1,13 @@
 header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
-.services-layout-contianer[layout='column' ng-controller='ServicesController']
-  .services-header.debossing-header[layout='row' layout-align='center end']
+.leather-services-header
+  img[ng-src='assets/debossing-header.jpg' width='100%']
+  .text-header-container
     .md-display-1 DEBOSSING
+.services-layout-contianer[layout='column' ng-controller='ServicesController']
   .services-body
     .services-body-text[layout='column' layout-align='center space-between']
       .text-container[layout='row' layout-align='center center' flex]
-        p[flex='40' flex-sm='70' flex-xs='90'] We can deboss any of your leather
+        p.services-description[flex='40' flex-sm='70' flex-xs='90'] We can deboss any of your leather
           accessories or patches to ensure that your brand name is recognized on
           your products. Options include blind debossing or foil debossing in
           gold, silver, and other colors.

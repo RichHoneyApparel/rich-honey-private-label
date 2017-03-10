@@ -19,9 +19,12 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
         | The front and back of the highest point of the shoulder (HPS)
           are attached using #9 ball point needles on the overlock machine.
   .moat-footer[layout='row' layout-align='center center' style='padding: 10px;']
-    md-button.step[ng-click="goto('moat-1-side-seams')" aria-label='nextStep']
-      p.md-title < PREVIOUS STEP
-    md-button.start-project[aria-label='startProject' ng-click='openDialog()']
-      p.md-title START PROJECT
-    md-button.step[ng-click="goto('moat-3-rib-neck')" aria-label='nextStep']
-      p.md-title NEXT STEP >
+    a[ui-sref='moat-1-side-seams']
+      md-button.step[aria-label='nextStep']
+        p.md-title < PREVIOUS STEP
+    a[ui-sref='services_inquiry']
+      md-button.start-project[aria-label='startProject']
+        p.md-title START PROJECT
+    a[ui-sref='moat-3-rib-neck']
+      md-button.step[ aria-label='nextStep']
+        p.md-title NEXT STEP >

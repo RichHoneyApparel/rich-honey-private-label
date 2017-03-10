@@ -1,15 +1,28 @@
-.services-header {
-  background-image: url('marking-grading-header.png');
-  background-size: cover;
-  margin: 0 50px;
-  padding-top: 600px;
+.leather-services-header {
+  height: 32.3vw;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
   text-align: center;
+  width: 100%;
 
-  .md-display-1 {
-    background-color: $white;
-    color: $black;
-    font-weight: bold;
-    padding: 10px 40px;
+  .text-header-container {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+
+    .md-display-1 {
+      background-color: $white;
+      color: $black;
+      display: inline-block;
+      font-weight: bold;
+      padding: 10px 60px;
+    }
+  }
+
+  img {
+    margin-top: -200px;
   }
 }
 
@@ -20,81 +33,51 @@
   }
 }
 
-.debossing-header {
-  @extend .services-header;
-  background-image: url('debossing-header.jpg');
+.design-development-body {
+  padding: 0 300px;
 }
 
-.design-development-header {
-  @extend .services-header;
-  background-image: url('design-development-header.jpg');
-}
-
-.die-cutting-header {
-  @extend .services-header;
-  background-image: url('die-cutting-header.jpg');
-}
-
-.production-header {
-  @extend .services-header;
-  background-image: url('production-header.jpg');
-}
-
-.samples-header {
-  @extend .services-header;
-  background-image: url('samples-header.jpg');
-}
-
-.skiving-header {
-  @extend .services-header;
-  background-image: url('skiving-header.jpg');
-}
-
-.packaging-header {
-  @extend .services-header;
-  background-image: url('Rich-Honey-Apparel-Services-Packaging.png');
-}
-
-@media screen and (max-width: 1279px){
-  .services-header {
-    padding-top: 500px !important;
+@media screen and (max-width: 1135px) {
+  .design-development-body {
+    padding: 0 200px;
   }
 }
 
-@media screen and (max-width: 959px){
-  .services-header {
-    padding-top: 450px !important;
+@media screen and (max-width: 960px) {
+  .design-development-body {
+    padding: 0 100px;
   }
-}
 
-
-@media screen and (max-width: 723px) {
-  .services-header {
-    margin: 0;
+  .leather-services-header {
+    img {
+      margin-top: -150px;
+    }
   }
-}
 
-@media screen and (max-width: 623px) {
-  .services-header {
-    .md-display-1 {
-      padding: 10px 0;
+  .services-table-container {
+    .second-table {
+      margin-top: 20px !important;
     }
   }
 }
 
-@media screen and (max-width: 400px){
-  .services-header {
-    padding-top: 150px !important;
+@media screen and (max-width: 700px) {
+  .design-development-body {
+    padding: 0 25px;
+  }
+}
 
-    .md-display-1 {
-      font-size: 6vw;
-      padding: 10px;
+@media screen and (max-width: 601px) {
+  .leather-services-header {
+    height: 50vw;
+
+    img {
+      margin-top: 0;
     }
   }
 
-  .start-a-project {
-    button {
-      font-size: 6vw;
-    }
+
+  .design-development-header {
+    height: 70vw;
   }
 }

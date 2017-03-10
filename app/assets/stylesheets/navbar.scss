@@ -8,6 +8,19 @@
   }
 }
 
+.nav-links {
+  color: $black !important;
+  font-size: 14px !important;
+  outline: none;
+  text-decoration: none;
+
+  &:hover {
+    color: $black !important;
+    outline: none !important;
+    text-decoration: underline;
+  }
+}
+
 .nav {
   background-color: $black;
   text-transform: none;

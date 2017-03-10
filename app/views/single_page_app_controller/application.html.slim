@@ -16,7 +16,7 @@ head
   meta[property="image" content='assets/RHA-Homepage.png']
   meta[property="og:image" content='assets/RHA-Homepage.png']
 
-body[ng-cloak ng-strict]
+body[ng-cloak ng-strict ng-controller='BodyController' ng-class="{'black-back': path === '/', 'white-back': path !== '/'}"]
   header[ng-include src="'application/views/public/nav-bar.html'" ng-controller="NavController"]
   .main-wrapper[flex layout='column']
     .main-content[role='main' flex layout='column' ui-view='']
