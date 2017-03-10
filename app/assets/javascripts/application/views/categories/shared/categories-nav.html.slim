@@ -16,8 +16,8 @@
       span[style='padding: 5px 0; font-size: 8px;' ng-class="{'active-text': path.includes('accessories'), 'inactive-text': !path.includes('accessories')}"] Accessories
   a[aria-label='categories-button' name='activewear' value='activewear' ui-sref="categories_activewear" flex='10' flex-sm='50' flex-xs='25' style='padding: 10px 0; margin: 0;']
     .logo-container[layout='column' layout-align='space-between center']
-      img[class='fitness-logo' ng-src='assets/categories-activewear.png' ng-if="!path.includes('fitness')"]
-      img[class='fitness-logo' ng-src='assets/categories-activewear-active.png' ng-if="path.includes('fitness')"]
+      img[class='fitness-icon' ng-src='assets/categories-activewear.png' ng-if="!path.includes('fitness')"]
+      img[class='fitness-icon' ng-src='assets/categories-activewear-active.png' ng-if="path.includes('fitness')"]
       span[style='padding: 5px 0; font-size: 8px;' ng-class="{'active-text': path.includes('fitness'), 'inactive-text': !path.includes('fitness')}"] Fitness
   /a[aria-label='categories-button' name='honeyStudio' value='honeyStudio' md-nav-click='goto("home")' flex='20' layout-fill]
     .logo-container[layout='column' layout-align='end center']
