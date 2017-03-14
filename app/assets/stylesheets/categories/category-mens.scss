@@ -9,15 +9,32 @@
 
     .md-display-1 {
       margin-bottom: 15px !important;
+
+      span {
+        padding-right: 10px;
+      }
     }
   }
 }
 
-.item-container {
-  a {
-    color: $black;
+.categories-mens-body {
+  .mens-section {
+    padding: 20px;
+
+    .item-container {
+      a {
+        color: $black;
+        padding: 30px;
+        text-align: center;
+
+        img {
+          padding-bottom: 10px;
+        }
+      }
+    }
   }
 }
+
 
 @media screen and (max-width: 750px) {
   .categories-mens-header {

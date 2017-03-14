@@ -7,15 +7,15 @@
       p Durable fabric with a soft feel. Rich Honey Fitness redefines
         endurance and comfort for your brand's athletic wear.
   .categories-activewear-body[layout='column']
-    .mens-section[layout='column' style='padding: 20px;']
-      p.md-headline[flex='33' style='margin: 10px 0 !important; font-weight: bold;'] MEN'S
+    .mens-section[layout='column']
+      p.md-headline[flex='33'] MEN'S
       .item-container[layout='row' layout-wrap]
-        a.product-container[ng-repeat='m in activeMen' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' style='text-align: center; padding: 30px;' ui-sref='product_show({productName: m.name, id: m.id})']
-          img[ng-src='{{ m.product_img[0].url }}' width='100%' style='padding-bottom: 10px;']
+        a.product-container[ng-repeat='m in activeMen' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' ui-sref='product_show({productName: m.name, id: m.id})']
+          img[ng-src='{{ m.product_img[0].url }}' width='100%']
           span {{ m.name }}
-    .womens-section[layout='column' style='padding: 20px;']
-      p.md-headline[flex='33' style='margin: 10px 0 !important; font-weight: bold;'] WOMEN'S
+    .womens-section[layout='column']
+      p.md-headline[flex='33'] WOMEN'S
       .item-container[layout='row' layout-wrap]
-        a.product-container[ng-repeat='w in activeWomen' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' style='text-align: center; padding: 30px;' ui-sref='product_show({productName: w.name, id: w.id})']
-          img[ng-src='{{ w.product_img[0].url }}' width='100%' style='padding-bottom: 10px;']
+        a.product-container[ng-repeat='w in activeWomen' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' ui-sref='product_show({productName: w.name, id: w.id})']
+          img[ng-src='{{ w.product_img[0].url }}' width='100%']
           span {{ w.name }}

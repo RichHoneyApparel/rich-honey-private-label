@@ -9,8 +9,8 @@
         Each bag is created by our team of craftsmen in Los Angeles.
 
   .categories-accessories-body[layout='row' layout-wrap]
-    .mens-section[layout='column' style='padding: 20px;']
+    .accessories-section[layout='column']
       .item-container[layout='row' layout-wrap layout-align='center end']
-        a.product-container[ng-repeat='m in product' flex-xs='50' flex='25' layout='column' layout-align='center center' style='text-align: center; padding: 30px;' ui-sref='product_show({productName: m.name, id: m.id})']
-          img[ng-src='{{ m.product_img[0].url }}' style='padding-bottom: 10px;' max-height='200px' max-width='200px']
+        a.product-container[ng-repeat='m in product' flex-xs='50' flex='25' layout='column' layout-align='center center' ui-sref='product_show({productName: m.name, id: m.id})']
+          img[ng-src='{{ m.product_img[0].url }}' max-height='200px' max-width='200px']
           span {{ m.name }}

@@ -3,13 +3,13 @@
   .categories-mens-header[layout='row' layout-align='start center']
     .header-text[flex='33' flex-md='45' flex-sm='50' flex-xs='65']
       h1.md-display-1
-        span[style='padding-right: 10px;'] MEN'S
+        span MEN'S
         |  APPAREL
       p Premium garment dyed blank basics for your men's collection.
         These classic styles are versatile for any season.
   .categories-mens-body[layout='column']
-    .mens-section[layout='column' style='padding: 20px;']
+    .mens-section[layout='column']
       .item-container[layout='row' layout-wrap]
-        a.product-container[ng-repeat='m in product' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' style='text-align: center; padding: 30px;' ui-sref='product_show({productName: m.name, id: m.id})']
-          img[ng-src='{{ m.product_img[0].url }}' width='100%' style='padding-bottom: 10px;']
+        a.product-container[ng-repeat='m in product' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' ui-sref='product_show({productName: m.name, id: m.id})']
+          img[ng-src='{{ m.product_img[0].url }}' width='100%']
           span {{ m.name }}
