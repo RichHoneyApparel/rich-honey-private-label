@@ -1,7 +1,7 @@
 header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'" ng-controller='MakingOfATeeNavController']
 .side-seams-container[layout='column' ng-controller='MakingOfATeeController']
   .video-container[layout='row']
-    .video-title[flex='40' flex-xs='50' layout='column' style='padding: 10% 10%']
+    .video-title[flex='40' flex-xs='50' layout='column']
       p.md-headline
         | MAKING OF A TEE:
       p.md-subhead
@@ -11,16 +11,16 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
         source[src='https://player.vimeo.com/external/194114639.hd.mp4?s=f62bccd3c1f706a034088d933921f99ee13bfa7c&profile_id=119' type='video/mp4']
 
   .image-container[layout='row' layout-align='center center']
-    div[style='position: relative;' flex='100']
-      img[ng-src='assets/moat-4-one-sixteen.png' flex='100' style='position: relative; width: 100%;']
+    div[flex='100']
+      img[ng-src='assets/moat-4-one-sixteen.png' flex='100']
       p.one-sixteen-text
         | 1-16th
       p.one-sixteen-description
         | A 1-16th stitching is added to flatten out the rib neck when it is
           attached. This is accomplished with a reversed process on
           the coverstitch machine.
-  
-  .moat-footer[layout='row' layout-align='center center' style='padding: 10px;']
+
+  .moat-footer[layout='row' layout-align='center center']
     a[ui-sref='moat-3-rib-neck']
       md-button.step[aria-label='nextStep']
         p.md-title < PREVIOUS STEP

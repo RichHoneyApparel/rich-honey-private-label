@@ -1,7 +1,7 @@
 header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'" ng-controller='MakingOfATeeNavController']
 .side-seams-container[layout='column' ng-controller='MakingOfATeeController']
   .video-container[layout='row']
-    .video-title[flex='40' flex-xs='50' layout='column' style='padding: 10% 10%']
+    .video-title[flex='40' flex-xs='50' layout='column']
       p.md-headline
         | MAKING OF A TEE:
       p.md-subhead
@@ -11,8 +11,8 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
         source[src='https://player.vimeo.com/external/194122740.hd.mp4?s=f07b391db5e52ab05e8c47b2716701bacd99d9e1&profile_id=119' type='video/mp4']
 
   .image-container[layout='row' layout-align='center center']
-    div[style='position: relative; width: 100%;']
-      img[ng-src='assets/moat-6-sleeves.png' flex='100' style='width: 100%;']
+    div
+      img[ng-src='assets/moat-6-sleeves.png' flex='100']
       p.sleeves-text
         | SLEEVES
       p.sleeves-description
@@ -20,7 +20,7 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
           Each sleeve is then attached to the body of the tee using
           the overlock machine.
 
-  .moat-footer[layout='row' layout-align='center center' style='padding: 10px;']
+  .moat-footer[layout='row' layout-align='center center']
     a[ui-sref='moat-5-taping']
       md-button.step[aria-label='nextStep']
         p.md-title < PREVIOUS STEP

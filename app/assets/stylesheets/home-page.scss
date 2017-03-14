@@ -3,10 +3,26 @@
     background-image: url('RHA-Homepage-1.png');
     background-position: 0 -550px;
     background-size: cover;
+
+    img {
+      opacity: 0;
+    }
   }
 
   .lower {
     padding-bottom: 10px;
+  }
+
+  .home-slider-2 {
+    .text-over-image {
+      img {
+        display: inline-block;
+      }
+      
+      .md-display-1:last-child {
+        font-weight: bold;
+      }
+    }
   }
 
   .home-slider-1,

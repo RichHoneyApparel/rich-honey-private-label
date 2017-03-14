@@ -1,7 +1,7 @@
 header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'" ng-controller='MakingOfATeeNavController']
 .side-seams-container[layout='column' ng-controller='MakingOfATeeController']
   .video-container[layout='row']
-    .video-title[flex='40' flex-xs='50' layout='column' style='padding: 10% 10%']
+    .video-title[flex='40' flex-xs='50' layout='column']
       p.md-headline
         | MAKING OF A TEE:
       p.md-subhead
@@ -11,8 +11,8 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
         source[src='https://player.vimeo.com/external/191742209.hd.mp4?s=93281ef5475dad7e22e65844b01e869fd1697d86&profile_id=119' type='video/mp4']
 
   .image-container[layout='row' layout-align='center center']
-    div[style='position: relative;' flex='100']
-      img[ng-src='assets/moat-3-rib-neck.png' flex='100' style='position: relative; width: 100%;']
+    div[flex='100']
+      img[ng-src='assets/moat-3-rib-neck.png' flex='100']
       p.rib-neck-text
         | RIB NECK
       p.rib-neck-description
@@ -20,7 +20,7 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
           special neck machine with #9 ballpoint needles helps us to achieve the
           perfect height of the rib.
 
-  .moat-footer[layout='row' layout-align='center center' style='padding: 10px;']
+  .moat-footer[layout='row' layout-align='center center']
     a[ui-sref='moat-2-shoulders']
       md-button.step[aria-label='nextStep']
         p.md-title < PREVIOUS STEP

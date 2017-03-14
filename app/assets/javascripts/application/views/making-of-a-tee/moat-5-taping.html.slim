@@ -1,7 +1,7 @@
 header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'" ng-controller='MakingOfATeeNavController']
 .side-seams-container[layout='column' ng-controller='MakingOfATeeController']
   .video-container[layout='row']
-    .video-title[flex='40' flex-xs='50' layout='column' style='padding: 10% 10%']
+    .video-title[flex='40' flex-xs='50' layout='column']
       p.md-headline
         | MAKING OF A TEE:
       p.md-subhead
@@ -11,16 +11,16 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
         source[src='https://player.vimeo.com/external/194124370.hd.mp4?s=a68503e967778bf341783a4d8c606197583b850f&profile_id=119' type='video/mp4']
 
   .image-container[layout='row' layout-align='center center']
-    div[style='position: relative; width: 100%;']
-      img[ng-src='assets/moat-5-taping.png' flex='100' style='position: relative; width: 100%;']
+    div
+      img[ng-src='assets/moat-5-taping.png' flex='100']
       p.taping-text
         | TAPING
       p.taping-description
         | Taping gives the support needed for a high quality tee. It is added to
           the back, going from shoulder to shoulder, to add structure and show a
           nice finish to the shirt.
-  
-  .moat-footer[layout='row' layout-align='center center' style='padding: 10px;']
+
+  .moat-footer[layout='row' layout-align='center center']
     a[ui-sref='moat-4-one-sixteen']
       md-button.step[aria-label='nextStep']
         p.md-title < PREVIOUS STEP
