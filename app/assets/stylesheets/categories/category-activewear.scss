@@ -13,6 +13,30 @@
   }
 }
 
+.categories-activewear-body {
+  .mens-section,
+  .womens-section {
+    padding: 20px;
+
+    .md-headline {
+      font-weight: bold;
+      margin: 10px 0 !important;
+    }
+
+    .item-container{
+      .product-container {
+        color: $black;
+        padding: 30px;
+        text-align: center;
+
+        img {
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 750px) {
   .categories-activewear-header {
     padding: 100px 0 200px;

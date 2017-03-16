@@ -1,7 +1,7 @@
 header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'" ng-controller='MakingOfATeeNavController']
 .side-seams-container[layout='column' ng-controller='MakingOfATeeController']
   .video-container[layout='row']
-    .video-title[flex='40' flex-xs='50' layout='column' style='padding: 10% 10%']
+    .video-title[flex='40' flex-xs='50' layout='column']
       p.md-headline
         | MAKING OF A TEE:
       p.md-subhead
@@ -11,15 +11,15 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
         source[src='https://player.vimeo.com/external/194115645.hd.mp4?s=966968e83203b435f10410ff9a347febbca43a0e&profile_id=119' type='video/mp4']
 
   .image-container[layout='column' layout-align='center center']
-    div[style='position: relative; width: 100%;']
-      img[ng-src='assets/moat-7-hems-1.png' flex='100' style='position: relative; width: 100%;']
+    div
+      img[ng-src='assets/moat-7-hems-1.png' flex='100']
       p.sleeve-hem-text
         | SLEEVE HEM
       p.sleeve-hem-description
         | The hem of the sleeve is finished first while the fabric is flat.
           It is done using a coverstitch tacking machine.
     div[style='position: relative; width: 100%;']
-      img[ng-src='assets/moat-7-hems-2.png' flex='100' style='position: relative; width: 100%;']
+      img[ng-src='assets/moat-7-hems-2.png' flex='100']
       p.bottom-hem-text
         | BOTTOM HEM
       p.bottom-hem-description
@@ -27,7 +27,7 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
           ballpoint needles in this process work best to eliminate
           the formation of holes.
 
-  .moat-footer[layout='row' layout-align='center center' style='padding: 10px;']
+  .moat-footer[layout='row' layout-align='center center']
     a[ui-sref='moat-6-sleeves']
       md-button.step[aria-label='nextStep']
         p.md-title < PREVIOUS STEP

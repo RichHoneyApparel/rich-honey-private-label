@@ -1,7 +1,7 @@
 header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'" ng-controller='MakingOfATeeNavController']
 .side-seams-container[layout='column' ng-controller='MakingOfATeeController']
   .video-container[layout='row']
-    .video-title[flex='40' flex-xs='50' layout='column' style='padding: 10% 10%']
+    .video-title[flex='40' flex-xs='50' layout='column']
       p.md-headline
         | MAKING OF A TEE:
       p.md-subhead
@@ -11,14 +11,14 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
         source[src='https://player.vimeo.com/external/194117766.hd.mp4?s=e793d8fee63b3ded8545094d69bda40fbb5fc88b&profile_id=119' type='video/mp4']
 
   .image-container[layout='row' layout-align='center center']
-    div[style='position: relative;' flex='100']
-      img[ng-src='assets/moat-2-shoulders.png' flex='100' style='position: relative; width: 100%;']
+    div[flex='100']
+      img[ng-src='assets/moat-2-shoulders.png' flex='100']
       p.shoulders-text
         | SHOULDERS
       p.shoulders-description
         | The front and back of the highest point of the shoulder (HPS)
           are attached using #9 ball point needles on the overlock machine.
-  .moat-footer[layout='row' layout-align='center center' style='padding: 10px;']
+  .moat-footer[layout='row' layout-align='center center']
     a[ui-sref='moat-1-side-seams']
       md-button.step[aria-label='nextStep']
         p.md-title < PREVIOUS STEP

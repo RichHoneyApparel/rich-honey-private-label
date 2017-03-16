@@ -1,7 +1,7 @@
 header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'" ng-controller='MakingOfATeeNavController']
 .side-seams-container[layout='column']
   .video-container[layout='row']
-    .video-title[flex='40' flex-xs='50' layout='column' style='padding: 10% 10%']
+    .video-title[flex='40' flex-xs='50' layout='column']
       p.md-headline
         | MAKING OF A TEE:
       p.md-subhead
@@ -11,8 +11,8 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
         source[src='https://player.vimeo.com/external/194122086.hd.mp4?s=c956e8cd1eac7750c9f0f18d99eb8c473614ded8&profile_id=119' type='video/mp4']
 
   .image-container
-    div[style='position: relative;' flex='100']
-      img[ng-src='assets/moat-1-side-seams.png' width='100%' style='position: relative; width: 100%;']
+    div[flex='100']
+      img[ng-src='assets/moat-1-side-seams.png' width='100%']
       p.side-seam-text
         | SIDE SEAMS
       p.side-seam-description
@@ -24,7 +24,7 @@ header[ng-include src="'application/views/making-of-a-tee/shared/moat-nav.html'"
       p.inside-care-label-description
         | Care labels are carefully sewn on the inside along with the side seam.
 
-  .moat-footer[layout='row' layout-align='center center' style='padding: 10px;']
+  .moat-footer[layout='row' layout-align='center center']
     a[ui-sref='services_inquiry']
       md-button.start-project[aria-label='startProject']
         p.md-title START PROJECT
