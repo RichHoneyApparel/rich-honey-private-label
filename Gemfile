@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.6.8'
+
 gem 'rails', '~> 5.0.1'          # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'puma', '~> 3.0'             # Use Puma as the app server
 gem 'sass-rails', '~> 5.0'       # Use SCSS for stylesheets
@@ -36,7 +38,7 @@ group :development do
   gem 'foreman'                             # Start local servers with scripts
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'sqlite3'
-  
+
   # Guard Gem
   gem 'guard'
   gem 'guard-livereload', '~> 2.5', require: false
