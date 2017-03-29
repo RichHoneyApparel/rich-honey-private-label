@@ -1833,4 +1833,47 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       featured: true
     }]
   }
+  {
+    id: 64
+    name: "Men's Heavyweight Tee - Cotton"
+    style_num: "M01-1100"
+    product_properties: {
+      color: ""
+      fabric: "100% Cotton"
+      dye: "Reactive"
+      wash: ""
+      details: {
+        height: ""
+        width: ""
+        depth: ""
+        strap_drop: ""
+        strap_length: ""
+        model: ""
+        shirt: "Shirt is Navy in a Reactive Dye"
+        made_in_la:   "Made In Los Angeles, USA"
+      }
+      gender: "men"
+      category: "apparel"
+    }
+    product_img: [{
+      url: "assets/Rich-Honey-Apparel-Heavyweight-Tee.jpg"
+      alt: "Men's Basic Crew."
+      featured: true
+    }
+    {
+      url: "assets/Rich-Honey-Apparel-Heavyweight-Tee-Bottom-Seam.jpg"
+      alt: "Men's Basic Crew."
+      featured: true
+    }
+    {
+      url: "assets/Rich-Honey-Apparel-Heavyweight-Tee-Sleeve.jpg"
+      alt: "Men's Basic Crew."
+      featured: true
+    }
+    {
+      url: "assets/Rich-Honey-Apparel-Heavyweight-Tee-Neck.jpg"
+      alt: "Men's Basic Crew."
+      featured: true
+    }]
+  }
 ])
