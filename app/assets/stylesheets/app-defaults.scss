@@ -21,8 +21,14 @@ p {
   padding: 40px 60px;
 }
 
-.careers-container {
-  padding: 40px 20% 60px;
+.careers-container,
+.terms-of-use-container,
+.contact-us-container {
+  padding: 40px 20vw 60px;
+}
+
+.contact-us-container {
+  padding: 40px 0 60px 20vw;
 }
 
 .inactive-text {
@@ -35,8 +41,10 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-  .careers-container {
-    padding: 20px 5%;
+  .careers-container,
+  .terms-of-use-container,
+  .contact-us-container {
+    padding: 20px 5vw;
   }
 
   .black-back {
