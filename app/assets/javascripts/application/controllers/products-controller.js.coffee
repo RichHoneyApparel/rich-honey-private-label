@@ -63,6 +63,8 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
           else if $scope.product.product_properties.gender == 'women' &&
             $scope.product.product_properties.category == 'apparel'
               $scope.weights = ["30's", "40's"]
+          else if $scope.product.product_properties.category
+            $scope.weights = ["30's"]
 
           $scope.currentProductImg = $scope.product.product_img[0].url
       if $scope.product.product_properties.category == 'accessories'

@@ -1458,7 +1458,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
-      weight: ""
+      weight: "30's"
       details: {
         height: ""
         width: ""
@@ -1492,7 +1492,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
-      weight: ""
+      weight: "30's"
       details: {
         height: ""
         width: ""
@@ -1526,7 +1526,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
-      weight: ""
+      weight: "30's"
       details: {
         height: ""
         width: ""
@@ -1560,7 +1560,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
-      weight: ""
+      weight: "30's"
       details: {
         height: ""
         width: ""
@@ -1594,7 +1594,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
-      weight: ""
+      weight: "30's"
       details: {
         height: ""
         width: ""
@@ -1628,7 +1628,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
-      weight: ""
+      weight: "30's"
       details: {
         height: ""
         width: ""
@@ -1662,7 +1662,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
-      weight: ""
+      weight: "30's"
       details: {
         height: ""
         width: ""
@@ -1696,7 +1696,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
-      weight: ""
+      weight: "30's"
       details: {
         height: ""
         width: ""
@@ -1730,7 +1730,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
-      weight: ""
+      weight: "30's"
       details: {
         height: ""
         width: ""

@@ -28,8 +28,9 @@
         ul
           li 100% Cotton 14's
 
-      .weight-container[style='padding-bottom: 15px;' ng-if='product.id != 64' flex='50']
-        .md-subhead AVAILABLE WEIGHTS
+      .weight-container[style='padding-bottom: 15px;' ng-if='product.id != 64 && product.product_properties.fabric == "100% Cotton"' flex='50']
+        .md-subhead[ng-if="weights.length > 1"] AVAILABLE WEIGHTS
+        .md-subhead[ng-if="weights.length <= 1"] AVAILABLE WEIGHT
         ul
           li[ng-repeat='w in weights'] {{ w }}
     .other-properties[layout='row' style='padding-bottom: 15px;' ng-if='product.product_properties.category != "accessories"']
