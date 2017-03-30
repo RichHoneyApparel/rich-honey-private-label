@@ -24,9 +24,9 @@
         ul
           li[ng-repeat='f in fabrics'] {{ f }}
       .fabric-container[style='padding-bottom: 15px;' ng-if='product.id == 64']
-        .md-subhead AVAILABLE FABRICS
+        .md-subhead AVAILABLE FABRIC
         ul
-          li 100% Cotton 14's
+          li 100% Cotton - 14's
 
       .weight-container[style='padding-bottom: 15px;' ng-if='product.id != 64 && product.product_properties.fabric == "100% Cotton"' flex='50']
         .md-subhead[ng-if="weights.length > 1"] AVAILABLE WEIGHTS
