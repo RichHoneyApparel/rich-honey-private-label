@@ -18,10 +18,20 @@
     .md-subhead[style='padding-bottom: 15px;' ng-if='product.product_properties.category != "accessories"'] 150 Unit Minimum Quantity (1:2:2:1 Size Ratio)
     .md-subhead[ng-if='product.product_properties.category == "accessories"'] Case, Dozen, and Piece pricing available.
     .md-subhead[style='padding-bottom: 15px;' ng-if='product.product_properties.category == "accessories"'] One case contains 96 units.
-    .fabric-container[style='padding-bottom: 15px;']
-      .md-subhead AVAILABLE FABRICS
-      ul
-        li[ng-repeat='f in fabrics'] {{ f }}
+    .product_properties[layout='row']
+      .fabric-container[style='padding-bottom: 15px;' ng-if='product.id != 64' flex='50']
+        .md-subhead AVAILABLE FABRICS
+        ul
+          li[ng-repeat='f in fabrics'] {{ f }}
+      .fabric-container[style='padding-bottom: 15px;' ng-if='product.id == 64']
+        .md-subhead AVAILABLE FABRICS
+        ul
+          li 100% Cotton 14's
+
+      .weight-container[style='padding-bottom: 15px;' ng-if='product.id != 64' flex='50']
+        .md-subhead AVAILABLE WEIGHTS
+        ul
+          li[ng-repeat='w in weights'] {{ w }}
     .other-properties[layout='row' style='padding-bottom: 15px;' ng-if='product.product_properties.category != "accessories"']
       .dye-container[flex='50']
         .md-subhead AVAILABLE DYES
