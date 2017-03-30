@@ -8,8 +8,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Reactive"
       wash: ""
+      weight: "30's"
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -37,8 +37,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: "30's"
       details: {
-        weight: "30's"
         height: ""
         width: ""
         depth: ""
@@ -66,8 +66,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
+      weight: "30's"
       details: {
-        weight: "30's"
         height: ""
         width: ""
         depth: ""
@@ -95,8 +95,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Reactive"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -124,8 +124,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -153,8 +153,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Oil"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -211,8 +211,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: "30's"
       details: {
-        weight: "30's"
         height: ""
         width: ""
         depth: ""
@@ -240,8 +240,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -269,8 +269,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Reactive"
       wash: ""
+      weight: "30's"
       details: {
-        weight: "30's"
         height: ""
         width: ""
         depth: ""
@@ -298,8 +298,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: "30's"
       details: {
-        weight: "30's"
         height: ""
         width: ""
         depth: ""
@@ -327,8 +327,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
+      weight: "30's"
       details: {
-        weight: "30's"
         height: ""
         width: ""
         depth: ""
@@ -356,8 +356,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Reactive"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -385,8 +385,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -414,8 +414,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Oil"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -443,8 +443,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Reactive"
       wash: ""
+      weight: "30's"
       details: {
-        weight: "30's"
         height: ""
         width: ""
         depth: ""
@@ -472,8 +472,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: "40's"
       details: {
-        weight: "40's"
         height: ""
         width: ""
         depth: ""
@@ -501,8 +501,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
+      weight: "40's"
       details: {
-        weight: "40's"
         height: ""
         width: ""
         depth: ""
@@ -530,8 +530,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Reactive"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -559,8 +559,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -588,8 +588,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Oil"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -617,8 +617,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
       dye: ""
       wash: "Hot Wash"
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -646,8 +646,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Reactive"
       wash: ""
+      weight: "40's"
       details: {
-        weight: "40's"
         height: ""
         width: ""
         depth: ""
@@ -675,8 +675,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: "40's"
       details: {
-        weight: "40's"
         height: ""
         width: ""
         depth: ""
@@ -704,8 +704,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
+      weight: "40's"
       details: {
-        weight: "40's"
         height: ""
         width: ""
         depth: ""
@@ -733,8 +733,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Reactive"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -762,8 +762,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -791,8 +791,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Oil"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -820,8 +820,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
       dye: ""
       wash: "Hot Wash"
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -849,8 +849,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Reactive"
       wash: ""
+      weight: "40's"
       details: {
-        weight: "40's"
         height: ""
         width: ""
         depth: ""
@@ -878,8 +878,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: "40's"
       details: {
-        weight: "40's"
         height: ""
         width: ""
         depth: ""
@@ -907,8 +907,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
+      weight: "40's"
       details: {
-        weight: "40's"
         height: ""
         width: ""
         depth: ""
@@ -936,8 +936,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Reactive"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -965,8 +965,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -994,8 +994,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Oil"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1023,8 +1023,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
       dye: ""
       wash: "Hot Wash"
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1052,8 +1052,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Reactive"
       wash: ""
+      weight: "40's"
       details: {
-        weight: "40's"
         height: ""
         width: ""
         depth: ""
@@ -1081,8 +1081,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: "40's"
       details: {
-        weight: "40's"
         height: ""
         width: ""
         depth: ""
@@ -1110,8 +1110,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
+      weight: "40's"
       details: {
-        weight: "40's"
         height: ""
         width: ""
         depth: ""
@@ -1139,8 +1139,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Reactive"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1168,8 +1168,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1197,8 +1197,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Oil"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1226,8 +1226,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
       dye: ""
       wash: "Hot Wash"
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1255,8 +1255,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Reactive"
       wash: ""
+      weight: "40's"
       details: {
-        weight: "40's"
         height: ""
         width: ""
         depth: ""
@@ -1284,8 +1284,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: "40's"
       details: {
-        weight: "40's"
         height: ""
         width: ""
         depth: ""
@@ -1313,8 +1313,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Oil"
       wash: ""
+      weight: "40's"
       details: {
-        weight: "40's"
         height: ""
         width: ""
         depth: ""
@@ -1342,8 +1342,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Reactive"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1371,8 +1371,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1400,8 +1400,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Slub Cotton"
       dye: "Oil"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1429,8 +1429,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "Triblend: 50% polyester, 37.5% cotton, 12.5% rayon"
       dye: ""
       wash: "Hot Wash"
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1458,8 +1458,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1492,8 +1492,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1526,8 +1526,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1560,8 +1560,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1594,8 +1594,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1628,8 +1628,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1662,8 +1662,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1696,8 +1696,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1730,8 +1730,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "100% Cotton"
       dye: "Pigment"
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: ""
         width: ""
         depth: ""
@@ -1764,8 +1764,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "12 oz. Canvas"
       dye: ""
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: "Height: 8” (20 cm)"
         width: "Width: 11.5” (29 cm)"
         depth: ""
@@ -1798,8 +1798,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "12 oz. Canvas"
       dye: ""
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: "Height: 14.5” (37 cm) - bag; 7.5” (19 cm) - front pocket"
         width: "Width: 24” (61 cm) - bag; 10” (25 cm) - front pocket"
         depth: "Depth: 8” (20 cm)"
@@ -1837,8 +1837,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "7 oz. Canvas"
       dye: ""
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: "Height: 14.5” (37 cm)"
         width: "Width: 18” (46 cm)"
         depth: ""
@@ -1866,8 +1866,8 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       fabric: "12 oz. Canvas"
       dye: ""
       wash: ""
+      weight: ""
       details: {
-        weight: ""
         height: "Height: 16.5” (42 cm) - bag; 8” (20 cm) - front pocket"
         width: "Width: 14.5” (37 cm) - bag; 6” (15 cm) - front pocket"
         depth: ""
