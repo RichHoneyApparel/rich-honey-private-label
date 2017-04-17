@@ -21,6 +21,7 @@
 //= require angular-material/angular-material
 //= require slick-carousel/slick/slick.js
 //= require angular-slick-carousel/dist/angular-slick
+//= require ui-router-metatags/dist/ui-router-metatags.min.js
 //= require drift
 //= require jquery.zoom.min.js
 //= require_tree ./application
