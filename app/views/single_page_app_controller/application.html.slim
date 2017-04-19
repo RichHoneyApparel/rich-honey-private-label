@@ -2,19 +2,19 @@ doctype html
 html[lang=I18n.locale ng-app='richHoneyPrivateLabel']
 head
   base[href=root_url]
-  title Rich Honey Private Label
+  title[ng-bind="MetaTags.title"] Rich Honey Private Label
   = stylesheet_link_tag    'application', media: 'all'
   = stylesheet_link_tag    'application', 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i'
   = javascript_include_tag 'application'
   meta[name='viewport' content='width=device-width, initial-scale=1']
-  meta[property="og:title" content='Rich Honey | Premium Apparel and Leather Goods | Los Angeles, CA']
-  meta[property="title" content='Rich Honey | Premium Apparel and Leather Goods | Los Angeles, CA']
-  meta[property="description" content='Private label manufacturer for premium garment dyed blank t-shirts and custom leather goods. High quality apparel made in Los Angeles. Available for wholesale.']
-  meta[property="og:description" content='Private label manufacturer for premium garment dyed blank t-shirts and custom leather goods. High quality apparel made in Los Angeles. Available for wholesale.']
-  meta[property="url" content='https://www.richhoneyprivatelabel.com']
-  meta[property="og:url" content='https://www.richhoneyprivatelabel.com']
-  meta[property="image" content='assets/RHA-Homepage.png']
-  meta[property="og:image" content='assets/RHA-Homepage.png']
+  meta[property="og:title" content="{{ MetaTags['og:title'] }}"]
+  meta[property="title" content="{{ MetaTags.title }}"]
+  meta[property="url" content="{{ MetaTags.proerties['og:url'] }}"]
+  meta[property="og:url" content="{{ MetaTags.url }}"]
+  meta[property="og:image" content="{{ MetaTags.proerties['og:image'] }}"]
+  meta[property="image" content="{{ MetaTags.image }}"]
+  meta[name="description" content="{{MetaTags.description}}"]
+  meta[name="description" content="{{MetaTags.proerties['og:description']}}"]
 
 body[ng-cloak ng-strict ng-controller='BodyController' ng-class="{'black-back': path === '/', 'white-back': path !== '/'}"]
   header[ng-include src="'application/views/public/nav-bar.html'" ng-controller="NavController"]

@@ -1,6 +1,6 @@
 angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
-'templates', 'slickCarousel'])
-  .config(['$mdThemingProvider', '$locationProvider',
+'templates', 'slickCarousel', 'ui.router.metatags'])
+  .config(['$mdThemingProvider', '$locationProvider'
   ($mdThemingProvider, $locationProvider) ->
     $mdThemingProvider.theme('default')
       .primaryPalette('grey')
@@ -8,14 +8,13 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
 
     $locationProvider.html5Mode true
   ])
-  .run(['$rootScope', ($rootScope) ->
+  .run(['$rootScope', 'MetaTags', ($rootScope, MetaTags) ->
     $rootScope.$on '$stateChangeSuccess', () ->
       document.body.scrollTop = document.documentElement.scrollTop = 0
   ]).filter('startFrom', ->
     (input, start) ->
       if input
         start = +start
-        #parse to int
         return input.slice(start)
       []
     )
