@@ -9,6 +9,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
     $locationProvider.html5Mode true
   ])
   .run(['$rootScope', 'MetaTags', ($rootScope, MetaTags) ->
+    $rootScope.MetaTags = MetaTags
     $rootScope.$on '$stateChangeSuccess', () ->
       document.body.scrollTop = document.documentElement.scrollTop = 0
   ]).filter('startFrom', ->

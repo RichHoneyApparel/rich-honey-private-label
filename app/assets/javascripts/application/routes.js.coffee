@@ -33,6 +33,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Private label manufacturer for premium garment dyed
             blank t-shirts and custom leather goods. High quality apparel and
             accessories made in Los Angeles.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Custom leather goods, Leather services in Los
+            Angeles, Leather manufacturers in USA, Leather accessories
+            manufacturing, Leather accessories production'
           url: window.location.host
           image: 'assets/RHA-Homepage.png'
           properties: {
