@@ -7,14 +7,14 @@ head
   = stylesheet_link_tag    'application', 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i'
   = javascript_include_tag 'application'
   meta[name='viewport' content='width=device-width, initial-scale=1']
-  meta[property="og:title" content="{{ MetaTags['og:title'] }}"]
   meta[property="title" content="{{ MetaTags.title }}"]
-  meta[property="url" content="{{ MetaTags.proerties['og:url'] }}"]
+  meta[property="og:title" content="{{ MetaTags.properties['og:title'] }}"]
   meta[property="og:url" content="{{ MetaTags.url }}"]
-  meta[property="og:image" content="{{ MetaTags.proerties['og:image'] }}"]
+  meta[property="url" content="{{ MetaTags.properties['og:url'] }}"]
   meta[property="image" content="{{ MetaTags.image }}"]
+  meta[property="og:image" content="{{ MetaTags.properties['og:image'] }}"]
   meta[name="description" content="{{MetaTags.description}}"]
-  meta[name="description" content="{{MetaTags.proerties['og:description']}}"]
+  meta[name="description" content="{{MetaTags.properties['og:description']}}"]
 
 body[ng-cloak ng-strict ng-controller='BodyController' ng-class="{'black-back': path === '/', 'white-back': path !== '/'}"]
   header[ng-include src="'application/views/public/nav-bar.html'" ng-controller="NavController"]
