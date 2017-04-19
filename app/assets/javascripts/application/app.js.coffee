@@ -10,6 +10,9 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
   ])
   .run(['$rootScope', 'MetaTags', ($rootScope, MetaTags) ->
     $rootScope.MetaTags = MetaTags
+    if (typeof window.location.origin == 'undefined')
+      window.location.origin = window.location.protocol + '//' +
+      window.location.host
     $rootScope.$on '$stateChangeSuccess', () ->
       document.body.scrollTop = document.documentElement.scrollTop = 0
   ]).filter('startFrom', ->
