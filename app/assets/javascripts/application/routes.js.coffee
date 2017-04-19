@@ -8,7 +8,11 @@ angular.module('richHoneyPrivateLabel').config [
       .setDefaultDescription('Private label manufacturer for premium garment
         dyed blank t-shirts and custom leather goods. High quality apparel and
         accessories made in Los Angeles.')
-      .setDefaultKeywords('keywords')
+      .setDefaultKeywords('Apparel Blanks, Premium blank t-shirts,
+        Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+        shirt for branding, Custom leather goods, Leather services in Los
+        Angeles, Leather manufacturers in USA, Leather accessories
+        manufacturing, Leather accessories production')
       .setOGURL(true)
     productType = {
       encode: (str) ->
@@ -60,6 +64,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Rich Honey manufactures premium blank t-shirts and
             leather accessories for private labels. Control your production
             with low minimums using our existing styles.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Custom leather goods, Leather services in Los
+            Angeles, Leather manufacturers in USA, Leather accessories
+            manufacturing, Leather accessories production'
           url: window.location.origin + '/our-story'
           image: window.location.origin + '/assets/our-story-header.png'
           properties: {
@@ -80,6 +89,11 @@ angular.module('richHoneyPrivateLabel').config [
           title: 'Create Order | Rich Honey | Los Angeles, CA'
           description: 'Rich Honey is a private label manufacturer for premium
             garment dyed blank t-shirts and custom leather goods.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Custom leather goods, Leather services in Los
+            Angeles, Leather manufacturers in USA, Leather accessories
+            manufacturing, Leather accessories production'
           url: window.location.origin + '/order-inquiry'
           image: window.location.origin + '/assets/washes-header.PNG'
           properties: {
@@ -100,6 +114,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Set up a wholesale account to order our premium garment
             dyed blank shirts. Choose a style and customize it with fabrics,
             dyes, and washes. Low minimums.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Custom leather goods, Leather services in Los
+            Angeles, Leather manufacturers in USA, Leather accessories
+            manufacturing, Leather accessories production'
           url: window.location.origin + '/how-it-works'
           image: window.location.origin + '/assets/how-it-works-header.PNG'
           properties: {
@@ -121,6 +140,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Review our FAQ to see if we have answers for you. Rich
             Honey is a private label manufacturer for premium garment dyed
             blank t-shirts and custom leather goods.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Custom leather goods, Leather services in Los
+            Angeles, Leather manufacturers in USA, Leather accessories
+            manufacturing, Leather accessories production'
           url: window.location.origin + '/faq'
           image: window.location.origin + '/assets/cutting-header.png'
           properties: {
@@ -143,6 +167,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Contact us for questions and inquiries. Rich
             Honey is a private label manufacturer for premium garment
             dyed blank t-shirts and custom leather goods.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Custom leather goods, Leather services in Los
+            Angeles, Leather manufacturers in USA, Leather accessories
+            manufacturing, Leather accessories production'
           url: window.location.origin + '/contact-us'
           image: window.location.origin + '/assets/production-header.png'
           properties: {
@@ -164,6 +193,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Submit a career inquiry. Rich
             Honey is a private label manufacturer for premium garment
             dyed blank t-shirts and custom leather goods.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Custom leather goods, Leather services in Los
+            Angeles, Leather manufacturers in USA, Leather accessories
+            manufacturing, Leather accessories production'
           url: window.location.origin + '/careers'
           image: window.location.origin + '/assets/Rich-Honey-Apparel-Services-Packaging.png'
           properties: {
@@ -184,6 +218,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Submit a career inquiry. Rich
             Honey is a private label manufacturer for premium garment
             dyed blank t-shirts and custom leather goods.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Custom leather goods, Leather services in Los
+            Angeles, Leather manufacturers in USA, Leather accessories
+            manufacturing, Leather accessories production'
           url: window.location.origin + '/careers/sales-executive'
           image: window.location.origin + '/assets/services-header.png'
           properties: {
@@ -206,6 +245,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Private label manufacturer for premium garment dyed
             blank t-shirts and custom leather goods. High quality apparel and
             accessories made in Los Angeles.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Custom leather goods, Leather services in Los
+            Angeles, Leather manufacturers in USA, Leather accessories
+            manufacturing, Leather accessories production'
           url: window.location.origin + '/create-an-account'
           image: window.location.origin + '/assets/RHA-Homepage.png'
           properties: {
@@ -228,6 +272,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Review our Privacy Policy. Rich Honey is a private label
             manufacturer for premium garment dyed blank t-shirts and custom
             leather goods.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Custom leather goods, Leather services in Los
+            Angeles, Leather manufacturers in USA, Leather accessories
+            manufacturing, Leather accessories production'
           url: window.location.origin + '/privacy-policy'
           image: window.location.origin + '/assets/active-wear-header.PNG'
           properties: {
@@ -249,6 +298,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Terms of Membership for Wholesale Account holders.
             Rich Honey is a private label manufacturer for premium garment
             dyed blank t-shirts and custom leather goods.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Custom leather goods, Leather services in Los
+            Angeles, Leather manufacturers in USA, Leather accessories
+            manufacturing, Leather accessories production'
           url: window.location.origin + '/terms-and-conditions'
           image: window.location.origin + '/assets/debossing-header.jpg'
           properties: {
@@ -290,6 +344,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Rich Honey has mastered the dyeing process to produce
             the best garment dyed blank shirts in the industry. Vibrant, vintage
             or classic dye colors of your choice.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/resource/dyes'
           image: window.location.origin + '/assets/RichHoney-Apparel-Resources-Dye.png'
           properties: {
@@ -310,6 +369,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Customize the fit, look and feel of your garment with
             specialty washes. Softener, enzyme, silicone and power wash
             available for soft tees with low shrinkage.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/resource/washes'
           image: window.location.origin + '/assets/washes-header.PNG'
           properties: {
@@ -332,8 +396,14 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Premium accessories manufactured for your brand. Choose
             from our styles or come with your own designs. Handcrafted in Los
             Angeles, CA.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Custom leather goods, Leather services in Los
+            Angeles, Leather manufacturers in USA, Leather accessories
+            manufacturing, Leather accessories production'
           url: window.location.origin + '/categories/accessories'
-          image: window.location.origin + '/assets/RichHoney-Apparel-Accessories'
+          image: window.location.origin +
+            '/assets/RichHoney-Apparel-Accessories'
           properties: {
             'og:title': 'Accessories | Rich Honey | Los Angeles, CA'
             'og:description': 'Premium accessories manufactured for your brand.
@@ -353,6 +423,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Muscle tees, stringer tops, scoop tees and crew necks.
             Durable and soft cotton tops for your brand’s athletic wear. Made in
             Los Angeles, CA. Inquire to order.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/categories/fitness'
           image: window.location.origin + '/assets/active-wear-header.PNG'
           properties: {
@@ -374,6 +449,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'High quality blank men’s crew necks and pocket tees for
             your private label. Choose a style, fabric, dye color, and wash.
             Made in Los Angeles. Inquire to order.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/categories/men'
           image: window.location.origin + '/assets/RHA-Mens-Header.png'
           properties: {
@@ -395,6 +475,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'High quality women’s crew necks, pocket tees and tank
             tops for your private label. Choose a style, fabric, dye, and wash.
             Made in Los Angeles. Inquire to order.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/categories/women'
           image: window.location.origin + '/assets/RHA-Womens-Header.png'
           properties: {
@@ -443,20 +528,27 @@ angular.module('richHoneyPrivateLabel').config [
           image: (product) ->
             return product[0].product_img[0].url
           properties: {
-            'og:title': (product) -> return product[0].name + " | Rich Honey | Los Angeles, CA"
+            'og:title': (product) -> return product[0].name + " | Rich Honey |
+            Los Angeles, CA"
             'og:description': (product) ->
               if ((product[0].product_properties.gender == "men" &&
               product[0].product_properties.category == "apparel") ||
               (product[0].product_properties.gender == "men" &&
               product[0].product_properties.category == "activewear"))
-                return 'High quality blank men’s crew necks and pocket tees for your private label. Choose a style, fabric, dye color, and wash. Made in Los Angeles. Inquire to order.'
+                return 'High quality blank men’s crew necks and pocket tees for
+                  your private label. Choose a style, fabric, dye color, and
+                  wash. Made in Los Angeles. Inquire to order.'
               else if ((product[0].product_properties.gender == "women" &&
               product[0].product_properties.category == "apparel") ||
               (product[0].product_properties.gender == "women" &&
               product[0].product_properties.category == "activewear"))
-                return 'High quality women’s crew necks, pocket tees and tank tops for your private label. Choose a style, fabric, dye, and wash. Made in Los Angeles. Inquire to order.'
+                return 'High quality women’s crew necks, pocket tees and tank
+                  tops for your private label. Choose a style, fabric, dye, and
+                  wash. Made in Los Angeles. Inquire to order.'
               else
-                return 'Premium accessories manufactured for your brand. Choose from our styles or come with your own designs. Handcrafted in Los Angeles, CA.'
+                return 'Premium accessories manufactured for your brand. Choose
+                  from our styles or come with your own designs. Handcrafted in
+                  Los Angeles, CA.'
             'og:url': (product) ->
               return window.location.origin + "/product/" +
                 product[0].name.replace(/\s-\s+/g, ' ').replace("'", '')
@@ -494,6 +586,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Rich Honey can cut various fabrics and styles for
             apparel production and sampling. Our garment cutting facility in
             Los Angeles can accommodate large volumes.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/services/apparel/cutting'
           image: window.location.origin + '/assets/cutting-header.png'
           properties: {
@@ -515,6 +612,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Rich Honey creates production markers and performs
             grading and digitizing services for garment patterns. Get started
             on your project now!'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/services/apparel/marking-grading'
           image: window.location.origin + '/assets/marking-grading-header.png'
           properties: {
@@ -535,6 +637,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Rich Honey will create patterns for sweaters and
             t-shirts in your desired style and specs. Bring any prototype or
             sample you would like to produce.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/services/apparel/patterns'
           image: window.location.origin + '/assets/pattern-header.png'
           properties: {
@@ -555,6 +662,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: "Produce premium apparel blanks for your line with Rich
             Honey's styles, fabrics, dyes, and washes. Open a Wholesale Account
             to order and start production now."
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/services/apparel/production'
           image: window.location.origin + '/assets/production-header.png'
           properties: {
@@ -575,6 +687,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: "Sign up for a session and rent our photo studio for your
             brand product shots, line sheets, portfolio, and other photography
             needs. Located in Los Angeles, CA."
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/services/apparel/honey-studio'
           image: window.location.origin + '/assets/honey-studio-header.png'
           properties: {
@@ -594,6 +711,9 @@ angular.module('richHoneyPrivateLabel').config [
           title: 'Design & Development | Leather Services | Rich Honey | Los Angeles, CA'
           description: "First patterns, digitizing, and other services to design
             and develop your leather outerwear, apparel, and accessories."
+          keywords: 'Custom leather goods, Leather services in Los Angeles,
+            Leather manufacturers in USA, Leather accessories manufacturing,
+            Leather accessories production, Leatherworks'
           url: window.location.origin + '/services/leather/design-development'
           image: window.location.origin + '/assets/design-development-header.png'
           properties: {
@@ -613,6 +733,9 @@ angular.module('richHoneyPrivateLabel').config [
           description: "Rich Honey can handle small and large productions for
             your high quality accessories and leather goods at low minimums.
             Handcrafted in Los Angeles, CA."
+          keywords: 'Custom leather goods, Leather services in Los Angeles,
+            Leather manufacturers in USA, Leather accessories manufacturing,
+            Leather accessories production, Leatherworks'
           url: window.location.origin + '/services/leather/production'
           image: window.location.origin + '/assets/production-header.jpg'
           properties: {
@@ -633,6 +756,9 @@ angular.module('richHoneyPrivateLabel').config [
           description: "Die cutting services for unique patterns for bags and
             other accessories. Submit an inquiry to start a project with Rich
             Honey."
+          keywords: 'Custom leather goods, Leather services in Los Angeles,
+            Leather manufacturers in USA, Leather accessories manufacturing,
+            Leather accessories production, Leatherworks'
           url: window.location.origin + '/services/leather/die-cutting'
           image: window.location.origin + '/assets/die-cutting-header.jpg'
           properties: {
@@ -653,6 +779,9 @@ angular.module('richHoneyPrivateLabel').config [
           description: "We can provide first prototypes, sew-by samples and
             duplicates for your leather accessories collection. Submit an
             inquiry to start a project with Rich Honey."
+          keywords: 'Custom leather goods, Leather services in Los Angeles,
+            Leather manufacturers in USA, Leather accessories manufacturing,
+            Leather accessories production, Leatherworks'
           url: window.location.origin + '/services/leather/samples'
           image: window.location.origin + '/assets/sample-header.jpg'
           properties: {
@@ -673,6 +802,9 @@ angular.module('richHoneyPrivateLabel').config [
           description: "Ensure that your brand name is recognized on your
             products with Rich Honey’s blind debossing or foil debossing
             services."
+          keywords: 'Custom leather goods, Leather services in Los Angeles,
+            Leather manufacturers in USA, Leather accessories manufacturing,
+            Leather accessories production, Leatherworks'
           url: window.location.origin + '/services/leather/debossing'
           image: window.location.origin + '/assets/debossing-header.jpg'
           properties: {
@@ -693,6 +825,9 @@ angular.module('richHoneyPrivateLabel').config [
           description: "Using a cylinder blade, the skiving process adjusts and
             smoothens the thickness of your leather with no residue of fleshing.
             Inquire to start a project."
+          keywords: 'Custom leather goods, Leather services in Los Angeles,
+            Leather manufacturers in USA, Leather accessories manufacturing,
+            Leather accessories production, Leatherworks'
           url: window.location.origin + '/services/leather/skiving'
           image: window.location.origin + '/assets/skiving-header.jpg'
           properties: {
@@ -713,6 +848,9 @@ angular.module('richHoneyPrivateLabel').config [
           description: "Stuffing, tagging, and other packaging services for your
             high quality leather goods. We create hang tags, skew stickers, dust
             bags, and poly bags."
+          keywords: 'Custom leather goods, Leather services in Los Angeles,
+            Leather manufacturers in USA, Leather accessories manufacturing,
+            Leather accessories production, Leatherworks'
           url: window.location.origin + '/services/leather/packaging'
           image: window.location.origin + '/assets/Rich-Honey-Apparel-Services-Packaging.png'
           properties: {
@@ -733,6 +871,12 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'With state of the art equipment and a highly skilled
             team, Rich Honey will turn your ideas into reality and produce high
             quality apparel and leather goods.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Custom leather goods, Leather services in Los
+            Angeles, Leather manufacturers in USA, Leather accessories
+            manufacturing, Leather accessories production'
+          url: window.location.origin + '/categories/accessories'
           url: window.location.origin + '/services'
           image: window.location.origin + '/assets/services-header.png'
           properties: {
@@ -754,6 +898,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Take a look at some of the sewing processes for our high
             quality blank t-shirts. Manufactured at our factory in Los Angeles,
             CA. Available for wholesale.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/making-of-a-tee/side-seams'
           image: window.location.origin + '/assets/moat-1-side-seams.png'
           properties: {
@@ -774,6 +923,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Take a look at some of the sewing processes for our high
             quality blank t-shirts. Manufactured at our factory in Los Angeles,
             CA. Available for wholesale.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/making-of-a-tee/shoulders'
           image: window.location.origin + '/assets/moat-2-shoulders.png'
           properties: {
@@ -794,6 +948,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Take a look at some of the sewing processes for our high
             quality blank t-shirts. Manufactured at our factory in Los Angeles,
             CA. Available for wholesale.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/making-of-a-tee/rib-neck'
           image: window.location.origin + '/assets/moat-3-rib-neck.png'
           properties: {
@@ -814,6 +973,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Take a look at some of the sewing processes for our high
             quality blank t-shirts. Manufactured at our factory in Los Angeles,
             CA. Available for wholesale.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/making-of-a-tee/one-sixteen'
           image: window.location.origin + '/assets/moat-4-one-sixteen.png'
           properties: {
@@ -834,6 +998,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Take a look at some of the sewing processes for our high
             quality blank t-shirts. Manufactured at our factory in Los Angeles,
             CA. Available for wholesale.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/making-of-a-tee/taping'
           image: window.location.origin + '/assets/moat-5-taping.png'
           properties: {
@@ -854,6 +1023,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Take a look at some of the sewing processes for our high
             quality blank t-shirts. Manufactured at our factory in Los Angeles,
             CA. Available for wholesale.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/making-of-a-tee/sleeves'
           image: window.location.origin + '/assets/moat-6-sleeves.png'
           properties: {
@@ -874,6 +1048,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Take a look at some of the sewing processes for our high
             quality blank t-shirts. Manufactured at our factory in Los Angeles,
             CA. Available for wholesale.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
           url: window.location.origin + '/making-of-a-tee/hems'
           image: window.location.origin + '/assets/moat-7-hems-1.png'
           properties: {
@@ -895,6 +1074,11 @@ angular.module('richHoneyPrivateLabel').config [
           description: 'Review our Website Terms of Use Agreement. Rich Honey is
             a private label manufacturer for premium garment dyed blank t-shirts
             and custom leather goods.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Custom leather goods, Leather services in Los
+            Angeles, Leather manufacturers in USA, Leather accessories
+            manufacturing, Leather accessories production'
           url: window.location.origin + '/terms-and-use'
           image: window.location.origin + '/assets/design-development.jpg'
           properties: {
