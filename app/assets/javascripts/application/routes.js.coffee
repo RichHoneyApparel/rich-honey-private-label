@@ -1,6 +1,15 @@
 angular.module('richHoneyPrivateLabel').config [
   '$stateProvider', '$urlRouterProvider', '$urlMatcherFactoryProvider',
-  ($stateProvider, $urlRouterProvider, $urlMatcherFactoryProvider) ->
+  'UIRouterMetatagsProvider',
+  ($stateProvider, $urlRouterProvider, $urlMatcherFactoryProvider,
+  UIRouterMetatagsProvider) ->
+    UIRouterMetatagsProvider
+      .setDefaultTitle('Rich Honey | Premium Apparel and Leather Goods | Los Angeles, CA')
+      .setDefaultDescription('Private label manufacturer for premium garment
+        dyed blank t-shirts and custom leather goods. High quality apparel and
+        accessories made in Los Angeles.')
+      .setDefaultKeywords('keywords')
+      .setOGURL(true)
     productType = {
       encode: (str) ->
         str and str.replace(/\s-\s+/g, ' ').replace("'", '').replace(/ /g, '-')
@@ -27,7 +36,7 @@ angular.module('richHoneyPrivateLabel').config [
           url: window.location.host
           image: 'assets/RHA-Homepage.png'
           properties: {
-            'og:title': 'Rich Honey |Premium Apparel and Leather Goods |
+            'og:title': 'Rich Honey | Premium Apparel and Leather Goods |
               Los Angeles, CA'
             'og:description': 'Private label manufacturer for premium garment
               dyed blank t-shirts and custom leather goods. High quality apparel
