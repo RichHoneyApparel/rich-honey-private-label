@@ -123,6 +123,9 @@ GEM
       nenv (~> 0.1)
       shellany (~> 0.0)
     pg (0.19.0)
+    prerender_rails (1.4.1)
+      activesupport
+      rack
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -221,6 +224,7 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   pg
+  prerender_rails
   puma (~> 3.0)
   rack-livereload
   rails (~> 5.0.1)

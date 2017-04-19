@@ -389,18 +389,83 @@ angular.module('richHoneyPrivateLabel').config [
       .state 'services_main',
         url: '/services'
         templateUrl: 'application/views/services/services.html'
+        metaTags: {
+          title: 'Services | Rich Honey | Los Angeles, CA'
+          description: 'With state of the art equipment and a highly skilled
+            team, Rich Honey will turn your ideas into reality and produce high
+            quality apparel and leather goods.'
+          url: 'https://www.richhoneyprivatelabel.com/services'
+          image: 'assets/services-header.png'
+          properties: {
+            'og:title': 'Services | Rich Honey | Los Angeles, CA'
+            'og:description': 'With state of the art equipment and a highly
+              skilled team, Rich Honey will turn your ideas into reality and
+              produce high quality apparel and leather goods.'
+            'og:url': 'https://www.richhoneyprivatelabel.com/services'
+            'og:image': 'assets/services-header.png'
+          }
+        }
 
       .state 'services_apparel-cutting',
         url: '/services/apparel/cutting'
         templateUrl: 'application/views/services/apparel/apparel-cutting.html'
+        metaTags: {
+          title: 'Cutting | Apparel Services | Rich Honey | Los Angeles, CA'
+          description: 'Rich Honey can cut various fabrics and styles for
+            apparel production and sampling. Our garment cutting facility in
+            Los Angeles can accommodate large volumes.'
+          url: 'https://www.richhoneyprivatelabel.com/services/apparel/cutting'
+          image: 'assets/cutting-header.png'
+          properties: {
+            'og:title': 'Cutting | Apparel Services | Rich Honey | Los Angeles,
+              CA'
+            'og:description': 'Rich Honey can cut various fabrics and styles for
+              apparel production and sampling. Our garment cutting facility in
+              Los Angeles can accommodate large volumes.'
+            'og:url': 'https://www.richhoneyprivatelabel.com/services/apparel/cutting'
+            'og:image': 'assets/cutting-header.png'
+          }
+        }
 
       .state 'services_apparel-marking-grading',
         url: '/services/apparel/marking-grading'
         templateUrl: 'application/views/services/apparel/apparel-marking-grading.html'
+        metaTags: {
+          title: 'Marking, Grading, Digitizing | Apparel Services | Rich Honey | Los Angeles, CA'
+          description: 'Rich Honey creates production markers and performs
+            grading and digitizing services for garment patterns. Get started
+            on your project now!'
+          url: 'https://www.richhoneyprivatelabel.com/services/apparel/marking-grading'
+          image: 'assets/marking-grading-header.png'
+          properties: {
+            'og:title': 'Marking, Grading, Digitizing | Apparel Services | Rich Honey | Los Angeles, CA'
+            'og:description': 'Rich Honey creates production markers and
+              performs grading and digitizing services for garment patterns.
+              Get started on your project now!'
+            'og:url': 'https://www.richhoneyprivatelabel.com/services/apparel/marking-grading'
+            'og:image': 'assets/marking-grading-header.png'
+          }
+        }
 
       .state 'services_apparel-patterning',
         url: '/services/apparel/patterns'
         templateUrl: 'application/views/services/apparel/apparel-patterning.html'
+        metaTags: {
+          title: 'Patterns | Apparel Services | Rich Honey | Los Angeles, CA'
+          description: 'Rich Honey will create patterns for sweaters and
+            t-shirts in your desired style and specs. Bring any prototype or
+            sample you would like to produce.'
+          url: 'https://www.richhoneyprivatelabel.com/services/apparel/patterns'
+          image: 'assets/marking-grading-header.png'
+          properties: {
+            'og:title': 'Patterns | Apparel Services | Rich Honey | Los Angeles, CA'
+            'og:description': 'Rich Honey will create patterns for sweaters and
+              t-shirts in your desired style and specs. Bring any prototype or
+              sample you would like to produce.'
+            'og:url': 'https://www.richhoneyprivatelabel.com/services/apparel/patterns'
+            'og:image': 'assets/marking-grading-header.png'
+          }
+        }
 
       .state 'services_apparel-production',
         url: '/services/apparel/production'

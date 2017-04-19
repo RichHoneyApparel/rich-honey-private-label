@@ -18,6 +18,8 @@ gem 'jbuilder', '~> 2.5'         # Build JSON APIs with ease. Read more: https:/
 gem 'angularjs-rails'            # Angular
 gem 'angular-rails-templates'    # Template support for Angular JS
 gem 'angular-ui-bootstrap-rails' # for bootstrap UI
+
+gem 'prerender_rails'            # Prerender gem to cache page and help with metatags
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
