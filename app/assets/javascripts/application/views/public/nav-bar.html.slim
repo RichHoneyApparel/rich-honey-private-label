@@ -1,12 +1,11 @@
-.account-nav[layout='row' layout-align='space-between' layout-wrap]
-  .create-account-div[flex='85' flex-md='80' flex-sm='65' flex-xs='40']
-    a[ui-sref='create_an_account'] Create account
-  a[href='tel:(213) 905-3205' style='text-align: center'] 213-905-3205
-  span[style='text-align: center'] |
-  a[ui-sref='contact_us' style='text-align: center'] contact us
-  span[style='text-align: center'] |
-  a[ui-sref='home' style='text-align: center']
-    i.fa.fa-lg.fa-search
+.account-nav[layout-gt-xs='row' layout-align='space-between' layout-wrap]
+  .made-in-the-usa-container[flex='50' flex-xs='100']
+    img[src='assets/RichHoney-Made-in-USA-Flag.png' width='30px']
+    span[style='padding: 5px;'] Made in USA
+  .right-side-container[flex='50' flex-xs='100']
+    a[ui-sref='create_an_account' style='padding: 5px;'] Create Account
+    span[style='text-align: center; padding: 5px;'] |
+    a[ui-sref='contact_us' style='text-align: center; padding: 5px;'] Contact Us
 md-nav-bar.nav[aria-label='main page nav' layout='row' layout-align='space-around center']
   a[ng-click='openLeftMenu()' href='' aria-label='button side nav trigger' hide-gt-sm show-sm show-xs flex-sm='5']
     i.fa.fa-lg.fa-bars
