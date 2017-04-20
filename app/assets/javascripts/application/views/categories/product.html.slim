@@ -20,33 +20,33 @@
     .md-subhead[style='padding-bottom: 15px;' ng-if='product.product_properties.category == "accessories"'] One case contains 96 units.
     .product_properties[layout='row']
       .fabric-container[style='padding-bottom: 15px;' ng-if='product.id != 64' flex='50']
-        .md-subhead AVAILABLE FABRICS
+        .md-subhead[style='font-weight: bold;'] AVAILABLE FABRICS
         ul
           li[ng-repeat='f in fabrics'] {{ f }}
       .fabric-container[style='padding-bottom: 15px;' ng-if='product.id == 64']
-        .md-subhead AVAILABLE FABRIC
+        .md-subhead[style='font-weight: bold;'] AVAILABLE FABRIC
         ul
           li 100% Cotton - 14's
 
       .weight-container[style='padding-bottom: 15px;' ng-if='product.id != 64 && product.product_properties.fabric == "100% Cotton"' flex='50']
-        .md-subhead[ng-if="weights.length > 1"] AVAILABLE WEIGHTS
-        .md-subhead[ng-if="weights.length <= 1"] AVAILABLE WEIGHT
+        .md-subhead[ng-if="weights.length > 1" style='font-weight: bold;'] AVAILABLE WEIGHTS
+        .md-subhead[ng-if="weights.length <= 1" style='font-weight: bold;'] AVAILABLE WEIGHT
         ul
           li[ng-repeat='w in weights'] {{ w }}
     .other-properties[layout='row' style='padding-bottom: 15px;' ng-if='product.product_properties.category != "accessories"']
       .dye-container[flex='50']
-        .md-subhead AVAILABLE DYES
+        .md-subhead[style='font-weight: bold;'] AVAILABLE DYES
         ul
           li[ng-repeat='d in dyes'] {{ d }}
 
       .wash-container[flex='50']
-        .md-subhead AVAILABLE WASHES
+        .md-subhead[style='font-weight: bold;'] AVAILABLE WASHES
         ul
           li[ng-repeat='w in washes'] {{ w }}
 
     .other-properties[layout='row' style='padding-bottom: 15px;' ng-if='product.product_properties.category == "accessories"']
       .modification-container[flex='50']
-        .md-subhead AVAILABLE MODIFICATIONS
+        .md-subhead[style='font-weight: bold;'] AVAILABLE MODIFICATIONS
         ul
           li[ng-repeat='m in modifications'] {{ m }}
 
