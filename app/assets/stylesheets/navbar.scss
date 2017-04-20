@@ -1,11 +1,15 @@
 .account-nav {
   background-color: $rich-honey-black;
-  padding: 10px 30px;
+  padding: 10px;
 
   a,
   span {
     color: $white;
   }
+}
+
+.right-side-container {
+  text-align: right;
 }
 
 .nav-links {
@@ -94,5 +98,9 @@
 @media screen and (max-width: 600px){
   .logo-container {
     text-align: center;
+  }
+
+  .right-side-container {
+    text-align: left;
   }
 }
