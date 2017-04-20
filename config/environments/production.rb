@@ -77,6 +77,9 @@ Rails.application.configure do
   config.serve_static_assets = true
   config.assets.digest = true
 
+  # Prerender middleware
+  config.middleware.use Rack::Prerender, prerender_token: 'hxil9UVpx69HGgshfc1P'
+
   if ENV["RAILS_LOG_TO_STDOUT"].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
     logger.formatter = config.log_formatter
