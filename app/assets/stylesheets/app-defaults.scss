@@ -16,6 +16,12 @@ p {
   margin: 0 !important;
 }
 
+.nav {
+  md-nav-ink-bar {
+    background-color: #000 !important;
+  }
+}
+
 .contact-us-container,
 .create-account-container {
   padding: 40px 60px;
