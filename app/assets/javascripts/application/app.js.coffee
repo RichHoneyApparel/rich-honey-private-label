@@ -6,14 +6,7 @@ angular.module('richHoneyPrivateLabel', ['ngMaterial', 'ui.router',
       .primaryPalette('grey')
       .accentPalette('grey')
 
-    if window.history && window.history.pushState
-      $locationProvider.html5Mode {
-        enabled: true
-        requireBase: false
-        rewriteLinks: false
-      }
-    else
-      $locationProvider(false)
+    $locationProvider.html5Mode true
   ])
   .run(['$rootScope', 'MetaTags', ($rootScope, MetaTags) ->
     $rootScope.MetaTags = MetaTags
