@@ -1,8 +1,7 @@
 angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
-  '$scope', 'fakeProducts', '$stateParams', '$mdDialog', '$location', 'product',
-  ($scope, fakeProducts, $stateParams, $mdDialog, $location, product) ->
-    $scope.product = product[0]
-    console.log(product)
+  '$scope', 'fakeProducts', '$stateParams', '$mdDialog', '$location',
+  ($scope, fakeProducts, $stateParams, $mdDialog, $location) ->
+    $scope.product = ''
     $scope.currentProductImg = ''
     $scope.relatedProducts = []
     $scope.current
@@ -55,19 +54,19 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
             $scope.relatedProducts.push product
 
     getProduct = ->
-      if $scope.product.product_properties.gender == 'men' &&
-        $scope.product.product_properties.category == 'apparel'
-          $scope.weights = ["20's", "30's", "40's"]
-      else if $scope.product.product_properties.gender == 'women' &&
-        $scope.product.product_properties.category == 'apparel'
-          $scope.weights = ["30's", "40's"]
-      else if $scope.product.product_properties.category
-        $scope.weights = ["30's"]
+      fakeProducts.forEach (product) ->
+        if product.id == Number($stateParams.id)
+          $scope.product = product
+          if $scope.product.product_properties.gender == 'men' &&
+            $scope.product.product_properties.category == 'apparel'
+              $scope.weights = ["20's", "30's", "40's"]
+          else if $scope.product.product_properties.gender == 'women' &&
+            $scope.product.product_properties.category == 'apparel'
+              $scope.weights = ["30's", "40's"]
+          else if $scope.product.product_properties.category
+            $scope.weights = ["30's"]
 
-      $scope.currentProductImg = $scope.product.product_img[0].url
-      # fakeProducts.forEach (product) ->
-      #   if product.id == Number($stateParams.id)
-      #     $scope.product = product
+          $scope.currentProductImg = $scope.product.product_img[0].url
       if $scope.product.product_properties.category == 'accessories'
         $scope.fabrics = ['7 oz. Canvas', '12 oz. Canvas']
       formatProperties()

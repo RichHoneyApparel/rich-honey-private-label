@@ -495,68 +495,68 @@ angular.module('richHoneyPrivateLabel').config [
       .state 'product_show',
         url: '/product/{productName:product}/:id'
         templateUrl: 'application/views/categories/product.html'
-        resolve: product: (GetProductService, $stateParams) ->
-          return GetProductService.get(Number($stateParams.id))
+        # resolve: product: (GetProductService, $stateParams) ->
+        #   return GetProductService.get(Number($stateParams.id))
         controller: 'ProductsController'
-        metaTags: {
-          # Get the first of the array returned by the filter
-          title: (product) -> return product[0].name +
-            " | Rich Honey | Los Angeles, CA"
-          description: (product) ->
-            if ((product[0].product_properties.gender == "men" &&
-            product[0].product_properties.category == "apparel") ||
-            (product[0].product_properties.gender == "men" &&
-            product[0].product_properties.category == "activewear"))
-              return 'High quality blank men’s crew necks and pocket tees for
-                your private label. Choose a style, fabric, dye color, and wash.
-                Made in Los Angeles. Inquire to order.'
-            else if ((product[0].product_properties.gender == "women" &&
-            product[0].product_properties.category == "apparel") ||
-            (product[0].product_properties.gender == "women" &&
-            product[0].product_properties.category == "activewear"))
-              return 'High quality women’s crew necks, pocket tees and tank tops
-                for your private label. Choose a style, fabric, dye, and wash.
-                Made in Los Angeles. Inquire to order.'
-            else
-              return 'Premium accessories manufactured for your brand. Choose
-                from our styles or come with your own designs. Handcrafted in
-                Los Angeles, CA.'
-          url: (product) ->
-            return window.location.origin + "/product/" +
-              product[0].name.replace(/\s-\s+/g, ' ').replace("'", '')
-              .replace(/ /g, '-') + "/" + product[0].id
-          image: (product) ->
-            return product[0].product_img[0].url
-          properties: {
-            'og:title': (product) -> return product[0].name + " | Rich Honey |
-            Los Angeles, CA"
-            'og:description': (product) ->
-              if ((product[0].product_properties.gender == "men" &&
-              product[0].product_properties.category == "apparel") ||
-              (product[0].product_properties.gender == "men" &&
-              product[0].product_properties.category == "activewear"))
-                return 'High quality blank men’s crew necks and pocket tees for
-                  your private label. Choose a style, fabric, dye color, and
-                  wash. Made in Los Angeles. Inquire to order.'
-              else if ((product[0].product_properties.gender == "women" &&
-              product[0].product_properties.category == "apparel") ||
-              (product[0].product_properties.gender == "women" &&
-              product[0].product_properties.category == "activewear"))
-                return 'High quality women’s crew necks, pocket tees and tank
-                  tops for your private label. Choose a style, fabric, dye, and
-                  wash. Made in Los Angeles. Inquire to order.'
-              else
-                return 'Premium accessories manufactured for your brand. Choose
-                  from our styles or come with your own designs. Handcrafted in
-                  Los Angeles, CA.'
-            'og:url': (product) ->
-              return window.location.origin + "/product/" +
-                product[0].name.replace(/\s-\s+/g, ' ').replace("'", '')
-                .replace(/ /g, '-') + "/" + product[0].id
-            'og:image': (product) ->
-              return product[0].product_img[0].url
-          }
-        }
+        # metaTags: {
+        #   # Get the first of the array returned by the filter
+        #   title: (product) -> return product[0].name +
+        #     " | Rich Honey | Los Angeles, CA"
+        #   description: (product) ->
+        #     if ((product[0].product_properties.gender == "men" &&
+        #     product[0].product_properties.category == "apparel") ||
+        #     (product[0].product_properties.gender == "men" &&
+        #     product[0].product_properties.category == "activewear"))
+        #       return 'High quality blank men’s crew necks and pocket tees for
+        #         your private label. Choose a style, fabric, dye color, and wash.
+        #         Made in Los Angeles. Inquire to order.'
+        #     else if ((product[0].product_properties.gender == "women" &&
+        #     product[0].product_properties.category == "apparel") ||
+        #     (product[0].product_properties.gender == "women" &&
+        #     product[0].product_properties.category == "activewear"))
+        #       return 'High quality women’s crew necks, pocket tees and tank tops
+        #         for your private label. Choose a style, fabric, dye, and wash.
+        #         Made in Los Angeles. Inquire to order.'
+        #     else
+        #       return 'Premium accessories manufactured for your brand. Choose
+        #         from our styles or come with your own designs. Handcrafted in
+        #         Los Angeles, CA.'
+        #   url: (product) ->
+        #     return window.location.origin + "/product/" +
+        #       product[0].name.replace(/\s-\s+/g, ' ').replace("'", '')
+        #       .replace(/ /g, '-') + "/" + product[0].id
+        #   image: (product) ->
+        #     return product[0].product_img[0].url
+        #   properties: {
+        #     'og:title': (product) -> return product[0].name + " | Rich Honey |
+        #     Los Angeles, CA"
+        #     'og:description': (product) ->
+        #       if ((product[0].product_properties.gender == "men" &&
+        #       product[0].product_properties.category == "apparel") ||
+        #       (product[0].product_properties.gender == "men" &&
+        #       product[0].product_properties.category == "activewear"))
+        #         return 'High quality blank men’s crew necks and pocket tees for
+        #           your private label. Choose a style, fabric, dye color, and
+        #           wash. Made in Los Angeles. Inquire to order.'
+        #       else if ((product[0].product_properties.gender == "women" &&
+        #       product[0].product_properties.category == "apparel") ||
+        #       (product[0].product_properties.gender == "women" &&
+        #       product[0].product_properties.category == "activewear"))
+        #         return 'High quality women’s crew necks, pocket tees and tank
+        #           tops for your private label. Choose a style, fabric, dye, and
+        #           wash. Made in Los Angeles. Inquire to order.'
+        #       else
+        #         return 'Premium accessories manufactured for your brand. Choose
+        #           from our styles or come with your own designs. Handcrafted in
+        #           Los Angeles, CA.'
+        #     'og:url': (product) ->
+        #       return window.location.origin + "/product/" +
+        #         product[0].name.replace(/\s-\s+/g, ' ').replace("'", '')
+        #         .replace(/ /g, '-') + "/" + product[0].id
+        #     'og:image': (product) ->
+        #       return product[0].product_img[0].url
+        #   }
+        # }
       # Services
       .state 'services_main',
         url: '/services'
