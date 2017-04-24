@@ -2,6 +2,7 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
   '$scope', 'fakeProducts', '$stateParams', '$mdDialog', '$location', 'product',
   ($scope, fakeProducts, $stateParams, $mdDialog, $location, product) ->
     $scope.product = product[0]
+    console.log(product)
     $scope.currentProductImg = ''
     $scope.relatedProducts = []
     $scope.current
