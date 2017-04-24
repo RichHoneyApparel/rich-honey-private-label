@@ -57,7 +57,6 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
       fakeProducts.forEach (product) ->
         if product.id == Number($stateParams.id)
           $scope.product = product
-          console.log $scope.product
           if $scope.product.product_properties.gender == 'men' &&
             $scope.product.product_properties.category == 'apparel'
               $scope.weights = ["20's", "30's", "40's"]
