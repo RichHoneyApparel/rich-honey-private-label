@@ -403,14 +403,14 @@ angular.module('richHoneyPrivateLabel').config [
             manufacturing, Leather accessories production'
           url: window.location.origin + '/categories/accessories'
           image: window.location.origin +
-            '/assets/RichHoney-Apparel-Accessories'
+            '/assets/RichHoney-Apparel-Accessories.png'
           properties: {
             'og:title': 'Accessories | Rich Honey | Los Angeles, CA'
             'og:description': 'Premium accessories manufactured for your brand.
               Choose from our styles or come with your own designs. Handcrafted
               in Los Angeles, CA.'
             'og:url': window.location.origin + '/categories/accessories'
-            'og:image': window.location.origin + '/assets/RichHoney-Apparel-Accessories'
+            'og:image': window.location.origin + '/assets/RichHoney-Apparel-Accessories.png'
           }
         }
 
