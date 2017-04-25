@@ -199,14 +199,14 @@ angular.module('richHoneyPrivateLabel').config [
             Angeles, Leather manufacturers in USA, Leather accessories
             manufacturing, Leather accessories production'
           url: window.location.origin + '/careers'
-          image: window.location.origin + '/assets/Rich-Honey-Apparel-Services-Packaging.png'
+          image: window.location.origin + '/assets/services-header.png'
           properties: {
             'og:title': 'Careers | Rich Honey | Los Angeles, CA'
             'og:description': 'Submit a career inquiry. Rich
               Honey is a private label manufacturer for premium garment dyed
               blank t-shirts and custom leather goods.'
             'og:url': window.location.origin + '/careers'
-            'og:image': window.location.origin + '/assets/Rich-Honey-Apparel-Services-Packaging.png'
+            'og:image': window.location.origin + '/assets/services-header.png'
           }
         }
 
