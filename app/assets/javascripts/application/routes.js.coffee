@@ -625,7 +625,7 @@ angular.module('richHoneyPrivateLabel').config [
               performs grading and digitizing services for garment patterns.
               Get started on your project now!'
             'og:url': window.location.origin + '/services/apparel/marking-grading'
-            'og:image': window.location.origin + '/assets/pattern-header.png'
+            'og:image': window.location.origin + '/assets/marking-grading-header.png'
           }
         }
 
@@ -650,7 +650,7 @@ angular.module('richHoneyPrivateLabel').config [
               t-shirts in your desired style and specs. Bring any prototype or
               sample you would like to produce.'
             'og:url': window.location.origin + '/services/apparel/patterns'
-            'og:image': window.location.origin + '/assets/marking-grading-header.png'
+            'og:image': window.location.origin + '/assets/pattern-header.png'
           }
         }
 
