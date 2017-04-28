@@ -199,14 +199,14 @@ angular.module('richHoneyPrivateLabel').config [
             Angeles, Leather manufacturers in USA, Leather accessories
             manufacturing, Leather accessories production'
           url: window.location.origin + '/careers'
-          image: window.location.origin + '/assets/Rich-Honey-Apparel-Services-Packaging.png'
+          image: window.location.origin + '/assets/services-header.png'
           properties: {
             'og:title': 'Careers | Rich Honey | Los Angeles, CA'
             'og:description': 'Submit a career inquiry. Rich
               Honey is a private label manufacturer for premium garment dyed
               blank t-shirts and custom leather goods.'
             'og:url': window.location.origin + '/careers'
-            'og:image': window.location.origin + '/assets/Rich-Honey-Apparel-Services-Packaging.png'
+            'og:image': window.location.origin + '/assets/services-header.png'
           }
         }
 
@@ -403,14 +403,14 @@ angular.module('richHoneyPrivateLabel').config [
             manufacturing, Leather accessories production'
           url: window.location.origin + '/categories/accessories'
           image: window.location.origin +
-            '/assets/RichHoney-Apparel-Accessories'
+            '/assets/RichHoney-Apparel-Accessories.png'
           properties: {
             'og:title': 'Accessories | Rich Honey | Los Angeles, CA'
             'og:description': 'Premium accessories manufactured for your brand.
               Choose from our styles or come with your own designs. Handcrafted
               in Los Angeles, CA.'
             'og:url': window.location.origin + '/categories/accessories'
-            'og:image': window.location.origin + '/assets/RichHoney-Apparel-Accessories'
+            'og:image': window.location.origin + '/assets/RichHoney-Apparel-Accessories.png'
           }
         }
 
@@ -625,7 +625,7 @@ angular.module('richHoneyPrivateLabel').config [
               performs grading and digitizing services for garment patterns.
               Get started on your project now!'
             'og:url': window.location.origin + '/services/apparel/marking-grading'
-            'og:image': window.location.origin + '/assets/pattern-header.png'
+            'og:image': window.location.origin + '/assets/marking-grading-header.png'
           }
         }
 
@@ -650,7 +650,7 @@ angular.module('richHoneyPrivateLabel').config [
               t-shirts in your desired style and specs. Bring any prototype or
               sample you would like to produce.'
             'og:url': window.location.origin + '/services/apparel/patterns'
-            'og:image': window.location.origin + '/assets/marking-grading-header.png'
+            'og:image': window.location.origin + '/assets/pattern-header.png'
           }
         }
 
