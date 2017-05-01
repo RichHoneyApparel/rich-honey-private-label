@@ -1,7 +1,6 @@
 .footer-container {
   background-color: $rich-honey-black;
   color: $white;
-  padding: 20px;
   width: 100%;
 
   .made-in-us-text {
@@ -38,13 +37,22 @@
   }
 }
 
+@media screen and (max-width: 960px) {
+  .footer-container {
+    .rich-honey,
+    .early-access-container {
+      text-align: center;
+    }
+  }
+}
+
 
 @media screen and (max-width: 600px) {
   .footer-container {
-    .md-headline {
-      font-size: 3vw;
-      margin: -10px 0;
-    }
+    // .md-headline {
+    //   font-size: 3vw;
+    //   margin: -10px 0;
+    // }
 
     .made-in-the-us {
       img {
@@ -59,18 +67,18 @@
       border-radius: 0;
       color: $black;
       font-weight: bold;
-      width: 80px;
+      white-space: normal;
     }
 
-    p,
-    span,
-    a, button {
-      font-size: 2vw;
-    }
-
-    .md-title {
-      font-size: 2.5vw;
-      margin-bottom: 0
-    }
+    // p,
+    // span,
+    // a, button {
+    //   font-size: 2vw;
+    // }
+    //
+    // .md-title {
+    //   font-size: 2.5vw;
+    //   margin-bottom: 0
+    // }
   }
 }
