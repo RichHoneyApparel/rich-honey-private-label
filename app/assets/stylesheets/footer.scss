@@ -29,7 +29,7 @@
       margin: 0 !important;
     }
 
-    .md-headline:last-child {
+    .md-headline:nth-child(2) {
       margin: 0 !important;
       padding: 0 0 0 8% !important;
     }
@@ -70,6 +70,12 @@
     .rich-honey,
     .early-access-container {
       text-align: center;
+    }
+
+    .rich-honey {
+      .md-headline:nth-child(2) {
+        padding: 0 !important;
+      }
     }
   }
 }
