@@ -1,11 +1,38 @@
 .footer-container {
   background-color: $rich-honey-black;
   color: $white;
-  padding: 20px;
   width: 100%;
 
   .made-in-us-text {
     font-weight: bold;
+  }
+
+  .early-access-container {
+    padding: 20px 5px;
+
+    a {
+      color: $white !important;
+    }
+  }
+
+  .company-container,
+  .customer-service-container,
+  .policies-container,
+  .connect-container {
+    padding: 25px 5px 20px;
+  }
+
+  .rich-honey {
+    padding: 20px 5px;
+
+    .md-headline:first-child {
+      margin: 0 !important;
+    }
+
+    .md-headline:last-child {
+      margin: 0 !important;
+      padding: 0 0 0 8% !important;
+    }
   }
 
   .company-link {
@@ -34,18 +61,22 @@
     border-radius: 0;
     color: $black;
     font-weight: bold;
-    width: 130px;
+    // width: 130px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .footer-container {
+    .rich-honey,
+    .early-access-container {
+      text-align: center;
+    }
   }
 }
 
 
 @media screen and (max-width: 600px) {
   .footer-container {
-    .md-headline {
-      font-size: 3vw;
-      margin: -10px 0;
-    }
-
     .made-in-the-us {
       img {
         margin-left: -5px !important;
@@ -59,18 +90,7 @@
       border-radius: 0;
       color: $black;
       font-weight: bold;
-      width: 80px;
-    }
-
-    p,
-    span,
-    a, button {
-      font-size: 2vw;
-    }
-
-    .md-title {
-      font-size: 2.5vw;
-      margin-bottom: 0
+      white-space: normal;
     }
   }
 }
