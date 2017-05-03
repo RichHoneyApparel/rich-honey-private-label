@@ -1,16 +1,16 @@
 .account-nav[layout-gt-xs='row' layout-align='space-between' layout-wrap]
   .made-in-the-usa-container[flex='50' flex-xs='100']
     img[src='assets/RichHoney-Made-in-USA-Flag.png' width='30px']
-    span[style='padding: 5px;'] Made in USA
+    span Made in USA
   .right-side-container[flex='50' flex-xs='100']
-    a[ui-sref='create_an_account' style='padding: 5px;'] Create Account
-    span[style='text-align: center; padding: 5px;'] |
-    a[ui-sref='contact_us' style='text-align: center; padding: 5px;'] Contact Us
+    a[ui-sref='create_an_account'] Create Account
+    span |
+    a[ui-sref='contact_us'] Contact Us
 md-nav-bar.nav[aria-label='main page nav' layout='row' layout-align='space-around center']
-  a[ng-click='openLeftMenu()' href='' aria-label='button side nav trigger' hide-gt-sm show-sm show-xs flex-sm='5']
+  a.added-padding-for-nav[ng-click='openLeftMenu()' href='' aria-label='button side nav trigger' hide-gt-sm show-sm show-xs flex-sm='5']
     i.fa.fa-lg.fa-bars
 
-  md-menu[flex='60' hide-sm hide-xs show-gt-sm md-offset='0 50']
+  md-menu.added-padding-for-nav[flex='60' hide-sm hide-xs show-gt-sm md-offset='0 50']
     md-button[aria-label="open categories menu" ng-click="$mdOpenMenu($event)"]
       p[layout='row' layout-align='space-around center']
         span[flex='95'] Products
@@ -24,10 +24,11 @@ md-nav-bar.nav[aria-label='main page nav' layout='row' layout-align='space-aroun
         md-button.nav-links[ui-sref='categories_accessories'] Accessories
       md-menu-item
         md-button.nav-links[ui-sref='categories_activewear'] Fitness
-  md-nav-item[md-nav-sref='resource_fabrics' name='Resources' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Resources
-  md-nav-item[md-nav-sref='moat-1-side-seams' name='MakingOfATee' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Making of a Tee
-  md-nav-item.home-page-link[md-nav-sref='home' name='rich honey' flex='60' flex-xs='90' flex-sm='85' ui-sref-active='active'] RICH HONEY
-  md-menu[flex='60' hide-sm hide-xs show-gt-sm md-offset='0 50']
+  md-nav-item.added-padding-for-nav[md-nav-sref='resource_fabrics' name='Resources' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Resources
+  md-nav-item.added-padding-for-nav[md-nav-sref='moat-1-side-seams' name='MakingOfATee' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Making of a Tee
+  md-nav-item.home-page-link[md-nav-sref='home' name='rich honey' flex='60' flex-xs='90' flex-sm='85' ui-sref-active='active'] RICH HONEY <br> <b>APPAREL</b>
+
+  md-menu.added-padding-for-nav[flex='60' hide-sm hide-xs show-gt-sm md-offset='0 50']
     md-button[aria-label="open categories menu" ng-click="$mdOpenMenu($event)"]
       p[layout='row' layout-align='space-around center']
         span[flex='95'] Services
@@ -37,12 +38,12 @@ md-nav-bar.nav[aria-label='main page nav' layout='row' layout-align='space-aroun
         md-button.nav-links[ui-sref='services_apparel-cutting'] Apparel
       md-menu-item
         md-button.nav-links[ui-sref='services_leather-design'] Leather
-  md-nav-item[md-nav-sref='how_it_works' name='howitworks' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] How It Works
-  md-nav-item[md-nav-sref='our_story' name='ourStory' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Our Story
+  md-nav-item.added-padding-for-nav[md-nav-sref='how_it_works' name='howitworks' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] How It Works
+  md-nav-item.added-padding-for-nav[md-nav-sref='our_story' name='ourStory' flex='60' ui-sref-active='active' hide-sm hide-xs show-gt-sm] Our Story
 
 md-sidenav[md-component-id='left' class='md-sidenav-left']
   md-list
-    md-list-item[ui-sref='home' name='rich honey' ui-sref-active='active' style="font-size: 40px;" ng-click='closeSide()'] RICH HONEY
+    md-list-item.rich-honey-side[ui-sref='home' name='rich honey' ui-sref-active='active' ng-click='closeSide()'] RICH HONEY APPAREL
     md-list-item[ui-sref='categories_men' name='Resources' ui-sref-active='active' ng-click='closeSide()'] Products
     md-list-item[ui-sref='resource_fabrics' name='Resources' ui-sref-active='active' ng-click='closeSide()'] Resources
     md-list-item[ui-sref='moat-1-side-seams' name='DetailsofaTee' ui-sref-active='active' ng-click='closeSide()'] Making of a Tee

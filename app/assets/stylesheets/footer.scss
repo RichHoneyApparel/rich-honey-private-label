@@ -29,9 +29,9 @@
       margin: 0 !important;
     }
 
-    .md-headline:last-child {
+    .md-title {
       margin: 0 !important;
-      padding: 0 0 0 8% !important;
+      padding: 0 0 0 12% !important;
     }
   }
 
@@ -65,11 +65,27 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .footer-container {
+    .rich-honey {
+      .md-title {
+        padding: 0 0 0 6% !important;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 960px) {
   .footer-container {
     .rich-honey,
     .early-access-container {
       text-align: center;
+    }
+
+    .rich-honey {
+      .md-title {
+        padding: 0 !important;
+      }
     }
   }
 }
