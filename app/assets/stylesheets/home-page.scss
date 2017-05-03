@@ -1,4 +1,52 @@
 .home-page-container {
+  .slick-prev {
+    left: 0 !important;
+    height: auto !important;
+    width: auto !important;
+    z-index: 3 !important;
+    &:before {
+      font-size: 40px !important;
+    }
+  }
+
+  .slick-next {
+    right: 0 !important;
+    height: auto !important;
+    width: auto !important;
+    z-index: 3 !important;
+    &:before {
+      font-size: 40px !important;
+    }
+  }
+
+  .slick-prev:before {
+    color: $white !important;
+    content: '<' !important;
+    font-size: 15px !important;
+    display:inline-block;
+    -webkit-transform: scale(2,5); /* Safari and Chrome */
+    -moz-transform: scale(2,5); /* Firefox */
+    -ms-transform: scale(2,5); /* IE 9 */
+    -o-transform: scale(2,5); /* Opera */
+    transform: scale(2,5);
+    opacity: 1;
+    margin: 5px 5px 15px 10px;
+  }
+
+  .slick-next:before {
+    color: $white !important;
+    content: '>' !important;
+    font-size: 15px !important;
+    display:inline-block;
+    -webkit-transform: scale(2,5); /* Safari and Chrome */
+    -moz-transform: scale(2,5); /* Firefox */
+    -ms-transform: scale(2,5); /* IE 9 */
+    -o-transform: scale(2,5); /* Opera */
+    transform: scale(2,5);
+    opacity: 1;
+    margin: 5px 10px 15px 5px;
+  }
+
   .home-slider-1 {
     background-image: url('RHA-Homepage-1.png');
     background-position: 0 -550px;
