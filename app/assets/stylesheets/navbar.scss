@@ -6,6 +6,18 @@
   span {
     color: $white;
   }
+
+  .right-side-container {
+    a,
+    span {
+      padding: 5px;
+      text-align: center;
+    }
+  }
+}
+
+.added-padding-for-nav {
+  padding-top: 7px !important;
 }
 
 .right-side-container {
@@ -25,6 +37,13 @@
   }
 }
 
+.rich-honey-side {
+  .md-list-item-inner {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
 .nav {
   background-color: $black;
   text-transform: none;
@@ -32,7 +51,7 @@
   a {
     color: $white;
     font-size: 14px;
-    margin: 10px 0 10px 10px;
+    margin: 20px 0 10px 10px;
     outline: none;
   }
 
@@ -53,6 +72,7 @@
 
   .md-nav-bar {
     background-color: $black;
+    height: 70px !important;
     text-transform: none;
     width: 100%;
 
