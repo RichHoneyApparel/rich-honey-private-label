@@ -1090,5 +1090,31 @@ angular.module('richHoneyPrivateLabel').config [
             'og:image': window.location.origin + '/assets/design-development.jpg'
           }
         }
+
+      # Terms of Use
+      .state 'blogs',
+        url: '/blogs'
+        templateUrl: 'application/views/blogs/blog_landing.html'
+        # metaTags: {
+        #   title: 'Blogs | Rich Honey | Los Angeles, CA'
+        #   description: 'Review our Website Terms of Use Agreement. Rich Honey is
+        #     a private label manufacturer for premium garment dyed blank t-shirts
+        #     and custom leather goods.'
+        #   keywords: 'Apparel Blanks, Premium blank t-shirts,
+        #     Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+        #     shirt for branding, Custom leather goods, Leather services in Los
+        #     Angeles, Leather manufacturers in USA, Leather accessories
+        #     manufacturing, Leather accessories production'
+        #   url: window.location.origin + '/terms-and-use'
+        #   image: window.location.origin + '/assets/design-development.jpg'
+        #   properties: {
+        #     'og:title': 'Terms of Use | Rich Honey | Los Angeles, CA'
+        #     'og:description': 'Review our Website Terms of Use Agreement. Rich
+        #       Honey is a private label manufacturer for premium garment dyed
+        #       blank t-shirts and custom leather goods.'
+        #     'og:url': window.location.origin + '/terms-and-use'
+        #     'og:image': window.location.origin + '/assets/design-development.jpg'
+        #   }
+        # }
     $urlRouterProvider.otherwise('/')
   ]
