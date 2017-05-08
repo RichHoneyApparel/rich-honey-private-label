@@ -20,11 +20,16 @@
       img[ng-src='assets/services-production.png' ng-if="!path.includes('production')"]
       img[ng-src='assets/services-production-active.png' ng-if="path.includes('production')"]
       p.link-name[style='margin-top: -10px !important' ng-class="{'active-text': path.includes('production'), 'inactive-text': !path.includes('production')}"] Production
-  md-button[aria-label='labelTrims' name='labelTrims' value='honeyStudio' ui-sref="services_apparel-label-trims" flex='5' flex-xs='30' layout-fill ng-if='isApparel' style='padding: 10px 0;']
+  md-button[aria-label='labelTrims' name='labelTrims' value='honeyStudio' ui-sref="services_apparel-labels" flex='5' flex-xs='30' layout-fill ng-if='isApparel' style='padding: 10px 0;']
     .logo-container[layout='column' layout-align='center center']
-      img[ng-src='assets/labels-selected.png' ng-if="!path.includes('labels-and-trims')"]
-      img[ng-src='assets/labels.png' ng-if="path.includes('labels-and-trims')"]
-      p.link-name[style='margin-top: -10px !important' ng-class="{'active-text': path.includes('labels-and-trims'), 'inactive-text': !path.includes('labels-and-trims')}"] Labels & Trims
+      img[ng-src='assets/labels-selected.png' ng-if="!path.includes('labels')"]
+      img[ng-src='assets/labels.png' ng-if="path.includes('labels')"]
+      p.link-name[style='margin-top: -10px !important' ng-class="{'active-text': path.includes('labels'), 'inactive-text': !path.includes('labels')}"] Labels
+  md-button[aria-label='labelTrims' name='labelTrims' value='honeyStudio' ui-sref="services_apparel-hangtags" flex='5' flex-xs='30' layout-fill ng-if='isApparel' style='padding: 10px 0;']
+    .logo-container[layout='column' layout-align='center center']
+      img[ng-src='assets/labels-2-grey.png' ng-if="!path.includes('hangtags')"]
+      img[ng-src='assets/labels-2.png' ng-if="path.includes('hangtags')"]
+      p.link-name[style='margin-top: -10px !important' ng-class="{'active-text': path.includes('hangtags'), 'inactive-text': !path.includes('hangtags')}"] Hangtags
   md-button[aria-label='honeyStudio' name='honeyStudio' value='honeyStudio' ui-sref="services_apparel-studio" flex='5' flex-xs='30' layout-fill ng-if='isApparel' style='padding: 10px 0;']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/services-honey-studio.png' ng-if="!path.includes('honey-studio')"]
