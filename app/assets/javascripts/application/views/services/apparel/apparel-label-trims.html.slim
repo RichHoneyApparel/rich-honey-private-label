@@ -1,0 +1,20 @@
+header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
+.apparel-services-header.apparel-marking-grading-header[layout='row' layout-align='center end']
+  img[ng-src='assets/RichHoney-Apparel-Labels-3.jpg' width='100%']
+  .text-header-container
+    .md-display-1 LABELS AND TRIMS
+.apparel-marking-grading-container[layout='column' ng-controller='ServicesController']
+  .apparel-marking-grading-body
+    .marking-grading-text[layout='column' layout-align='center space-between']
+      .text-container[layout='row' layout-align='center center' flex]
+        p.services-description[flex='40' flex-sm='70' flex-xs='90']
+          | We can sew your brand's neck labels and size pips and add hang tags
+            to your production. You can also avail our services to create labels
+            and hang tags with your designs in various sizes.
+      .text-container[layout='row' layout-align='center center' flex]
+        p.services-description[flex='40' flex-sm='70' flex-xs='90']
+          | For more information about creating labels and hang tags, please
+            submit an inquiry through our contact form.
+
+    .start-a-project[layout='row' layout-align='center center']
+      md-button.md-raised[aria-label='start a project' ui-sref='services_inquiry'] START A PROJECT
