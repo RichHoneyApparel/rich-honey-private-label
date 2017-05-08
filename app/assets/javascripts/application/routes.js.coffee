@@ -603,6 +603,55 @@ angular.module('richHoneyPrivateLabel').config [
             'og:image': window.location.origin + '/assets/cutting-header.png'
           }
         }
+      .state 'services_apparel-labels',
+        url: '/services/apparel/labels',
+        templateUrl: 'application/views/services/apparel/apparel-label-trims.html'
+        metaTags: {
+          title: 'Labels | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+          description: 'Add neck labels, size pips, hang tags, and more to your
+            production with our private label apparel services. Located in Los
+            Angeles, CA.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
+          url: window.location.origin + '/services/apparel/labels-and-trims'
+          image: window.location.origin + '/assets/RichHoney-Apparel-Labels-4.jpg'
+          properties: {
+            'og:title': 'Labels | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+            'og:description': 'Add neck labels, size pips, hang tags, and more
+              to your production with our private label apparel services.
+              Located in Los Angeles, CA.'
+            'og:url': window.location.origin + '/services/apparel/labels-and-trims'
+            'og:image': window.location.origin + '/assets/RichHoney-Apparel-Labels-4.jpg'
+          }
+        }
+      .state 'services_apparel-hangtags',
+        url: '/services/apparel/hangtags',
+        templateUrl: 'application/views/services/apparel/apparel-hangtags.html'
+        metaTags: {
+          title: 'Hangtags | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+          description: 'Add neck labels, size pips, hang tags, and more to your
+            production with our private label apparel services. Located in Los
+            Angeles, CA.'
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
+          url: window.location.origin + '/services/apparel/hangtags'
+          image: window.location.origin + '/assets/RichHoney-Apparel-Labels-3.jpg'
+          properties: {
+            'og:title': 'Hangtags | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+            'og:description': 'Add neck labels, size pips, hang tags, and more
+              to your production with our private label apparel services.
+              Located in Los Angeles, CA.'
+            'og:url': window.location.origin + '/services/apparel/hangtags'
+            'og:image': window.location.origin + '/assets/RichHoney-Apparel-Labels-3.jpg'
+          }
+        }
+
 
       .state 'services_apparel-marking-grading',
         url: '/services/apparel/marking-grading'

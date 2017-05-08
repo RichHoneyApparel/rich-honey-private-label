@@ -1,0 +1,15 @@
+header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
+.apparel-services-header.apparel-marking-grading-header[layout='row' layout-align='center end']
+  img[ng-src='assets/RichHoney-Apparel-Labels-4.jpg' width='100%']
+  .text-header-container
+    .md-display-1 HANGTAGS
+.apparel-marking-grading-container[layout='column' ng-controller='ServicesController']
+  .apparel-marking-grading-body
+    .marking-grading-text[layout='column' layout-align='center space-between']
+      .text-container[layout='row' layout-align='center center' flex]
+        p.services-description[flex='40' flex-sm='70' flex-xs='90']
+          | Our production team can add your brand's hangtags to your finished
+            items. We can also create these hang tags for you based on your
+            designs and specifications.
+    .start-a-project[layout='row' layout-align='center center']
+      md-button.md-raised[aria-label='start a project' ui-sref='services_inquiry'] START A PROJECT
