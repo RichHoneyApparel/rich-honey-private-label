@@ -12,10 +12,11 @@
       .item-container[layout='row' layout-wrap]
         a.product-container[target="_self" ng-repeat='m in activeMen' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' ui-sref='product_show({productName: m.name, id: m.id})']
           img[ng-src='{{ m.product_img[0].url }}' width='100%']
-          span {{ m.name }}
+          span {{ m.name }} </br> {{ m.product_properties.dye }} Dye
+          
     .womens-section[layout='column']
       p.md-headline[flex='33'] WOMEN'S
       .item-container[layout='row' layout-wrap]
         a.product-container[target="_self" ng-repeat='w in activeWomen' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' ui-sref='product_show({productName: w.name, id: w.id})']
           img[ng-src='{{ w.product_img[0].url }}' width='100%']
-          span {{ w.name }}
+          span {{ w.name }} </br> {{ w.product_properties.dye }} Dye
