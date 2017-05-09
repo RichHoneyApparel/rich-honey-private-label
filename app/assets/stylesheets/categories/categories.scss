@@ -4,6 +4,23 @@
 @import 'category-womens';
 @import 'product';
 
+.item-container {
+  a,
+  .product-container {
+    color: $black;
+    padding: 30px;
+    text-align: center;
+
+    span {
+      font-size: 12px;
+    }
+
+    img {
+      padding-bottom: 10px;
+    }
+  }
+}
+
 @media screen and (max-width: 600px) {
   .logo-container {
     img {

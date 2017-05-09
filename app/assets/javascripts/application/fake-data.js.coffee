@@ -175,7 +175,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   }
   {
     id: 48
-    name: "Men's Basic Crew With Binding - Cotton"
+    name: "Men's Basic Crew - Binding - Cotton"
     style_num: "M01-1101"
     product_properties: {
       color: ""
@@ -204,7 +204,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   }
   {
     id: 49
-    name: "Men's Basic Crew With Binding - Cotton"
+    name: "Men's Basic Crew - Binding - Cotton"
     style_num: "M01-1101"
     product_properties: {
       color: ""
@@ -233,7 +233,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   }
   {
     id: 50
-    name: "Men's Basic Crew with Binding - Slub Cotton"
+    name: "Men's Basic Crew - Binding - Slub Cotton"
     style_num: "M05-1101"
     product_properties: {
       color: ""
