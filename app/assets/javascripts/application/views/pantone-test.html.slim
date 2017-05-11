@@ -1,2 +1,5 @@
-.pantone-container[ng-controller='PantoneTestController']
-  canvas[style='border: 1px solid black;' id="canvas"]
+.pantone-container[ng-controller='PantoneTestController' layout='row' layout-align='space-between center']
+  .canvas-container[flex='50']
+    canvas[style='border: 1px solid black;' id="canvas"]
+  .color-container[flex='50']
+    .colorpicker-container

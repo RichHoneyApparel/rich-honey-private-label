@@ -12,8 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery-ui
+//= require jquery-ui/jquery-ui.js
 //= require colorpicker/jquery.colorpicker.js
+//= require colorpicker/swatches/jquery.ui.colorpicker-pantone.js
 //= require bootstrap-sprockets
 //= require angular
 //= require angular-animate
