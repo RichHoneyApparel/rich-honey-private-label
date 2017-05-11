@@ -26,7 +26,9 @@ angular.module('richHoneyPrivateLabel').config [
     $urlMatcherFactoryProvider.type('product', productType)
 
     $stateProvider
-
+      .state 'pantone-test',
+        url: '/pantone-test',
+        templateUrl: 'application/views/pantone-test.html'
       # Home page
       .state 'home',
         url: '/'
