@@ -13,20 +13,17 @@ angular.module('richHoneyPrivateLabel').controller 'PantoneTestController', [
         canvas.width, canvas.height)
 
     recolorCanvas = (color) ->
-      data = context.getImageData(0, 0, source.width, source.height).data
+      data = context.getImageData(0, 0, source.width, source.height)
       hue = color.hsl.h * 360
       i = 0
-      console.log(data)
-      while i < data.length
-        data[i+0] = Math.round(color.rgb.r * 255)
-        data[i+1] = Math.round(color.rgb.g * 255)
-        data[i+2] = Math.round(color.rgb.b * 255)
-        data[i+3] = 255
+      while i < data.data.length
+        if data.data[i + 3] > 230
+          data.data[i + 0] = Math.round(color.rgb.r * 255)
+          data.data[i + 1] = Math.round(color.rgb.g * 255)
+          data.data[i + 2] = Math.round(color.rgb.b * 255)
+          data.data[i + 3] = 255
         i+=4
-        console.log(i)
-
-
-      context.putImageData(data,0,0)
+      context.putImageData(data, 0, 0)
 
     $('.colorpicker-container').colorpicker({
       swatches: 'pantone'
@@ -39,5 +36,5 @@ angular.module('richHoneyPrivateLabel').controller 'PantoneTestController', [
         recolorCanvas(color)
     })
 
-    source.src = "assets/Rich-Honey-double-white.png"
+    source.src = "assets/pantone-test.png"
 ]
