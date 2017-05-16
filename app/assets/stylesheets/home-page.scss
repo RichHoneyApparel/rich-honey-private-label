@@ -79,7 +79,8 @@
 
   .home-slider-1,
   .home-slider-2,
-  .home-slider-3 {
+  .home-slider-3,
+  .home-slider-4 {
     position: relative;
     text-decoration: none;
 
@@ -122,6 +123,42 @@
       .md-display-4 {
         color: #323232 !important;
         font-weight: bold;
+      }
+    }
+  }
+
+  .home-slider-4 {
+    .text-over-image {
+      height: 100%;
+      padding: 3vw;
+      top: 0;
+
+      .slider-divider {
+        border-bottom: 2px solid black;
+        width: 400px;
+      }
+
+      .md-display-1 {
+        color: black;
+        font-weight: bold;
+        text-align: left;
+      }
+
+      .choose-style,
+      .choose-fabric,
+      .choose-color {
+        .text-container {
+          .md-headline {
+            color: black;
+            font-weight: bold;
+            text-align: left;
+          }
+
+          .md-title {
+            color: black;
+            text-align: left;
+          }
+        }
       }
     }
   }
@@ -174,13 +211,33 @@
 // }
 //
 //
-// @media screen and (max-width: 960px) {
-//   .home-page-container {
-//     .home-slider-1 {
-//       background-position: 0 -350px;
-//     }
-//   }
-// }
+@media screen and (max-width: 960px) {
+  .home-slider-4 {
+    .text-over-image {
+      .slider-divider {
+        width: 37.5vw !important;
+      }
+
+      .md-display-1 {
+        font-size: 2.6vw;
+      }
+
+      .choose-style,
+      .choose-fabric,
+      .choose-color {
+        .text-container {
+          .md-headline {
+            font-size: 1.5vw;
+          }
+
+          .md-title {
+            font-size: 1.4vw;
+          }
+        }
+      }
+    }
+  }
+}
 //
 // @media screen and (max-width: 826px) {
 //   .home-page-container {
@@ -231,13 +288,19 @@
 //   }
 // }
 //
-// @media screen and (max-width: 600px) {
-//   .home-page-container {
-//     .home-slider-1 {
-//       background-position: 0 -200px;
-//     }
-//   }
-// }
+@media screen and (max-width: 600px) {
+  .home-slider-4 {
+    .text-over-image {
+      .choose-style,
+      .choose-fabric,
+      .choose-color {
+        img {
+          width: 10vw;
+        }
+      }
+    }
+  }
+}
 //
 // @media screen and (max-width: 500px) {
 //   .home-page-container {
