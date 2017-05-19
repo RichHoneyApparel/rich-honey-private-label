@@ -1901,7 +1901,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Heavyweight Crew - Cotton"
     style_num: "M01-1114"
     product_properties: {
-      color: ""
+      color: "Rich Blue"
       fabric: "100% Cotton"
       dye: "Reactive"
       wash: ""
@@ -1912,31 +1912,230 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
         depth: ""
         strap_drop: ""
         strap_length: ""
-        model: ""
-        shirt: "Shirt is Navy in a Reactive Dye"
+        model: "Model is 6'0 and wearing size M"
+        shirt: "Shirt is Rich Blue in a Reactive Dye"
         made_in_la:   "Made In Los Angeles, USA"
       }
       gender: "men"
       category: "apparel"
     }
     product_img: [{
-      url: "assets/Rich-Honey-Apparel-Heavyweight-Tee.jpg"
+      url: "assets/Rich-Honey-Apparel-Mens-Basic-Crew-Heavyweight-Cotton-Reactive.png"
+      alt: "Men's Basic Crew."
+      featured: true
+    }]
+  }
+  {
+    id: 65
+    name: "Men's Heavyweight Pocket Crew - Cotton"
+    style_num: "M01-1114P"
+    product_properties: {
+      color: "Rich Blue"
+      fabric: "100% Cotton"
+      dye: "Reactive"
+      wash: ""
+      details: {
+        weight: "14 singles"
+        height: ""
+        width: ""
+        depth: ""
+        strap_drop: ""
+        strap_length: ""
+        model: "Model is 6'0 and wearing size M"
+        shirt: "Shirt is Rich Blue in a Reactive Dye"
+        made_in_la: "Made In Los Angeles, USA"
+      }
+      gender: "men"
+      category: "apparel"
+    }
+    product_img: [{
+      url: "assets/Rich-Honey-Apparel-Mens-Basic-Crew-Heavyweight-Cotton-Reactive-2.png"
       alt: "Men's Basic Crew."
       featured: true
     }
     {
-      url: "assets/Rich-Honey-Apparel-Heavyweight-Tee-Bottom-Seam.jpg"
+      url: "assets/Rich-Honey-Apparel-Mens-Pocket-Crew-Heavyweight-Cotton-Reactive.png"
       alt: "Men's Basic Crew."
+      featured: true
+    }]
+  }
+  {
+    id: 66
+    name: "Men's Long Sleeve Sweatshirt - French Terry"
+    style_num: "M08-6100"
+    product_properties: {
+      color: "Navy"
+      fabric: "100% French Terry - Cotton"
+      dye: "Reactive"
+      wash: ""
+      details: {
+        weight: "12 oz"
+        height: ""
+        width: ""
+        depth: ""
+        strap_drop: ""
+        strap_length: ""
+        model: "Model is 6'0 and wearing size M"
+        shirt: "Shirt is Navy in a Reactive Dye"
+        made_in_la: "Made In Los Angeles, USA"
+      }
+      gender: "men"
+      category: "apparel"
+    }
+    product_img: [{
+      url: "assets/Rich-Honey-Apparel-Mens-Long-Sleeve-Sweater-French-Terry-Reactive.png"
+      alt: "Rich Honey Apparel Mens Long Sleeve Sweater French Terry Reactive"
       featured: true
     }
     {
-      url: "assets/Rich-Honey-Apparel-Heavyweight-Tee-Sleeve.jpg"
-      alt: "Men's Basic Crew."
+      url: "assets/Rich-Honey-Apparel-Mens-Long-Sleeve-Sweater-French-Terry-Reactive-2.png"
+      alt: "Rich Honey Apparel Mens Long Sleeve Sweater French Terry Reactive"
+      featured: true
+    }]
+  }
+  {
+    id: 67
+    name: "Men's Pullover Pocket Hoodie - French Terry"
+    style_num: "M08-6104"
+    product_properties: {
+      color: "Rich Blue"
+      fabric: "100% French Terry - Cotton"
+      dye: "Reactive"
+      wash: ""
+      details: {
+        weight: "12 oz"
+        height: ""
+        width: ""
+        depth: ""
+        strap_drop: ""
+        strap_length: ""
+        model: "Model is 6'0 and wearing size M"
+        shirt: "Shirt is Rich Blue in a Reactive Dye"
+        made_in_la: "Made In Los Angeles, USA"
+      }
+      gender: "men"
+      category: "apparel"
+    }
+    product_img: [{
+      url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Reactive.png"
+      alt: "Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Reactive"
       featured: true
     }
     {
-      url: "assets/Rich-Honey-Apparel-Heavyweight-Tee-Neck.jpg"
-      alt: "Men's Basic Crew."
+      url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Reactive-2.png"
+      alt: "Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Reactive"
+      featured: true
+    }
+    {
+      url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Reactive-3.png"
+      alt: "Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Reactive"
+      featured: true
+    }]
+  }
+  {
+    id: 68
+    name: "Men's Pullover Pocket Hoodie - French Terry"
+    style_num: "M08-6104"
+    product_properties: {
+      color: "Navy"
+      fabric: "100% French Terry - Cotton"
+      dye: "Pigment"
+      wash: ""
+      details: {
+        weight: "12 oz"
+        height: ""
+        width: ""
+        depth: ""
+        strap_drop: ""
+        strap_length: ""
+        model: "Model is 6'0 and wearing size M"
+        shirt: "Shirt is Navy in a Reactive Dye"
+        made_in_la: "Made In Los Angeles, USA"
+      }
+      gender: "men"
+      category: "apparel"
+    }
+    product_img: [{
+      url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment.png"
+      alt: "Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment"
+      featured: true
+    }
+    {
+      url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment-2.png"
+      alt: "Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment"
+      featured: true
+    }
+    {
+      url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment-3.png"
+      alt: "Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment"
+      featured: true
+    }]
+  }
+  {
+    id: 69
+    name: "Men's Zip Hoodie - French Terry"
+    style_num: "M08-6104"
+    product_properties: {
+      color: "Rich Blue"
+      fabric: "100% French Terry - Cotton"
+      dye: "Reactive"
+      wash: ""
+      details: {
+        weight: "12 oz"
+        height: ""
+        width: ""
+        depth: ""
+        strap_drop: ""
+        strap_length: ""
+        model: "Model is 6'0 and wearing size M"
+        shirt: "Shirt is Rich Blue in a Reactive Dye"
+        made_in_la: "Made In Los Angeles, USA"
+      }
+      gender: "men"
+      category: "apparel"
+    }
+    product_img: [{
+      url: "assets/Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Reactive.png"
+      alt: "Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Reactive"
+      featured: true
+    }
+    {
+      url: "assets/Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Reactive.png"
+      alt: "Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Reactive"
+      featured: true
+    }]
+  }
+  {
+    id: 70
+    name: "Men's Zip Hoodie - French Terry"
+    style_num: "M08-6104"
+    product_properties: {
+      color: "Navy"
+      fabric: "100% French Terry - Cotton"
+      dye: "Pigment"
+      wash: ""
+      details: {
+        weight: "12 oz"
+        height: ""
+        width: ""
+        depth: ""
+        strap_drop: ""
+        strap_length: ""
+        model: "Model is 6'0 and wearing size M"
+        shirt: "Shirt is Navy in a Reactive Dye"
+        made_in_la: "Made In Los Angeles, USA"
+      }
+      gender: "men"
+      category: "apparel"
+    }
+    product_img: [{
+      url: "assets/Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Pigment.png"
+      alt: "Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Pigment"
+      featured: true
+    }
+    {
+      url: "assets/Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Pigment.png"
+      alt: "Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Pigment"
       featured: true
     }]
   }
