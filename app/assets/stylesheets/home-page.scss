@@ -75,6 +75,10 @@
       z-index: 0;
       background-color: rgba(0,0,0,0.5);
     }
+
+    .mobile-text {
+      text-align: center;
+    }
   }
 
   .home-slider-1,
@@ -83,6 +87,13 @@
   .home-slider-4 {
     position: relative;
     text-decoration: none;
+
+    .mobile-text {
+      background-color: #fff;
+      color: #000;
+      padding: 3vw;
+      position: inherit;
+    }
 
     .text-over-image {
       color: $white;
@@ -189,16 +200,24 @@
 @media screen and (max-width: 1268px) {
   .home-page-container {
     .home-slider-1 {
-      .text-over-image {
+      .text-over-image,
+      .mobile-text {
         .md-display-2 {
+          color: #55576D !important;
           font-size: 3vw !important;
           line-height: 3vw !important;
         }
 
         .md-display-4 {
+          color: #323232 !important;
           font-size: 8vw !important;
+          font-weight: bold;
           line-height: 8vw !important;
         }
+      }
+
+      .mobile-text {
+        text-align: center;
       }
     }
   }
@@ -280,6 +299,38 @@
     .md-headline {
       font-size: 2vw;
       line-height: 2vw;
+    }
+
+    .md-title {
+      font-size: 1.60vw;
+      line-height: 1.60vw;
+    }
+  }
+
+  .home-slider-1 {
+    .text-over-image,
+    .mobile-text {
+      .md-display-2 {
+        color: #55576D !important;
+        font-size: 5vw !important;
+        line-height: 5vw !important;
+      }
+
+      .md-display-4 {
+        color: #323232 !important;
+        font-size: 10vw !important;
+        font-weight: bold;
+        line-height: 10vw !important;
+      }
+
+      .md-headline {
+        font-size: 4vw !important;
+        line-height: 4vw !important;
+      }
+    }
+
+    .mobile-text {
+      text-align: center;
     }
   }
 }

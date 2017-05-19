@@ -2,13 +2,35 @@
   slick[settings='slickConfig']
     a.home-slider-3[layout='column' layout-align='start center']
       img[ng-src='assets/RichHoney-Apparel-Homepage-5-v2.jpg' width="100%"]
-      .text-over-image
+      .text-over-image[hide-xs hide-sm]
+        .md-display-1 PREMIUM APPAREL BLANKS
+        .md-display-1.lower CUSTOM LEATHER GOODS
+        .md-headline Designed, developed, and manufactured in a 12,000 square foot <br> vertically integrated factory in Los Angeles, USA.
+      .mobile-text[hide-gt-sm]
         .md-display-1 PREMIUM APPAREL BLANKS
         .md-display-1.lower CUSTOM LEATHER GOODS
         .md-headline Designed, developed, and manufactured in a 12,000 square foot <br> vertically integrated factory in Los Angeles, USA.
     a.home-slider-4[layout='column' layout-align='end center' ui-sref='pantone']
       img[ng-src='assets/RichHoney-Nick.png' width='100%']
-      .text-over-image[layout='column' layout-align='space-between start']
+      .mobile-text[hide-gt-sm layout='column' layout-align='center center']
+        .md-display-1 YOUR OPTIONS ARE ENDLESS WITH GARMENT DYE
+        .icon-container[layout='row' layout-align='center center']
+          .choose-style[layout='column' layout-align='center center' style='text-align: center']
+            img[ng-src='assets/RichHoney-Circle-Shirts.png']
+            .text-container
+              .md-headline CHOOSE STYLE
+              .md-title Select among various styles that we offer for Men and Women
+          .choose-fabric[layout='column' layout-align='center center' style='text-align: center']
+            img[ng-src='assets/RichHoney-Circle-Fabric.png']
+            .text-container
+              .md-headline CHOOSE FABRIC
+              .md-title Choose from 100% Cotton, Slub Cotton, Triblend, and more.
+          .choose-style[layout='column' layout-align='center center' style='text-align: center']
+            img[ng-src='assets/RichHoney-Circle-Pantone.png']
+            .text-container
+              .md-headline CHOOSE COLOR & WASH
+              .md-title Pick any Pantone PTX color for dyeing and a wash type to add a luxurious feeling.
+      .text-over-image[layout='column' layout-align='space-between start' hide-xs hide-sm]
         .md-display-1 YOUR OPTIONS ARE <br> ENDLESS WITH GARMENT DYE
         .choose-style[layout='row' layout-align='start center']
           img[ng-src='assets/RichHoney-Circle-Shirts.png']
@@ -30,7 +52,7 @@
 
     .home-slider-1[layout='column' layout-align='end center']
       img[ng-src='assets/RichHoney-Apparel-Homepage-6-bg.jpg' width="100%"]
-      .text-over-image[layout-align='end start' layout='row']
+      .text-over-image[layout-align='end start' layout='row' hide-xs hide-sm]
         .text-container[layout='column' layout-align='space-between center']
           .top-text[flex]
             .md-display-2[layout='row' layout-align='center center']
@@ -44,6 +66,19 @@
           .bottom-text[flex layout='column' layout-align='center center']
             .md-headline GET WITH THE PROGRAM.
             .md-headline GET GARMENT DYE.
+      .mobile-text[hide-gt-sm]
+        .top-text
+          .md-display-2[layout='row' layout-align='center center']
+            span.equals-transformed
+              | &nbsp; = &nbsp;&nbsp;
+            span SAY
+            span.equals-transformed
+              | &nbsp;&nbsp; = &nbsp;
+          .md-display-4 GOODBYE
+          .md-display-2 TO PIECE DYE!
+        .bottom-text
+          .md-headline GET WITH THE PROGRAM.
+          .md-headline GET GARMENT DYE.
 
     /a.home-slider-2[layout='row' layout-align='start center' ui-sref='categories_men' ]
       img[ng-src='assets/RichHoney-Apparel-Homepage-7-bg.jpg']
