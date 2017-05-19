@@ -4,7 +4,8 @@ angular.module('richHoneyPrivateLabel').config [
   ($stateProvider, $urlRouterProvider, $urlMatcherFactoryProvider,
   UIRouterMetatagsProvider) ->
     UIRouterMetatagsProvider
-      .setDefaultTitle('Rich Honey Apparel | Premium Apparel and Leather Goods | Los Angeles, CA')
+      .setDefaultTitle('Rich Honey Apparel | Premium Apparel and Leather Goods
+        | Los Angeles, CA')
       .setDefaultDescription('Private label manufacturer for premium garment
         dyed blank t-shirts and custom leather goods. High quality apparel and
         accessories made in Los Angeles.')
@@ -45,8 +46,8 @@ angular.module('richHoneyPrivateLabel').config [
           url: window.location.origin
           image: window.location.origin + '/assets/RHA-Homepage.png'
           properties: {
-            'og:title': 'Rich Honey Apparel | Premium Apparel and Leather Goods |
-              Los Angeles, CA'
+            'og:title': 'Rich Honey Apparel | Premium Apparel and Leather Goods
+              | Los Angeles, CA'
             'og:description': 'Private label manufacturer for premium garment
               dyed blank t-shirts and custom leather goods. High quality apparel
               and accessories made in Los Angeles.'
@@ -73,9 +74,9 @@ angular.module('richHoneyPrivateLabel').config [
           image: window.location.origin + '/assets/our-story-header.png'
           properties: {
             'og:title': 'Our Story | Rich Honey Apparel | Los Angeles, CA'
-            'og:description': 'Rich Honey manufactures premium blank t-shirts and
-              leather accessories for private labels. Control your production
-              with low minimums using our existing styles.'
+            'og:description': 'Rich Honey manufactures premium blank t-shirts
+              and leather accessories for private labels. Control your
+              production with low minimums using our existing styles.'
             'og:url': window.location.origin + '/our-story'
             'og:image': window.location.origin + '/assets/our-story-header.png'
           }
@@ -127,7 +128,8 @@ angular.module('richHoneyPrivateLabel').config [
               garment dyed blank shirts. Choose a style and customize it with
               fabrics, dyes, and washes. Low minimums.'
             'og:url': window.location.origin + '/how-it-works'
-            'og:image': window.location.origin + '/assets/how-it-works-header.PNG'
+            'og:image': window.location.origin +
+              '/assets/how-it-works-header.PNG'
           }
         }
 
@@ -136,7 +138,8 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/faq'
         templateUrl: 'application/views/other/faq.html'
         metaTags: {
-          title: 'Frequently Asked Questions | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Frequently Asked Questions | Rich Honey Apparel | Los Angeles,
+            CA'
           description: 'Review our FAQ to see if we have answers for you. Rich
             Honey is a private label manufacturer for premium garment dyed
             blank t-shirts and custom leather goods.'
@@ -214,7 +217,8 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/careers/sales-executive'
         templateUrl: 'application/views/other/careers/sales-executive.html'
         metaTags: {
-          title: 'Careers Sales Executive | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Careers Sales Executive | Rich Honey Apparel | Los Angeles,
+            CA'
           description: 'Submit a career inquiry. Rich
             Honey is a private label manufacturer for premium garment
             dyed blank t-shirts and custom leather goods.'
@@ -226,7 +230,8 @@ angular.module('richHoneyPrivateLabel').config [
           url: window.location.origin + '/careers/sales-executive'
           image: window.location.origin + '/assets/services-header.png'
           properties: {
-            'og:title': 'Careers Sales Executive | Rich Honey Apparel | Los Angeles, CA'
+            'og:title': 'Careers Sales Executive | Rich Honey Apparel |
+              Los Angeles, CA'
             'og:description': 'Submit a career inquiry. Rich
               Honey is a private label manufacturer for premium garment dyed
               blank t-shirts and custom leather goods.'
@@ -285,7 +290,8 @@ angular.module('richHoneyPrivateLabel').config [
               private label manufacturer for premium garment dyed blank t-shirts
               and custom leather goods.'
             'og:url': window.location.origin + '/privacy-policy'
-            'og:image': window.location.origin + '/assets/active-wear-header.PNG'
+            'og:image': window.location.origin +
+              '/assets/active-wear-header.PNG'
           }
         }
 
@@ -306,7 +312,8 @@ angular.module('richHoneyPrivateLabel').config [
           url: window.location.origin + '/terms-and-conditions'
           image: window.location.origin + '/assets/debossing-header.jpg'
           properties: {
-            'og:title': 'Terms of Membership | Rich Honey Apparel | Los Angeles, CA'
+            'og:title': 'Terms of Membership | Rich Honey Apparel | Los Angeles,
+              CA'
             'og:description': 'Terms of Membership for Wholesale Account
               holders. Rich Honey is a private label manufacturer for premium
               garment dyed blank t-shirts and custom leather goods.'
@@ -350,14 +357,16 @@ angular.module('richHoneyPrivateLabel').config [
             Garment dyed blanks, Premium garment dyed blank t-shirts, High
             quality blank shirts'
           url: window.location.origin + '/resource/dyes'
-          image: window.location.origin + '/assets/RichHoney-Apparel-Resources-Dye.png'
+          image: window.location.origin +
+            '/assets/RichHoney-Apparel-Resources-Dye.png'
           properties: {
             'og:title': 'Dyes | Rich Honey Apparel | Los Angeles, CA'
             'og:description': 'Rich Honey has mastered the dyeing process to
               produce the best garment dyed blank shirts in the industry.
               Vibrant, vintage or classic dye colors of your choice.'
             'og:url': window.location.origin + '/resource/dyes'
-            'og:image': window.location.origin + '/assets/RichHoney-Apparel-Resources-Dye.png'
+            'og:image': window.location.origin +
+              '/assets/RichHoney-Apparel-Resources-Dye.png'
           }
         }
 
@@ -410,7 +419,8 @@ angular.module('richHoneyPrivateLabel').config [
               Choose from our styles or come with your own designs. Handcrafted
               in Los Angeles, CA.'
             'og:url': window.location.origin + '/categories/accessories'
-            'og:image': window.location.origin + '/assets/RichHoney-Apparel-Accessories.png'
+            'og:image': window.location.origin +
+              '/assets/RichHoney-Apparel-Accessories.png'
           }
         }
 
@@ -436,7 +446,8 @@ angular.module('richHoneyPrivateLabel').config [
               necks. Durable and soft cotton tops for your brand’s athletic
               wear. Made in Los Angeles, CA. Inquire to order.'
             'og:url': window.location.origin + '/categories/fitness'
-            'og:image': window.location.origin + '/assets/active-wear-header.PNG'
+            'og:image': window.location.origin +
+              '/assets/active-wear-header.PNG'
           }
         }
 
@@ -508,13 +519,14 @@ angular.module('richHoneyPrivateLabel').config [
         #     (product[0].product_properties.gender == "men" &&
         #     product[0].product_properties.category == "activewear"))
         #       return 'High quality blank men’s crew necks and pocket tees for
-        #         your private label. Choose a style, fabric, dye color, and wash.
-        #         Made in Los Angeles. Inquire to order.'
+        #         your private label. Choose a style, fabric, dye color, and
+        #         wash. Made in Los Angeles. Inquire to order.'
         #     else if ((product[0].product_properties.gender == "women" &&
         #     product[0].product_properties.category == "apparel") ||
         #     (product[0].product_properties.gender == "women" &&
         #     product[0].product_properties.category == "activewear"))
-        #       return 'High quality women’s crew necks, pocket tees and tank tops
+        #       return 'High quality women’s crew necks, pocket tees and tank
+        #         tops
         #         for your private label. Choose a style, fabric, dye, and wash.
         #         Made in Los Angeles. Inquire to order.'
         #     else
@@ -528,26 +540,29 @@ angular.module('richHoneyPrivateLabel').config [
         #   image: (product) ->
         #     return product[0].product_img[0].url
         #   properties: {
-        #     'og:title': (product) -> return product[0].name + " | Rich Honey Apparel |
-        #     Los Angeles, CA"
+        #     'og:title': (product) -> return product[0].name + " | Rich Honey
+        #         Apparel | Los Angeles, CA"
         #     'og:description': (product) ->
         #       if ((product[0].product_properties.gender == "men" &&
         #       product[0].product_properties.category == "apparel") ||
         #       (product[0].product_properties.gender == "men" &&
         #       product[0].product_properties.category == "activewear"))
-        #         return 'High quality blank men’s crew necks and pocket tees for
-        #           your private label. Choose a style, fabric, dye color, and
-        #           wash. Made in Los Angeles. Inquire to order.'
+        #         return 'High quality blank men’s crew necks and pocket tees
+        #           for your private label. Choose a style, fabric, dye color,
+        #            and wash. Made in Los Angeles. Inquire to order.'
         #       else if ((product[0].product_properties.gender == "women" &&
         #       product[0].product_properties.category == "apparel") ||
         #       (product[0].product_properties.gender == "women" &&
         #       product[0].product_properties.category == "activewear"))
         #         return 'High quality women’s crew necks, pocket tees and tank
-        #           tops for your private label. Choose a style, fabric, dye, and
+        #           tops for your private label. Choose a style, fabric, dye,
+        # and
         #           wash. Made in Los Angeles. Inquire to order.'
         #       else
-        #         return 'Premium accessories manufactured for your brand. Choose
-        #           from our styles or come with your own designs. Handcrafted in
+        #         return 'Premium accessories manufactured for your brand.
+        #Choose
+        #           from our styles or come with your own designs. Handcrafted
+        #in
         #           Los Angeles, CA.'
         #     'og:url': (product) ->
         #       return window.location.origin + "/product/" +
@@ -582,7 +597,8 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/services/apparel/cutting'
         templateUrl: 'application/views/services/apparel/apparel-cutting.html'
         metaTags: {
-          title: 'Cutting | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Cutting | Apparel Services | Rich Honey Apparel | Los Angeles,
+            CA'
           description: 'Rich Honey can cut various fabrics and styles for
             apparel production and sampling. Our garment cutting facility in
             Los Angeles can accommodate large volumes.'
@@ -594,8 +610,8 @@ angular.module('richHoneyPrivateLabel').config [
           url: window.location.origin + '/services/apparel/cutting'
           image: window.location.origin + '/assets/cutting-header.png'
           properties: {
-            'og:title': 'Cutting | Apparel Services | Rich Honey Apparel | Los Angeles,
-              CA'
+            'og:title': 'Cutting | Apparel Services | Rich Honey Apparel |
+              Los Angeles, CA'
             'og:description': 'Rich Honey can cut various fabrics and styles for
               apparel production and sampling. Our garment cutting facility in
               Los Angeles can accommodate large volumes.'
@@ -605,9 +621,11 @@ angular.module('richHoneyPrivateLabel').config [
         }
       .state 'services_apparel-labels',
         url: '/services/apparel/labels',
-        templateUrl: 'application/views/services/apparel/apparel-label-trims.html'
+        templateUrl:
+            'application/views/services/apparel/apparel-label-trims.html'
         metaTags: {
-          title: 'Labels | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Labels | Apparel Services | Rich Honey Apparel | Los Angeles,
+            CA'
           description: 'Add neck labels, size pips, hang tags, and more to your
             production with our private label apparel services. Located in Los
             Angeles, CA.'
@@ -617,21 +635,26 @@ angular.module('richHoneyPrivateLabel').config [
             Garment dyed blanks, Premium garment dyed blank t-shirts, High
             quality blank shirts'
           url: window.location.origin + '/services/apparel/labels-and-trims'
-          image: window.location.origin + '/assets/RichHoney-Apparel-Labels-4.jpg'
+          image: window.location.origin +
+            '/assets/RichHoney-Apparel-Labels-4.jpg'
           properties: {
-            'og:title': 'Labels | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+            'og:title': 'Labels | Apparel Services | Rich Honey Apparel | Los
+              Angeles, CA'
             'og:description': 'Add neck labels, size pips, hang tags, and more
               to your production with our private label apparel services.
               Located in Los Angeles, CA.'
-            'og:url': window.location.origin + '/services/apparel/labels-and-trims'
-            'og:image': window.location.origin + '/assets/RichHoney-Apparel-Labels-4.jpg'
+            'og:url': window.location.origin +
+              '/services/apparel/labels-and-trims'
+            'og:image': window.location.origin +
+              '/assets/RichHoney-Apparel-Labels-4.jpg'
           }
         }
       .state 'services_apparel-hangtags',
         url: '/services/apparel/hangtags',
         templateUrl: 'application/views/services/apparel/apparel-hangtags.html'
         metaTags: {
-          title: 'Hangtags | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Hangtags | Apparel Services | Rich Honey Apparel |
+            Los Angeles, CA'
           description: 'Add neck labels, size pips, hang tags, and more to your
             production with our private label apparel services. Located in Los
             Angeles, CA.'
@@ -641,23 +664,28 @@ angular.module('richHoneyPrivateLabel').config [
             Garment dyed blanks, Premium garment dyed blank t-shirts, High
             quality blank shirts'
           url: window.location.origin + '/services/apparel/hangtags'
-          image: window.location.origin + '/assets/RichHoney-Apparel-Labels-3.jpg'
+          image: window.location.origin +
+            '/assets/RichHoney-Apparel-Labels-3.jpg'
           properties: {
-            'og:title': 'Hangtags | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+            'og:title': 'Hangtags | Apparel Services | Rich Honey Apparel |
+              Los Angeles, CA'
             'og:description': 'Add neck labels, size pips, hang tags, and more
               to your production with our private label apparel services.
               Located in Los Angeles, CA.'
             'og:url': window.location.origin + '/services/apparel/hangtags'
-            'og:image': window.location.origin + '/assets/RichHoney-Apparel-Labels-3.jpg'
+            'og:image': window.location.origin +
+              '/assets/RichHoney-Apparel-Labels-3.jpg'
           }
         }
 
 
       .state 'services_apparel-marking-grading',
         url: '/services/apparel/marking-grading'
-        templateUrl: 'application/views/services/apparel/apparel-marking-grading.html'
+        templateUrl:
+            'application/views/services/apparel/apparel-marking-grading.html'
         metaTags: {
-          title: 'Marking, Grading, Digitizing | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Marking, Grading, Digitizing | Apparel Services | Rich Honey
+            Apparel | Los Angeles, CA'
           description: 'Rich Honey creates production markers and performs
             grading and digitizing services for garment patterns. Get started
             on your project now!'
@@ -669,20 +697,25 @@ angular.module('richHoneyPrivateLabel').config [
           url: window.location.origin + '/services/apparel/marking-grading'
           image: window.location.origin + '/assets/marking-grading-header.png'
           properties: {
-            'og:title': 'Marking, Grading, Digitizing | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+            'og:title': 'Marking, Grading, Digitizing | Apparel Services | Rich
+              Honey Apparel | Los Angeles, CA'
             'og:description': 'Rich Honey creates production markers and
               performs grading and digitizing services for garment patterns.
               Get started on your project now!'
-            'og:url': window.location.origin + '/services/apparel/marking-grading'
-            'og:image': window.location.origin + '/assets/marking-grading-header.png'
+            'og:url': window.location.origin +
+              '/services/apparel/marking-grading'
+            'og:image': window.location.origin +
+              '/assets/marking-grading-header.png'
           }
         }
 
       .state 'services_apparel-patterning',
         url: '/services/apparel/patterns'
-        templateUrl: 'application/views/services/apparel/apparel-patterning.html'
+        templateUrl:
+            'application/views/services/apparel/apparel-patterning.html'
         metaTags: {
-          title: 'Patterns | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Patterns | Apparel Services | Rich Honey Apparel |
+            Los Angeles, CA'
           description: 'Rich Honey will create patterns for sweaters and
             t-shirts in your desired style and specs. Bring any prototype or
             sample you would like to produce.'
@@ -694,7 +727,8 @@ angular.module('richHoneyPrivateLabel').config [
           url: window.location.origin + '/services/apparel/patterns'
           image: window.location.origin + '/assets/pattern-header.png'
           properties: {
-            'og:title': 'Patterns | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+            'og:title': 'Patterns | Apparel Services | Rich Honey Apparel |
+              Los Angeles, CA'
             'og:description': 'Rich Honey will create patterns for sweaters and
               t-shirts in your desired style and specs. Bring any prototype or
               sample you would like to produce.'
@@ -705,9 +739,11 @@ angular.module('richHoneyPrivateLabel').config [
 
       .state 'services_apparel-production',
         url: '/services/apparel/production'
-        templateUrl: 'application/views/services/apparel/apparel-production.html'
+        templateUrl:
+            'application/views/services/apparel/apparel-production.html'
         metaTags: {
-          title: 'Production | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Production | Apparel Services | Rich Honey Apparel |
+            Los Angeles, CA'
           description: "Produce premium apparel blanks for your line with Rich
             Honey's styles, fabrics, dyes, and washes. Open a Wholesale Account
             to order and start production now."
@@ -719,7 +755,8 @@ angular.module('richHoneyPrivateLabel').config [
           url: window.location.origin + '/services/apparel/production'
           image: window.location.origin + '/assets/production-header.png'
           properties: {
-            'og:title': 'Production | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+            'og:title': 'Production | Apparel Services | Rich Honey Apparel |
+              Los Angeles, CA'
             'og:description': "Produce premium apparel blanks for your line with
               Rich Honey's styles, fabrics, dyes, and washes. Open a Wholesale
               Account to order and start production now."
@@ -730,9 +767,11 @@ angular.module('richHoneyPrivateLabel').config [
 
       .state 'services_apparel-studio',
         url: '/services/apparel/honey-studio'
-        templateUrl: 'application/views/services/apparel/apparel-honey-studio.html'
+        templateUrl:
+            'application/views/services/apparel/apparel-honey-studio.html'
         metaTags: {
-          title: 'Honey Studio | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Honey Studio | Apparel Services | Rich Honey Apparel |
+            Los Angeles, CA'
           description: "Sign up for a session and rent our photo studio for your
             brand product shots, line sheets, portfolio, and other photography
             needs. Located in Los Angeles, CA."
@@ -744,41 +783,52 @@ angular.module('richHoneyPrivateLabel').config [
           url: window.location.origin + '/services/apparel/honey-studio'
           image: window.location.origin + '/assets/honey-studio-header.png'
           properties: {
-            'og:title': 'Honey Studio | Apparel Services | Rich Honey Apparel | Los Angeles, CA'
+            'og:title': 'Honey Studio | Apparel Services | Rich Honey Apparel |
+              Los Angeles, CA'
             'og:description': "Sign up for a session and rent our photo studio
               for your brand product shots, line sheets, portfolio, and other
               photography needs. Located in Los Angeles, CA."
             'og:url': window.location.origin + '/services/apparel/honey-studio'
-            'og:image': window.location.origin + '/assets/honey-studio-header.png'
+            'og:image': window.location.origin +
+              '/assets/honey-studio-header.png'
           }
         }
 
       .state 'services_leather-design',
         url: '/services/leather/design-development'
-        templateUrl: 'application/views/services/leather/leather-design-development.html'
+        templateUrl:
+          'application/views/services/leather/leather-design-development.html'
         metaTags: {
-          title: 'Design & Development | Leather Services | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Design & Development | Leather Services | Rich Honey Apparel |
+            Los Angeles, CA'
           description: "First patterns, digitizing, and other services to design
             and develop your leather outerwear, apparel, and accessories."
           keywords: 'Custom leather goods, Leather services in Los Angeles,
             Leather manufacturers in USA, Leather accessories manufacturing,
             Leather accessories production, Leatherworks'
           url: window.location.origin + '/services/leather/design-development'
-          image: window.location.origin + '/assets/design-development-header.png'
+          image: window.location.origin +
+            '/assets/design-development-header.png'
           properties: {
-            'og:title': 'Design & Development | Leather Services | Rich Honey Apparel | Los Angeles, CA'
+            'og:title': 'Design & Development | Leather Services | Rich Honey
+              Apparel | Los Angeles, CA'
             'og:description': "First patterns, digitizing, and other services to
-              design and develop your leather outerwear, apparel, and accessories."
-            'og:url': window.location.origin + '/services/leather/design-development'
-            'og:image': window.location.origin + '/assets/design-development-header.jpg'
+              design and develop your leather outerwear, apparel, and
+              accessories."
+            'og:url': window.location.origin +
+              '/services/leather/design-development'
+            'og:image': window.location.origin +
+              '/assets/design-development-header.jpg'
           }
         }
 
       .state 'services_leather-production',
         url: '/services/leather/production'
-        templateUrl: 'application/views/services/leather/leather-production.html'
+        templateUrl:
+            'application/views/services/leather/leather-production.html'
         metaTags: {
-          title: 'Production | Leather Services | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Production | Leather Services | Rich Honey Apparel |
+            Los Angeles, CA'
           description: "Rich Honey can handle small and large productions for
             your high quality accessories and leather goods at low minimums.
             Handcrafted in Los Angeles, CA."
@@ -788,7 +838,8 @@ angular.module('richHoneyPrivateLabel').config [
           url: window.location.origin + '/services/leather/production'
           image: window.location.origin + '/assets/production-header.jpg'
           properties: {
-            'og:title': 'Production | Leather Services | Rich Honey Apparel | Los Angeles, CA'
+            'og:title': 'Production | Leather Services | Rich Honey Apparel
+              | Los Angeles, CA'
             'og:description': "Rich Honey can handle small and large productions
               for your high quality accessories and leather goods at
               low minimums. Handcrafted in Los Angeles, CA."
@@ -799,9 +850,11 @@ angular.module('richHoneyPrivateLabel').config [
 
       .state 'services_leather-die-cutting',
         url: '/services/leather/die-cutting'
-        templateUrl: 'application/views/services/leather/leather-die-cutting.html'
+        templateUrl:
+            'application/views/services/leather/leather-die-cutting.html'
         metaTags: {
-          title: 'Die-Cutting | Leather Services | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Die-Cutting | Leather Services | Rich Honey Apparel |
+            Los Angeles, CA'
           description: "Die cutting services for unique patterns for bags and
             other accessories. Submit an inquiry to start a project with Rich
             Honey."
@@ -811,12 +864,14 @@ angular.module('richHoneyPrivateLabel').config [
           url: window.location.origin + '/services/leather/die-cutting'
           image: window.location.origin + '/assets/die-cutting-header.jpg'
           properties: {
-            'og:title': 'Die-Cutting | Leather Services | Rich Honey Apparel | Los Angeles, CA'
+            'og:title': 'Die-Cutting | Leather Services | Rich Honey Apparel |
+              Los Angeles, CA'
             'og:description': "Die cutting services for unique patterns for bags
               and other accessories. Submit an inquiry to start a project
               with Rich Honey."
             'og:url': window.location.origin + '/services/leather/die-cutting'
-            'og:image': window.location.origin + '/assets/die-cutting-header.jpg'
+            'og:image': window.location.origin +
+              '/assets/die-cutting-header.jpg'
           }
         }
 
@@ -824,7 +879,8 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/services/leather/samples'
         templateUrl: 'application/views/services/leather/leather-samples.html'
         metaTags: {
-          title: 'Samples | Leather Services | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Samples | Leather Services | Rich Honey Apparel |
+            Los Angeles, CA'
           description: "We can provide first prototypes, sew-by samples and
             duplicates for your leather accessories collection. Submit an
             inquiry to start a project with Rich Honey."
@@ -834,7 +890,8 @@ angular.module('richHoneyPrivateLabel').config [
           url: window.location.origin + '/services/leather/samples'
           image: window.location.origin + '/assets/sample-header.jpg'
           properties: {
-            'og:title': 'Samples | Leather Services | Rich Honey Apparel | Los Angeles, CA'
+            'og:title': 'Samples | Leather Services | Rich Honey Apparel |
+              Los Angeles, CA'
             'og:description': "We can provide first prototypes, sew-by samples
               and duplicates for your leather accessories collection. Submit an
               inquiry to start a project with Rich Honey."
@@ -847,7 +904,8 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/services/leather/debossing'
         templateUrl: 'application/views/services/leather/leather-debossing.html'
         metaTags: {
-          title: 'Debossing | Leather Services | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Debossing | Leather Services | Rich Honey Apparel |
+            Los Angeles, CA'
           description: "Ensure that your brand name is recognized on your
             products with Rich Honey’s blind debossing or foil debossing
             services."
@@ -857,7 +915,8 @@ angular.module('richHoneyPrivateLabel').config [
           url: window.location.origin + '/services/leather/debossing'
           image: window.location.origin + '/assets/debossing-header.jpg'
           properties: {
-            'og:title': 'Debossing | Leather Services | Rich Honey Apparel | Los Angeles, CA'
+            'og:title': 'Debossing | Leather Services | Rich Honey Apparel |
+              Los Angeles, CA'
             'og:description': "Ensure that your brand name is recognized on your
               products with Rich Honey’s blind debossing or foil debossing
               services."
@@ -870,7 +929,8 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/services/leather/skiving'
         templateUrl: 'application/views/services/leather/leather-skiving.html'
         metaTags: {
-          title: 'Skiving | Leather Services | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Skiving | Leather Services | Rich Honey Apparel |
+            Los Angeles, CA'
           description: "Using a cylinder blade, the skiving process adjusts and
             smoothens the thickness of your leather with no residue of fleshing.
             Inquire to start a project."
@@ -880,7 +940,8 @@ angular.module('richHoneyPrivateLabel').config [
           url: window.location.origin + '/services/leather/skiving'
           image: window.location.origin + '/assets/skiving-header.jpg'
           properties: {
-            'og:title': 'Skiving | Leather Services | Rich Honey Apparel | Los Angeles, CA'
+            'og:title': 'Skiving | Leather Services | Rich Honey Apparel |
+              Los Angeles, CA'
             'og:description': "Using a cylinder blade, the skiving process
               adjusts and smoothens the thickness of your leather with no
               residue of fleshing. Inquire to start a project."
@@ -893,7 +954,8 @@ angular.module('richHoneyPrivateLabel').config [
         url: '/services/leather/packaging'
         templateUrl: 'application/views/services/leather/leather-packaging.html'
         metaTags: {
-          title: 'Packaging | Leather Services | Rich Honey Apparel | Los Angeles, CA'
+          title: 'Packaging | Leather Services | Rich Honey Apparel |
+            Los Angeles, CA'
           description: "Stuffing, tagging, and other packaging services for your
             high quality leather goods. We create hang tags, skew stickers, dust
             bags, and poly bags."
@@ -901,14 +963,17 @@ angular.module('richHoneyPrivateLabel').config [
             Leather manufacturers in USA, Leather accessories manufacturing,
             Leather accessories production, Leatherworks'
           url: window.location.origin + '/services/leather/packaging'
-          image: window.location.origin + '/assets/Rich-Honey-Apparel-Services-Packaging.png'
+          image: window.location.origin +
+            '/assets/Rich-Honey-Apparel-Services-Packaging.png'
           properties: {
-            'og:title': 'Packaging | Leather Services | Rich Honey Apparel | Los Angeles, CA'
+            'og:title': 'Packaging | Leather Services | Rich Honey Apparel |
+              Los Angeles, CA'
             'og:description': "Stuffing, tagging, and other packaging services
               for your high quality leather goods. We create hang tags, skew
                 stickers, dust bags, and poly bags."
             'og:url': window.location.origin + '/services/leather/packaging'
-            'og:image': window.location.origin + '/assets/Rich-Honey-Apparel-Services-Packaging.png'
+            'og:image': window.location.origin +
+              '/assets/Rich-Honey-Apparel-Services-Packaging.png'
           }
         }
 
@@ -925,7 +990,6 @@ angular.module('richHoneyPrivateLabel').config [
             shirt for branding, Custom leather goods, Leather services in Los
             Angeles, Leather manufacturers in USA, Leather accessories
             manufacturing, Leather accessories production'
-          url: window.location.origin + '/categories/accessories'
           url: window.location.origin + '/services'
           image: window.location.origin + '/assets/services-header.png'
           properties: {
@@ -1035,7 +1099,8 @@ angular.module('richHoneyPrivateLabel').config [
               our high quality blank t-shirts. Manufactured at our factory in
               Los Angeles, CA. Available for wholesale.'
             'og:url': window.location.origin + '/making-of-a-tee/one-sixteen'
-            'og:image': window.location.origin + '/assets/moat-4-one-sixteen.png'
+            'og:image': window.location.origin +
+              '/assets/moat-4-one-sixteen.png'
           }
         }
 
@@ -1136,7 +1201,8 @@ angular.module('richHoneyPrivateLabel').config [
               Honey is a private label manufacturer for premium garment dyed
               blank t-shirts and custom leather goods.'
             'og:url': window.location.origin + '/terms-and-use'
-            'og:image': window.location.origin + '/assets/design-development.jpg'
+            'og:image': window.location.origin +
+              '/assets/design-development.jpg'
           }
         }
 
@@ -1158,7 +1224,8 @@ angular.module('richHoneyPrivateLabel').config [
             'og:title': 'Pantone Colors | Rich Honey Apparel | Los Angeles, CA'
             'og:description': ''
             'og:url': window.location.origin + '/pantone-colors'
-            'og:image': window.location.origin + '/assets/design-development.jpg'
+            'og:image': window.location.origin +
+              '/assets/design-development.jpg'
           }
         }
     $urlRouterProvider.otherwise('/')
