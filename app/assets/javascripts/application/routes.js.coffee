@@ -1139,5 +1139,27 @@ angular.module('richHoneyPrivateLabel').config [
             'og:image': window.location.origin + '/assets/design-development.jpg'
           }
         }
+
+      # Pantone
+      .state 'pantone',
+        url: '/pantone-colors'
+        templateUrl: 'application/views/other/pantone.html'
+        metaTags: {
+          title: 'Pantone Colors | Rich Honey Apparel | Los Angeles, CA'
+          description: ''
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Custom leather goods, Leather services in Los
+            Angeles, Leather manufacturers in USA, Leather accessories
+            manufacturing, Leather accessories production'
+          url: window.location.origin + '/pantone-colors'
+          image: window.location.origin + '/assets/design-development.jpg'
+          properties: {
+            'og:title': 'Pantone Colors | Rich Honey Apparel | Los Angeles, CA'
+            'og:description': ''
+            'og:url': window.location.origin + '/pantone-colors'
+            'og:image': window.location.origin + '/assets/design-development.jpg'
+          }
+        }
     $urlRouterProvider.otherwise('/')
   ]
