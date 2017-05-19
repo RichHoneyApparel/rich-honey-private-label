@@ -19,14 +19,14 @@
     .md-subhead[ng-if='product.product_properties.category == "accessories"'] Case, Dozen, and Piece pricing available.
     .md-subhead[style='padding-bottom: 15px;' ng-if='product.product_properties.category == "accessories"'] One case contains 96 units.
     .product_properties[layout='row']
-      .fabric-container[style='padding-bottom: 15px;' ng-if='product.id != 64' flex='50']
+      .fabric-container[style='padding-bottom: 15px;' ng-if='product.id != 64 && product.id != 65' flex='50']
         .md-subhead[style='font-weight: bold;'] AVAILABLE FABRICS
         ul
           li[ng-repeat='f in fabrics'] {{ f }}
-      .fabric-container[style='padding-bottom: 15px;' ng-if='product.id == 64']
+      .fabric-container[style='padding-bottom: 15px;' ng-if='product.id == 64 || product.id == 65' flex='50']
         .md-subhead[style='font-weight: bold;'] AVAILABLE FABRIC
         ul
-          li 100% Cotton - 14's
+          li 100% Cotton - 14's (only)
 
       .weight-container[style='padding-bottom: 15px;' flex='50']
         .md-subhead[ng-if="weights.length > 1" style='font-weight: bold;'] AVAILABLE WEIGHTS
