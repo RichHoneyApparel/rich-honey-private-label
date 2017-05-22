@@ -2056,12 +2056,12 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       category: "apparel"
     }
     product_img: [{
-      url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment.png"
+      url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment-2.png"
       alt: "Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment"
       featured: true
     }
     {
-      url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment-2.png"
+      url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment.png"
       alt: "Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment"
       featured: true
     }
