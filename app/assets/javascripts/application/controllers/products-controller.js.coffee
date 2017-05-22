@@ -26,15 +26,14 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
 
     formatProperties = ->
       $scope.weights.forEach (weight, idx) ->
-        if $scope.product.product_properties.details.weight == "12 oz"
-          $scope.weights = []
-          $scope.weights = ["12 oz"]
-        else if $scope.product.product_properties.details.weight == "14 singles"
-          $scope.weights = []
-          $scope.weights = ["14's"]
-        else
+        if weight == $scope.product.product_properties.details.weight
           $scope.weights[idx] =
             $scope.product.product_properties.details.weight + " (shown)"
+
+      if $scope.product.product_properties.details.weight == "12 oz"
+        $scope.weights = ["12 oz (shown)"]
+      else if $scope.product.product_properties.details.weight == "14 singles"
+        $scope.weights = ["14's (shown)"]
 
       $scope.dyes.forEach (dye, idx) ->
         if dye == $scope.product.product_properties.dye
@@ -44,7 +43,7 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
       $scope.fabrics.forEach (fabric, idx) ->
         if $scope.product.product_properties.fabric == "100% French Terry - Cotton"
           $scope.fabrics = []
-          $scope.fabrics = ["100% French Terry - Cotton"]
+          $scope.fabrics = ["100% French Terry - Cotton (shown)"]
         else if fabric == $scope.product.product_properties.fabric
           $scope.fabrics[idx] =
             $scope.product.product_properties.fabric + " (shown)"
