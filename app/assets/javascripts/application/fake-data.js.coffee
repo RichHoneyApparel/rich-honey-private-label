@@ -2068,11 +2068,6 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       url: "assets/Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Reactive.png"
       alt: "Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Reactive"
       featured: true
-    }
-    {
-      url: "assets/Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Reactive.png"
-      alt: "Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Reactive"
-      featured: true
     }]
   }
   {
@@ -2098,11 +2093,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       gender: "men"
       category: "apparel"
     }
-    product_img: [{
-      url: "assets/Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Pigment.png"
-      alt: "Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Pigment"
-      featured: true
-    }
+    product_img: [
     {
       url: "assets/Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Pigment.png"
       alt: "Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Pigment"
