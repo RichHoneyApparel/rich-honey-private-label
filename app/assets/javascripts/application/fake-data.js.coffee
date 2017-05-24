@@ -2017,7 +2017,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     name: "Men's Pullover Pocket Hoodie - French Terry"
     style_num: "M08-6104"
     product_properties: {
-      color: "Navy"
+      color: "Rich Blue"
       fabric: "100% French Terry - Cotton"
       dye: "Pigment"
       wash: ""
@@ -2029,7 +2029,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
         strap_drop: ""
         strap_length: ""
         model: "Model is 6'0 and wearing size M"
-        shirt: "Shirt is Navy in a Pigment Dye"
+        shirt: "Shirt is Rich Blue in a Pigment Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "men"
@@ -2044,7 +2044,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   {
     id: 69
     name: "Men's Zip Hoodie - French Terry"
-    style_num: "M08-6104"
+    style_num: "M08-6105"
     product_properties: {
       color: "Rich Blue"
       fabric: "100% French Terry - Cotton"
@@ -2078,9 +2078,9 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   {
     id: 70
     name: "Men's Zip Hoodie - French Terry"
-    style_num: "M08-6104"
+    style_num: "M08-6105"
     product_properties: {
-      color: "Navy"
+      color: "Rich Blue"
       fabric: "100% French Terry - Cotton"
       dye: "Pigment"
       wash: ""
@@ -2092,7 +2092,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
         strap_drop: ""
         strap_length: ""
         model: "Model is 6'0 and wearing size M"
-        shirt: "Shirt is Navy in a Pigment Dye"
+        shirt: "Shirt is Rich Blue in a Pigment Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "men"
