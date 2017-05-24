@@ -1952,11 +1952,6 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       url: "assets/Rich-Honey-Apparel-Mens-Basic-Crew-Heavyweight-Cotton-Reactive-2.png"
       alt: "Men's Basic Crew."
       featured: true
-    }
-    {
-      url: "assets/Rich-Honey-Apparel-Mens-Pocket-Crew-Heavyweight-Cotton-Reactive.png"
-      alt: "Men's Basic Crew."
-      featured: true
     }]
   }
   {
@@ -1984,11 +1979,6 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
     }
     product_img: [{
       url: "assets/Rich-Honey-Apparel-Mens-Long-Sleeve-Sweater-French-Terry-Reactive.png"
-      alt: "Rich Honey Apparel Mens Long Sleeve Sweater French Terry Reactive"
-      featured: true
-    }
-    {
-      url: "assets/Rich-Honey-Apparel-Mens-Long-Sleeve-Sweater-French-Terry-Reactive-2.png"
       alt: "Rich Honey Apparel Mens Long Sleeve Sweater French Terry Reactive"
       featured: true
     }]
@@ -2020,16 +2010,6 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Reactive.png"
       alt: "Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Reactive"
       featured: true
-    }
-    {
-      url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Reactive-2.png"
-      alt: "Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Reactive"
-      featured: true
-    }
-    {
-      url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Reactive-3.png"
-      alt: "Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Reactive"
-      featured: true
     }]
   }
   {
@@ -2049,24 +2029,14 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
         strap_drop: ""
         strap_length: ""
         model: "Model is 6'0 and wearing size M"
-        shirt: "Shirt is Navy in a Reactive Dye"
+        shirt: "Shirt is Navy in a Pigment Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "men"
       category: "apparel"
     }
     product_img: [{
-      url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment-2.png"
-      alt: "Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment"
-      featured: true
-    }
-    {
       url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment.png"
-      alt: "Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment"
-      featured: true
-    }
-    {
-      url: "assets/Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment-3.png"
       alt: "Rich-Honey-Apparel-Mens-Pullover-Pocket-Hoodie-French-Terry-Pigment"
       featured: true
     }]
@@ -2122,7 +2092,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
         strap_drop: ""
         strap_length: ""
         model: "Model is 6'0 and wearing size M"
-        shirt: "Shirt is Navy in a Reactive Dye"
+        shirt: "Shirt is Navy in a Pigment Dye"
         made_in_la: "Made In Los Angeles, USA"
       }
       gender: "men"
