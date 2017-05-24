@@ -2093,8 +2093,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       gender: "men"
       category: "apparel"
     }
-    product_img: [
-    {
+    product_img: [{
       url: "assets/Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Pigment.png"
       alt: "Rich-Honey-Apparel-Mens-Zip-Hoodie-French-Terry-Pigment"
       featured: true
