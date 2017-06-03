@@ -10,7 +10,7 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
       'Triblend: 50% polyester, 37.5% cotton, 12.5% rayon']
     $scope.washes = ['Softener & Enzyme', 'Silicone', 'Hot Wash']
     $scope.dyes = ['Reactive', 'Pigment', 'Oil']
-    $scope.weights = ["20's", "30's", "40's"]
+    $scope.weights = ["20/1", "30/1", "40/1"]
     $scope.url = encodeURIComponent $location.absUrl()
 
     $scope.openDialog = ->
@@ -33,7 +33,7 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
       if $scope.product.product_properties.details.weight == "12 oz"
         $scope.weights = ["12 oz (shown)"]
       else if $scope.product.product_properties.details.weight == "14 singles"
-        $scope.weights = ["14's (shown)"]
+        $scope.weights = ["14/1 (shown)"]
 
       $scope.dyes.forEach (dye, idx) ->
         if dye == $scope.product.product_properties.dye
@@ -67,12 +67,12 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
           $scope.product = product
           if $scope.product.product_properties.gender == 'men' &&
             $scope.product.product_properties.category == 'apparel'
-              $scope.weights = ["20's", "30's", "40's"]
+              $scope.weights = ["20/1", "30/1", "40/1"]
           else if $scope.product.product_properties.gender == 'women' &&
             $scope.product.product_properties.category == 'apparel'
-              $scope.weights = ["30's", "40's"]
+              $scope.weights = ["30/1", "40/1"]
           else if $scope.product.product_properties.category
-            $scope.weights = ["30's"]
+            $scope.weights = ["30/1"]
 
           $scope.currentProductImg = $scope.product.product_img[0].url
       if $scope.product.product_properties.category == 'accessories'
