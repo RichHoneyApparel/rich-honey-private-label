@@ -9,7 +9,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Reactive"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -38,7 +38,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -67,7 +67,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Oil"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -96,7 +96,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Reactive"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -183,7 +183,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Reactive"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -212,7 +212,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -270,7 +270,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Reactive"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -299,7 +299,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -328,7 +328,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Oil"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -444,7 +444,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Reactive"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -473,7 +473,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "40's"
+        weight: "40/1"
         height: ""
         width: ""
         depth: ""
@@ -502,7 +502,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Oil"
       wash: ""
       details: {
-        weight: "40's"
+        weight: "40/1"
         height: ""
         width: ""
         depth: ""
@@ -647,7 +647,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Reactive"
       wash: ""
       details: {
-        weight: "40's"
+        weight: "40/1"
         height: ""
         width: ""
         depth: ""
@@ -676,7 +676,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "40's"
+        weight: "40/1"
         height: ""
         width: ""
         depth: ""
@@ -705,7 +705,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Oil"
       wash: ""
       details: {
-        weight: "40's"
+        weight: "40/1"
         height: ""
         width: ""
         depth: ""
@@ -850,7 +850,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Reactive"
       wash: ""
       details: {
-        weight: "40's"
+        weight: "40/1"
         height: ""
         width: ""
         depth: ""
@@ -879,7 +879,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "40's"
+        weight: "40/1"
         height: ""
         width: ""
         depth: ""
@@ -908,7 +908,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Oil"
       wash: ""
       details: {
-        weight: "40's"
+        weight: "40/1"
         height: ""
         width: ""
         depth: ""
@@ -1053,7 +1053,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Reactive"
       wash: ""
       details: {
-        weight: "40's"
+        weight: "40/1"
         height: ""
         width: ""
         depth: ""
@@ -1082,7 +1082,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "40's"
+        weight: "40/1"
         height: ""
         width: ""
         depth: ""
@@ -1111,7 +1111,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Oil"
       wash: ""
       details: {
-        weight: "40's"
+        weight: "40/1"
         height: ""
         width: ""
         depth: ""
@@ -1256,7 +1256,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Reactive"
       wash: ""
       details: {
-        weight: "40's"
+        weight: "40/1"
         height: ""
         width: ""
         depth: ""
@@ -1285,7 +1285,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "40's"
+        weight: "40/1"
         height: ""
         width: ""
         depth: ""
@@ -1314,7 +1314,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Oil"
       wash: ""
       details: {
-        weight: "40's"
+        weight: "40/1"
         height: ""
         width: ""
         depth: ""
@@ -1459,7 +1459,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -1493,7 +1493,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -1527,7 +1527,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -1561,7 +1561,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -1595,7 +1595,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -1629,7 +1629,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -1663,7 +1663,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -1697,7 +1697,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
@@ -1731,7 +1731,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       dye: "Pigment"
       wash: ""
       details: {
-        weight: "30's"
+        weight: "30/1"
         height: ""
         width: ""
         depth: ""
