@@ -33,7 +33,7 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
       if $scope.product.product_properties.details.weight == "12 oz"
         $scope.weights = ["12 oz (shown)"]
       else if $scope.product.product_properties.details.weight == "14 singles"
-        $scope.weights = ["14's (shown)"]
+        $scope.weights = ["14/1 (shown)"]
 
       $scope.dyes.forEach (dye, idx) ->
         if dye == $scope.product.product_properties.dye
