@@ -451,6 +451,33 @@ angular.module('richHoneyPrivateLabel').config [
           }
         }
 
+      .state 'categories_kids',
+        url: '/categories/kids'
+        templateUrl: 'application/views/categories/kids.html'
+        controller: 'CategoriesController'
+        metaTags: {
+          title: 'Kids | Rich Honey Apparel | Los Angeles, CA'
+          description: "Rich Honey Apparel's premium garment dyed blank basics
+            are available in kids' sizes. Add these best selling styles to your
+            kids' t-shirt line."
+          keywords: 'Apparel Blanks, Premium blank t-shirts,
+            Wholesale blank t-shirts, Best blank shirts for printing, Best blank
+            shirt for branding, Softest blank t-shirt, Softest tees,
+            Garment dyed blanks, Premium garment dyed blank t-shirts, High
+            quality blank shirts'
+          url: window.location.origin + '/categories/kids'
+          image: window.location.origin + '/assets/Rich-Honey-Kids-BG.jpg'
+          properties: {
+            'og:title': 'Kids | Rich Honey Apparel | Los Angeles, CA'
+            'og:description': "Rich Honey Apparel's premium garment dyed blank
+              basics are available in kids' sizes. Add these best selling styles
+              to your kids' t-shirt line."
+            'og:url': window.location.origin + '/categories/kids'
+            'og:image': window.location.origin +
+              '/assets/Rich-Honey-Kids-BG.jpg'
+          }
+        }
+
       .state 'categories_men',
         url: '/categories/men'
         templateUrl: 'application/views/categories/men.html'
