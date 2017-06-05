@@ -15,7 +15,8 @@
     .md-headline[style='background-color: black; color: white; text-align: center;'] {{ product.name | uppercase }}
     .md-title[style='padding: 30px 0;'] STYLE #: {{ product.style_num }}
     .md-subhead[ng-if='product.product_properties.category != "accessories"'] Choose any <a ui-sref='pantone' style='color: black; text-decoration: underline'>Pantone TPX color</a>
-    .md-subhead[style='padding-bottom: 15px;' ng-if='product.product_properties.category != "accessories"'] 150 Unit Minimum Quantity (1:2:2:1 Size Ratio)
+    .md-subhead[style='padding-bottom: 15px;' ng-if='product.product_properties.category != "accessories" || product.product_properties.gender != "kids"'] 150 Unit Minimum Quantity (1:2:2:1 Size Ratio)
+    .md-subhead[style='padding-bottom: 15px;' ng-if='product.product_properties.gender == "kids"'] 150 Unit Minimum Quantity (Even Size Ratio in Sizes 2-10)
     .md-subhead[ng-if='product.product_properties.category == "accessories"'] Case, Dozen, and Piece pricing available.
     .md-subhead[style='padding-bottom: 15px;' ng-if='product.product_properties.category == "accessories"'] One case contains 96 units.
     .product_properties[layout='row']
