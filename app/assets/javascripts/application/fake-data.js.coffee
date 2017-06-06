@@ -2099,4 +2099,120 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
       featured: true
     }]
   }
+  {
+    id: 71
+    name: "Kid's Basic Crew - Cotton"
+    style_num: "K01-100"
+    product_properties: {
+      color: "Navy"
+      fabric: "100% Cotton"
+      dye: "Reactive"
+      wash: ""
+      details: {
+        weight: "30/1"
+        height: ""
+        width: ""
+        depth: ""
+        strap_drop: ""
+        strap_length: ""
+        model: "Model is 4'2 wearing size 6"
+        shirt: "Shirt is Navy in a Reactive Dye"
+        made_in_la: "Made In Los Angeles, USA"
+      }
+      gender: "kids"
+      category: "apparel"
+    }
+    product_img: [{
+      url: "assets/Rich-Honey-Kids-Basic-Crew-Neck.png"
+      alt: "Rich-Honey-Kids-Basic-Crew-Neck"
+      featured: true
+    }]
+  }
+  {
+    id: 72
+    name: "Kid's Tank Top - Cotton"
+    style_num: "K01-101"
+    product_properties: {
+      color: "Navy"
+      fabric: "100% Cotton"
+      dye: "Reactive"
+      wash: ""
+      details: {
+        weight: "30/1"
+        height: ""
+        width: ""
+        depth: ""
+        strap_drop: ""
+        strap_length: ""
+        model: "Model is 4'2 wearing size 6"
+        shirt: "Shirt is Navy in a Reactive Dye"
+        made_in_la: "Made In Los Angeles, USA"
+      }
+      gender: "kids"
+      category: "apparel"
+    }
+    product_img: [{
+      url: "assets/Rich-Honey-Kids-Tank-Top.png"
+      alt: "Rich-Honey-Kids-Tank-Top"
+      featured: true
+    }]
+  }
+  {
+    id: 73
+    name: "Kid's Scoop Neck - Cotton"
+    style_num: "K01-105"
+    product_properties: {
+      color: "Navy"
+      fabric: "100% Cotton"
+      dye: "Reactive"
+      wash: ""
+      details: {
+        weight: "30/1"
+        height: ""
+        width: ""
+        depth: ""
+        strap_drop: ""
+        strap_length: ""
+        model: "Model is 4'2 wearing size 6"
+        shirt: "Shirt is Navy in a Reactive Dye"
+        made_in_la: "Made In Los Angeles, USA"
+      }
+      gender: "kids"
+      category: "apparel"
+    }
+    product_img: [{
+      url: "assets/Rich-Honey-Kids-Scoop-Neck.png"
+      alt: "Rich-Honey-Kids-Scoop-Neck"
+      featured: true
+    }]
+  }
+  {
+    id: 74
+    name: "Kid's Muscle Top - Cotton"
+    style_num: "K01-105"
+    product_properties: {
+      color: "Navy"
+      fabric: "100% Cotton"
+      dye: "Reactive"
+      wash: ""
+      details: {
+        weight: "30/1"
+        height: ""
+        width: ""
+        depth: ""
+        strap_drop: ""
+        strap_length: ""
+        model: "Model is 4'2 wearing size 6"
+        shirt: "Shirt is Navy in a Reactive Dye"
+        made_in_la: "Made In Los Angeles, USA"
+      }
+      gender: "kids"
+      category: "apparel"
+    }
+    product_img: [{
+      url: "assets/Rich-Honey-Kids-Muscle-Top.png"
+      alt: "Rich-Honey-Kids-Muscle-Top"
+      featured: true
+    }]
+  }
 ])
