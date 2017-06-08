@@ -2101,7 +2101,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   }
   {
     id: 71
-    name: "Kid's Basic Crew - Cotton"
+    name: "Kids' Basic Crew - Cotton"
     style_num: "K01-100"
     product_properties: {
       color: "Navy"
@@ -2130,7 +2130,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   }
   {
     id: 72
-    name: "Kid's Tank Top - Cotton"
+    name: "Kids' Tank Top - Cotton"
     style_num: "K01-101"
     product_properties: {
       color: "Navy"
@@ -2159,7 +2159,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   }
   {
     id: 73
-    name: "Kid's Scoop Neck - Cotton"
+    name: "Kids' Scoop Neck - Cotton"
     style_num: "K01-105"
     product_properties: {
       color: "Navy"
@@ -2188,7 +2188,7 @@ angular.module('richHoneyPrivateLabel').value('fakeProducts', [
   }
   {
     id: 74
-    name: "Kid's Muscle Top - Cotton"
+    name: "Kids' Muscle Top - Cotton"
     style_num: "K01-105"
     product_properties: {
       color: "Navy"
