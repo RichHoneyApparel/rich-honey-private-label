@@ -16,6 +16,12 @@ angular.module('richHoneyPrivateLabel').controller 'CategoriesController', [
           product.product_properties.category == 'apparel')
             $scope.product.push(product)
 
+    getKids = ->
+      fakeProducts.forEach (product) ->
+        if (product.product_properties.gender is 'kids' and
+          product.product_properties.category == 'apparel')
+            $scope.product.push(product)
+
     getActive = ->
       fakeProducts.forEach (product) ->
         if product.product_properties.category == 'activewear' and
@@ -39,6 +45,8 @@ angular.module('richHoneyPrivateLabel').controller 'CategoriesController', [
       getMens()
     else if $location.path().includes('fitness')
       getActive()
+    else if $location.path().includes('kids')
+      getKids()
     else
       getAccessory()
 ]

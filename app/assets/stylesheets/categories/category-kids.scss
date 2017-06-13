@@ -1,0 +1,61 @@
+.categories-kids-header {
+  background-image: url('Rich-Honey-Kids-BG.jpg');
+  background-size: cover;
+  padding: 150px 0 200px;
+
+  .header-text {
+    background-color: $white;
+    padding: 10px 30px;
+
+    .md-display-1 {
+      margin-bottom: 15px !important;
+
+      span {
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
+.categories-kids-body {
+  .kids-section {
+    padding: 20px;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+  .categories-kids-header {
+    padding: 100px 0 200px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .categories-kids-header {
+    padding: 100px 0 150px;
+
+    .header-text {
+      .md-display-1 {
+        font-size: 4vw;
+        margin-bottom: 0 !important;
+      }
+
+      p {
+        font-size: 2vw;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px){
+  .categories-kids-header {
+    padding: 75px 0 150px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .categories-kids-header {
+    padding: 75px 0;
+    background-position: 0;
+  }
+}

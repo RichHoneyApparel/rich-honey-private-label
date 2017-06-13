@@ -1,0 +1,16 @@
+.header[ng-include src="'application/views/categories/shared/categories-nav.html'" ng-controller='CategoriesNavController']
+.categories-kids-container
+  .categories-kids-header[layout='row' layout-align='start center']
+    .header-text[flex='33' flex-md='45' flex-sm='50' flex-xs='65']
+      h1.md-display-1
+        span KIDS'
+        |  APPAREL
+      p Rich Honey Apparel's premium garment dyed blank basics are available in
+        kids' sizes. Add these best selling styles to your kids' t-shirt line.
+  .categories-kids-body[layout='column']
+    .kids-section[layout='column']
+      .item-container[layout='row' layout-wrap]
+        a.product-container[target="_self" ng-repeat='m in product' flex-md='25' flex-sm='33' flex-xs='50' flex='20' layout-align='center center' ui-sref='product_show({productName: m.name, id: m.id})']
+          img[ng-src='{{ m.product_img[0].url }}' width='100%']
+          span[ng-if='m.product_properties.dye'] {{ m.name }} </br> {{ m.product_properties.dye }} Dye
+          span[ng-if='!m.product_properties.dye'] {{ m.name }}

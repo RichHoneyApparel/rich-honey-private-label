@@ -68,7 +68,8 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
           if $scope.product.product_properties.gender == 'men' &&
             $scope.product.product_properties.category == 'apparel'
               $scope.weights = ["20/1", "30/1", "40/1"]
-          else if $scope.product.product_properties.gender == 'women' &&
+          else if $scope.product.product_properties.gender == 'women' ||
+            $scope.product.product_properties.gender == 'kids' &&
             $scope.product.product_properties.category == 'apparel'
               $scope.weights = ["30/1", "40/1"]
           else if $scope.product.product_properties.category
