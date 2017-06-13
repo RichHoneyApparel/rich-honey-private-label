@@ -7,7 +7,7 @@ angular.module('richHoneyPrivateLabel').controller 'NavController', [
 
     $scope.goToCategories = (location) ->
       switch location
-        when 'accessories' then $state.go('categories_accessories')
+        when 'bags' then $state.go('categories_bags')
         when 'activewear' then $state.go('categories_activewear')
         when 'men' then $state.go('categories_men')
         when 'women' then $state.go('categories_women')

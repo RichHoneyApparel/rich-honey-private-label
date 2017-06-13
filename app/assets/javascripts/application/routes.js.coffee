@@ -396,8 +396,8 @@ angular.module('richHoneyPrivateLabel').config [
         }
 
       # Categories
-      .state 'categories_accessories',
-        url: '/categories/accessories'
+      .state 'categories_bags',
+        url: '/categories/bags'
         templateUrl: 'application/views/categories/accessories.html'
         controller: 'CategoriesController'
         metaTags: {

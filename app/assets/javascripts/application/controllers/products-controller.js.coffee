@@ -75,7 +75,7 @@ angular.module('richHoneyPrivateLabel').controller 'ProductsController', [
             $scope.weights = ["30/1"]
 
           $scope.currentProductImg = $scope.product.product_img[0].url
-      if $scope.product.product_properties.category == 'accessories'
+      if $scope.product.product_properties.category == 'bags'
         $scope.fabrics = ['7 oz. Canvas', '12 oz. Canvas']
       formatProperties()
       getRelatedProducts()

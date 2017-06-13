@@ -27,7 +27,7 @@ angular.module('richHoneyPrivateLabel').controller 'CategoriesController', [
 
     getAccessory = ->
       fakeProducts.forEach (product) ->
-        if product.product_properties.category == 'accessories'
+        if product.product_properties.category == 'bags'
           $scope.product.push(product)
 
     $scope.goToProduct = (name, id) ->
