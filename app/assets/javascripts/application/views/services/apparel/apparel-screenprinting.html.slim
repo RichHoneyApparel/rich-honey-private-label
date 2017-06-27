@@ -1,0 +1,16 @@
+header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
+.apparel-services-header[layout='row' layout-align='center end']
+  img[ng-src='assets/screenprinting-header.jpg' width='100%']
+  .text-header-container
+    .md-display-1 SCREENPRINTING
+.apparel-production-container[layout='column' ng-controller='ServicesController']
+  .apparel-production-body[layout='row' layout-xs='column' layout-sm='column' layout-align='space-between center']
+    .apparel-production-text[flex='75' flex-xs='90' flex-sm='100']
+      p.services-description
+        | Get the full package and complete your production with our screenprinting services. We can print designs and 
+        logos on your blank t-shirts with our available software and machines. Choose from water based, discharge, or 
+        plastisol ink for your printing needs.
+
+
+      .production-contact-us[layout='row' layout-align='center center']
+        md-button[aria-label='CONTACT US' ui-sref='services_inquiry'] CONTACT US

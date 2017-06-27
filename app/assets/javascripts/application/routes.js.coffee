@@ -850,9 +850,9 @@ angular.module('richHoneyPrivateLabel').config [
         }
 
       .state 'services_screenprinting',
-        url: '/services/screenprinting'
+        url: '/services/apparel/screenprinting'
         templateUrl:
-          'application/views/services/leather/leather-design-development.html'
+          'application/views/services/apparel/apparel-screenprinting.html'
         metaTags: {
           title: 'Design & Development | Leather Services | Rich Honey Apparel |
             Los Angeles, CA'
@@ -861,19 +861,19 @@ angular.module('richHoneyPrivateLabel').config [
           keywords: 'Custom leather goods, Leather services in Los Angeles,
             Leather manufacturers in USA, Leather accessories manufacturing,
             Leather accessories production, Leatherworks'
-          url: window.location.origin + '/services/leather/design-development'
+          url: window.location.origin + '/services/apparel/screenprinting'
           image: window.location.origin +
-            '/assets/design-development-header.png'
+            '/assets/screenprinting.png'
           properties: {
-            'og:title': 'Design & Development | Leather Services | Rich Honey
+            'og:title': 'Design & Development | Screenprinting Services | Rich Honey
               Apparel | Los Angeles, CA'
             'og:description': "First patterns, digitizing, and other services to
               design and develop your leather outerwear, apparel, and
               accessories."
             'og:url': window.location.origin +
-              '/services/leather/design-development'
+              '/services/apparel/design-development'
             'og:image': window.location.origin +
-              '/assets/design-development-header.jpg'
+              '/assets/screenprinting-header.jpg'
           }
         }
 
