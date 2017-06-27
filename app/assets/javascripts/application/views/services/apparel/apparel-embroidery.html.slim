@@ -1,0 +1,16 @@
+header[ng-include src="'application/views/services/shared/services-nav.html'" ng-controller='ServicesNavController']
+.apparel-services-header[layout='row' layout-align='center end']
+  img[ng-src='assets/RichHoney-Apparel-Services-Embroidery.png' width='100%']
+  .text-header-container
+    .md-display-1 EMBROIDERY
+.apparel-production-container[layout='column' ng-controller='ServicesController']
+  .apparel-production-body[layout='row' layout-xs='column' layout-sm='column' layout-align='space-between center']
+    .apparel-production-text[flex='75' flex-xs='90' flex-sm='100']
+      p.services-description
+        | Customize your blank t-shirts or hats with our embroidery services. We start by digitizing your design 
+        or logo and checking to make sure it passes our quality standards. Our Tajima embroidery machines are 
+        programmed with your design and produce premium embroidered garments and headwear.
+
+
+      .production-contact-us[layout='row' layout-align='center center']
+        md-button[aria-label='CONTACT US' ui-sref='services_inquiry'] CONTACT US

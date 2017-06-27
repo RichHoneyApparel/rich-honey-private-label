@@ -42,6 +42,8 @@
       img[ng-src='assets/design-development.png' ng-show="!path.includes('design-development')"]
       p.link-name[style='margin: -10px 0 -25px !important' ng-class="{'active-text': path.includes('design-development'), 'inactive-text': !path.includes('design-development')}"] Design &
       p.link-name[ng-class="{'active-text': path.includes('design-development'), 'inactive-text': !path.includes('design-development')}"] Development
+  
+  
   md-button[aria-label='production' name='production' value='production' ui-sref="services_leather-production" flex='5' layout-fill ng-if='isLeather' style='padding: 10px 0;']
     .logo-container[layout='column' layout-align='center center']
       img[ng-src='assets/production-active.png' ng-show="path.includes('/leather/production')"]

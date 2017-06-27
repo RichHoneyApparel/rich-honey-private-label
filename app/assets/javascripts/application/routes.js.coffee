@@ -849,6 +849,62 @@ angular.module('richHoneyPrivateLabel').config [
           }
         }
 
+      .state 'services_screenprinting',
+        url: '/services/screenprinting'
+        templateUrl:
+          'application/views/services/leather/leather-design-development.html'
+        metaTags: {
+          title: 'Design & Development | Leather Services | Rich Honey Apparel |
+            Los Angeles, CA'
+          description: "First patterns, digitizing, and other services to design
+            and develop your leather outerwear, apparel, and accessories."
+          keywords: 'Custom leather goods, Leather services in Los Angeles,
+            Leather manufacturers in USA, Leather accessories manufacturing,
+            Leather accessories production, Leatherworks'
+          url: window.location.origin + '/services/leather/design-development'
+          image: window.location.origin +
+            '/assets/design-development-header.png'
+          properties: {
+            'og:title': 'Design & Development | Leather Services | Rich Honey
+              Apparel | Los Angeles, CA'
+            'og:description': "First patterns, digitizing, and other services to
+              design and develop your leather outerwear, apparel, and
+              accessories."
+            'og:url': window.location.origin +
+              '/services/leather/design-development'
+            'og:image': window.location.origin +
+              '/assets/design-development-header.jpg'
+          }
+        }
+
+      .state 'services_embroidery',
+        url: '/services/apparel/embroidery'
+        templateUrl:
+          'application/views/services/apparel/apparel-embroidery.html'
+        metaTags: {
+          title: 'Design & Development | Embroidery Services | Rich Honey Apparel |
+            Los Angeles, CA'
+          description: "First patterns, digitizing, and other services to design
+            and develop your leather outerwear, apparel, and accessories."
+          keywords: 'Custom embroidery goods, Leather services in Los Angeles,
+            Leather manufacturers in USA, Leather accessories manufacturing,
+            Leather accessories production, Leatherworks'
+          url: window.location.origin + '/services/apparel/embroidery'
+          image: window.location.origin +
+            '/assets/design-development-header.png'
+          properties: {
+            'og:title': 'Design & Development | Embroidery Services | Rich Honey
+              Apparel | Los Angeles, CA'
+            'og:description': "First patterns, digitizing, and other services to
+              design and develop your leather outerwear, apparel, and
+              accessories."
+            'og:url': window.location.origin +
+              '/services/apparel/embroidery'
+            'og:image': window.location.origin +
+              '/assets/design-development-header.jpg'
+          }
+        }
+
       .state 'services_leather-production',
         url: '/services/leather/production'
         templateUrl:
